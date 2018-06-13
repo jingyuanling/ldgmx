@@ -1,0 +1,25 @@
+.details-desc{
+	font-size: 0;
+}
+.details-desc-upper{
+	position: relative;
+}
+.details-desc .time{
+	width: 1.1rem;
+	height: 0.75rem;
+	display: inline-block;
+	color: #F03B42;
+	border: 0.01rem solid #F03B42;
+	border-radius: 0.06rem;
+	line-height: 0.75rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 0.24rem;
+}
+.details-desc .down-num{
+	padding-right: 1.1rem;
+}
+.details-desc .down-num .num{
+	margin-right: 0.15rem;
+}

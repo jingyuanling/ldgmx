@@ -1,0 +1,9 @@
+.btn {
+    -webkit-border-radius: 4px;
+    background: #c00000;
+    color: #fff;
+    display: inline-block;
+    margin: 0px auto;
+    padding: 0px 30px;
+    text-align: center;
+}

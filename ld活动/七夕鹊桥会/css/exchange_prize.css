@@ -1,0 +1,60 @@
+.exchange_prize_content{
+	width: 100%;
+}
+.exchange_prize_content_ul{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+}
+.exchange_prize_content_ul li{
+	width: 7em;
+	background-color: #f8f8f8;
+	float: left;
+	text-align: center;
+	margin-top: 2%;
+}
+.exchange_prize_content_ul li .price_img{
+	background-color: white;
+}
+.exchange_prize_content_ul li .price_img{
+	width: 100%;
+}
+.exchange_prize_content_ul li .price_img img{
+	width: 4.5em;
+	margin: 0 auto;
+}
+.exchange_prize_content_ul p{
+	font-size: 12px;
+	line-height: 1.5em;
+	letter-spacing: 2px;
+}
+.exchange_prize_content_ul p strong{
+	color: #ce5796;
+}
+.exchange_prize_divs_bottom{
+	width: 100%;
+	height: 2em;
+	background-color: #ff6b7d;
+	font-size: 1.0em;
+	line-height: 2em;
+	color: white;
+}
+.exchange_prize_divs_bottom2{
+	color: #8b8b8b;
+	background-color: #dcdcdc;
+}
+.exchange_prize_wrap_bottom{
+	width: 100%;
+	margin-top: 3%;
+}
+.exchange_prize_wrap_bottom img{
+	width: 6em;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 639px){
+	.exchange_prize_content_ul li .price_img img{
+		width: 3.3em;
+	}
+}

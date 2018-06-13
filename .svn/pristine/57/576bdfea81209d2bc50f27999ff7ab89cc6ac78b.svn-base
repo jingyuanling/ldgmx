@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>消费验证</title>
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/LS_ceshi.css" rel="stylesheet" type="text/css" />
+    <link href="css/LS-xiaofeiyanzheng.css" rel="stylesheet" type="text/css" />
+    <div class="tihuoquan-box">
+        <div class="main-top">
+            <div class="goback">
+                <img src="img/main-goback.png">
+                <p>消费验证</p>
+            </div>
+        </div>
+        <div class="middle">
+            <p>用户姓名：刘君盛</p>
+            <p>账户余额：￥66666</p>
+        </div>
+        <div class="number">
+            <p>收款金额</p>
+            <p class="juanma">
+            	<input class="inp_text" type="text" name="" id="" value="" placeholder="￥" />
+            	<button class="inp_btn">获取验证码</button>
+            </p>
+        </div>
+        <div class="inp_yzm">
+            <p>验证码</p>
+            <input class="inp_yzm_text" type="text" name="" id="" value="" placeholder="" />
+        </div>
+        <div class="bottom">
+            <p><span class="sure_xf">确认消费</span></p>
+        </div>
+        <!--确认消费弹出框-->
+        <div class="alert_win" style="display: none;">
+        	<div class="alert_title">
+        		验证成功
+        	</div>
+        	<input class="alert_sure_btn" type="button" name="" id="" value="确定" />
+        </div>
+    </div>
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    	//确认消费点击事件
+    	$('.sure_xf').click(function(){
+    		$('.alert_win').show();
+    	});
+    	$('.alert_sure_btn').click(function(){
+    		$('.alert_win').hide();
+    	});
+    	//获取验证码的点击事件
+		$('.inp_btn').click(function() {
+			//清除定时器
+			clearInterval(timeTimer);
+			$('.inp_btn').css('background-color', '#dcdcdc');
+			//设置总时长
+			var time = 60;
+			//显示剩余时间
+			$('.inp_btn').html(time + '秒后重新获取');
+			$('.inp_btn').attr("disabled","disabled");
+			//创建定时器,每隔一秒减少剩余时间
+			var timeTimer = setInterval(function() {
+				time--;
+				//重置剩余时间
+				$('.inp_btn').html(time + '秒后重新获取');
+				if(time == 0) {
+					//清除定时器
+					clearInterval(timeTimer);
+					$('.inp_btn').css('background-color', 'white');
+					$('.inp_btn').html('获取验证码');
+				}
+			}, 1000);
+			setTimeout(function(){
+				$('.inp_btn').removeAttr("disabled");
+			},60000);
+		});
+ 
+    </script>
+</body>
+</html>

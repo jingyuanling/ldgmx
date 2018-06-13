@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>修改手机号</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-bound.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="wine-js/wine-bound.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow"><img src="imgs/left-return-arrow.png" alt=""/></span>
+				<p class="text-center nav-tit-name">修改手机号</p>
+				<a href="javascript:void(0)" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap">
+			<div class="wine-identity-content">
+				<p class="wine-identity">
+					<span class="left">微信绑定</span>
+					<input class="text-right" type="text" name="" id="" value="刘君盛" disabled="disabled" />
+				</p>
+				<p class="unbund-annotation">
+					解绑当前微信后您将不能通过该微信快捷登录及提现
+				</p>
+			</div>
+			<div class="identity-sure-div">
+				<input class="text-center unbund-WeChat" type="button" name="" id="" value="解绑微信" />
+			</div>
+		</div>
+		<!--确认弹框-->
+		<div class="confirm-bounced-gray">
+			<div class="confirm-bounced-alert">
+				<p class="confirm-text" style="padding: 0;line-height: 2rem;">确认要删除收货地址吗？</p>
+				<div class="two-btn">
+					<div class="give-up">取消</div>
+					<div class="think-again">确认</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

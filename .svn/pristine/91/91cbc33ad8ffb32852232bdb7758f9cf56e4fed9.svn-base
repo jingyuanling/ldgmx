@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headandfoot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/upload-order-num.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<title>上传运单号</title>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="system-nav">
+			<img class="left-return" src="img/left_return.png"/>
+			<p class="title-name">上传运单号</p>
+			<span class="nav-right-text">保存</span>
+		</div>
+		<div class="upload-order-wrap">
+			<div class="upload-order-upper">
+				<p class="upload-tit">上传照片</p>
+				<div class="upload-photo-frame">
+					<img class="add-gray-img" src="img/add-car-gray.png"/>
+					<p>上传照片</p>
+					<p>（请上传运单号）</p>
+				</div>
+			</div>
+			<div class="upload-log-inform">
+				<p class="log-choose-tit">选择物流公司<img src="img/triangular-arrowheads.png"/></p>
+				<p>物流公司：<input class="log-inp" type="text" name="" id="" value="" placeholder="德邦物流" /></p>
+				<p>物流单号：<input class="log-num-inp" type="text" name="" id="" value="" placeholder="12345678987456321" /></p>
+			</div>
+		</div>
+		<!--底部栏-->
+		<div class="system-btm">
+			<ul>
+				<li>
+					<a href="###">
+						<img class="seller_center" src="img/seller_center_gray.png"/>
+						<p>卖家中心</p>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img class="management_center" src="img/management_center_red.png"/>
+						<p class="system-btm-p">管理中心</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--隐藏区域-->
+		<!--点击上传运单号弹框-->
+		<div class="upload-photo-gray">
+			<div class="upload-photo-alert">
+				<p class="alert-tit">确认上传<img class="alert-delect" src="img/delect-img.png"/></p>
+				<p class="alert-con-text"><img src="img/camera-img.png"/>赶快上传物流单号吧！</p>
+				<div class="alert-two-btn">
+					<span class="take-picture">拍  照</span>
+					<span class="local-upload">本地上传</span>
+				</div>
+			</div>
+		</div>
+		<!--物流公司列表-->
+		<div class="logistics-compan-gray">
+			<div class="logistics-alert">
+				<p class="logistics-alert-tit">物流公司</p>
+				<ul class="logistics-alert-ul">
+					<li>德邦物流</li>
+					<li>1德邦物流</li>
+					<li>3德邦物流</li>
+					<li>5德邦物流</li>
+					<li>7德邦物流</li>
+					<li>德邦物流</li>
+					<li>德邦物流</li>
+					<li>德邦物流</li>
+				</ul>
+				<a href="###" class="logistics-alert-more">更多物流</a>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$('.upload-photo-frame').click(function(){
+			$('.upload-photo-gray').show();
+		});
+		$('.upload-photo-alert .alert-delect').click(function(){
+			$('.upload-photo-gray').hide();
+		});
+		$('.log-choose-tit').click(function(){
+			$('.logistics-compan-gray').show();
+		});
+		//li点击事件
+		$('.logistics-alert-ul li').click(function(){
+			$('.logistics-compan-gray').hide();
+			$('.upload-log-inform .log-inp').val($(this).html());
+		});
+		$('.logistics-compan-gray').click(function(){
+			$(this).hide();
+		});
+		document.getElementsByClassName("logistics-compan-gray")[0].addEventListener("click",function(event){
+	        event.stopPropagation();    
+	    },false);
+	</script>
+</html>

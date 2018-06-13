@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/s-yznzhengok.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/ceshi.css"> -->
+</head>
+<body>
+   <div class="history-box">
+        <div class="main-top">
+            <div class="goback">
+                <a href=""><img src="img/main-goback.png"></a>
+                <p>消费验证</p>
+            </div>
+        </div>
+        <div class="middle">
+            <p class="clearfix"><img src="img/s-yanzhengok.png"><span class="right">验证成功</span></p>
+            <a href="s-index.html"><span class="goback">返回首页</span></a>
+        </div>
+    </div>
+</body>
+</html>

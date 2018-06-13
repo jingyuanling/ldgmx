@@ -1,0 +1,153 @@
+@charset "utf-8";
+.blzq-top .topbox .thep i{
+	display:inline-block;
+	width:11px;
+	height:11px;
+	background:url(../img/xiaotubiao.png) no-repeat -25px -159px;
+}
+.blzq_logo_2{
+	width:1200px;
+	margin:20px auto;
+}
+.blzq_logo_2 i{
+	display:inline-block;
+	width:200px;
+	height:34px;
+	background:url(../img/logo_2.png) no-repeat;
+}
+.blzq_logo_2 b{
+	display:inline-block;
+	height:24px;
+	width:1px;
+	background:#e6e6e6;
+	margin:0 20px;
+}
+.blzq_logo_2 span{
+	font-size:20px;
+	font-family:"黑体";
+}
+.zhuce_di{
+	padding-top:10px;
+	font-size:12px;
+	line-height:30px;
+	clear:both;
+	width:550px;
+	margin:auto;
+}
+.zhuce_di p{
+	text-align:center;
+}
+.loading_bg{
+	width:100%;
+	height:500px;
+	overflow:hidden;
+	background:#d43638;
+}
+.bgimgbox{
+	width:1200px;
+	margin:auto;
+	height:500px;
+	position:relative;
+}
+.loading_a{
+	width:400px;
+	background:#fff;
+	position:absolute;
+	top:40px;
+	right:0;
+	padding-bottom:20px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.loading_1{
+	margin:20px;
+}
+.loading_1 span{
+	display:inline-block;
+	float:left;
+	font-size:24px;
+	font-family:"微软雅黑";
+}
+.loading_1 a{
+	display:inline-block;
+	float:right;
+	font-size:14px;
+	color:#ff4500;
+	margin-top:8px;
+}
+.loading_1 a:hover{
+	color:#d43638;
+	text-decoration:underline;
+}
+.loading_1 a i{
+	vertical-align:middle;
+	display:inline-block;
+	width:15px;
+	height:17px;
+	background:url(../img/xiaotubiao.png) no-repeat -79px -114px;
+	margin-right:5px;
+}
+.loading_2{
+	clear:both;
+	width:360px;
+	margin:auto;
+}
+.loading_2 input{
+	padding-left:5px;
+	border:1px solid #ccc;
+	width:355px;
+	height:40px;
+	margin-top:10px;
+}
+.loading_2 strong{
+	font-size:10px;
+	color:#ff4500;
+	line-height:20px;
+	font-weight:400;
+}
+.loading_4{
+	line-height:30px;
+	margin-top:20px;
+	font-size:12px;
+	vertical-align:bottom;
+	margin-left:20px;
+} 
+.loading_4 input{
+	display:inline-block;
+	vertical-align:middle;
+}
+.loading_4 a{
+	display:inline-block;
+	float:right;
+	margin-right:20px;
+	color:#ff4500;
+	text-decoration:underline;
+}
+.loading_5{
+	width:360px;
+	margin:10px auto;
+}
+.loading_5 input{
+	font-family:"微软雅黑";
+	background:#ff4500;
+	font-size:20px;
+	color:#fff;
+	display:inline-block;
+	width:360px;
+	height:40px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.loading_6{
+	margin:20px 20px;
+}
+.loading_6 p{
+	line-height:20px;
+	font-size:12px;
+}
+.loading_6 *{
+	color:#999;
+}
+	

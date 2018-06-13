@@ -1,0 +1,77 @@
+/* pages/consumed/index.wxss */
+.life_order_record_wrap{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: #efefef;
+	padding-top: 100rpx;
+}
+.order_record_title{
+	font-size: 30rpx;
+	padding-left: 3%;
+	box-sizing: border-box;
+	line-height: 67rpx;
+}
+.order_record_details_ul,.order_record_details_ul li{
+	width: 100%;
+}
+.order_record_details_ul li{
+    position: relative;
+    display: block;
+}
+.order_record_details{
+	height: 120rpx;
+	overflow: hidden;
+	box-sizing: border-box;
+	font-size: 0;
+  background-color: #fff;
+  border-top: 1rpx solid #d6d6d6;
+}
+.order_record_details .order_merchant_logo{
+	float: left;
+	width: 100rpx;
+	height: 100rpx;
+	margin-top: 10rpx;
+	margin-left: 20rpx;
+}
+.order_record_details .order_merchant_message{
+	  position: absolute;
+    left:140rpx;
+    height:85rpx;
+    top:18rpx;
+    width:450rpx;
+    overflow:hidden;
+
+}
+.order_record_details .order_appraise{
+	float: right;
+    width: 20%;
+    text-align: center;
+    height: 100%;
+	line-height: 120rpx;
+    font-size: 36rpx;
+    color: white;
+    background-color: #d9333f;
+}
+/*已评价状态*/
+.order_record_details .no_evaluation{
+	color: white;
+    background-color: #a3a3a3;
+}
+.order_merchant_logo image{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+.order_merchant_message p{
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+  font-size: 30rpx;
+}
+.order_merchant_message .p2{
+	color: #aaaaaa;
+}
+.order_merchant_message .p1{
+	color: #222222;
+}

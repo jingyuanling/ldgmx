@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/LD_wine_header.css"/>
+    <link rel="stylesheet" type="text/css" href="css/LD_wine_address.css">
+    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="wine_header">
+		<img src="img/wine_return.png"/>
+        <div class="wine_all_class_goback">
+            <p>收货地址</p>
+        </div>
+        <a href="LD_wine_personal_data.html">
+			<div class="wine_header_right">
+            	新增
+            </div>
+		</a>
+    </div>
+   <div class="gerendetails-box">
+        <div class="adress">
+             <p class="clearfix"><span class="name">刘君盛</span><span class="phone_num">152****0152</span></p>
+             <p class="clearfix"><span class="dizhi">河南省郑州市郑东新区CBD千玺广场2011河南省郑州市郑东新区CBD千玺广场2011</span><span class="right">></span></p>
+             <div class="clearfix shemoren">
+                 <p class="left clearfix"><input class="check" type=checkbox>设为默认</p>
+
+                 <p class="right clearfix"><a href="#"><span>删除</span></a>
+                 </p>
+             </div>
+        </div>
+        <div class="adress">
+             <p class="clearfix"><span class="name">刘君盛</span><span class="phone_num">152****0152</span></p>
+             <p class="clearfix"><span class="dizhi">河南省郑州市郑东新区CBD千玺广场2011河南省郑州市郑东新区CBD千玺广场2011</span><span class="right">></span></p>
+             <div class="clearfix shemoren">
+                 <p class="left clearfix"><input class="check" type=checkbox>设为默认</p>
+
+                 <p class="right clearfix"><a href="#"><span>删除</span></a>
+                 </p>
+             </div>
+        </div>
+        <div class="adress">
+             <p class="clearfix"><span class="name">刘君盛</span><span class="phone_num">152****0152</span></p>
+             <p class="clearfix"><span class="dizhi">河南省郑州市郑东新区CBD千玺广场2011</span><span class="right">></span></p>
+             <div class="clearfix shemoren">
+                 <p class="left clearfix"><input class="check" type=checkbox>设为默认</p>
+
+                 <p class="right clearfix"><a href="#"><span>删除</span></a>
+                 </p>
+             </div>
+        </div>
+    </div>
+</body>
+</html>

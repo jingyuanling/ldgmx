@@ -1,0 +1,257 @@
+.bargain520-banner,.bargain520-banner img{
+	width: 100%;
+	position: relative;
+	font-family: "微软雅黑";
+}
+.bargain520banner{
+	width: 100%;
+}
+.bargain520-content{
+	width: 100%;
+	padding: 2rem 0.35rem 0.1rem;
+	background: url(../img/success1-2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	margin-top: -0.85rem;
+	position: relative;
+}
+.top-user-inform{
+	width: 100%;
+	position: absolute;
+	top: 0.2rem;
+	height: 200px;
+	left: 0;
+}
+.bargain520-content .use-photo{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 0 auto;
+    display: block;
+	border-radius: 50%;
+	background-color: #a0a0a0;
+	border: 0.02rem solid #FFFFFF;
+	overflow: hidden;
+}
+.bargain520-content .use-photo img{
+	width: 100%;
+	height: 100%;
+}
+.bargain520-content .userName{
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 0.28rem;
+	color: #FFFFFF;
+	height: 0.54rem;
+	line-height: 0.54rem;
+}
+.bargain520-goods{
+	width: 100%;
+	height: 2.6rem;
+	border-radius: 0.06rem;
+	padding: 0.2rem;
+	background-color: #FFFFFF;
+}
+.bargain520-goods-tit{
+	font-size: 0.3rem;
+	color: #666666;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.bargain520-content .goods-content{
+	width: 100%;
+	border-radius: 0.06rem;
+	height: 1.6rem;
+	background-color: #e5e5e5;
+	padding: 0.03rem;
+}
+.bargain520-content .goodsImg{
+	width: 1.54rem;
+	height: 100%;
+	display: inline-block;
+	border-radius: 0.06rem;
+	overflow: hidden;
+	float: left;
+	margin-right: 0.2rem;
+	background-color: #aaaaaa;
+}
+.bargain520-content .goodsImg img{
+	width: 100%;
+	height: 100%;
+}
+.goods-describe{
+	font-size: 0.24rem;
+	padding: 0.1rem 0;
+	color: #666666;
+	line-height: 0.36rem;
+}
+.goods-price-p{
+	padding-top: 0.1rem;
+	line-height: 0.36rem;
+}
+.goods-price-p span{
+	color: #666666;
+}
+.goods-price-p span img{
+	display: inline-block;
+	margin-left: 0.1rem;
+	width: 0.14rem;
+    height: 0.24rem;
+}
+.goods-price-p .goods-price{
+	font-size: 0.36rem;
+}
+.goods-price-p .btn{
+	font-size: 0.24rem;
+	float: right;
+	padding: 0 0.25rem;
+}
+.discount-prompt{
+	font-size: 0.3rem;
+	color: #FFFFFF;
+	line-height: 0.9rem;
+}
+.discount-prompt span{
+	 margin: 0 0.1rem;
+	font-size: 0.42rem;
+}
+.bargain-share-btn{
+	height: 0.96rem;
+	width: 100%;
+	border-radius: 0.08rem;
+	box-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
+	background: -webkit-linear-gradient(#ffe56f, #fdd102); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#ffe56f, #fdd102); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#ffe56f, #fdd102); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ffe56f, #fdd102); /* 标准的语法（必须放在最后） */
+}
+.bargain-share-btn a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 0.96rem;
+	color: #f6322d;
+	font-size: 0.32rem;
+}
+.bargain520-time-tip{
+	font-size: 0.26rem;
+	color: #ffaaa8;
+	line-height: 0.7rem;
+	font-weight: 100;
+}
+.bargain520-team{
+	width: 100%;
+	border-radius: 0.06rem;
+	background-color: rgba(255,255,255,0.5);
+}
+.bargain520-team-ul{
+	width: 100%;
+	padding: 0 0.25rem;
+}
+.bargain520-team-ul li{
+	height: 1rem;
+	line-height: 1rem;
+	border-bottom: 0.01rem solid rgba(255,255,255,0.5);
+}
+.bargain520-team-ul li:nth-last-child(1){
+	border: none;
+}
+.bargain520-team-tit{
+	font-size: 0.26rem;
+	text-align: center;
+	height: 1rem;
+	line-height: 1rem;
+	color: #FFFFFF;
+	border-bottom: 0.01rem solid #ffffff;
+}
+.bargain520-team-p{
+	display: block;
+	width: 100%;
+	height: 0.6rem;
+	margin-top: 0.2rem;
+	overflow: hidden;
+}
+.bargain520-team .small-photo{
+	display: inline-block;
+	width: 0.6rem;
+	height: 0.6rem;
+	background-color: #dbdbdb;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	margin-right: 0.2rem;
+	border: 0.02rem solid #FFFFFF;
+}
+.bargain-name{
+	float: left;
+	height: 0.6rem;
+    line-height: 0.6rem;
+	font-size: 0.26rem;
+	color: #FFFFFF;
+}
+.bargain-right{
+	float: right;
+	line-height: 0.6rem;
+	font-size: 0.26rem;
+	color: #FFFFFF;
+}
+.bargain-right img{
+	width: 0.29rem;
+	height: 0.37rem;
+	display: inline-block;
+	margin-right: 0.2rem;
+}
+.bargain520-content .ruls-tit{
+	text-align: center;
+	margin-top: 0.75rem;
+	font-size: 0.28rem;
+	color: #FFFFFF;
+}
+.bargain520-content .btm-text{
+	font-size: 0.24rem;
+	color: #ff7775;
+	text-align: center;
+	line-height: 0.6rem;
+}
+/*规则弹框*/
+.bargain-ruls-gray{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	max-width: 750px;
+	min-width: 320px;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+.bargain-ruls-wrap{
+	height: 7.6rem;
+	width: 5.9rem;
+	color: #666666;
+	font-size: 0.24rem;
+	background-color: #FFFFFF;
+	border-radius: 0.1rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -3.8rem;
+	margin-left: -2.95rem;
+	padding: 0 0.5rem;
+}
+.bargain-ruls-tit{
+	font-size: 0.28rem;
+	text-align: center;
+	height: 1rem;
+	line-height: 1rem;
+}
+.bargain-ruls-wrap .p{
+	margin-bottom: 0.1rem;
+	line-height: 0.4rem;
+}
+.bargain-ruls-tit img{
+	width: 0.3rem;
+	height: 0.29rem;
+	float: right;
+	margin-top: 0.35rem;
+}
+

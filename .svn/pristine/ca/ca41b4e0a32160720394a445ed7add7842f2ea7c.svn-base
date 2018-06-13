@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>集字活动</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link href='http://cdn.webfont.youziku.com/webfonts/nomal/111819/19717/5ad48d2ef629d80f58b1189a.css' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" type="text/css" href="css/collect-words.css"/>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="collect-words-wrap">
+			<div class="words-banner">
+				<img src="img/word-banner.png"/>
+			</div>
+			<div class="words-content">
+				<div class="words-import">
+					<div class="words-five-card">
+						<ul>
+							<li class="have">
+								<div class="words-card-center">
+									<div class="words-card-upper">
+										<span class="right-top-num">10</span>
+										<p class="words-card-descri">所/到/之/处/皆/是/光/明</p>
+										<img class="words-guang-img" src="img/words-guang-img.png"/>
+									</div>
+									<div class="words-card-down">
+										<div class="right-top-descri"><span>光明</span></div>
+										<div class="words-card-text">光</div>
+									</div>
+									<div class="card-btm-give">
+										转赠好友
+									</div>
+									<div class="card-btm-ask">
+										向好友索要
+									</div>
+								</div>
+							</li>
+							<li class="none">
+								<div class="words-card-center">
+									<div class="words-card-upper">
+										<span class="right-top-num">10</span>
+										<p class="words-card-descri">明/亮/之/处/必/有/希/望</p>
+										<img class="words-guang-img" style="height: 95px;" src="img/words-ming-img.png"/>
+									</div>
+									<div class="words-card-down">
+										<div class="right-top-descri"><span>希望</span></div>
+										<div class="words-card-text">明</div>
+									</div>
+									<div class="card-btm-give">
+										转赠好友
+									</div>
+									<div class="card-btm-ask">
+										向好友索要
+									</div>
+								</div>
+							</li>
+							<li class="have">
+								<div class="words-card-center">
+									<div class="words-card-upper">
+										<span class="right-top-num">10</span>
+										<p class="words-card-descri">落/实/行/动/坚/持/到/底</p>
+										<img class="words-guang-img" style="height: 142px;" src="img/words-xing-img.png"/>
+									</div>
+									<div class="words-card-down">
+										<div class="right-top-descri"><span>行动</span></div>
+										<div class="words-card-text">行</div>
+									</div>
+									<div class="card-btm-give">
+										转赠好友
+									</div>
+									<div class="card-btm-ask">
+										向好友索要
+									</div>
+								</div>
+							</li>
+							<li class="have">
+								<div class="words-card-center">
+									<div class="words-card-upper">
+										<span class="right-top-num">10</span>
+										<p class="words-card-descri">经/营/事/业/全/力/出/击</p>
+										<img class="words-guang-img" style="width: 130px; height: 106px; left: 35px;" src="img/words-shang-img.png"/>
+									</div>
+									<div class="words-card-down">
+										<div class="right-top-descri"><span>经营</span></div>
+										<div class="words-card-text">商</div>
+									</div>
+									<div class="card-btm-give">
+										转赠好友
+									</div>
+									<div class="card-btm-ask">
+										向好友索要
+									</div>
+								</div>
+							</li>
+							<li class="have">
+								<div class="words-card-center">
+									<div class="words-card-upper">
+										<span class="right-top-num">10</span>
+										<p class="words-card-descri">诚/信/为/本/才/是/真/谛</p>
+										<img class="words-guang-img" style="width: 172px; height: 100px; left: 14px;" src="img/words-cheng-img.png"/>
+									</div>
+									<div class="words-card-down">
+										<div class="right-top-descri"><span>诚信</span></div>
+										<div class="words-card-text">城</div>
+									</div>
+									<div class="card-btm-give">
+										转赠好友
+									</div>
+									<div class="card-btm-ask">
+										向好友索要
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="at-once-merge at-once-merge-active">立即合成</div>
+				</div>
+				<div class="words-ruls">
+					<p class="words-ruls-tit">
+						<span>活动规则</span>
+						<a href="record.html">查看记录</a>
+					</p>
+					<div class="words-ruls-matter">
+						<ul>
+							<li>
+								<span>1.</span>
+								<p>活动期间，首次登录商城的用户均可随机获得上述五个字中的1到2个，用于后期集字使用。</p>
+							</li>
+							<li>
+								<span>2.</span>
+								<p>活动期间，可通过下单方式，获取更多字体，完成集字活动。</p>
+							</li>
+							<li>
+								<span>3.</span>
+								<p>活动期间，只要完成集齐五个字，均可获得养生保健颈椎枕一份。</p>
+							</li>
+							<li>
+								<span>4.</span>
+								<p>所获得的字体，可以转增他人，帮助好友完成活动。</p>
+							</li>
+							<li>
+								<span>5.</span>
+								<p>对于恶意作弊行为，经查明属实，光明有权利取消活动资格并取消或追回已发放礼品。</p>
+							</li>
+							<li>
+								<span>6.</span>
+								<p>最终解释权归灵动·光明行所有。</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--底部-->
+			<div class="words-btm-left">
+				<img src="img/left-buttom-img.jpg"/>
+			</div>
+			<div class="words-btm-right">
+				<img src="img/right-buttom-img.jpg"/>
+			</div>
+			<div class="words-btm-point">
+				<img src="img/btn-point.png"/>
+			</div>
+		</div>
+		<!--向好友索要弹框-->
+		<div class="words-ask-gray">
+			<div class="words-alert-content">
+				<p class="alert-content-tit">向好友索要<span class="alert-tit-cancle"><img src="img/delete1.png"/></span></p>
+				<div class="alert-content-matter">
+					<input class="alert-content-inp" type="text" name="" id="" value="" placeholder="请输入手机号" />
+					<p class="alert-warm-prompt">温馨提示：您可将您多余的字送给其他好友 一起完成集字活动</p>
+					<p class="alert-sure-btn">确定</p>
+				</div>
+			</div>
+		</div>
+		<!--转赠好友弹框-->
+		<div class="words-give-gray">
+			<div class="words-alert-content">
+				<p class="alert-content-tit">转增给好友<span class="alert-tit-cancle"><img src="img/delete1.png"/></span></p>
+				<div class="alert-content-matter">
+					<input class="alert-content-inp" type="text" name="" id="" value="" placeholder="请输入手机号" />
+					<p class="alert-warm-prompt">温馨提示：您可将您多余的字送给其他好友 一起完成集字活动</p>
+					<p class="alert-sure-btn">确定</p>
+				</div>
+			</div>
+		</div>
+		<!--好友向自己索要提示弹框-->
+		<div class="ask-for-me-gray">
+			<div class="words-alert-content words-alert-content-small">
+				<p class="alert-content-tit">转赠给好友<span class="alert-tit-cancle"><img src="img/delete1.png"/></span></p>
+				<div class="alert-content-matter">
+					<p class="alert-warm-prompt">温馨提示：您可将您多余的字送给其他好友 一起完成集字活动</p>
+					<p class="alert-sure-btn">立即转赠</p>
+				</div>
+			</div>
+		</div>
+		<!--合成动画弹窗-->
+		<div class="words-active-gray">
+			<img class="five-active-words words-active-guang" src="img/words-active-guang.png"/>
+			<img class="five-active-words words-active-ming" src="img/words-active-ming.png"/>
+			<img class="five-active-words words-active-xing" src="img/words-active-xing.png"/>
+			<img class="five-active-words words-active-shang" src="img/words-active-shang.png"/>
+			<img class="five-active-words words-active-cheng" src="img/words-active-cheng.png"/>
+			<div class="words-center-prize">
+				<img src="img/prize.png"/>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.words-five-card .none').hover(function(){
+				$(this).find('.card-btm-ask').stop().animate({
+					'bottom':'0'
+				});
+				$(this).css({
+					'border':'2px solid #acacac'
+				});
+			},function(){
+				$('.card-btm-ask').stop().animate({
+					'bottom':'-35px'
+				});
+				$(this).css({
+					'border':'none'
+				});
+			});
+			$('.words-five-card .have').hover(function(){
+				$(this).find('.card-btm-give').stop().animate({
+					'bottom':'0'
+				});
+				$(this).css({
+					'border':'2px solid #cd1727'
+				});
+			},function(){
+				$('.card-btm-give').stop().animate({
+					'bottom':'-35px'
+				});
+				$(this).css({
+					'border':'none'
+				});
+			});
+			//向好友索要
+			$('.card-btm-ask').click(function(){
+				$('.words-ask-gray').show();
+			});
+			$('.card-btm-give').click(function(){
+				$('.words-give-gray').show();
+			});
+			$('.alert-tit-cancle').click(function(){
+				$('.words-ask-gray,.words-give-gray,.ask-for-me-gray').hide();
+			});
+			//点击合成动画
+			$('.at-once-merge-active').click(function(){
+				$('.words-active-gray').show();
+				animates();
+			});
+			function animates(){
+				$('.words-active-guang').animate({
+					'width': '198px',
+					'height': '387px',
+					'margin-left':'-99px',
+					'margin-top':'-193px'
+				},500);
+				$('.words-active-ming,.words-active-xing,.words-active-shang,.words-active-cheng').animate({
+					'top':'50%',
+					'left':'50%',
+					'margin-left':'-99px',
+					'margin-top':'-193px'
+				},1500);
+				setTimeout(function(){
+					$('.words-active-gray .five-active-words').animate({
+						'top':'50%',
+						'left':'50%',
+						'margin-left':'0',
+						'margin-top':'0',
+						'width':'0',
+						'height':'0'
+					},1500);
+				},1500);
+				setTimeout(function(){
+					$('.words-center-prize').animate({
+						'width': '300px',
+						'height': '300px',
+						'margin-left':'-150px',
+						'margin-top':'-150px'
+					},1500);
+					$('.words-center-prize img').animate({
+						'width':'69px',
+						'height':'300px'
+					},1500);
+				},1500);
+			}
+			//点击空白灰层消失
+			$('.words-active-gray').click(function(){
+				$(this).hide();
+				window.location.reload(); 
+			});
+		</script>
+	</body>
+</html>

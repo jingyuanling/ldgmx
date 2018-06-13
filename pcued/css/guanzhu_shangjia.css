@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+.attention ul{
+	background:#f2f2f2;
+	overflow:hidden;
+	font-size:14px;
+}
+.attention ul li{
+	font-size:14px;
+	float:left;
+	height:46px;
+	line-height:46px;
+	width:118px;
+	text-align:center;
+	cursor:pointer;
+	color:ff4500;
+}
+.attention ul li .attention_title_bg{
+	float:left;
+	background:url(../img/qiehuan.png);
+	display:block;
+	width:88px;
+	height:32px;
+	margin:7px 15px;
+	line-height:32px;
+	color:#ff4500;
+}
+.attention ul a:hover{
+	display:block;
+	width:88px;
+	height:32px;
+	margin:7px 15px;
+	line-height:32px;
+	color:#ff4500;
+}
+.attention_main_2{
+	width:1058px;
+	border:1px solid #e6e6e6;
+	margin-top:20px;
+}
+.attention_choice{
+	width:580px;
+	line-height:60px;
+	font-size:12px;
+	margin-left:20px;
+}
+.attention_choice input{
+	vertical-align:middle;
+	margin-top:-2px;
+	margin-right:3px;
+}
+.attention_choice span{
+	color:#0088c0;
+	cursor:pointer;
+}
+.shangjia_fenge{
+	margin:auto;
+	width:1000px;
+	height:1px;
+	background:#e6e6e6;
+}
+.shangjia_main_1{
+	width:980px;
+	margin:20px auto;
+}
+.shangjia_logo{
+	width:190px;
+}
+.shangjia_logo .shangjia_name{
+	text-align:center;
+	margin-left:-10px;
+}
+.shangjia_logo p{
+	font-size:12px;
+	margin-top:10px;
+	line-height:14px;
+	margin-left:10px;
+}
+.shangjia_logo img{
+	width:40px;
+	height:40px;
+}
+.shangjia_in{
+	display:block;
+	width:140px;
+	height:20px;
+	border:1px solid #d9d9d9;
+	margin:auto;
+	line-height:16px;
+	text-align:center;
+	margin-top:10px;
+	font-size:12px;
+}
+.shangjia_in i{
+	display:inline-block;
+	width:14px;
+	height:11px;
+	margin-right:8px;
+	margin-top:4px;
+	background:url(../img/xiaotubiao.png) no-repeat -79px -94px;
+}
+.shangjia_di{
+	width:140px;
+	margin:auto;
+	overflow:hidden;
+}
+.shangjia_di a{
+	float:left;
+	display:block;
+	width:64px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	margin-top:10px;
+	font-size:12px;
+	border:1px solid #d9d9d9;
+}
+.fenge_fenge{
+	height:90px;
+	width:1px;
+	background:#e6e6e6;
+	margin:50px 40px 50px;
+}
+.shangjia_rexiao{
+	font-size:12px;
+	font-weight:bold;
+	color:#ff4500;
+	margin-left:50px;
+	line-height:40px;
+}
+.shangjia_picture{
+	width:640px;
+	height:164px;
+	position:relative;
+	overflow:hidden;
+}
+.shangjia_picture_show{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1620px;
+}
+
+.shangjia_show_1{
+	overflow:hidden;
+}
+.shangjia_show_1,.shangjia_pitcure{
+	width:700px;
+}
+.shangjia_show_1 i{
+	display:block;
+	margin-top:50px;
+	width:18px;
+	height:33px;
+}
+.shangjia_show_1 .zuo_dianji{
+	cursor:pointer;
+	margin-right:10px;
+	width:18px;
+	height:33px;
+	background:url(../img/xiaotubiao.png) no-repeat -151px -17px;}
+.shangjia_show_1 .you_dianji{
+	cursor:pointer;
+	margin-left:10px;
+	width:18px;
+	height:33px;
+	background:url(../img/xiaotubiao.png) no-repeat -173px -17px;
+}
+.shangjia_show_1 .shangjia_picture,.shangjia_show_1 .zuo_dianji,.shangjia_show_1 .you_dianji{
+	float:left;
+}
+.shangjia_picture_1{
+	width:120px;
+	margin:0 20px;
+}
+.shangjia_picture_1 a,.shangjia_picture_1 img{
+	display:block;
+	width:114px;
+	height:114px;
+	margin:auto;
+}
+.shangjia_picture_1 span{
+	text-align:center;
+	font-size:14px;
+	display:block;
+	line-height:50px;
+	font-family:"Arial Black";
+	color:#ff4500;
+}
+.shangjia_picture_show{
+	overflow:hidden;
+}
+.shangjia_picture_show .shangjia_picture_1{
+	float:left;
+}
+.shangjia_main_1{
+	overflow:hidden;
+}
+.shangjia_main .shangjia_logo,.shangjia_main .fenge_fenge,.shangjia_main .shangjia_show{
+	float:left;
+}
+.attention_choice_2{
+	overflow:hidden;
+	width:1030px;
+	line-height:60px;
+	font-size:12px;
+	margin-left:20px;
+}
+.attention_choice_2 span{
+	color:#0088c0;
+	cursor:pointer;
+}
+.attention_pag{
+	float:right;
+	margin-right:20px;
+}
+
+.attention_pag input{
+	border:1px solid #999;
+	width:40px;
+}
+.attention_pag a{
+	margin-left:10px;
+}

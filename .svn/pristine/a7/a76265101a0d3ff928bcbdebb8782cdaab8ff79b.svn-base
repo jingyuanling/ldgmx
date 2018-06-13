@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>修改</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_changeAndadd.css"/>
+	</head>
+	<body>
+		<div class="wine_header">
+			<img src="img/wine_return.png"/>
+	        <div class="wine_all_class_goback">
+	            <p style="padding-left: 2.0em;">修改</p>
+	        </div>
+	        <a href="LD_wine_personal_data.html">
+				<div class="wine_header_right">
+	            	保存
+	            </div>
+			</a>
+	    </div>
+	    <div class="gerendetails-box">
+	        <div class="xinxi">
+	            <p>&nbsp;&nbsp;&nbsp;&nbsp;收货人：<input placeholder="真实姓名"></p>
+	            <p>手机号码：<input maxlength="11" placeholder="手机号"></p>
+	            <p>所在地区：<input placeholder="省 市 区 街道信息"></p>
+	            <p>详细地址：<input placeholder="详细地址"></p>
+	        </div>
+	    </div>
+	</body>
+</html>

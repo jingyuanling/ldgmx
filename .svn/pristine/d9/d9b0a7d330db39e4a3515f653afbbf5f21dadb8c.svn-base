@@ -1,0 +1,84 @@
+.CZQ_content_wrap_nav{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.CZQ_content_class{
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #e1e1e1;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+.CZQ_content_class span{
+	font-size: 16px;
+	color: #333333;
+	display: inline-block;
+	margin-right: 10px;
+	width: 85px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	cursor:pointer;
+}
+.CZQ_gray_nav{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #efefef;
+	border: 1px solid #e1e1e1;
+}
+.CZQ_gray_nav span{
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	color: #333333;
+	width: 90px;
+	font-size: 16px;
+	line-height: 30px;
+	border-right: 1px solid #e1e1e1;
+}
+/*分页*/
+.page_num{
+	width: 465px;
+	height: 42px;
+	margin: 48px auto;
+	overflow: hidden;
+	font-size: 24px;
+}
+.page_num>span{
+	float: left;
+	border: 1px solid #b8b8b8;
+	display: inline-block;
+	width: 70px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+}
+.page_num .page_num_spanleft{
+	margin-right: 10px;
+	color: #b8b8b8;
+}
+.page_num .page_num_ul{
+	
+}
+.page_num .page_num_ul li{
+	width: 40px;
+	height: 40px;
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 10px;
+	border: 1px solid #b8b8b8;
+	border-radius: 5px;
+	color: #999999;
+}
+.page_num_spanleft a,.page_num_spanright a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}

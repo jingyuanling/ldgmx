@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/gift_select.css">
+    </head>
+    <body>
+        <div class="bg">
+            <div class="gift">
+                <img src="img/gift02.png" alt="">
+            </div>
+            <a class="button" href="javascript:void(0);">
+                <img src="img/button02.png" alt="">
+            </a>
+            <p class="info">已有<span>0</span>位小伙伴帮您拆开了礼盒<br>还差<span>3</span>个小伙伴的帮忙</p>
+            <div class="btm_rules_box">
+            	<div class="btm_rules">
+            		<img src="img/huodongrules.png"/>
+            	</div>
+            	<div class="btm_box">
+            		<img src="img/lookmybox.png"/>
+            	</div>
+            </div>
+        </div>
+        <script src="js/rem.js"></script>
+    </body>
+</html>

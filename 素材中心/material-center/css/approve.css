@@ -1,0 +1,26 @@
+.approve-inps input{
+	border: none;
+	background-color: #f2f2f2;
+	outline-style: none;
+	box-shadow: none;
+	font-size: 0.24rem;
+	height: 0.75rem;
+	border-radius: 0.1rem;
+	color: #e74147;
+}
+.approve-inps input:first-child{
+	margin-bottom: 0.36rem;
+	margin-top: 0.65rem;
+}
+.approve-btn{
+	height: 0.75rem;
+	font-size: 0.3rem;
+	margin-top: 0.78rem;
+	background-color: #e74147;
+	color: white;
+	letter-spacing: 0.2rem;
+    text-indent: 0.2rem;
+}
+.btn.focus, .btn:focus, .btn:hover{
+	color: white;
+}

@@ -1,0 +1,176 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+html{
+     background-color: #eaeaea;
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.details-box{
+    width: 100%;
+    background-color: #fff;
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+.main-top img.serch{
+    position: relative;
+   /* position: absolute;*/
+    float: right;
+    width: 18px;
+    margin-top: -28px;
+    margin-right: 13px;
+
+}
+.main-top p{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+.main-top p span{
+    float: left;
+    display: block;
+    width: 30%;
+    text-align: center;
+}
+.main-top p a{
+    color: #fff;
+}
+.main-top p span.s1{
+    margin-left: 20%;
+    color: #fff;
+}
+.main-top p span i{
+    display: block;
+    margin-top: -5px;
+    text-align:center;
+    position: relative;
+    left: 50%;
+    margin-left: -23px;
+    width: 45px;
+    border-bottom: 2px solid #fff;
+}
+.main-top p span.s2{
+    margin-right: 20%;
+}
+.details .banner{
+    width: 100%;
+    border-bottom:2px solid #bfbfbf;
+}
+.details .banner img{
+    width: 80%;
+    margin:0 auto;
+}
+.details-cont{
+    margin-bottom: 15px;
+}
+.details-cont > p{
+   font-size: 16px;
+   margin-top: 10px;
+   color: #000;
+   margin-left: 12px;
+}
+.details-cont p img{
+    float: right;
+    width: 30px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+.details-cont p.money{
+    color: #ee002d;
+}
+
+.details-cont p.guige span{
+    display: block;
+    width: 48px;
+    height: 27px;
+    border: 1px solid #bfbfbf;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 16px;
+    font-size: 12px;
+
+}
+.details-cont p.guige span.active{
+    border: 1px solid red;
+}
+.details-cont p.tit{
+    padding-left: 12px;
+    margin-left: 0;
+    font-size: 14px;
+    color: #8c898d;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f0f0f2;
+}
+.details-cont > img{
+    width: 100%;
+}
+.d-bottom{
+    width: 100%;
+    height: 50px;
+    margin-top: -15px;
+}
+.logo img{
+    width:20px;
+    margin-left: 15px;
+    margin-top: 14px;
+    float: left;
+}
+.ipt a{
+    height: 34px;
+    position: relative;
+    left: 50%;
+    margin-left: -140px;
+    background-color: #e84e40;
+    width: 205px;
+    border:none;
+    height: 34px;
+    float: left;
+    margin-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    font-size: 14px;
+}
+.ipt img{
+    width: 12px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 7px;
+}
+.shopcar img{
+    float: right;
+    width: 23px;
+    margin-right: 15px;
+    margin-top: 14px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>订单详情</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-submit-orders.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-order-manage.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-order-details.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow"><img src="imgs/left-return-arrow.png" alt=""/></span>
+				<p class="text-center nav-tit-name">订单详情</p>
+			</div>
+		</div>
+		<div class="wine-wrap">
+			<div class="order-details-banner">
+				<img src="imgs/box-logo.png" alt="" />
+				<p class="order-pay-state">等待支付</p>
+				<p class="order-pay-remind">逾期未支付，订单将自动取消</p>
+			</div>
+			<div class="order-details-address">
+				<p class="order-details-user"><span class="user-message">刘君盛</span><span class="user-message">15237150152</span><img src="imgs/editor-logo.png" alt="" /></p>
+				<p class="address-p">河南省 郑州市 郑东新区 金水东路21号永和伯爵酒店 伯爵酒店</p>
+			</div>
+			<p class="choose-pay-way-tit">选择支付方式</p>
+			<div class="wine-submit-down">
+				<ul>
+					<li>
+						<span class="left-way"><img src="imgs/weixin-logo.png" alt="">微信支付</span>
+						<span class="pay-right-sel pay_sel_active"><img src="imgs/right-logo-white.png" alt=""></span>
+					</li>
+					<li>
+						<span class="left-way"><img src="imgs/zhifubao-logo.png" alt="">支付宝支付</span>
+						<span class="pay-right-sel"><img src="imgs/right-logo-white.png" alt=""></span>
+					</li>
+					<li>
+						<span class="left-way"><img src="imgs/yue-logo.png" alt="">余额支付（当前余额：¥100）</span>
+						<span class="pay-right-sel"><img src="imgs/right-logo-white.png" alt=""></span>
+					</li>
+				</ul>
+			</div>
+			<ul class="order-manage-ul">
+				<li>
+					<p class="order-manage-tit"><span class="left">郑州东区一号仓</span></p>
+					<div class="manage-goods-list">
+						<span class="goodsImg"><img src="img/banner.jpg" alt="" /></span>
+						<p class="goodsName-price">
+							<span class="name">商品名称商品名称商品名称商品 名称商品名称商品名称商品</span>
+							<span class="price">¥100</span>
+						</p>
+						<p class="goodsName-num">
+							<span class="left-size">规格规格</span>
+							<span class="right-num">×2</span>
+						</p>
+					</div>
+					<div class="order-realy-pay">
+						<span class="get-value">获得经验1000点</span>
+						<p class="right-pay-details">
+							<span class="text1">实付：</span>
+							<span class="num">¥100</span>
+							<span class="text2">免运费</span>
+						</p>
+					</div>
+					<div class="order-details-pay-btn">
+						<a class="" href="javascript:void(0)"><img src="imgs/consult-logo.png" alt="" />在线咨询</a>
+						<a class="" href="javascript:void(0)"><img src="imgs/phone-logo.png" alt="" />电话联系</a>
+					</div>
+				</li>
+			</ul>
+			<div class="order-details-btm">
+				<div class="order-details-btm-state">
+					<p>
+						<span>订单编号：4000000000</span><a class="order-num-copy" href="javascript:void(0)">复制</a>
+					</p>
+					<p><span>支付方式：</span><span>未支付</span></p>
+					<p><span>下单时间：</span><span>2018-05-02  10:06:04</span></p>
+					<div class="order-buy-details">
+						<div class="left">
+							<span class="span1">实付：</span>
+							<span class="span2">¥90</span>
+							<span class="span3">免运费</span>
+						</div>
+						<div class="buy-btn">
+							<a href="javascript:void(0)">立即购买</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

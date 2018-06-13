@@ -1,0 +1,11 @@
+
+$(".chakanxiangqing").click(function () {
+	$(".message-content,.evaluation-content,.order-content").hide();
+	$(".chakan-content,.reply-content").show();
+});
+
+$(".delectimg").click(function () {
+	$(this).parent().siblings().hide();
+});
+
+

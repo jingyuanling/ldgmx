@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>修改登录密码</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headandfoot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/change-login-pwd.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="system-nav">
+			<img class="left-return" src="img/left_return.png"/>
+			<p class="title-name">修改登录密码</p>
+		</div>
+		<div class="change-login-wrap">
+			<ul class="change-login-ul">
+				<li>
+					<input type="text" name="" id="" value="" placeholder="请输入当前登陆密码" />
+				</li>
+				<li>
+					<input type="text" name="" id="" value="" placeholder="请输入新密码" />
+				</li>
+				<li>
+					<input type="text" name="" id="" value="" placeholder="再次输入新密码" />
+				</li>
+			</ul>
+			<div class="change-login-btn">
+				<a href="javascript:void(0)">
+					确定
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

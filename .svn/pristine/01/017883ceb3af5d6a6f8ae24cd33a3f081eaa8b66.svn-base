@@ -1,0 +1,113 @@
+.life_select_address_wrap{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: #efefef;
+	padding-top: 1.00rem;
+}
+.life_select_inp_div{
+	width: 94%;
+    height: 0.65rem;
+    margin-left: 3%;
+    position: relative;
+    font-size: 0;
+}
+.life_select_content_inp{
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 0.2rem 0;
+	margin-bottom: 0.2rem;
+	border-bottom: 0.01rem solid #e2e2e2;
+}
+.life_select_content_inp input{
+	width: 100%;
+	font-size: 0.28rem;
+	border: none;
+	text-align: center;
+	line-height: 0.65rem;
+	background-color: #e6e6e6;
+	padding-right: 1.00rem;
+	box-sizing: border-box;
+	border-radius: 0.1rem;
+}
+.life_select_inp_span{
+	display: inline-block;
+	width: 1.00rem;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #d9333f;
+	text-align: center;
+	border-radius: 0 0.1rem 0.1rem 0;
+}
+.life_select_inp_span img{
+    height: 0.27rem;
+    width: 0.27rem;
+	margin: 0 auto;
+	margin-top: 0.19rem;
+}
+.life_select_localize{
+	width: 100%;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 1.00rem;
+	background-color: white;
+	color: #022222;
+	border-top: 0.01rem solid #e2e2e2;
+	border-bottom: 0.01rem solid #e2e2e2;
+}
+.life_hot_city{
+	width: 100%;
+    font-size: 0.34rem;
+    line-height: 0.70rem;
+    padding-left: 3%;
+    color: #666666;
+}
+.life_hot_search{
+	width: 100%;
+    padding-top: 0.2rem;
+	background-color: white;
+	border-top: 0.01rem solid #e2e2e2;
+	border-bottom: 0.01rem solid #e2e2e2;
+}
+.life_all_search{
+	background-color: white;
+}
+.life_all_search_content{
+	width: 100%;
+	line-height: 2em;
+	border-top: 1px solid #d3d3d3;
+	border-left: 1px solid #d3d3d3;
+	overflow: hidden;
+	font-size: 0;
+}
+.life_all_search_content span{
+	display: inline-block;
+	float: left;
+	width: 16.59%;
+	text-align: center;
+	font-size: 1em;
+	color: #222222;
+	border-bottom: 0.01rem solid #d3d3d3;
+	border-right: 0.01rem solid #d3d3d3;
+}
+.life_hot_search_content{
+	width: 100%;
+	font-size: 0;
+}
+.life_hot_search span{
+	border: 0.01rem solid #d3d3d3;
+	color: #666666;
+    font-size: 0.30rem;
+    display: inline-block;
+    padding: 0.15rem 0.30rem;
+    border-radius: 0.1rem;
+    margin-bottom: 0.16rem;
+    margin-left: 0.2rem;
+}
+/*选择城市的选中状态*/
+.life_all_search_content .life_all_search_active,.life_hot_search_content  .life_all_search_active{
+	color: white;
+	background-color: #d9333f;
+}

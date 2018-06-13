@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+.malltoplogo{
+	width:1200px;
+	margin:25px auto 0;
+	overflow:hidden;
+}
+.mallleftlogo{
+	float:left;
+}
+.mallrightlogo{
+	float:right;
+}
+.topfourbox{
+	width:550px;
+	position:relative;
+	margin:35px 30px 30px;
+}
+.zhisistop{
+	width:550px;
+	height:10px;
+	background:#dcdcdc;
+	-webkit-box-shadow:0 2px 2px #ccc inset;
+	-moz-box-shadow:0 2px 2px #ccc inset;
+	box-shadow:0 2px 2px #ccc inset;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.zhisistop dl{
+	font-size:12px;
+	position:absolute;
+	top:-42px;
+	text-align:center;
+	width:60px;
+}
+.zhisistop dt{
+	line-height:30px;
+	font-weight:600;
+}
+.zhisistop dd{
+	width:34px;
+	height:34px;
+	background:#dcdcdc;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	-webkit-box-shadow:2px 3px 4px #ccc inset;
+	-moz-box-shadow:2px 3px 4px #ccc inset;
+	box-shadow:2px 3px 4px #ccc inset;
+	text-align:center;
+	line-height:34px;
+	color:#fff;
+	margin:auto;
+}
+.zhisistop .num1{
+	left:-30px;
+}
+.zhisistop .num2{
+	left:153px;
+}
+.zhisistop .num3{
+	left:336px;
+}
+.zhisistop .num4{
+	left:519px;
+}
+.zhisisbottom{
+	position:absolute;
+	height:4px;
+	top:3px;
+	background:#009251;
+}
+.zhisisbottom li{
+	width:24px;
+	height:24px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	position:absolute;
+	top:-10px;
+}
+.zhisisbottom li.thisligood{
+	background:url(../img/tubiao.png) #009251 no-repeat -28px -200px;
+	-webkit-box-shadow:1px -3px 3px #008542 inset;
+	-moz-box-shadow:1px -3px 3px #008542 inset;
+	box-shadow:1px -3px 3px #008542 inset;
+}
+.zhisisbottom .num1{
+	left:-12px;
+}
+.zhisisbottom .num2{
+	left:171px;
+}
+.zhisisbottom .num3{
+	left:354px;
+}
+.zhisisbottom .num4{
+	left:537px;
+}

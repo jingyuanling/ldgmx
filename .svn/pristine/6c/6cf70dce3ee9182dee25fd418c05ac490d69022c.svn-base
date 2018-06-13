@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life-head-foot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life_home_index.css"/>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="life_home_nav">
+			<div class="life_nav_left">
+				郑州
+				<img class="life_home_triangle_small" src="img/triangle_small.png"/>
+			</div>
+			<div class="life_home_nav_inp">
+				<input type="text" name="" id="" value="" placeholder="搜索你想要的" />
+				<img src="img/search_img.png"/>
+			</div>
+			<div class="life_home_nav_right">
+				<a href="###">
+					<img src="img/saoyisaoimg.png"/>
+				</a>
+			</div>
+		</div>
+		<div class="life_home_wrap">
+			<!--轮播图-->
+			<div class="swiper-container life_home_banner">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+			        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+			        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			    <!-- 如果需要导航按钮 -->
+			    <div class="swiper-button-prev"></div>
+	    		<div class="swiper-button-next"></div>
+			</div>
+			<!--分类-->
+			<div class="life_home_classify">
+				<a href="###">
+					<div class="home_classify_among">
+						<img src="img/meishi_logo.png"/>
+						<p>美食</p>
+					</div>
+				</a>
+				<a href="###">
+					<div class="home_classify_among">
+						<img src="img/hotel_logo.png"/>
+						<p>酒店</p>
+					</div>
+				</a>
+				<a href="###">
+					<div class="home_classify_among">
+						<img src="img/fallow_logo.png"/>
+						<p>休闲娱乐</p>
+					</div>
+				</a>
+				<a href="###">
+					<div class="home_classify_among">
+						<img src="img/music_logo.png"/>
+						<p>KTV</p>
+					</div>
+				</a>
+				<a href="###">
+					<div class="home_classify_among">
+						<img src="img/all_logo.png"/>
+						<p>全部</p>
+					</div>
+				</a>
+			</div>
+			<div class="life_home_hot">
+				<p class="home_hot_title">
+					<img src="img/flame_logo.png"/>
+					火热推荐
+				</p>
+				<div class="home_hot_content">
+					<a href="###">
+						<div class="home_hot_details">
+							<div class="home_hot_discount">
+								<p class="home_hot_discount_P">星巴克咖啡</p>
+								<span class="home_hot_discount_span">冲抵80%</span>
+							</div>
+							<div class="home_hot_merchant_logo">
+								<img src="img/merchant_1.jpg"/>
+							</div>
+						</div>
+					</a>
+					<a href="###">
+						<div class="home_hot_details">
+							<div class="home_hot_discount">
+								<p class="home_hot_discount_P">星巴克咖啡</p>
+								<span class="home_hot_discount_span">冲抵80%</span>
+							</div>
+							<div class="home_hot_merchant_logo">
+								<img src="img/merchant_1.jpg"/>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="home_good_recommend">
+				<p class="home_good_recommend_title"><strong>优质商家</strong></p>
+				<div class="home_good_recommend_list">
+					<a href="###">
+						<ul>
+							<li>
+								<div class="good_list_left_img">
+									<img class="electr_left_img2" src="img/merchant_2.jpg"/>
+								</div>
+								<div class="good_list_right_text">
+									<div class="right_text_goods_name">
+										<p>星巴克咖啡</p>
+										<span>休闲娱乐</span>
+									</div>
+									<div class="good_list_right_address">
+										<p>郑州CBD绿地千玺广场</p>
+										<span>500m</span>
+									</div>
+									<div class="good_list_right_deduction">
+										债权金冲抵
+										<span>80%</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</a>
+					<a href="###">
+						<ul>
+							<li>
+								<div class="good_list_left_img">
+									<img class="electr_left_img2" src="img/merchant_2.jpg"/>
+								</div>
+								<div class="good_list_right_text">
+									<div class="right_text_goods_name">
+										<p>星巴克咖啡</p>
+										<span>休闲娱乐</span>
+									</div>
+									<div class="good_list_right_address">
+										<p>郑州CBD绿地千玺广场</p>
+										<span>500m</span>
+									</div>
+									<div class="good_list_right_deduction">
+										债权金冲抵
+										<span>80%</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</a>
+					<a href="###">
+						<ul>
+							<li>
+								<div class="good_list_left_img">
+									<img class="electr_left_img2" src="img/merchant_2.jpg"/>
+								</div>
+								<div class="good_list_right_text">
+									<div class="right_text_goods_name">
+										<p>星巴克咖啡</p>
+										<span>休闲娱乐</span>
+									</div>
+									<div class="good_list_right_address">
+										<p>郑州CBD绿地千玺广场</p>
+										<span>500m</span>
+									</div>
+									<div class="good_list_right_deduction">
+										债权金冲抵
+										<span>80%</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</a>
+				</div>
+			</div>
+			<div class="life_bottom">
+				<a href="###">
+					<div class="life_bottom_columns">
+						<img src="img/home_deep.png" alt="" />
+						<p class="life_bottom_deep">首页</p>
+						<div class="life_border_right"></div>
+					</div>
+				</a>
+				<a href="###">
+					<div class="life_bottom_columns">
+						<img src="img/address_bottom_shallow.png"/>
+						<p>附近</p>
+						<div class="life_border_right"></div>
+					</div>
+				</a>
+				<a href="###">
+					<div class="life_bottom_columns">
+						<img src="img/expense_calendar_shallow.png"/>
+						<p>消费记录</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/life_home_index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

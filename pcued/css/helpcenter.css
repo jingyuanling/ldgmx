@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+.helpmain{
+	width:1200px;
+	margin:20px auto 20px;
+	overflow:hidden;
+}
+.helpleft{
+	float:left;
+	width:210px;
+}
+.helpnav,.helpnav .subside-in{
+	width:210px;
+}
+.helpnav .subside-in h3{
+	background:#ff4500;
+	line-height:40px;
+	height:40px;
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+	font-weight:500;
+}
+.helpnav .subside-in dl{
+	margin-bottom:1px;
+}
+.helpnav .subside-in dt{
+	background:#eaeaea;
+	height:40px;
+	line-height:40px;
+	padding-left:45px;
+	color:#666;
+	font-size:14px;
+	position:relative;
+	z-index:1;
+}
+.helpnav .subside-in dd{
+	display:none;
+}
+.helpnav .subside-in dd.dhid{
+	display:block;
+}
+.helpnav .subside-in dl dt:hover{
+	background:#dadada;
+}
+.helpnav .subside-in dl dt b{
+	border-style: solid dashed solid dashed;
+    border-color: #999 transparent #999 transparent;
+    border-width: 5px 5px 0;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+}
+.helpnav .subside-in li{
+	padding-left:45px;
+	border-bottom:1px solid #fff;
+}
+.helpnav .subside-in li a:hover{
+	color:#FF4500}
+.helpnav .subside-in ul{
+	background:#f2f2f2;
+	font-size:14px;
+	line-height:30px;
+}
+.helpright{
+	float:left;
+	margin-left:10px;
+	width:980px;
+	min-height:800px;
+}

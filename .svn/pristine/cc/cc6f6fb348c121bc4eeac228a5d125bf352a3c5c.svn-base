@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>鹊桥首页</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<link rel="stylesheet" type="text/css" href="css/magpie_bridge_index.css"/>
+	</head>
+	<body>
+		<div class="magpie_bridge_wrap">
+			<div class="magpie_rules_btn">
+				<img src="img/rules_btn.png"/>
+			</div>
+			<div class="magpie_spreadhead">
+				<img src="img/qxqqydj.png"/>
+			</div>
+			<div class="magpie_bottom">
+				<img src="img/start_btn.png"/>
+			</div>
+		</div>
+		<!--规则-->
+		<div class="rules_wrap">
+			<div class="rules_content">
+				<div class="rules_title">
+					<p>小礼盒大惊喜，100部iPhone7plus</p>
+					<p>42寸智能电视等你拆</p>
+				</div>
+				<div class="rules_details">
+					<p>1、活动时间：05月23日 — 06月10日。</p>
+					<p>2、每人可领取一个礼盒，礼盒需要5名好友帮拆，即可开出惊喜大奖！</p>
+					<p>3、奖品包括100台iPhone 7 Plus、100台42寸智能电视、5000箱名牌白酒、5000份竞品茶叶、现金红包、债权金红包等。</p>
+				</div>
+			</div>
+			<div class="rules_bottom">
+				收起
+			</div>
+		</div>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rules.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

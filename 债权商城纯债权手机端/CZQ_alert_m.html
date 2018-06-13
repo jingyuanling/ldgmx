@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>弹框</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<style type="text/css">
+			.CZQ_alert_m_wrap{
+				width: 100%;
+				height: 100%;
+				max-width: 640px;
+				min-width: 320px;
+				background-color: rgba(0,0,0,0.5);
+				position: fixed;
+			}
+			.CZQ_alert_m_content{
+				width: 80%;
+				height: 13em;
+				margin-left: 10%;
+				background-color: #ffc038;
+				position: absolute;
+				top: 50%;
+				margin-top: -7em;
+				padding-top: 1em;
+				box-sizing: border-box;
+			}
+			.CZQ_alert_m_logo{
+				width: 100%;
+				margin-bottom: 1em;
+			}
+			.CZQ_alert_m_logo img{
+				height: 2em;
+				margin: 0 auto;
+			}
+			.CZQ_alert_m_prompt{
+				width: 80%;
+				margin-left: 10%;
+				font-size: 1.2em;
+				text-align: center;
+				background-color: #ba6629;
+				color: #f6b536;
+				height: 2em;
+				line-height: 2em;
+			}
+			.CZQ_alert_m_prompt2{
+				width: 100%;
+				font-size: 0.8em;
+				text-align: center;
+				color: #ba6629;
+				line-height: 3em;
+			}
+			.all_btn_div{
+				width: 80%;
+				margin-left: 10%;
+				overflow: hidden;
+			}
+			.all_btn_div .left_btn,.all_btn_div .right_btn{
+				float: left;
+				text-align: center;
+				width: 45%;
+				font-size: 1em;
+				height: 2em;
+				line-height: 2em;
+				color: #ba6629;
+				border: 1px solid #ba6629;
+				border-radius: 0.3em;
+			}
+			.all_btn_div .left_btn{
+				margin-right: 10%;
+			}
+			.CZQ_alert_m_bottom_shadow{
+				width: 100%;
+				background-color: #ba6629;
+				height: 1em;
+				position: absolute;
+				bottom: -0.5em;
+				box-shadow: 1px 0px 5px 1px #ba6629;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="CZQ_alert_m_wrap">
+			<div class="CZQ_alert_m_content">
+				<div class="CZQ_alert_m_logo">
+					<img src="img/mHuangguan.png"/>
+				</div>
+				<div class="CZQ_alert_m_prompt">
+					您还不是VIP会员
+				</div>
+				<div class="CZQ_alert_m_prompt2">
+					开通VIP任意购买本专区商品
+				</div>
+				<div class="all_btn_div">
+					<a href="###">
+						<div class="left_btn">
+							立即开通
+						</div>
+					</a>
+					<a href="###">
+						<div class="right_btn">
+							我先看看
+						</div>
+					</a>
+				</div>
+				<div class="CZQ_alert_m_bottom_shadow">
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

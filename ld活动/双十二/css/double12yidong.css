@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+*{
+    margin:0;
+    padding:0;
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+
+}
+.hongbao-tankuangceng{
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin:0 auto;
+    background-color:rgba(0,0,0,0.5);
+    position: fixed;
+}
+.hongbao-tankuang{
+    width: 300px;
+    height: 290px;
+    background-color: red;
+    margin:0 auto;
+    top: 50%;
+    margin-top: -145px;
+    position: relative;
+    background:url(../img/weikai.png) no-repeat 0 0;
+    background-size: 300px 200px;
+}
+.hongbao-tankuang p.wenzineirong{
+    width: 182px;
+    height: 25px;
+    margin-top: 170px;
+    margin-left: 63px;
+    position: absolute;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    
+    color: #d97c00;
+    line-height: 25px;
+    text-align: center;
+}
+.hongbao-tankuang img.hongbaoclose{
+    width: 26px;
+    float: right;
+    margin-right: 18px;
+}
+.hongbao-tankuang .dianji{
+    width: 217px;
+    height: 159px;
+    position: absolute;
+    margin-left: 32px;
+    margin-top:8px;
+    
+   
+}
+.hongbaoyikai{
+    width: 300px;
+    height: 271px;
+    display: none;
+    background:url(../img/yikai.png) no-repeat 0 0;
+    background-size: 253px 197px;
+    margin-left: 27px;
+    margin-top: 40px;
+    position: absolute;
+}
+.hongbaoyikai .hongbaomoney{
+    width: 100px;
+    height: 55px;
+    color:#ec4d35;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    line-height: 55px;
+    text-align: center;
+    margin-left: 75px;
+    margin-top: 5px;
+}
+.hongbaoknow img{
+    width: 130px;
+    margin-top: 152px;
+    margin-left: 60px;
+}

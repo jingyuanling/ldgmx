@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+body {
+    width: 100%;
+    font-family: "微软雅黑";
+}
+*{
+    margin:0;
+    padding:0;
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.hongbao1{
+    width:100%;
+    height: 922px;
+    background:url(../img/hongbao1beijing.png) no-repeat 0 0;
+    background-size: 100% 922px;
+}
+.hongbao1 img{
+    position: absolute;
+    left: 50%;
+    margin-left: -647px;
+    margin-top: 80px;
+}
+.hongbao1 img.double12{
+    margin-left: -550px;
+}
+.hongbao2{
+    width:100%;
+    height: 970px;
+    background:url(../img/hongbao2beijing.png) no-repeat 0 0;
+    background-size: 100% 970px;
+}
+.hongbao22{
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+    height: 970px;
+}
+.hongbao22 ul{
+    width: 963px;
+    height: 359px;
+    margin-left: 108px;
+    margin-top: 173px;
+}
+.hongbao22 ul li{
+    list-style: none;
+    float: left;
+    margin-right: 82px;
+
+}
+.hongbao22 ul li.last{
+     margin-right:0px;
+}
+.zhongjiang{
+    width: 1200px;
+    height: 280px;
+    margin-top: 95px;
+}
+.zhongjiangperson{
+    float: left;
+    width: 922px;
+    height: 111px;
+    background:url(../img/zhongjiangkuang.png) no-repeat 0 0;
+}
+.zhongjiangperson p{
+    width: 850px;
+    height: 85px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+     overflow: hidden;
+}
+.zhongjiangperson p span{
+    font-size: 26px;
+    color: #f03838;
+    float: left;
+    margin-left: 20px;
+   line-height: 85px;
+
+}
+.zhongjiang img{
+    float: right;
+}
+.zhongjiang > p{
+color: #fff;
+font-size:24px; 
+margin-top: 130px;
+margin-left: 970px;
+position: absolute;
+float: right;
+}
+.zhongjiang > p span{
+    color: #ff0000;
+}
+.hongbao3{
+    width: 100%;
+    height: 944px;
+    background-color: #fff;
+}
+.hongbao3 img{
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: 180px;
+}
+.hongbao3 img.yinghongbao{
+    margin-left: 235px;
+    margin-top: 655px;
+}
+.hongbao4{
+    width:100%;
+    height: 958px;
+    background:url(../img/hongbao4beijing.png) no-repeat 0 0;
+    background-size: 100% 958px;
+}
+.hongbao4 img{
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: 180px;
+}
+.hongbao5{
+    width: 100%;
+    height: 816px;
+    background-color: #fff;
+}
+.hongbao5 img{
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: 158px;
+}
+.hongbao6{
+    width:100%;
+    height: 1054px;
+    background:url(../img/hongbao6beijing.png) no-repeat 0 0;
+    background-size: 100% 1054px;
+}
+.hongbao6 img{
+    position: absolute;
+    left: 50%;
+    margin-left: -590px;
+    margin-top: 174px;
+}
+.hongbao6 img.anniu{
+    margin-left: 270px;
+    margin-top: 465px;
+}
+
+ 

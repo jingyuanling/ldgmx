@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>对账数据</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/对账数据/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/对账数据/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (形状) -->
+      <div id="u0" class="ax_形状">
+        <img id="u0_img" class="img " src="images/商户提现审批/u0.png"/>
+        <!-- Unnamed () -->
+        <div id="u1" class="text">
+          <p><span>&nbsp; &nbsp;&nbsp; </span><span>债权置换运营管理系统</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u2" class="ax_形状">
+        <img id="u2_img" class="img " src="images/商户提现审批/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u3" class="text">
+          <p><span>菜单功能区</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u4" class="ax_文本">
+        <img id="u4_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u5" class="text">
+          <p><span>首页 </span><span>&gt;</span><span>店铺管理 </span><span>&gt;</span><span>商户提现审批</span><span> &gt;对账</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u6" class="ax_文本">
+        <img id="u6_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u7" class="text">
+          <p><span>季旦鲜&nbsp; 2016/06/10-2016-06-20</span><span> 订单流水对账数据</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u8" class="ax_形状">
+        <img id="u8_img" class="img " src="images/对账数据/u8.png"/>
+        <!-- Unnamed () -->
+        <div id="u9" class="text">
+          <p><span>商家已完成订单（表）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u10" class="ax_形状">
+        <img id="u10_img" class="img " src="images/对账数据/u8.png"/>
+        <!-- Unnamed () -->
+        <div id="u11" class="text">
+          <p><span>商家订单入账资金明细（表）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u12" class="ax_文本">
+        <img id="u12_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u13" class="text">
+          <p><span>订单表数据概况：</span><span>本时间段商户季旦鲜</span><span>的订单中，</span><span>共计</span><span>确认收货</span><span>订单50条，订单总现金5000元，收取服务费50元，</span><span>订单</span><span>实际应到账</span><span>金额为4950元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u14" class="ax_文本">
+        <img id="u14_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u15" class="text">
+          <p><span>商家订单入账资金</span><span>数据概况：</span><span>本时间段商户季旦鲜</span><span>资金流水中，入账</span><span>订单</span><span>流水</span><span>50条，</span><span>实际入账总金额为4950元。期间商户充值0元，消费0元，后台核销0元，现账户余额50元，本次提现4900元。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u16" class="ax_html_button">
+        <input id="u16_input" type="submit" value="下载对账单"/>
+      </div>
+
+      <!-- Unnamed (HTML Button) -->
+      <div id="u17" class="ax_html_button">
+        <input id="u17_input" type="submit" value="通过"/>
+      </div>
+
+      <!-- 提醒 (动态面板) -->
+      <div id="u18" class="ax_动态面板" data-label="提醒">
+        <div id="u18_state0" class="panel_state" data-label="状态1">
+          <div id="u18_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (形状) -->
+            <div id="u19" class="ax_形状">
+              <img id="u19_img" class="img " src="images/对账数据/u19.png"/>
+              <!-- Unnamed () -->
+              <div id="u20" class="text"></div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u21" class="ax_文本">
+              <img id="u21_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u22" class="text">
+                <p><span>账</span><span>单无误差</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (HTML Button) -->
+            <div id="u23" class="ax_html_button">
+              <input id="u23_input" type="submit" value="确定"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>一级分类</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-home.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav wine-head-nav-two">
+				<span class="left-return-arrow"><img src="imgs/left-return-arrow.png" alt=""/></span>
+				<p class="text-center nav-tit-name">二级分类</p>
+				<a class="right-logo"><img src="imgs/nav-cart-logo.png" alt=""/></a>
+			</div>
+			<div class="wine-head-nav-class">
+				<div class="wine-head">
+					<ul>
+						<li class="head_li_active"><a href="###">热门<span></span></a></li>
+						<li><a href="wine-firstclass.html">酒水<span></span></a></li>
+						<li><a href="###">服饰<span></span></a></li>
+						<li><a href="###">家电<span></span></a></li>
+						<li><a href="###">家具<span></span></a></li>
+						<li><a href="###">保健<span></span></a></li>
+						<li><a href="###">医疗<span></span></a></li>
+						<li><a href="###">电子<span></span></a></li>
+						<li><a href="###">电脑<span></span></a></li>
+						<li><a href="###">手机<span></span></a></li>
+						<li><a href="###">图书<span></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="wine-wrap wine-wrap-two" id="return-top">
+			<!--二级分类商品列表-->
+			<div class="wine-firstclass-list">
+				<ul>
+					<li>
+						<a href="javascript:void(0)">
+							<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+							<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+							<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+							<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+							<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+							<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+							<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+							<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+							<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--回到顶部按钮-->
+		<div class="btm-none-return return-no-btm">
+			<a href="#return-top" class="return-top-btn">
+				<span><img src="imgs/return-top-arrow.png" alt=""/></span>
+				<p>顶部</p>
+			</a>
+		</div>
+		<!--20个同类型的tag搜索页的a标签-->
+		<div class="" style="display: none;" search_land_searchtransformation_show="1">
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+			<a href="javascript:void(0)">隐藏标签</a>
+		</div>
+	</body>
+</html>

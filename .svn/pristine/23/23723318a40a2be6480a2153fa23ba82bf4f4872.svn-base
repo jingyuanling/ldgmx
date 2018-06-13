@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>代理人详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	    <link rel="stylesheet" type="text/css" href="css/reset.css">
+	    <link rel="stylesheet" type="text/css" href="css/LD_wine_header.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/LD_wine_commission.css"/>
+	    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine_header">
+			<img src="img/wine_return.png"/>
+		    <div class="wine_all_class_goback">
+		        <p>我的代理人</p>
+		    </div>
+		</div>
+		<div class="agency_man_details_wrap">
+			<div class="agency_man_details_top">
+				<div class="agency_man_details_topL">
+					<div class="agency_man_photo">
+						<img src="img/wine_agent_photo.jpg"/>
+					</div>
+					<div class="agency_man_photo_text">
+						<p class="agency_man_photo_text_name">刘君盛</p>
+						<p class="agency_man_photo_text_p2">FA461512212</p>
+					</div>
+				</div>
+				<div class="agency_man_details_topR">
+					<p class="agency_man_details_topR_p1">1234</p>
+					<p class="agency_man_details_topR_p2">贡献收益（元）</p>
+				</div>
+			</div>
+			<div class="order_entrance">
+				<div class="wine_commission_money">
+					<p>6</p>
+					<span style="color: black;">直接订单</span>
+				</div>
+				<div class="wine_commission_money">
+					<p>64</p>
+					<span style="color: black;">代理订单</span>
+				</div>
+				<div class="wine_commission_money">
+					<p>64481</p>
+					<span style="color: black;">订单总额</span>
+				</div>
+			</div>
+			<div class="wine_last_order">
+				<a href="LD_wine_order.html">
+					<p class="wine_last_orderP1">
+						<span>最新订单</span>
+						<span>全部订单<img class="right_into" src="img/right_into_jiantou.png"/></span>
+					</p>
+				</a>
+			</div>
+			<div class="wine_order_details_entrance">
+				<p class="wine_order_details_entrance1">
+					<span>订单号：46544542</span>
+					<span>2017-4-5</span>
+				</p>
+				<div class="wine_order_mes">
+					<div class="good_photo">
+						<img src="img/wine_goods.png"/>
+					</div>
+					<div class="good_describe">
+						中国古井镇 原浆 功成天下30年 浓缩型
+						<br />
+						<span>X30&nbsp;&nbsp;&nbsp;<a>5000元</a></span>
+					</div>
+		        </div>
+		        <div class="agency_man_commission_reward">
+		        	<span>佣金奖励</span>
+		        	<span>5000元</span>
+		        </div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,509 @@
+.details-goodsImg{
+	width: 100%;
+	height: 7.82rem;
+	position: relative;
+}
+.details-goodsImg .swiper-container{
+	height: 100%;
+}
+.details-goodsImg .swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-pagination-bullet {
+    background: #FFFFFF;
+    opacity: 1
+}
+.swiper-pagination-bullet-active {
+    background: #e20000;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+	width: 0.18rem;
+    height: 0.18rem;
+    margin: 0 0 0 0.18rem;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+	bottom: 0.3rem;
+	padding-right: 0.37rem;
+}
+.details-goodsImg .top-two-btn{
+	width: 100%;
+	padding: 0 0.2rem;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0.1rem;
+	z-index: 10;
+}
+.details-goodsImg .top-two-btn a{
+	display: block;
+	width: 0.84rem;
+	height: 0.84rem;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 50%;
+	line-height: 0.84rem;
+	text-align: center;
+}
+.details-goodsImg .top-two-btn .left-arrow{
+	float: left;
+}
+.details-goodsImg .top-two-btn .right-cart{
+	float: right;
+}
+.details-goodsImg .top-two-btn .left-arrow img{
+	width: 0.2rem;
+	height: 0.42rem;
+}
+.details-goodsImg .top-two-btn .right-cart img{
+	width: 0.41rem;
+	height: 0.42rem;
+}
+.details-goods-introduce,.details-service-introduce{
+	background-color: #FFFFFF;
+	padding: 0 0.365rem;
+	margin-bottom: 0.16rem;
+}
+.details-goods-introduce .h1-title{
+    padding: 0.24rem 0;
+    font-size: 0.2708rem;
+    line-height: 0.38rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.details-goods-introduce .details-goods-prize{
+	font-size: 0.4166rem;
+	color: #d10000;
+	display: inline-block;
+	height: 0.43rem;
+	line-height: 0.43rem;
+	margin-bottom: 0.06rem;
+}
+.details-goods-introduce .details-goods-prize s{
+	font-size: 0.25rem;
+	color: #999999;
+	margin-left: 0.2rem;
+}
+.details-awards-sales{
+	height: 0.92rem;
+	overflow: hidden;
+}
+.details-awards-sales .awards,.details-awards-sales .sales{
+	height: 100%;
+	font-size: 0.2708rem;
+	color: #999999;	
+	line-height: 0.92rem;
+}
+.details-awards-sales .sales{
+	float: right;
+}
+.details-service-introduce li{
+	height: 0.94rem;
+	line-height: 0.93rem;
+	font-size: 0.2708rem;
+	color: #111111;
+	border-top: 0.01rem solid #e7e7e7;
+}
+.details-service-introduce li span{
+	font-size: 0.2708rem;
+}
+.details-service-introduce li:nth-child(1){
+	border-top-color: white;
+}
+.details-service-introduce li .arrow{
+	float: right;
+	width: 0.14rem;
+	height: 100%;
+}
+.details-service-introduce li .arrow img{
+	width: 100%;
+	height: 0.29rem;
+}
+.wine-goods-evaluate{
+	width: 100%;
+}
+.wine-evaluate-tit{
+	height: 1rem;
+	position: relative;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	padding: 0 0.37rem;
+}
+.wine-evaluate-tit .btm-line{
+	height: 0.01rem;
+	width: 6.76rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.37rem;
+	background-color: #eaeaea;
+}
+.wine-evaluate-tit .vertical-line{
+	width: 0.09rem;
+	height: 0.45rem;
+	background-color: #d10000;
+	position: absolute;
+	left: 0;
+	top: 0.275rem;
+	border-radius: 0.05rem;
+}
+.wine-evaluate-tit .eval-all-tit,.wine-evaluate-tit .eval-look-more{
+	display: inline-block;
+	height: 100%;
+	line-height: 0.99rem;
+}
+.wine-evaluate-tit .eval-all-tit{
+	font-size: 0.3333rem;
+	color: #333333;
+}
+.wine-evaluate-tit .eval-look-more{
+	font-size: 0.2708rem;
+	float: right;
+	color: #d10000;
+}
+.wine-evaluate-tit .eval-look-more img{
+	width: 0.14rem;
+	height: 0.29rem;
+	position: relative;
+	top: -0.03rem;
+	margin-left: 0.17rem;
+}
+/*底部*/
+.goods-details-btm{
+	position: fixed;
+	width: 100%;
+	height: 1.05rem;
+	min-width: 320px;
+	max-width: 750px;
+	bottom: 0;
+	border-top: 0.01rem solid #e4e4e4;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	z-index: 9;
+}
+.goods-details-btm a,.goods-details-btm div{
+	float: left;
+}
+.goods-details-btm a{
+	display: block;
+	width: 14%;
+	height: 100%;
+	line-height: 1.04rem;
+	text-align: center;
+	border-right: 0.01rem solid #e4e4e4;
+}
+.goods-details-btm .btn-add-cart,.goods-details-btm .btn-buy-now{
+	font-size: 0.2916rem;
+	height: 100%;
+	line-height: 1.04rem;
+	width: 29%;
+	text-align: center;
+}
+.goods-details-btm .btn-add-cart{
+	color: #666666;
+}
+.goods-details-btm .btn-buy-now{
+	color: #FFFFFF;
+	background-color: #d10000;
+}
+/*更改评论样式*/
+.remark-class{
+	border: none;
+}
+.wine-remark-content{
+	padding-bottom: 0;
+	margin-bottom: 0.17rem;
+}
+.wine-details-img{
+	width: 100%;
+	font-size: 1.0714rem;
+	color: #FFFFFF;
+	text-align: center;
+}
+.wine-details-img .details-img{
+	width: 100%;
+	height: 7.51rem;
+	line-height: 7.5rem;
+	border-bottom: 0.01rem solid white;
+}
+.wine-details-img .details-img img{
+	width: 100%;
+	height: 100%;
+}
+.remark-class{
+	padding: 0.26rem 0 0.28rem;
+}
+.remark-class ul{
+    height: 0.5rem;
+    padding: 0;
+}
+.remark-class ul li{
+	margin-bottom: 0;
+}
+/*弹框样式*/
+.choose-size-gray,.choose-coupons-gray{
+	width: 100%;
+	height: 100%;
+	max-width: 750px;
+	min-width: 320px;
+	position: fixed;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 10;
+	display: none;
+}
+.choose-size-wrap,.choose-coupons-wrap{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	bottom: -100%;
+	background-color: #FFFFFF;
+	padding: 0 0 0.15rem;
+	border-radius: 0.12rem 0.12rem 0 0;
+}
+.choose-size-wrap .goodsImg{
+	width: 2.2rem;
+	height: 2.2rem;
+	padding: 0.10rem;
+	border-radius: 0.05rem;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: -0.79rem;
+	left: 0.37rem;
+}
+.choose-size-wrap .goodsImg img{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.05rem;
+}
+.choose-size-wrap .prize,.choose-size-wrap .choosed-size{
+	padding-left: 2.92rem;
+}
+.choose-size-wrap .prize{
+	font-size: 0.375rem;
+	color: #666666;
+	margin-top: 0.58rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+.choose-size-wrap .choosed-size{
+	font-size: 0.2916rem;
+	color: #333333;
+	height: 0.57rem;
+	line-height: 0.57rem;
+	margin-bottom: 0.25rem;
+}
+.choosed-size-content{
+	height: 6.5rem;
+	overflow-y: scroll;
+	padding: 0 0.37rem 1.8rem;
+}
+.choose-size-wrap .color-tit{
+	font-size: 0.3333rem;
+	color: #333333;
+	height: 0.84rem;
+	line-height: 0.84rem;
+}
+.choose-size-wrap .size-ul{
+	padding-bottom: 0.26rem;
+	overflow: hidden;
+	margin-bottom: 0.15rem;
+	border-bottom: 0.01rem solid #e4e4e4;
+}
+.choose-size-wrap .size-ul li{
+	height: 0.5rem;
+	padding: 0 0.19rem;
+	line-height: 0.5rem;
+	font-size: 0.25rem;
+	text-align: center;
+	float: left;
+	background-color: #eeeeee;
+	margin-right: 0.3rem;
+	border-radius: 0.03rem;
+	margin-bottom: 0.1rem;
+}
+.choose-size-wrap .size-ul li.have{
+	color: #333333;
+}
+.choose-size-wrap .size-ul li.null{
+	color: #999999;
+}
+.choose-size-wrap .size-ul li.have_active{
+	background-color: #D10000;
+	color: #FFFFFF;
+}
+.choosed-size-content::-webkit-scrollbar{
+	display: none;
+}
+.choose-num{
+	margin-top: 0.33rem;
+	height: 0.51rem;
+	overflow: hidden;
+}
+.choose-num .num-tit{
+	font-size: 0.3333rem;
+	color: #333333;
+}
+.choose-num-btn{
+	float: right;
+	background-color: #FFFFFF;
+	font-size: 0.2708rem;
+	line-height: 0.47rem;
+	border: 0.02rem solid #eaeaea;
+	overflow: hidden;
+	border-radius: 0.03rem;
+}
+.choose-num-btn p,.choose-num-btn span{
+	font-size: 0.2708rem;
+}
+.choose-num-btn p{
+	height: 0.47rem;
+	width: 0.49rem;
+	text-align: center;
+	display: inline-block;
+	color: #666666;
+	float: left;
+}
+.choose-num-btn .less_than_one{
+	color: #d2d2d2;
+}
+.choose-num-btn span{
+	width: 0.88rem;
+	height: 0.47rem;
+	text-align: center;
+	float: left;
+	border-left: 0.02rem solid #eaeaea;
+	border-right: 0.01rem solid #eaeaea;
+}
+.details-choose-btn-div,.coupons-getall-btn{
+	position: absolute;
+	bottom: 0.13rem;
+	padding: 0 0.37rem;
+	width: 100%;
+}
+.details-choose-btn,.coupons-getall{
+	font-size: 0.3125rem;
+	color: #FFFFFF;
+	width: 100%;
+	height: 0.95rem;
+	background-color: #d10000;
+	border-radius: 0.08rem;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+}
+.coupons-getall{
+	letter-spacing: 0;
+	text-indent: 0;
+}
+.choose-size-close{
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	right: 0.46rem;
+	top: 0.4rem;
+}
+.choose-size-close img{
+	width: 100%;
+	height: 100%;
+}
+/*第二个弹框*/
+.choose-coupons-wrap{
+	width: 100%;
+	padding-bottom: 1.4rem;
+}
+.choose-coupons-content{
+	padding: 0.13rem 0.37rem 0;
+	background-color: #FFFFFF;
+	height: 4.2rem;
+	overflow-y: scroll;
+}
+.choose-coupons-tit{
+	font-size: 0.3333rem;
+	color: #111111;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	text-align: center;
+}
+.choose-coupons-ul li{
+	width: 100%;
+	height: 1.25rem;
+	margin-bottom: 0.16rem;
+	position: relative;
+	background: linear-gradient(#ffa06c,#ffab7d);
+	border-radius: 0.13rem;
+	position: relative;
+}
+.choose-coupons-ul li .round{
+	width: 0.32rem;
+	height: 0.32rem;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.465rem;
+	background-color: #FFFFFF;
+}
+.choose-coupons-ul li .round1{
+	left: -0.15rem;
+}
+.choose-coupons-ul li .round2{
+	right: -0.15rem;
+}
+.choose-coupons-ul li .left-money,.choose-coupons-ul li .right-get-btn{
+	font-size: 0.5086rem;
+	color: #FFFFFF;
+	width: 1.5rem;
+	height: 1.09rem;
+	line-height: 1.09rem;
+	text-align: center;
+	letter-spacing: 0.1rem;
+	text-indent: 0.1rem;
+	position: absolute;
+	top: 0.08rem;
+}
+.choose-coupons-ul li .left-money{
+	left: 0;
+	border-right: 0.02rem dashed #FFFFFF;
+}
+.choose-coupons-ul li .right-get-btn{
+	width: 1.08rem;
+	text-align: left;
+	letter-spacing: 0;
+	text-indent: 0;
+	font-size: 0.2708rem;
+	right: 0;
+}
+.choose-coupons-ul .condition{
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding: 0.25rem 0 0 1.7rem;
+}
+.choose-coupons-ul .condition span{
+	color: #FFFFFF;
+	display: block;
+}
+.choose-coupons-ul .condition .up{
+	font-size: 0.2708rem;
+}
+.choose-coupons-ul .condition .under{
+	font-size: 0.2083rem;
+}
+.choose-coupons-ul .get{
+	background: #d2d2d2;
+}
+.choose-coupons-close{
+	width: 0.92rem;
+	height: 0.91rem;
+	position: absolute;
+	top: -1.23rem;
+	left: 50%;
+	margin-left: -0.46rem;
+}
+.choose-coupons-close img{
+	width: 100%;
+	height: 100%;
+}
+@media only screen and (min-width:800px ) {
+	.choosed-size-content{
+		height: 4rem;
+	}
+}

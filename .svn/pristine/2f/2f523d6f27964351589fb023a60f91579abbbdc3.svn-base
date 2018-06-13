@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>素材大厅</title>
+	    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/headAndfoot.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/list.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/material-hall.css"/>
+	    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="material-nav">
+			<div class="form-group">
+			    <input class="form-control material-nav-inp" name="" type="text" placeholder="搜索你想要的">
+		  		<span class="search"><img src="img/search.png"/></span>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="material-hall-class">
+				<ul class="material-hall-class-ul">
+					<li>
+						<img src="img/class1.png"/>
+						<p class="text-center">海报中心</p>
+					</li>
+					<li>
+						<img src="img/class2.png"/>
+						<p class="text-center">H5中心</p>
+					</li>
+					<li>
+						<img src="img/class3.png"/>
+						<p class="text-center">文章内容</p>
+					</li>
+					<li>
+						<img src="img/class4.png"/>
+						<p class="text-center">物料印刷</p>
+					</li>
+				</ul>
+			</div>
+			<div class="hall-list">
+				<ul class="hall-list-ul">
+					<li>
+						<div class="hall-list-img">
+							<img src="img/goods-img.png"/>
+						</div>
+						<p class="description">迪丽热巴迪丽热巴太好看了啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊……</p>
+						<p class="down-num">
+							<span class="glyphicon glyphicon-download-alt"></span><span>123</span>
+						</p>
+						<div class="hall-theme">
+							<span class="small-logo"></span>
+							<p class="theme-p">
+								<span>节日海报</span>
+								<span>3-21 14:30 上传</span>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="hall-list-img">
+							<img src="img/goods-img.png"/>
+						</div>
+						<p class="description">迪丽热巴迪丽热巴太好看了啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊……</p>
+						<p class="down-num">
+							<span class="glyphicon glyphicon-download-alt"></span><span>123</span>
+						</p>
+						<div class="hall-theme">
+							<span class="small-logo"></span>
+							<p class="theme-p">
+								<span>节日海报</span>
+								<span>3-21 14:30 上传</span>
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="material-btm">
+			<ul class="material-btm-ul">
+				<li>
+					<a href="material-hall.html">
+						<img class="center-block right-icon" src="img/btm-class1-red.png"/>
+						<p class="text-center text-red">素材大厅</p>
+					</a>
+				</li>
+				<li>
+					<a href="my-poster.html">
+						<img class="center-block right-icon" src="img/btm-class2-gray.png"/>
+						<p class="text-center">我的素材</p>
+					</a>
+				</li>
+				<li>
+					<a href="PIM.html">
+						<img class="center-block right-icon" src="img/btm-class3-gray.png"/>
+						<p class="text-center">个人中心</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

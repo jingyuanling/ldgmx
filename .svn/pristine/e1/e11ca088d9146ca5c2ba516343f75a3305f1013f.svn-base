@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>经验明细</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-agent-control.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow"><img src="imgs/left-return-arrow.png" alt=""/></span>
+				<p class="text-center nav-tit-name">经验明细</p>
+				<a href="javascript:void(0)" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap">
+			<div class="agent-details-content" style="top: 0; padding: 0;">
+				<ul class="agent-comm-manage agent-details-conm experience-details">
+					<li>
+						<p class="agent-manage-tit agent-details-tit"><span class="name">流水号&nbsp;0000001</span><span class="time">2018-05-05</span></p>
+						<div class="agent-order-comm">
+							<p class="agent-comm-p">
+								<span class="left-span1">100</span>
+								<span class="left-span2">订单经验（点）</span>
+							</p>
+							<p class="agent-comm-p">
+								<span class="right-span1 not-get">未入账</span>
+								<span class="right-span2">(预计2018-05-16结算)</span>
+							</p>
+						</div>
+					</li>
+					<li>
+						<p class="agent-manage-tit agent-details-tit"><span class="name">流水号&nbsp;0000001</span><span class="time">2018-05-05</span></p>
+						<div class="agent-order-comm">
+							<p class="agent-comm-p">
+								<span class="left-span1">100</span>
+								<span class="left-span2">订单经验（点）</span>
+							</p>
+							<p class="agent-comm-p">
+								<span class="right-span1 get">已入账</span>
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

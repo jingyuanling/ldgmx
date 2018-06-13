@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wy-active-wrap{
+	width: 100%;
+	min-width: 1200px;
+	font-size: 0;
+	font-family: "黑体";
+}
+.wy-active-banner{
+	position: relative;
+}
+.wy-active-banner img{
+	width: 100%;
+}
+.wy-active-banner .banner5-1{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.wy-active-content{
+	width: 100%;
+	background: url(../img/content-bg5-1.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	top: -10px;
+	overflow: hidden;
+	padding-bottom: 350px;
+}
+.wy-active-center{
+	width: 1200px;
+	margin: 0 auto;
+}
+.wy-active-center .active1{
+	width: 1200px;
+	height: 1023px;
+	background: url(../img/huodong1-5-1.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	padding: 270px 0 47px;
+	position: relative;
+}
+.wy-active-center .active1 .active1-left,.wy-active-center .active1 .active1-right{
+	float: left;
+	height: 100%;
+}
+.wy-active-center .active1 .active1-left{
+	width: 370px;
+	color: #f4e6c3;
+	position: relative;
+	padding-top: 70px;
+}
+.wy-active-center .active1 .active1-right{
+	width: 780px;
+	height: 680px;
+	background-color: #f4e6c3;
+	border-radius: 10px;
+	color: #c63320;
+	padding: 20px 40px;
+}
+.active1-left-big-tit{
+	font-size: 82px;
+	font-family:'HYb8gj';
+	text-align: center;
+}
+.active1-left-small-tit{
+	font-size: 31px;
+	text-align: center;
+}
+.wy-active-center .active1 .peo1-5-1{
+	position: absolute;
+	left: -10px;
+	bottom: 0;
+}
+.active1-right-tit{
+	font-size: 45px;
+	font-family:'HYb8gj';
+}
+.active1-right-tit2{
+	font-size: 27px;
+}
+.words-ruls-matter{
+	font-size: 23px;
+}
+.words-ruls-matter li{
+	line-height: 35px;
+}
+.words-ruls-matter span{
+	float: left;
+}
+.words-ruls-matter p{
+	padding-left: 22px;
+}
+.wy-active-center .active2{
+	width: 1200px;
+	margin-top: 80px;
+	color: #c63320;
+	position: relative;
+}
+.active2-big-tit{
+	width: 100%;
+	height: 145px;
+	background: url(../img/bg-1-5-1.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 180px;
+	font-size: 75px;
+	font-family:'HYb8gj';
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.active2-content{
+	width: 100%;
+	padding: 180px 55px 70px;
+	background: url(../img/bg-2-5-1.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.active2-center{
+	width: 100%;
+	height: 100%;
+	background-color: #fff9d9;
+	border-radius: 10px;
+	padding: 10px 40px;
+}
+.wy-jump-btn{
+	font-size: 35px;
+	color: #FFF9D9;
+	background-color: #de3c2c;
+	text-align: center;
+	width: 190px;
+	height: 65px;
+	line-height: 65px;
+	border-radius: 8px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.peo2-5-1,.peo3-5-1,.peo4-5-1,.peo5-5-1{
+	position: absolute;
+}
+.peo2-5-1{
+	right: -300px;
+	top: -160px;
+}
+.peo3-5-1{
+    left: -299px;
+    top: -160px;
+    z-index: 2;
+}
+.peo4-5-1{
+	width: 36%;
+	min-width: 430px;
+	left: 0;
+	bottom: 0;
+}
+.peo5-5-1{
+	width: 36%;
+	min-width: 430px;
+	right: 0;
+	bottom: 0;
+}
+@media only screen and (min-width: 1200px){
+	.wy-active-wrap{
+		overflow-x: scroll;
+	}
+}
+@font-face {
+ 	font-family:'HYb8gj';
+    src: url('../font/hyydtj.eot');
+    src: 
+        url('../font/hyydtj.eot?#font-spider') format('embedded-opentype'),
+	 	url('../font/hyydtj.woff') format('woff'),
+	    url('../font/hyydtj.ttf') format('truetype'),
+	    url('../font/hyydtj.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

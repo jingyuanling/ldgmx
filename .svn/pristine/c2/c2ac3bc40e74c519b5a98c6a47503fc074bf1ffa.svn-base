@@ -1,0 +1,102 @@
+
+.fankui_name{
+	margin-top:20px;
+	margin-left:-9px;
+	width:310px;
+	height:60px;
+	background:url(../img/xiaotubiao.png) no-repeat 0 -243px;}
+.fankui_bg{
+	background-color:#fff;
+	width:1142px;
+	height:500px;
+	margin:20px auto 40px;
+	border:1px #c9c9c9 solid;
+}
+.jihua_img{
+	margin-top:20px;
+	margin-left:-9px;
+}
+.light{
+	background-color:#ffede7;
+	margin:auto;
+	width:1100px;
+	height:90px;
+	margin-top:20px;
+	line-height:30px;
+	overflow:hidden;
+	font-family:"微软雅黑";
+	font-size:14px;color:#333
+}
+.light i{
+	margin-left:20px;
+	margin-top:26px;
+	float:left;
+	display:inline-block;
+	width:26px;
+	height:37px;
+	background:url(../img/xiaotubiao.png) no-repeat -19px -202px;
+}
+.light span{
+	display:inline-block;
+	float:left;
+}
+.light_text{
+	margin-top:14px;
+	margin-left:20px;
+}
+.light img,.light span{
+	float:left;
+}
+.fankui_main{
+	color:#333;
+	margin-top:10px;
+	margin-left:100px;
+	width:1000px;
+	height:300px;
+	overflow:hidden;
+	font-family:"微软雅黑"
+}
+.fankui_main .fankui_main_a,.fankui_main .fankui_main_b{
+	float:left;
+}
+.fankui_main .fankui_main_a{
+	width:130px;
+	line-height:40px;
+	overflow:hidden;
+}
+.fankui_main .fankui_main_b{
+	font-size:14px;
+	line-height:20px;
+	margin-top:10px;
+}
+.fankui_main .fankui_main_b input{
+	margin-left:10px;
+}
+.fankui_main .fankui_main_a p{
+	float:right;
+	font-size:14px;
+}
+.fankui_main .fankui_main_main{
+	margin-top:20px;
+	margin-left:10px;
+	background-color:white;
+}
+.fankui_main .fankui_main_main textarea{
+		max-width:570px;
+	max-height:180px;
+	min-width:570px;
+	min-height:180px;
+}
+.fankui_main a{
+	margin-top:10px;
+	margin-left:10px;
+	display:block;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	color:white;
+	text-align:center;
+	background-color:#ff4500;
+	border-radius:5px;
+	text-decoration:none;
+	}

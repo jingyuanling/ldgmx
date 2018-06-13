@@ -1,0 +1,76 @@
+.panic_buy_bottom{
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.left_panic_buy_time{
+	width: 68.75%;
+	height: 100%;
+	background: url(../img/e8ba34bff2fa8334cc29ab73742639002.png) 0 0 no-repeat;
+	float: left;
+	overflow: hidden;
+}
+.buying_btn,.over_btn,.add_cart{
+	width: 31.25%;
+	height: 100%;
+	background-color: #f15353;
+	color: white;
+	font-size: 15px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+.internal_left{
+	height: 18px;
+	float: left;
+	margin-top: 16px;
+	margin-left: 4%;
+}
+.internal_left img{
+	height: 100%;
+}
+.internal_right{
+	float: right;
+	margin-right: 4%;
+}
+.internal_right span{
+	font-size: 12px;
+	display: inline-block;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #f15353;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 5px;
+	margin-top: 6px;
+	color: #fd5343;
+}
+.internal_right p{
+	text-align: center;
+	margin-top: 2px;
+	font-size: 14px;
+	color: #fd5343;
+}
+/*已经结束*/
+.over_btn{
+	background-color: #505050;
+}
+/*普通购买状态*/
+.return_two{
+	height: 100%;
+	float: left;
+	width: 18.75%;
+}
+.return_two img{
+	height: 34px;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.add_cart{
+	background-color: #ffb03f;
+}

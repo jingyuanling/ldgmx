@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>提现</title>
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_withdraw.css"/>
+	</head>
+	<body>
+		<div class="wine_header">
+            <div class="wine_all_class_goback">
+                <img src="img/main-goback.png">
+                <p>提现</p>
+            </div>
+        </div>
+        <div class="wine_withdraw_balance">
+        	<span class="wine_withdraw_balance_span1">余额</span>
+        	<span class="wine_withdraw_balance_span2">￥51236.00</span>
+        </div>
+        <a href="LD_wine_withdraw_success.html">
+        	<div class="wine_withdraw_balance_btn">
+	        	提现
+	        </div>
+        </a>
+        <p class="wine_withdraw_balance_prompt">注：提现必须提取账户全部余额</p>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-login.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="wine-js/wine-bound.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-wrap">
+			<div class="login-tit-logo">
+				<img src="imgs/login-logo.png" alt="" />
+			</div>
+			<div class="login-middle">
+				<p class="wine-identity-verify">
+					<input class="text-left" type="text" name="" id="" value="" placeholder="请输入验证码">
+				</p>
+				<p class="wine-identity-verify wine-identity-verify2">
+					<input class="text-center get-code-btn" type="button" name="" id="" value="获取验证码">
+					<input class="text-left" type="text" name="" id="" value="" placeholder="请输入验证码">
+				</p>
+			</div>
+			<input onclick="javascript:location='wine-person-center.html'" class="login-btn" type="button" name="" id="" value="登      陆" />
+			<div class="agree-deal-div"><p class="agree-deal agree_deal_active"><span class="sel"><img src="imgs/right-logo-white.png" alt="" /></span><span class="text">我已阅读《灵动酒行服务协议》</span></p></div>
+		</div>
+		<script type="text/javascript">
+			$('.agree-deal').click(function(){
+				$(this).toggleClass('agree_deal_active');
+			});
+		</script>
+	</body>
+</html>

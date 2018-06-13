@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>新闻详情</title>
+	    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/headAndfoot.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/list.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/material-center.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/article-details.css"/>
+	    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/sort.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="material-nav">
+			<span class="glyphicon glyphicon-menu-left"></span>
+			<p class="text-center">新闻详情</p>
+		</div>
+		<div class="container-fluid">
+			<div class="material-sort">
+				<div class="btn-group material-sort1">
+					<button type="button" class="btn dropdown-toggle sort_btn_active" data-toggle="dropdown">
+						<span class="default">全部</span><span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a class="text-right" href="#">节日宣传</a></li>
+						<li><a class="text-right" href="#">业务宣传</a></li>
+						<li><a class="text-right" href="#">产品宣传</a></li>
+						<li><a class="text-right" href="#">公司形象</a></li>
+						<li><a class="text-right" href="#">公司活动宣传</a></li>
+					</ul>
+				</div>
+				<div class="btn-group material-sort2">
+					<a href="###">
+						<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">使用最多</button>
+					</a>
+				</div>
+				<div class="btn-group material-sort3">
+					<a href="###">
+						<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">最新更新</button>
+					</a>
+				</div>
+			</div>
+			<div class="news-list-div">
+				<ul class="news-list-ul">
+					<li>
+						<p class="news_text">新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新……</p>
+						<div class="news_mark">
+							<span class="from">微博头条</span>
+							<span class="click"><img src="img/weibo-icon.png"/>12.3万</span>
+							<span class="time">3-21 14:30 上传</span>
+						</div>
+					</li>
+					<li>
+						<p class="news_text">新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新……</p>
+						<div class="news_mark">
+							<span class="from">微博头条</span>
+							<span class="click"><img src="img/weibo-icon.png"/>12.3万</span>
+							<span class="time">3-21 14:30 上传</span>
+						</div>
+					</li>
+					<li>
+						<p class="news_text">新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新……</p>
+						<div class="news_mark">
+							<span class="from">微博头条</span>
+							<span class="click"><img src="img/weibo-icon.png"/>12.3万</span>
+							<span class="time">3-21 14:30 上传</span>
+						</div>
+					</li>
+					<li>
+						<p class="news_text">新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新……</p>
+						<div class="news_mark">
+							<span class="from">微博头条</span>
+							<span class="click"><img src="img/weibo-icon.png"/>12.3万</span>
+							<span class="time">3-21 14:30 上传</span>
+						</div>
+					</li>
+					<li>
+						<p class="news_text">新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新……</p>
+						<div class="news_mark">
+							<span class="from">微博头条</span>
+							<span class="click"><img src="img/weibo-icon.png"/>12.3万</span>
+							<span class="time">3-21 14:30 上传</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

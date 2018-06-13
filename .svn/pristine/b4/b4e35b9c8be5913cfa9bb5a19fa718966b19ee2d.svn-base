@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="css/swiper-3.3.1.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/swiper-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/index_2015_5_26.js"></script>
+    <script type="text/javascript" src="js/Mbase.js"></script>
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+  
+
+    <title>首页</title>
+</head>
+<body>
+    <!-- header start -->
+<div class="header clearfix">
+    <div class="tit">
+        <a href="className.html"><img src="img/all.png"></a>
+    </div>
+    <div class="ipt">
+        <a href="search.html"><input id="ipt" type="text" class="form-control" placeholder="             请输入产品名,商品...">
+        </div>
+    <!-- <form action="/ware/search.action" id="index_searchForm" class="jd-search-form">
+        <div class="ipt">
+            <input id="ipt" type="text" class="form-control" placeholder="             请输入产品名,商品...">
+        </div>
+        <a href="javascript:void(0);" class="jd-search-icon-close jd-sprite-icon" id="index_clear_keyword"></a>
+        <a href="javascript:void(0);" id="index_search_submit" class="jd-search-from-action"></a>
+    </form> -->
+    <script>
+
+    </script>
+</div>
+<div class="box">
+    <div class="boxWrapper">
+        <div class="banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="img/banner.png"></a>
+                    </div> 
+                    <div class="swiper-slide">
+                        <a href="#"><img src="img/banner.png"></a>
+                    </div> 
+                    <div class="swiper-slide">
+                        <a href="#"><img src="img/banner.png"></a>
+                    </div> 
+                </div>
+               <div class="swiper-pagination"></div> 
+            </div>
+        </div>
+        <div class="brand">
+            <img src="img/brand.png">
+            <ul class="lei">
+                <a href=""><li><img src="img/list1.png"></li></a>
+                <a href="Web_tuan.html"><li><img src="img/list2.png"></li></a>
+                <a href="miaoshalist.html"><li><img src="img/list3.png"></li></a>
+                <a href="my-dingdan.html"><li class="fr"><img src="img/list4.png"></li></a>
+            </ul>
+        </div>
+        <ul class="cont">
+        <a href="shangpinxiangqing.html"><li>
+            <img src="img/pin.png" alt="">
+            <div class="info">
+                <p class="p1">古树380贺开山生茶 普洱茶 357g</p>
+                <p>【和于心品于味行天下真普洱】</p>
+                <span>￥ 120.00元</span>
+                <p class="p2">￥ 500.00元<p>
+                <div class="car" id="car"><a href="javascript:void(0)" onclick="ShowDiv(1)"><img src="img/xincar.png"></a></div>
+            </div>
+            <div class="xian"><img src="img/hengxain.png"></div>
+        </li></a>
+        <a href="shangpinxiangqing.html"><li>
+            <img src="img/pin.png" alt="">
+            <div class="info">
+                <p class="p1">古树380贺开山生茶 普洱茶 357g</p>
+                <p>【和于心品于味行天下真普洱】</p>
+                <span>￥ 120.00元</span>
+                <p class="p2">￥ 500.00元<p>
+                <div class="car"><a href="javascript:void(0)" onclick="ShowDiv(1)"><img src="img/xincar.png"></a>
+                </div>
+            </div>
+            <div class="xian"><img src="img/hengxain.png"></div>
+        </li></a>
+        <a href="shangpinxiangqing.html"><li>
+            <img src="img/pin.png" alt="">
+            <div class="info">
+                <p class="p1">古树380贺开山生茶 普洱茶 357g</p>
+                <p>【和于心品于味行天下真普洱】</p>
+                <span>￥ 120.00元</span>
+                <p class="p2">￥ 500.00元<p>
+                <div class="car"><a href="javascript:void(0)" onclick="ShowDiv(1)"><img src="img/xincar.png"></a></div>
+            </div>
+            <div class="xian"><img src="img/hengxain.png"></div>
+        </li></a>
+        <a href="shangpinxiangqing.html"><li>
+            <img src="img/pin.png" alt="">
+            <div class="info">
+                <p class="p1">古树380贺开山生茶 普洱茶 357g</p>
+                <p>【和于心品于味行天下真普洱】</p>
+                <span>￥ 120.00元</span>
+                <p class="p2">￥ 500.00元<p>
+                <div class="car"><a href="javascript:void(0)" onclick="ShowDiv(1)"><img src="img/xincar.png"></a>
+                </div>
+            </div>
+            <div class="xian"><img src="img/hengxain.png"></div>
+        </li></a>
+        </ul>
+        <a href="#"><div class="jiazai">点击继续加载</div></a>
+        <div id="close" class="close">
+            <div class="che">
+                商品已成功加入购物车
+            </div>
+            <div class="but">
+                <li><a href="javascript:void(0);" onclick="ShowDiv(0)">关闭</a></li>
+                <li class="right"><a href="javascript:void(0);" onclick="ShowDiv(0)">确定</a></li>
+            </div>
+        </div>
+        <div class="beijing"></div>
+    </div>
+    
+</div>
+
+<div class="footer">
+    <div class="background"><img src="img/foot.png"></div>
+    <ul class="clearfix">
+        <a href="index.html"><li><img src="img/home.png"><span>首页</span></li></a>
+        <a href="className.html"><li><img src="img/fenlei.png"><span>分类</span></li></a>
+        <a href="gouwuche.html"><li><img src="img/car2.png"><span class="span1">购物车</span></li></a>
+        <a href="person.html"><li><img src="img/user.png"><span class="span2">个人中心</span></li></a>
+    </ul>
+</div>
+<script>
+  var mySwiper = new Swiper ('.swiper-container', {
+
+    direction: 'horizontal',
+    loop: true,
+    autoplay : 2000,
+    speed:300,
+    pagination : '.swiper-pagination',
+  })        
+  </script>
+</body>
+  <script language="javascript">
+    function ShowDiv(s){
+
+        // var screenWidth = document.body.clientWidth+document.body.scrollLeft; 
+        var screenWidth = window.screen.availWidth
+        var screenHeight = window.screen.availHeight  
+
+        document.getElementById("close").style.display='block';
+        var divObj = document.getElementById("close");   
+        // 返回元素的宽度和高度,以px计  
+        var divWidth = divObj.offsetWidth;   
+        var divHeight = divObj.offsetHeight; 
+        // 这里是让div的位置位于当前屏幕的中间位置,这里的当前屏幕指的是不带滚动条的  
+        var left = parseInt((screenWidth - divWidth)/2);   
+        var top = parseInt((screenHeight - divHeight)/2); 
+        // 带上滚动条的位置进行计算  
+        divObj.style.left = left+document.body.scrollLeft+"px"; 
+        // scrollTop 滚动条的垂直位置  
+        divObj.style.top = top + document.body.scrollTop+"px";
+                if(s>0){
+                      
+                    document.getElementById("close").style.display='block';
+                }else{
+                    document.getElementById("close").style.display='none';
+                }
+    }
+
+
+    </script>
+</html>

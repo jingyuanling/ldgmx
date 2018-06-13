@@ -1,0 +1,6 @@
+$('.look_car').click(function(){
+	$('.appointment_window_wrap').show();
+});
+$('.appointment_window_top img').click(function(){
+	$('.appointment_window_wrap').hide();
+});

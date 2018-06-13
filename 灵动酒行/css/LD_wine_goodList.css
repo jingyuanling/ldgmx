@@ -1,0 +1,289 @@
+body{
+	background-color: #f3f5f7;
+}
+.wine_goodsList_head{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    background: #d9333f;
+    position: fixed;
+    z-index: 100;
+    height: 0.8rem;
+}
+.wine_goodsList_head_return img{
+    position: absolute;
+    height: 0.34rem;
+    top: 0.23rem;
+    left: 0.3rem;
+}
+.wine_ipt{
+    width: 4.4rem;
+    height: 0.45rem;
+    margin: 0 auto;
+    margin-top: 0.175rem;
+}
+.wine_ipt .wine_ipt_inp{
+    width: 100%;
+    height: 100%;
+    border: none;
+    float: left;
+    border-radius: 0.2rem;
+    padding-left: 0.6rem;
+    font-size: 0.26rem;
+}
+.wine_ipt img{
+    width: 0.36rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: -0.4rem;
+}
+.wine_home{
+    font-size: 0.36rem;
+    height: 0.45rem;
+    position: absolute;
+    right: 0.20rem;
+    top: 0.175rem;
+    color: #fff;
+}
+.wine_goodList_screen{
+	display: flex;
+	justify-content: space-around;
+    padding: 0.9rem 0 0.1rem 0;
+	background-color: #f8f8f8;
+	border: 0.01rem solid #d7d7d7;
+}
+.wine_goodsList_wrap{
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 0.2rem;
+}
+.wine_goodsList_link{
+	overflow: hidden;
+	width: 100%;
+	background-color: #f8f8f8;
+	border-bottom: 0.01rem solid #d7d7d7;
+}
+.wine_goodsList_link .img_left{
+    width: 1.7rem;
+    height: 1.7rem;
+    float: left;
+    margin-right: 0.2rem;
+}
+.wine_goodsList_div{
+	border-top: 0.01rem solid #d7d7d7;
+}
+.wine_goodsList_link .img_left>img{
+	width: 100%;
+	height: 100%;
+	border-right: 0.01rem solid #d7d7d7;
+}
+.wine_goodsList_link .text_right_p1{
+	font-size: 0.28rem;
+	color: #373737;
+	overflow:hidden; 
+	margin: 0.1rem 0;
+	white-space：nowrap;
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+	padding-right: 0.1rem;
+	height: 0.75rem;
+}
+.wine_goodsList_link .text_right_p2{
+	font-size: 0.3rem;
+	color: #f03d02;
+	white-space：nowrap;
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+}
+.wine_goodsList_link .text_right_p2 s{
+	color: #ada9ad;
+}
+.wine_goodsList_link .text_right_p3{
+	font-size: 0.24rem;
+	color: #ada9ad;
+}
+.wine_goodsList_link .text_right_price{
+	font-size: 1.0em;
+	margin-top: 35px;
+	color: #f03d02;
+	position: absolute;
+    bottom: 0.2em;
+}
+/*弹出层*/
+.wine_goodList_alert_wrap,.wine_goodList_alert_all_class_wrap{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	display: none;
+}
+.wine_goodList_alert_content{
+    width: 5.8rem;
+    height: 100%;
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding-top: 0.8rem;
+    padding-bottom: 1.2rem;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.goodList_alert_content_class{
+	text-align: left;
+	padding: 0 0.2rem;
+}
+.goodList_alert_content_class p{
+    font-size: 0.3rem;
+    line-height: 2.5em;
+	box-sizing: border-box;
+}
+.goodList_alert_content_class .alert_content_span{
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.goodList_alert_content_class .alert_content_span span{
+	float: left;
+	font-size: 0.26rem;
+	background-color: #dce1e9;
+	display: inline-block;
+	margin-bottom: 0.8em;
+	text-align: center;
+	border-radius: 0.1rem;
+	padding: 0.1rem 0;
+	min-width: 1.6rem;
+}
+.wine_goodList_alert__bottom{
+	width: 100%;
+	height: 1rem;
+	position: fixed;
+	bottom: 0;
+	overflow: hidden;
+}
+.wine_goodList_alert__bottom span{
+	width: 2.9rem;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	font-size: 0.38rem;
+	text-align: center;
+	color: white;
+	line-height: 1rem;
+}
+.wine_goodList_alert__bottom span:nth-child(1){
+	background-color: #666666;
+}
+.wine_goodList_alert__bottom span:nth-child(2){
+	background-color: #d9333f;
+}
+.wine_goodList_alert_all_class{
+	width: 3.2rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	background-color: #f8f8f8;
+	padding-top: 0.8rem;
+	overflow-y: scroll;
+	box-sizing: border-box;
+}
+.wine_goodList_alert_all_class p{
+	text-align: left;
+	font-size: 0.3rem;
+	box-sizing: border-box;
+	line-height: 0.7rem;
+	padding-left: 0.2rem;
+}
+.wine_goodList_alert_all_class span{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.26rem;
+    box-sizing: border-box;
+    line-height: 0.5rem;
+    float: left;
+}
+.wine_goodList_alert_all_class span:hover{
+	color: #d9333f;
+}
+/*头部筛选栏*/
+.list_title{
+	z-index: 999;
+	margin-top: 0.8rem;
+	background-color: white;
+}
+.list_title_ul{
+	height: 0.45rem;
+	width: 100%;
+	display: flex;
+	justify-content:flex-start;
+}
+.list_title_ul li{
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+	border-right: 1px solid #e0e0e0;
+	line-height: 0.45rem;
+	color: #222222;
+}
+.list_title_ul li:nth-last-child(1){
+	border: 0;
+}
+.gene_triangle,.gene_triangleX{
+	border-left: 0.1rem solid transparent;
+    border-right: 0.1rem solid transparent;
+    border-top: 0.13rem solid #9a9a9a;
+    position: relative;
+    left: 0.1rem;
+    top: 0.2rem;
+}
+.gene_triangleS{
+	border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #9a9a9a;
+    position: relative;
+    top: -17px;
+    left: -7px;
+}
+.gene_triangleX{
+	top: 17px;
+}
+.list_title_ul .sortord{
+	width: 120%;
+}
+/*综合分类*/
+.list_sort_class{
+	width: 100%;
+    position: absolute;
+    background-color: #f8f8f8;
+	overflow: hidden;
+	min-width: 320px;
+	max-width: 640px;
+	top: 1.5rem;
+	display: none;
+}
+.list_sort_class li{
+	width: 100%;
+	font-size: 16px;
+	height: 40px;
+	color: #222222;
+	line-height: 40px;
+	padding-left: 8%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e0e0e0;
+}
+.list_sort_class li:hover{
+	color: #d9333f;
+}
+/*分类弹出框的选中状态*/
+.goodList_alert_content_class .alert_content_span .span_active{
+	color: white;
+	background-color: #d9333f;
+}

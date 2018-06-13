@@ -1,0 +1,452 @@
+<!doctype html>
+<html>
+	<head>
+		<title>鑫光明行</title>
+<meta charset="utf-8">
+<meta content="yes" name="apple-touch-fullscreen"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+		<link rel="stylesheet" type="text/css" href="css/base2013.css" charset="gbk"/>
+        <link rel="stylesheet" type="text/css" href="css/list.css" charset="gbk"/>
+        <link rel="stylesheet" type="text/css" href="css/guessing.css" charset="gbk"/>
+		<link rel="stylesheet" type="text/css" href="css/myhome1.01.css" charset="gbk"/>	
+		<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/spin.min.js"></script>
+
+		
+		<!--通用头尾css js add by lizhenyou 2015-4-17-->
+		<link rel="stylesheet" type="text/css" href="css/header.css" charset="utf-8"/>
+		<script src="js/m_common_header_bottom.js" type="text/javascript"></script>
+		
+	</head>
+
+<body id="body">
+<a name="top"></a>
+<header>
+		<div id="m_common_header" style="min-height:45px;"></div>
+</header>
+
+<!--<style type="text/css">
+	.current-half-width li{width:25% !important;}
+</style>-->
+	
+<input type="hidden" id="huiyuan_sid" value="501a220db0fae7baa5f6c7fc784541d6"/>
+	<div class="common-wrapper">
+            <div class="head-img">
+            	<div class="head-img-zuo">
+					<div class="my-img" style="background-image:url('http://storage.jd.com/i.imageUpload/6a645f3765633236363537646466313731343333363630353131333838_mid.jpg')"> 
+					</div>
+					<div class="head-name">
+						<p>XXX</p>
+						<p>特供定金：<i>10000</i></p>
+					</div>
+				</div>
+                <div class="head-img-you">
+					<div><a href="" class="qiandao">签到</a></div>
+                    <div class="head-set"><a href="zhanghaoguanli.html">账户管理、收货地址></a></div>
+                </div>
+            </div>
+            
+			<ul class="padding-list current-half-width">
+                <li>
+        			<a id="wait4Payment" href="guanzhu.html">
+        				<p id="wait4PaymentSum">&nbsp;0</p>
+        				<p>关注的商品</p>
+        			</a>
+        		</li>
+
+				<li>
+        			<a id="wait4Payment" href="guanzhu_2.html">
+        				<p id="wait4PaymentSum">&nbsp;0</p>
+        				<p>关注的商家</p>
+        			</a>
+        		</li>
+				<li>
+        			<a id="wait4Payment" href="liulanjilu.html">
+        				<p id="wait4PaymentSum">&nbsp;0</p>
+        				<p>浏览记录</p>
+        			</a>
+        		</li>
+			</ul>
+			
+        <!--618VIP入口-->
+		<ul class="couponIn-list">
+			<li>
+				<div class="couponIn-item">
+					<div class="couponIn-icon">
+                    	<a id="wodebigouma" href="">
+                        	<img src="http://img30.360buyimg.com/mobilecms/jfs/t922/69/914657568/1073/e0ed680a/55546b06Nbd7a17eb.png">
+						</a>
+					</div>
+					<div class="couponIn-item-info"> 
+						<a id="wodebigouma" href="my-dingdan.html">
+                        	<span class="info-title">我的订单</span> <span class="info-hint">查看全部订单
+                            </span> 
+						</a>
+					</div>
+				</div>
+			</li>
+			<ul class="menu-list">
+				<li> 
+					<a id="quanbudingdan" href="daifukuan.html">
+                    	<img src="img/daifukuan.png" alt=""/> 
+					</a>
+                    <p>
+                        <a id="quanbudingdan" href="daifukuan.html">待付款</a>
+                    </p>
+				</li>
+                <li> 
+					<a id="wodeqianbao" href="daishouhuo.html">
+                    	<img src="img/daishouhuo.png" alt=""/> 
+					</a>
+					<p>
+                    	<a id="wodeqianbao" href="daishouhuo.html">待收货</a> 					</p>
+                </li>
+				<li> 
+					<a id="liulanjilu" href="daipingjia.html">
+                    	<img src="img/daipingjia.png" alt=""/> 
+					</a>
+            		<p>
+                    	<a id="liulanjilu" href="daipingjia.html">待评价</a>				 					</p>
+				</li>
+                <li> 
+                	<a id="wodeguanzhu" href="tuihuo_kuan.html">
+                    	<img src="img/tuihuokuan.png" alt=""/> 
+					</a>
+					<p><a id="wodeguanzhu" href="tuihuo_kuan.html">退货/款</a>
+                    </p>
+                </li>
+			</ul>
+		</ul>
+        <ul class="couponIn-list">
+			<li>
+				<div class="couponIn-item">
+					<div class="couponIn-icon">
+						<a id="jingdonghuiyuan" href="my-zhanghu_yue.html">
+							<img src="img/wodezhanghu.png">
+						</a>
+					</div>
+					<div class="couponIn-item-info"> 
+                    	<a id="jingdonghuiyuan" href="my-zhanghu_yue.html">
+                        	<span class="info-title">我的账户</span> 
+                            <span class="info-hint">查看账户资金</span> 
+                        </a>
+					</div>
+				</div>
+			</li>
+            <li>
+				<div class="couponIn-item">
+					<div class="couponIn-icon">
+						<a id="jingdonghuiyuan" href="my-zhaiquan.html">
+							<img src="img/wodezhaiquna.png">
+						</a>
+					</div>
+					<div class="couponIn-item-info"> 
+                    	<a id="jingdonghuiyuan" href="my-zhaiquan.html">
+                        	<span class="info-title">我的债权</span> 
+                            <span class="info-hint">提交/查看债权</span> 
+                        </a>
+					</div>
+				</div>
+			</li>
+		</ul>
+        <ul class="couponIn-list">
+			<li>
+				<div class="couponIn-item">
+					<div class="couponIn-icon">
+						<a id="jingdonghuiyuan" href="yijianfankui.html">
+							<img src="img/yijianfankui.png">
+						</a>
+					</div>
+					<div class="couponIn-item-info"> 
+                    	<a id="jingdonghuiyuan" href="yijianfankui.html">
+                        	<span class="info-title">意见反馈</span> 
+                            <span class="info-hint">产品功能建议与反馈</span> 
+                        </a>
+					</div>
+				</div>
+			</li>
+            <li>
+				<div class="couponIn-item">
+					<div class="couponIn-icon">
+						<a id="jingdonghuiyuan" href="">
+							<img src="img/kefu.png">
+						</a>
+					</div>
+					<div class="couponIn-item-info"> 
+                    	<a id="jingdonghuiyuan" href="">
+                        	<span class="info-title">光明行客服</span> 
+                            <span class="info-hint">在线客服</span> 
+                        </a>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+<script type="text/javascript" src="js/jdslider.src.js"></script>
+<script type="text/javascript" src="js/news1.0.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+	showHeadInfo();
+
+    $('#guessing').jdSlider({
+        lineNum:2,
+        fitToScreen:true
+    });
+	
+	
+	if($('#jingdonghuiyuan')){
+	var huiyuanurl = $('#jingdonghuiyuan').attr('href')+'?sid='+$('#huiyuan_sid').val();
+	$('#jingdonghuiyuan').attr('href',huiyuanurl);
+	}
+});
+
+//显示头信息
+var showHeadInfo = function(){
+	var t = (new Date()).valueOf();
+	
+	jQuery.get('/myJd/showHeadInfo.json?t=' + t,
+		{},
+        function(data){
+			if(data){
+    			var wait4PaymentSum = data.wait4PaymentSum;
+    			var wait4DeliverySum = data.wait4DeliverySum;
+    			var infoCount = data.infoCount;
+				
+				$('#wait4PaymentSum').html(wait4PaymentSum);
+				$('#wait4DeliverySum').html(wait4DeliverySum);
+				$('#infoCount').html(infoCount);
+				
+				/*
+				if(infoCount > 0){
+					$('#unread-msg-point').addClass('unread-msg');
+				}else{
+					$('#unread-msg-point').removeClass('unread-msg');
+				}
+				*/
+				
+			}
+	 },'json');
+}
+
+//显示商品详情
+var showProductDetail = function(wareId,sid,clk,meObj){
+	
+	//alert('MMyJD_GuessYouLike' + " | " + wareId + " | " + urlRemoveParam(meObj.href,'sid'));
+	pingClick(true, 'MMyJD_GuessYouLike', wareId, urlRemoveParam(meObj.href,'sid'), '');
+
+	//埋点 猜猜你喜欢
+	//可能网络原因 ajax 访问服务器的时间过长或者是网络问题，可能引起跳转失败,所以现在是 a标签上 增加onclick方式.
+	jQuery.get('/myJd/loveProductDetail.json',
+		{ 'wareId': wareId , 'sid' : sid, 'clk' : clk},
+        function(data){
+     		//var url = 'http://m.jd.com/product/' + wareId + '.html?resourceType=recommend_productDetail&resourceValue=&sid=' + sid;
+			//window.location.href = url;
+	});
+	
+}
+
+$(document).ready(function(){
+	//埋点
+	var pingObject = [
+	{
+		id:'waite4Payment',
+		eventId:'MMyJD_Ordersnotpay'
+	},{
+		id:'waitDeliveryOrderList',
+		eventId:'MMyJD_Ordersnotreceiving'
+	},{
+		id:'myMessage',
+		eventId:'MMyJD_MyMessages'
+	},{
+		id:'quanbudingdan',
+		eventId:'MMyJD_AllOrders'
+	},{
+		id:'wodeqianbao',
+		eventId:'MMyJD_MyPurse'
+	},{
+		id:'wodeguanzhu',
+		eventId:'MMyJD_MyFollows'
+	},{
+		id:'liulanjilu',
+		eventId:'MMyJD_BrowserHistory'
+	},{
+		id:'fuwuguanjia',
+		eventId:'MMyJD_ServiceManager'
+	},{
+		id:'zhanghuguanli',
+		eventId:'MMyJD_AccountManager'
+	},{
+		id:'wodeyuyue',
+		eventId:'MMyJD_MyAppointment'
+	},{
+		id:'yingyongtuijian',
+		eventId:'MMyJD_ApplicationRecommend'
+	},{
+		id:'wodebigouma',
+		eventId:'MMyJD_JCode'
+	}];
+	
+  	jQuery.each(pingObject, function(i,n){      
+	  
+		var jObj = $("#" + n.id);
+	
+	  	jObj.bind("click",function(){
+			var href = jObj.attr("href").trim();
+			//alert(n.eventId + " | " + urlRemoveParam(href,'sid'));
+	  		pingClick(true, n.eventId, '', urlRemoveParam(href,'sid'), '');
+		
+      	});
+  	});
+
+});
+
+</script>
+
+    
+	<!-- 通用尾 div -->
+	<div id="m_common_bottom" style="min-height:170px;"></div>
+	
+	<!-- 通用Tip div 
+	<div id="m_common_tip" style="min-height:50px;"></div>
+	-->
+		
+	<!-- del by lizhenyou 2015-3-30
+	<footer>
+		<div class="login-area" id="footer">
+        	<div class="login">
+				                	<a rel="nofollow" href='/user/home.action?sid=501a220db0fae7baa5f6c7fc784541d6'>
+						        					jd_7ec26..
+        									</a>
+    				<span class="lg-bar">|</span>
+											<a rel="nofollow" href='https://passport.m.jd.com/user/logout.action?sid=501a220db0fae7baa5f6c7fc784541d6'>退出</a>
+													<span  class="new-fr"><a href="http://m.jd.com/showvote.html?sid=501a220db0fae7baa5f6c7fc784541d6">反馈</a><span class="lg-bar">|</span><a href="#top">回到顶部</a></span>
+            </div>
+        	<div class="version"><a href="http://m.jd.com/index.html?v=w&sid=501a220db0fae7baa5f6c7fc784541d6">标准版</a><a href="javascript:void(0)" class="on">触屏版</a><a href="http://www.jd.com" id="toPcHome">电脑版</a></div>
+            <div id="clientArea">
+				<a href="http://m.jd.com/download/downApp.html?sid=501a220db0fae7baa5f6c7fc784541d6"" id="layout_toClient" class="layout-openJD">客户端</a>
+			</div>
+			<div class="copyright">Copyright &copy; 2012-2015 京东JD.com 版权所有 </div>
+        </div>
+    </footer>
+	-->
+
+
+    <div style="display:none;">
+        	<img src="/ja.jsp?&amp;utmn=383112740&amp;utmr=http%3A%2F%2Fm.jd.com%2F%3Findexloc%3D1%26sid%3D501a220db0fae7baa5f6c7fc784541d6&amp;utmp=%2FmyJd%2Fhome.action&amp;guid=ON&jav=touch&pin=txjtfDTFmRYgAc2dDQhOEFaeHcNB96sq&utmac=MO-J2011-1" />
+</div>
+
+<script type="text/javascript">
+var jap = {
+    siteId : 'MO-J2011-1',
+    topic: 'traffic-jdm',
+    account : '',
+    skuid: '',
+    shopid: '',
+    orderid: '',
+    adsCookieName: 'mt_subsite',
+    jumpAppEnable : 1,
+    __cookie_jda: '__tra',
+    __cookie_jdb: '__trb',
+    __cookie_jdc: '__trc',
+    __cookie_jdu: '__tru',
+    __cookie_jdv: '__trv'
+};
+try{
+    jQuery.getScript("http://miscssl.360buyimg.com/jdf/1.0.0/unit/ja/1.0.0/ja.js",function(){});
+}catch(e){
+}
+</script>
+
+<script type="text/javascript" src="/js/html5/pingJS.1.0.js"></script>
+<script type="text/javascript">
+            pingJS();
+        </script>
+    
+
+
+<script type="text/javascript">
+$("#unsupport").hide();
+if(!testLocalStorage()){ //not support html5
+    if(0!=0 && !$clearCart && !$teamId){
+		$("#html5_cart_num").text(0>0>0);
+	}
+}else{
+	updateToolBar('');
+}
+
+$("#html5_cart").click(function(){
+//	syncCart('501a220db0fae7baa5f6c7fc784541d6',true);
+	location.href='http://m.jd.com/cart/cart.action';
+});
+
+function reSearch(){
+var depCity = window.sessionStorage.getItem("airline_depCityName");
+	if(testSessionStorage() && isNotBlank(depCity) && !/^\s*$/.test(depCity) && depCity!=""){
+    	var airStr = '<form action="/airline/list.action" method="post" id="reseach">'
+        +'<input type="hidden" name="sid"  value="501a220db0fae7baa5f6c7fc784541d6"/>'
+        +'<input type="hidden" name="depCity" value="'+ window.sessionStorage.getItem("airline_depCityName") +'"/>'
+        +'<input type="hidden" name="arrCity" value="'+ window.sessionStorage.getItem("airline_arrCityName") +'"/>'
+        +'<input type="hidden" name="depDate" value="'+ window.sessionStorage.getItem("airline_depDate") +'"/>'
+        +'<input type="hidden" name="depTime" value="'+ window.sessionStorage.getItem("airline_depTime") +'"/>'
+        +'<input type="hidden" name="classNo" value="'+ window.sessionStorage.getItem("airline_classNo") +'"/>'
+        +'</form>';
+    	$("body").append(airStr);
+    	$("#reseach").submit();
+	}else{
+    	window.location.href='http://m.jd.com/airline/index.action?sid=501a220db0fae7baa5f6c7fc784541d6';
+	}
+}
+ //banner 关闭点击
+    $('.div_banner_close').click(function(){
+        $('#div_banner_header').unbind('click');
+        jQuery.post('/index/addClientCookieVal.json',function(d){
+              $('#div_banner_header').slideUp(500);
+        });
+    });
+    //banner 下载点击
+    $('.div_banner_download').click(function(){
+         var downloadUrl = $(this).attr('url');
+         jQuery.post('http://m.jd.com/index/addClientCookieVal.json',function(d){
+               window.location.href=downloadUrl;
+        });
+    });
+
+
+
+
+	
+</script>
+
+<!--通用头脚本  add by lizhenyou 2015-3-30 -->
+<script>
+    $(document).ready(function(){
+		var mchb = new MCommonHeaderBottom();
+    	var title = "个人中心";
+    	var headerArg = {hrederId : 'm_common_header', title:title, sid : '501a220db0fae7baa5f6c7fc784541d6', isShowShortCut : false, selectedShortCut : '4'};
+    	mchb.header(headerArg);
+		
+		var sid = '501a220db0fae7baa5f6c7fc784541d6';
+    	var pin = 'jd_7ec26657ddf17';
+    	var toPcSkipurl = 'http://www.jd.com/#m'; //跳转电脑版url
+    	var footerPlatforms = mchb.platformEnum(toPcSkipurl,sid).enum3_1;
+        var bottomArg = {bottomId : 'm_common_bottom', sid : sid, pin : pin ,footerPlatforms : footerPlatforms};
+        mchb.bottom(bottomArg);	
+    });
+	
+    </script>
+	
+<script>
+	var urlRemoveParam = function(url,paramName){
+		var myurl=new MJdUrl.URL(url);
+		myurl.remove(paramName); //删除了 paramName 
+		return myurl.url();
+	}
+</script>
+</body>
+</html>
+
+

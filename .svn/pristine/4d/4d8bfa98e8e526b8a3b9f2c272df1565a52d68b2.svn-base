@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>我的会员</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_member.css"/>
+	</head>
+	<body>
+		<div class="wine_header">
+            <div class="wine_all_class_goback">
+                <img src="img/main-goback.png">
+                <p>我的会员</p>
+            </div>
+        </div>
+        <div class="wine_member_wrap">
+        	<div class="wine_mem_inf">
+	        	<span>昵称 &nbsp;&nbsp;FD4556448</span>
+	        	<span>2017-04-08</span>
+	        </div>
+	        <div class="wine_mem_inf">
+	        	<span>昵称 &nbsp;&nbsp;FD4556448</span>
+	        	<span>2017-04-08</span>
+	        </div>
+	        <div class="wine_mem_inf">
+	        	<span>昵称 &nbsp;&nbsp;FD4556448</span>
+	        	<span>2017-04-08</span>
+	        </div>
+	        <div class="wine_mem_inf">
+	        	<span>昵称 &nbsp;&nbsp;FD4556448</span>
+	        	<span>2017-04-08</span>
+	        </div>
+        </div>
+	</body>
+</html>

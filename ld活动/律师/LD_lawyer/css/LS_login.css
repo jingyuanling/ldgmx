@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+    background-image: url(../img/LS_bg.png);
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.big-box{
+    width: 100%;
+    height:100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: absolute;  
+    padding-top: 4em;
+}
+.logo{
+    margin-bottom: 4em;
+}
+.logo img:nth-child(1){
+    width: 25%;
+    margin: 0 auto;
+}
+.logo img:nth-child(2){
+	width: 60%;
+    margin: 1em auto;
+}
+.denglu{
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+}
+.denglu input{
+    width: 100%;
+    height: 60px;
+    padding-left: 60px;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 7px;
+    border:none;
+    position: relative;
+}
+.denglu  span img{
+    position: absolute;
+    margin-top: -60px;
+    width: 60px;
+    height: 60px;
+}
+.denglu p.denglu{
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 7px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #595959;
+    margin-top: 30px;
+}
+.denglu p.mima{
+    color: #b1c6a1;
+    font-size: 16px;
+    text-align: right;
+    line-height: 45px;
+}
+

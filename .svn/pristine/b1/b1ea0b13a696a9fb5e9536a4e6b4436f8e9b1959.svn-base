@@ -1,0 +1,134 @@
+.message_title,.evaluation_title,.order_title{
+	font-size: 14.67px;
+	color: #000000;
+}
+.message_title_spfk{
+	padding-right: 33px;
+}
+
+.message-content,.evaluation-content,.order-content{
+	margin-top: 15px;
+	padding: 15px 35px 0;
+	word-wrap: break-word;
+	overflow: hidden;
+	background-color: #f0f0f0;
+	padding-bottom: 10px;
+}
+.message-content{
+	display: block;
+}
+.evaluation-content,.order-content{
+	display: none;
+}
+.message_feedback,.evaluation_feedback,.order_feedback{
+	/*border-top: 1px solid #D6D6D6;*/
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 13.33px;
+	font-family:"Regular";
+	color: #E83E00;
+}
+.chakanxiangqing{
+	width: 75px;
+	height: 25px;
+	border: 1px solid #E83E00;
+	color: #E83E00;
+	font-size: 13.6px;
+	font-family:"Regular";
+	text-align: center;
+	line-height: 25px;
+	border-radius: 5px;
+	float: right;
+}
+.delectimgDiv{
+	/*height: 14.67px;*/
+}
+.delectimg{
+	width: 18px;
+	height: 18px;
+	float: right;
+	position: relative;
+	left: 18px;
+}
+.chakan-content{
+	margin-top: 15px;
+	padding: 20px 45px 0 35px;
+	word-wrap: break-word;
+}
+.message_title span{
+	margin-left: 10px;
+	font-size: 14px;
+	font-family:"Regular";
+}
+.liuyan_title, .saretitle>h3{
+	display: inline-block;
+}
+
+.saretitle>span{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.liuyan_titleDiv{
+	height: 45px;
+	background-color: #f0f0f0;
+    margin-top: 15px;
+    line-height: 45px;
+    padding-left: 10px;
+}
+.liuyan_title li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 14px;
+	color: #000000;
+	font-family:"Regular";
+	margin-right: 10px;
+	/*border: 1px solid red;*/
+	
+}
+.release_time{
+	font-size: 14px;
+	font-family:"Regular";
+	float: right;
+}
+.feedbackxiangqing{
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 13px;
+	font-family:"Regular";
+	color: #000000;
+}
+.reply-content{
+	padding: 30px 60px 0 45px;
+	word-wrap: break-word;
+}
+.reply-content-bg{
+	padding: 15px 17px 35px 15px;
+	background-color: #f0f0f0;
+}
+.official_reply{
+	border-top: 1px solid #D6D6D6;
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 13px;
+	color: #E83E00;
+	font-family:"Regular";
+}
+/*有未读消息时的红色圆点样式*/
+.red_dot{
+	width: 5px;
+	height: 5px;
+	display: inline-block;
+	background-color: #E83E00;
+	border-radius: 50%;
+	/*float: left;*/
+	position: absolute;
+	left: 0;
+	top: 394px;
+}
+.active{
+	background-color: white;
+	color: #E83E00!important;
+	border-bottom: 2px solid #E83E00;
+}
+
+

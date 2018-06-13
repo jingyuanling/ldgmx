@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+html{
+    background-color:#ebebeb
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.tixian-box{
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaea;
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+    font-family:"微软雅黑";
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.main-top p{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+.tixian-cont{
+    width: 100%;
+    padding: 4px 13px;
+}
+.tixian-cont p{
+    font-size: 12px;
+    color: #000;
+    line-height: 30px;
+}
+.tixian-cont p span{
+    float: right;
+}
+.tixian-cont p span.right{
+    color: #8b8b8b;
+}
+.tixian-cont p.tixiananniu{
+    width: 100%;
+    padding:0 13px;
+    height:40px;
+    background-color: #fff;
+    border:1px solid #bbbbba;
+    border-radius: 8px;
+    margin:0 auto;
+    margin-top: 25px;
+    text-align: center;;
+    line-height: 38px;
+}
+.tixian-cont p.care{
+    color: #8b8b8b;
+}

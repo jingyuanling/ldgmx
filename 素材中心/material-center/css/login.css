@@ -1,0 +1,70 @@
+.login-wrap{
+	height: 100%;
+	background-color: #d22d38;
+	padding: 2.40rem 0.45rem;
+}
+.login-tit{
+	color: #ffeaea;
+	font-size: 0.3rem;
+	margin-top: 0.35rem;
+}
+.ld-logo{
+	width: 1.57rem;
+	height: 1.58rem;
+}
+.login-content{
+	padding-top: 1.8rem;
+}
+.login-content input{
+	height: 0.75rem;
+	font-size: 0.24rem;
+	color: #e34e49;
+	margin-bottom: 0.36rem;
+	background-color: #f9dbda;
+}
+/*/双击查看原图rome谷歌浏览器，Safari苹果浏览器*/
+.login-content input[name="color"]::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: #e34e49;
+}
+/*//firefox火狐浏览器*/
+.login-content input[name="color"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+	color: #e34e49;
+} 
+.login-content input[name="color"]::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+	color: #e34e49;
+}
+/*//IE浏览器*/
+.login-content input[name="color"]:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+	color: #e34e49;
+}
+.login-btn{
+	height: 0.75rem;
+	font-size: 0.24rem;
+	color: #e34e49;
+	margin-top: 0.75rem;
+	padding: 0;
+    line-height: 0.75rem;
+    letter-spacing: 0.2rem;
+    text-indent: 0.2rem;
+}
+.login-form{
+	font-size: 0.24rem;
+	color: #ffffff;
+}
+.login_form_p{
+	float: right;
+}
+.login-form .checkbox label{
+	padding-left: 0.3rem;
+	height: 0.27rem;
+    line-height: 0.27rem;
+}
+.login-form input[type="checkbox"]{
+	width: 0.27rem;
+	height: 0.27rem;
+    margin-left: -0.27rem;
+    margin-top: -0.008rem;
+}
+.btn.focus, .btn:focus, .btn:hover{
+	color: #e34e49;
+}

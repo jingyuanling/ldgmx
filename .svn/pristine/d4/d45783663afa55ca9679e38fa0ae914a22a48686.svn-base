@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headandfoot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/upload-order-num.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<title>上传运单号</title>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="system-nav">
+			<img class="left-return" src="img/left_return.png"/>
+			<p class="title-name">上传运单号</p>
+			<span class="nav-right-text">保存</span>
+		</div>
+		<div class="upload-order-wrap">
+			<div class="upload-order-upper">
+				<p class="upload-tit">上传照片</p>
+				<div class="upload-photo-frame">
+					<img class="add-gray-img" src="img/add-car-gray.png"/>
+					<p>上传照片</p>
+					<p>（请上传运单号）</p>
+				</div>
+			</div>
+			<div class="upload-log-inform">
+				<p class="log-choose-tit">选择物流公司<img src="img/triangular-arrowheads.png"/></p>
+				<p>物流公司：<input class="log-inp" type="text" name="" id="" value="" placeholder="德邦物流" /></p>
+				<p>物流单号：<input class="log-num-inp" type="text" name="" id="" value="" placeholder="12345678987456321" /></p>
+			</div>
+		</div>
+		<!--隐藏区域-->
+		<!--点击上传运单号弹框-->
+		<div class="upload-photo-gray">
+			
+		</div>
+		<!--底部栏-->
+		<div class="system-btm">
+			<ul>
+				<li>
+					<a href="###">
+						<img class="seller_center" src="img/seller_center_gray.png"/>
+						<p>卖家中心</p>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img class="management_center" src="img/management_center_red.png"/>
+						<p class="system-btm-p">管理中心</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

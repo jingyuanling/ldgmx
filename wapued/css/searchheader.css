@@ -1,0 +1,142 @@
+@charset "utf-8";
+.header-title{
+	margin: 0 50px;
+	text-align: center;
+	height: 44px;
+	line-height: 44px;
+	font-size: 16px;
+	color: #252525;
+}
+.header-icon-back span, .header-icon-shortcut span, .header-icon-cancel span, .header-icon-logo span, .header-shortcut span, .header-icon-category span, .header-icon-search span, .header-icon-close:after, .auto-complete-list li:before, .footer-platforms li a:before, .footer-platforms li a.badge:after, .search-tab li.sort-by-integrative a:after, .search-tab li.sort-by-integrative.active a:after, .search-tab li.sort-by-price a:after, .search-tab li.sort-by-price.active a.arrow-down:after, .search-tab li.sort-by-price.active a.arrow-up:after, .sidebar-categories .arrow, .sidebar-categories li.checked .tick, .sidebar-btn-location:after, .supplier-arrow-right, .landing-keywords a:before, .region-title-back i {
+	display: block;
+	background: url(../img/xgmx-sprites.png) no-repeat;
+	background-size: 200px 200px;
+}
+.header-bar {
+	position: relative;
+	background: #efefef;
+	background-size: 100% 44px;
+	min-height: 44px;
+	border-bottom: 1px solid #bfbfbf;
+	border-width: 0 0 1px 0;
+}
+.header-icon-cancel span,.header-icon-back span {
+	width: 20px;
+	height: 20px;
+	margin: 12px 0 0 10px;
+}
+.header-icon-cancel span{
+	background-position: -40px 0;
+}
+.header-icon-back span{
+	background-position: -20px 0;
+}
+.header-icon-back, .header-icon-logo {
+	position: absolute;
+	width: 40px;
+	height: 44px;
+}
+.header-icon-cancel {
+	position: absolute;
+	width: 40px;
+	height: 44px;
+}
+.header-search-form {
+	display: block;
+	padding: 0;
+	margin: 0 10px 0 40px;
+	height: 44px;
+	overflow: hidden;
+}
+.header-search-box {
+	margin-top: 7px;
+	height: 30px;
+	margin-right: 32px;
+}
+.on-blur .header-search-input, .mlist.hide-landing .on-blur .header-search-input {
+	border-right: 1px solid #bfbfbf;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.header-search-input {
+	display: block;
+	width: 100%;
+	border: 1px solid #bfbfbf;
+	border-radius: 4px 0 0 4px;
+	height: 30px;
+	overflow: hidden;
+	background: #fff;
+	font-size: 12px;
+	border-right: 0;
+}
+.header-search-input input {
+	border: 0;
+	background: none;
+	font-size: 12px;
+	line-height: 1.2em;
+	height: 1.2em;
+	margin-top: 6px;
+	margin-left: 10px;
+	width: 80%;
+}
+.header-icon-shortcut, .header-icon-category {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 44px;
+	overflow: hidden;
+}
+.header-icon-shortcut span {
+	width: 24px;
+	height: 24px;
+	margin: 12px 10px 0 10px;
+	background-position:-60px 0;
+}
+.header-shortcut {
+	display: table;
+	width: 100%;
+	background: #404042;
+	height: 57px;
+}
+.header-shortcut li {
+	display: table-cell;
+	width: 25%;
+	text-align: center;
+}
+.header-shortcut a {
+	border: 0;
+	color: #fff;
+	text-decoration: none;
+}
+.header-shortcut span.shortcut-home {
+	background-position: -30px -27px;
+}
+.header-shortcut span, .header-shortcut strong {
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	font-weight: normal;
+	font-size: 12px;
+}
+.header-shortcut span, .header-shortcut strong {
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	font-weight: normal;
+	font-size: 12px;
+}
+.header-shortcut span {
+	width: 30px;
+	height: 30px;
+	margin-top: 6px;
+}
+.header-shortcut span.shortcut-categories {
+	background-position: -60px -27px;
+}
+.header-shortcut span.shortcut-cart {
+	background-position: -90px -27px;
+}
+.header-shortcut span.shortcut-my-account {
+	background-position: -120px -27px;
+}

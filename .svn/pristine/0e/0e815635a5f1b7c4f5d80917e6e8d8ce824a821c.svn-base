@@ -1,0 +1,135 @@
+.double_ninth_wrap{
+	width: 100%;
+	position: relative;
+}
+.ninth_banner,.ninth_banner img{
+	width: 100%;
+}
+.ninth_content{
+	width: 100%;
+	background: url(../img/nine_wrap_bg.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 200px;
+}
+.ninth_center{
+	width: 100%;
+	margin: 0 auto;
+}
+.ninth_center .center_title,.nine_bottom .center_title{
+	width: 100%;
+	text-align: center;
+}
+.ninth_center .center_title img,.nine_bottom .center_title img{
+	width: 4.54rem;
+	margin: 0 auto;
+}
+.nine_rules_text{
+	width: 100%;
+}
+.nine_rules_title{
+	width: 100%;
+	text-align: center;
+    font-size: 0.28rem;
+	color: #ac5f14;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.nine_rules_text span{
+	display: inline-block;
+	width: 90%;
+	padding: 0.23rem 0.48rem;
+	color: #ac5f14;
+	font-size: 0.17rem;
+	background-color: rgba(255,243,194,0.8);
+	margin-left: 5%;
+}
+.nine_active{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+/*抽奖转盘*/
+.nine_active_left{
+	width: 6rem;
+	margin-top: 10px;
+	position: relative;
+	margin: 0 auto;
+}
+.nine_active_left .choujiang_bg{
+	width: 100%;
+}
+.nine_line div{
+	float: left;
+}
+.nine_square_div{
+	overflow: hidden;
+	position: absolute;
+	top: 1.3rem;
+    left: 0.33rem;
+}
+.nine_square_div .nine_line div{
+	width: 1.05rem;
+    height: 1.05rem;
+}
+.nine_square_div .nine_line div img{
+	width: 100%;
+}
+.nine_square_div #nine_lucky_btn {
+	width: 3.15rem;
+}
+/*中奖名单*/
+.nine_active_right{
+	width: 5.8rem;
+	height: 4.36rem;
+	padding-top: 1.8rem;
+	background: url(../img/nine_zjmd_m_bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.nine_gonggao{
+    width: 5.3rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.nine_gonggao .nine_gonggao_ul li{
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-around;
+}
+.nine_gonggao .nine_gonggao_ul li span{
+	display: inline-block;
+	width: 33.33%;
+	text-align: center;
+	font-size: 0.15rem;
+	color: #ac6114;
+}
+.nine_prizes_center{
+	width: 90%;
+	margin-left: 5%;
+	display: -webkit-box; 
+	display: -moz-box;  
+	display: -ms-flexbox;  
+	display: -webkit-flex;  
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.nine_prizes_center img{
+	margin-bottom: 0.15rem;
+	width: 1.4rem;
+    height: 1.4rem;
+}
+.nine_shengming{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+}
+.nine_shengming img{
+	width: 4rem;
+	margin: 0 auto;
+}

@@ -1,0 +1,223 @@
+body{
+	background-color: #f3f5f7;
+}
+.wine_goodsList_head{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 37px;
+    background: #d9333f;
+    position: fixed;
+    z-index: 100;
+    height: 39px;
+}
+.wine_goodsList_head_return img{
+    width: 10px;
+    margin-left: 15px;
+    margin-top: 7px;
+    float: left;
+}
+.wine_ipt{
+    margin-left: 60px;
+    margin-right: 51px;
+    height: 37px;
+}
+.wine_ipt .wine_ipt_inp{
+    width: 95%;
+    border:none;
+    height: 24px;
+    float: left;
+    margin-top: 6px;
+    border-radius: 5px;
+    padding-left: 18px;
+    font-size: 0.7em;
+}
+.wine_ipt img{
+    width: 12px;
+    float: left;
+    margin-left: 3px;
+    margin-top: -19px;
+    margin-right: 7px;
+}
+.wine_home{
+	float: right;
+    height: 100%;
+    line-height: 39px;
+    margin-right: 5px;
+	color: white;
+    font-size: 1.2em;
+    margin-top: -38px;
+}
+.wine_goodList_screen{
+	display: flex;
+	justify-content: space-around;
+	padding: 45px 0 6px 0;
+	background-color: #f8f8f8;
+}
+.wine_goodList_screen_select{
+	width: 30%;
+	font-size: 0.8em;
+	padding: 0.3em 0;
+}
+.wine_goodList_screen_span{
+	display: inline-block;
+	width: 15%;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 0.3em 0;
+	border: 1px solid transparent;
+}
+.wine_goodsList_wrap{
+	width: 100%;
+	padding: 0 6%;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.wine_goodsList_link{
+	overflow: hidden;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.wine_goodsList_link .img_left{
+	display: table-cell;
+	width: 40%;
+	padding-right: 2%;
+	vertical-align: top;
+}
+.wine_goodsList_link .img_left>img{
+	width: 100%;
+	
+}
+.wine_goodsList_link .text_right{
+	display: table-cell;
+    position: relative;
+}
+.wine_goodsList_link .text_right_p1{
+	font-size: 1.0em;
+	color: #373737;
+	overflow:hidden; 
+	white-space：nowrap;
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+	top: 0.2em;
+}
+.wine_goodsList_link .text_right_p2{
+	position: absolute;
+	font-size: 0.8em;
+	color: #ada9ad;
+	overflow:hidden; 
+	white-space：nowrap;
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+	margin-top: 10px;
+	top: 40%;
+}
+.wine_goodsList_link .text_right_p3{
+	position: absolute;
+	font-size: 1.0em;
+	color: #f03d02;
+	margin-top: 15px;
+	bottom: 0.2em;
+}
+.wine_goodsList_link .text_right_price{
+	font-size: 1.0em;
+	margin-top: 35px;
+	color: #f03d02;
+	position: absolute;
+    bottom: 0.2em;
+}
+/*弹出层*/
+.wine_goodList_alert_wrap,.wine_goodList_alert_all_class_wrap{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	display: none;
+}
+.wine_goodList_alert_content{
+	width: 85%;
+	height: 100%;
+	background-color: #f8f8f8;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	padding-top: 39px;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
+.goodList_alert_content_class{
+	text-align: left;
+}
+.goodList_alert_content_class p{
+	font-size: 1.4em;
+	line-height: 2.5em;
+	padding-left: 5%;
+	box-sizing: border-box;
+}
+.goodList_alert_content_class span{
+	font-size: 1.2em;
+	background-color: #dce1e9;
+	display: inline-block;
+	width: 25%;
+	margin-bottom: 0.8em;
+	margin-left: 5%;
+	text-align: center;
+	border-radius: 0.2em;
+	padding: 0.2em 0;
+}
+.wine_goodList_alert__bottom{
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	bottom: 0;
+	overflow: hidden;
+}
+.wine_goodList_alert__bottom span{
+	width: 42.5%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
+	line-height: 40px;
+}
+.wine_goodList_alert__bottom span:nth-child(1){
+	background-color: #666666;
+}
+.wine_goodList_alert__bottom span:nth-child(2){
+	background-color: #d9333f;
+}
+.wine_goodList_alert_all_class{
+	width: 42.5%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	background-color: #f8f8f8;
+	padding-top: 39px;
+	overflow-y: scroll;
+	box-sizing: border-box;
+}
+.wine_goodList_alert_all_class p{
+	text-align: left;
+	font-size: 1.4em;
+	padding-left: 0.8em;
+	box-sizing: border-box;
+	line-height: 2.0em;
+}
+.wine_goodList_alert_all_class span{
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	font-size: 1.2em;
+	padding-left: 1.2em;
+	box-sizing: border-box;
+	line-height: 1.8em;
+}

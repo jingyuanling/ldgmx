@@ -1,0 +1,51 @@
+.life_billing_wrap{
+	width: 100%;
+	padding-top: 50px;
+}
+.life_billing_logo{
+	text-align: center;
+	margin-top: 2em;
+}
+.life_billing_logo img{
+	margin: 0 auto;
+	height: 4em;
+}
+.life_billing_name{
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 2em;
+}
+.life_billing_money{
+	text-align: center;
+	font-size: 1.5em;
+}
+.life_bond_payment{
+	overflow: hidden;
+	padding: 0 3%;
+	line-height: 3em;
+	border-bottom: 1px solid #d3d3d3;
+}
+.life_bond_payment_span1{
+	float: left;
+	color: #9d9d9d;
+}
+.life_bond_payment_span2{
+	float: right;	
+	color: #222222;
+}
+.life_billing_message{
+	overflow: hidden;
+	padding: 0 3%;
+	line-height: 3em;
+}
+.life_sure_btn{
+	width: 80%;
+	background-color: #ff5858;
+	color: white;
+	line-height: 2.5em;
+	text-align: center;
+	font-size: 1.2em;
+	margin-left: 10%;
+	margin-top: 1em;
+	border-radius: 0.3em;
+}

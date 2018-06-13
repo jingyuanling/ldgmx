@@ -1,0 +1,52 @@
+<!--pages/writeEva/writeEva.wxml-->
+<page>
+  <!--导航栏-->
+		<view class="life_home_nav">
+			<view class="life_nav_left">
+				<image class="img1" src="../../res/images/return_img.png"/>
+			</view>
+			<view class="life_home_nav_center">
+				写评价
+			</view>
+		</view>
+		<view class="write_eva_wrap">
+			<view class="write_eva_content">
+				<!--店铺信息-->
+				<view class="eva_store_info">
+					<span class="eva_store_logo">
+						<image src="../../res/images/pay_merchants_logo.png"/>
+					</span>
+					<span class="eva_store_name">牛肉汤</span>
+				</view>
+				<!--五星好评-->
+				<view class="eva_five_star">
+					<image src="../../res/images/gray-stars.png"/>
+					<image src="../../res/images/gray-stars.png"/>
+					<image src="../../res/images/gray-stars.png"/>
+					<image src="../../res/images/gray-stars.png"/>
+					<image src="../../res/images/gray-stars.png"/>
+				</view>
+				<view class="textarea_div">
+					<textarea name="" rows="" cols="" placeholder="亲爱的客户，对我们的店铺进行评价吧~"></textarea>
+					<p>至少输入五个字</p>
+				</view>
+				<view class="eva_add_photos">
+					<!--添加图片的按钮-->
+					<image src="../../res/images/add_photos.png"/>
+					<!--添加的图片-->
+					<image src="../../res/images/person_photo.jpg"/>
+					<image src="../../res/images/add_photos.png"/>
+					<image src="../../res/images/add_photos.png"/>
+					<image src="../../res/images/add_photos.png"/>
+					<image src="../../res/images/add_photos.png"/>
+					<image src="../../res/images/add_photos.png"/>
+					<image src="../../res/images/add_photos.png"/>
+				</view>
+			</view>
+		</view>
+		<navigator href="###" class="eva_submit">
+			<view>
+				提交评价
+			</view>
+		</navigator>
+</page>

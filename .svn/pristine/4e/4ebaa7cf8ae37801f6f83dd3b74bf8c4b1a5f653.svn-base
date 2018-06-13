@@ -1,0 +1,201 @@
+.debt_wrap{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+.debt_banner{
+	width: 100%;
+	position: relative;
+}
+.debt_banner img{
+	width: 100%;
+}
+.debt_banner_btn{
+	width: 100px;
+	background-color: #76b0e9;
+	position: absolute;
+	bottom: 10%;
+	font-size: 18px;
+	border-radius: 10px;
+	text-align: center;
+	left: 50%;
+	margin-left: -50px;
+}
+.debt_logo{
+	width: 1017px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+	padding-bottom: 30px;
+}
+.debt_logo>img{
+	width: 100%;
+}
+.debt_logo_btn{
+	width: 150px;
+	height: 30px;
+	background-color: #76b0e9;
+	font-size: 18px;
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+	margin-left: -75px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+}
+.debt_content_wrap{
+	width: 100%;
+	background-color: #f1f1f1;
+	padding: 30px;
+}
+.debt_content_title{
+	width: 100%;
+	text-align: center;
+}
+.border_left,.border_right{
+	width: 30px;
+	height: 2px;
+	border-radius: 1px;
+	background-color: black;
+	display: inline-block;
+	position: relative;
+	top: -8px;
+}
+.debt_content_title_span{
+	margin: 0 20px;
+	font-size: 25px;
+}
+.debt_content{
+	width: 1017px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.debt_content_infor{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: white;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.debt_content_infor .debt_infor_left,.debt_content_infor .debt_infor_center{
+	float: left;
+}
+.debt_content_infor .debt_infor_right{
+	float: right;
+}
+.debt_infor_left{
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+.debt_infor_left>img{
+	width: 100%;
+	height: 100%;
+}
+.debt_infor_center{
+	font-size: 18px;
+}
+.debt_infor_right{
+	width: 120px;
+	height: 100px;
+	text-align: center;
+}
+.debt_infor_right>span{
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+	background-color: #76b0e9;
+	border-radius: 15px;
+	color: white;
+	margin-top: 20px;
+}
+.debt_infor_right>p{
+	font-size: 12px;
+	text-align: center;
+}
+.debt_page_ul{
+	overflow: hidden;
+	text-align: center;
+	margin-top: 50px;
+}
+.debt_page_ul>li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 20px;
+	border: 1px solid #4e7637;
+}
+/*弹框*/
+.debt_alert1{
+	width: 400px;
+	height: 250px;
+	background-color: #d7dbe6;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -125px;
+	margin-left: -200px;
+	display: none;
+}
+.debt_alert2{
+	width: 400px;
+	height: 250px;
+	background-color: #d7dbe6;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	display: none;
+}
+.debt_alert1_title{
+	width: 100%;
+	height: 20px;
+	background-color: #a3ccff;
+	padding: 0 10px;
+	font-size: 15px;
+	color: #14558c;
+	line-height: 20px;
+}
+.debt_alert1_delete,.debt_alert2_delete{
+	color: white;
+	float: right;
+	font-size: 15px;
+}
+.debt_alert1_content{
+	font-size: 27px;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+.debt_alert1_btn{
+	width: 170px;
+	height: 35px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #6aacff;
+	line-height: 35px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.debt_alert2_content{
+	font-size: 18px;
+	width: 360px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+.debt_alert2_content_contact{
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 800;
+	margin-top: 30px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>代理管理</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-person-center.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-agent-control.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow"><img src="imgs/left-return-arrow.png" alt=""/></span>
+				<p class="text-center nav-tit-name">代理管理</p>
+				<a href="javascript:void(0)" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap">
+			<div class="person-upper">
+				<span class="person-gmx-logo"><img src="imgs/gmx-logo.png" alt="" /></span>
+				<div class="account-infor agent-account-infor">
+					<span class="agent-user-photo"></span>
+					<p class="userName">昵称昵称</p>
+					<i class="level">高级VIP</i>
+					<p class="agent-commission"><span class="span1">当前一级佣金50%</span><span>二级佣金50%</span></p>
+				</div>
+			</div>
+			<div class="person-my">
+				<p class="agent">
+					<span class="left">一级代理</span>
+					<a href="" class="right">10人<img src="imgs/right-arrow-gray.png" alt="" /></a>
+				</p>
+				<p class="team">
+					<span class="left">二级代理</span>
+					<a href="" class="right">100人<img src="imgs/right-arrow-gray.png" alt="" /></a>
+				</p>
+			</div>
+			<div class="person-order-infor">
+				<a href="###" class="person-order-tit">
+					<span class="left">全部佣金明细</span>
+					<span class="right"><img src="imgs/right-arrow-gray.png" alt="" /></span>
+				</a>
+				<!--复制底部样式-->
+				<div class="agent-timenav-tab">
+					<table class="tit-table" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td class="agent_ta_active">今日<span></span></td>
+							<td>昨日<span></span></td>
+							<td>近7日<span></span></td>
+							<td>近30日<span></span></td>
+						</tr>
+					</table>
+					<div class="agent-timenav-content">
+						<p class="estimate-revenue">结算预估收入：<span>￥500</span></p>
+					</div>
+					<table class="revenue-table" class="" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>22<p>推广链接点击数</p></td>
+							<td>22<p>注册粉丝用户数量</p></td>
+						</tr>
+						<tr>
+							<td>22<p>今日注册粉丝升代理数量</p></td>
+							<td>22<p>所有粉丝今日升代理数量</p></td>
+						</tr>
+						<tr>
+							<td>22<p>今日一级代理订单</p></td>
+							<td>22<p>今日二级代理订单</p></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

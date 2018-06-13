@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>订单管理(待评价)</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-touchBalance.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-order-manage.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow" onclick="javascript:history.back(-1);"><img src="imgs/left-return-arrow2.png" alt=""/></span>
+				<p class="text-center nav-tit-name">订单管理</p>
+				<a href="wine-chat.html" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap">
+			<!--筛选头部-->
+			<table class="balance-nav-tab" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>全部<span class="line-red-all"></span></td>
+					<td>待支付<span class="line-red-all"></span></td>
+					<td>待收货<span class="line-red-all"></span></td>
+					<td class="balance_nav_active">待评价<span class="line-red-all"></span></td>
+				</tr>
+			</table>
+			<ul class="order-manage-ul">
+				<li>
+					<p class="order-manage-tit"><span class="left">郑州东区一号仓</span><span class="right-state">订单已完成</span></p>
+					<div class="manage-goods-list">
+						<span class="goodsImg"><img src="img/banner.jpg" alt="" /></span>
+						<p class="goodsName-price">
+							<span class="name">商品名称商品名称商品名称商品 名称商品名称商品名称商品</span>
+							<span class="price">¥100</span>
+						</p>
+						<p class="goodsName-num">
+							<span class="left-size">规格规格</span>
+							<span class="right-num">×2</span>
+						</p>
+					</div>
+					<div class="order-realy-pay">
+						<span class="get-value">获得经验1000点</span>
+						<p class="right-pay-details">
+							<span class="text1">实付：</span>
+							<span class="num">¥100</span>
+							<span class="text2">免运费</span>
+						</p>
+					</div>
+					<div class="order-manage-pay-btn">
+						<a class="go-pay reminder" href="wine-create-eval.html">评  价</a>
+					</div>
+				</li>
+				<li>
+					<p class="order-manage-tit"><span class="left">郑州东区一号仓</span><span class="right-state">已完成</span></p>
+					<div class="manage-goods-list">
+						<span class="goodsImg"><img src="img/banner.jpg" alt="" /></span>
+						<p class="goodsName-price">
+							<span class="name">商品名称商品名称商品名称商品 名称商品名称商品名称商品</span>
+							<span class="price">¥100</span>
+						</p>
+						<p class="goodsName-num">
+							<span class="left-size">规格规格</span>
+							<span class="right-num">×2</span>
+						</p>
+					</div>
+					<div class="order-realy-pay">
+						<span class="get-value">获得经验1000点</span>
+						<p class="right-pay-details">
+							<span class="text1">实付：</span>
+							<span class="num">¥100</span>
+							<span class="text2">免运费</span>
+						</p>
+					</div>
+					<div class="order-manage-pay-btn">
+						<a class="go-pay reminder" href="wine-create-eval.html">评  价</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

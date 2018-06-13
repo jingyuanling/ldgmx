@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+															   	 					   京东触屏版
+									</title>
+    	<meta name="author" content="m.jd.com">
+        			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	            <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+				<link rel="stylesheet" type="text/css" href="http://static.m.jd.com/home/css/base2013.css?v=14" charset="gbk"/>
+						<link rel="stylesheet" type="text/css" href="http://static.m.jd.com/home/css/myJd/myhome1.01.css?v=14" charset="gbk"/>	
+					<link href="css/reset.css" rel="stylesheet" type="text/css" />
+				<link href="css/header.css" rel="stylesheet" type="text/css" />
+    <script  type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/invite.js"></script>
+			
+		        								<link rel="apple-touch-icon-precomposed" href="http://m.jd.com/images/apple-touch-icon.png"/>
+						<script type="text/javascript" src="http://static.m.jd.com/home/js/jquery-1.6.2.min.js?v=14"></script>
+				        <script type="text/javascript" src="http://static.m.jd.com/home/js/html5/common.js?v=14"></script>
+        <script type="text/javascript" src="http://static.m.jd.com/home/js/html5/spin.min.js?v=14"></script>
+		
+		<!-- 对url处理 -->
+		<script type="text/javascript" src="/js/html5/plugin/ojbUrl.js"></script>
+		
+		<!--数据埋点-->
+		<script type="text/javascript" src="/js/html5/pingJS.1.0.js"></script>
+		
+		<!--通用头尾css js add by lizhenyou 2015-4-17-->
+		<!-- <link rel="stylesheet" type="text/css" href="http://st.360buyimg.com/common/commonH_B/css/header.css?v=14" charset="utf-8"/> -->
+        <script src="js/m_common_header_bottom.js" type="text/javascript"></script>
+		
+		
+	</head>
+
+<body id="body">
+<a name="top"></a>
+<header>
+		
+		<!-- 通用头 div -->
+    <div class="header">
+        <div class="back">
+            <a href="index.html"><img src="img/back.png"></a>
+        </div>
+        <div class="tit">
+            <p>浏览记录</p>
+        </div>
+        <div class="brand">
+            <a href="#"><img src="img/personbrand.png"></a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="background">
+        <ul class="clearfix">
+            <a href="index.html"><li><img src="img/home.png"><span>首页</span></li></a>
+            <a href="className.html"><li><img src="img/fenlei.png"><span>分类</span></li></a>
+            <a href="gouwuche.html"><li><img src="img/car2.png"><span class="span1">购物车</span></li></a>
+            <a href="person.html"><li><img src="img/user.png"><span class="span2">个人中心</span></li></a>
+        </ul>
+        </div>
+</div>
+		<!-- <div id="m_common_header" style="min-height:45px;"></div> -->
+		
+		<!-- del by lizhenyou 2015-3-30
+		<div class="new-header">
+        	<a href="javascript:pageBack();" class="new-a-back"><span>返回</span></a>
+							<h2>浏览记录</h2>
+			            <a href="javascript:void(0)" id="btnJdkey" class="new-a-jd"><span>京东键</span></a>
+    	</div>
+		<div class="new-jd-tab" style="display:none" id="jdkey">
+        	<div class="new-tbl-type">
+                <a href="http://m.jd.com/index.html?sid=fbc2ca76a83becdddd6c9f57c28da9a5" class="new-tbl-cell">
+                	<span class="icon">首页</span>
+					<p style="color:#6e6e6e;">首页</p>
+                </a>
+                <a href="http://m.jd.com/category/all.html?sid=fbc2ca76a83becdddd6c9f57c28da9a5" class="new-tbl-cell">
+                	<span class="icon2">分类搜索</span>
+					<p style="color:#6e6e6e;">分类搜索</p>
+                </a>
+                <a href="javascript:void(0)" id="html5_cart" class="new-tbl-cell">
+                	<span class="icon3">购物车</span>
+					<p style="color:#6e6e6e;">购物车</p>
+                </a>
+                <a href="/user/home.action?sid=fbc2ca76a83becdddd6c9f57c28da9a5" class="new-tbl-cell">
+                	<span class="icon4">我的京东</span>
+					<p style="color:#6e6e6e;">我的京东</p>
+                </a>
+            </div>
+        </div>
+		-->
+	</header>
+<div id="wareHistoryDiv" class="common-wrapper">
+			<ul class="concern-con">
+    		    			<li>
+        			<a class="wareHistory-btn-pingJS" did="1434891930" href='http://m.jd.com/product/1434891930.html?sid=fbc2ca76a83becdddd6c9f57c28da9a5'>
+        				<span class="p-img"><img src="http://m.360buyimg.com/n2/jfs/t850/327/620944179/242774/3bea83a/55350da6N7f755d5c.jpg" alt=""></span>
+        				<span class="p-name">南极人袜子5双装男短袜防脱防臭运动船袜男袜子男士纯棉男四季隐形袜 竹纤维纯色款 礼盒装船袜5双装</span>
+        				<span class="p-price">
+							    							    								&yen;29.00 
+    						            											</span>
+        			</a>
+        			<a href="javascript:void(0);" did="1434891930"  class="btn-grey delHistory">删除</a>
+        		</li>
+			    			<li>
+        			<a class="wareHistory-btn-pingJS" did="1600338364" href='http://m.jd.com/product/1600338364.html?sid=fbc2ca76a83becdddd6c9f57c28da9a5'>
+        				<span class="p-img"><img src="http://m.360buyimg.com/n2/jfs/t1096/246/1176333228/114127/b0b9b349/557d434fN38ec2d6b.jpg" alt=""></span>
+        				<span class="p-name">小米（MI）插线板 多功能插排接线板 3孔usb插座拖线板 官方标配</span>
+        				<span class="p-price">
+							    							    								&yen;53.00 
+    						            											</span>
+        			</a>
+        			<a href="javascript:void(0);" did="1600338364"  class="btn-grey delHistory">删除</a>
+        		</li>
+			    			<li>
+        			<a class="wareHistory-btn-pingJS" did="1622154787" href='http://m.jd.com/product/1622154787.html?sid=fbc2ca76a83becdddd6c9f57c28da9a5'>
+        				<span class="p-img"><img src="http://m.360buyimg.com/n2/jfs/t1402/325/556565516/72317/9bffc341/5596372fN8d672fec.jpg" alt=""></span>
+        				<span class="p-name">颂礼 USB二合一手机数据线适用小米三星 苹果iPhone5/5s/5c/6/Plus充电 橙色</span>
+        				<span class="p-price">
+							    							    								&yen;29.00 
+    						            											</span>
+        			</a>
+        			<a href="javascript:void(0);" did="1622154787"  class="btn-grey delHistory">删除</a>
+        		</li>
+			    			<li>
+        			<a class="wareHistory-btn-pingJS" did="1217499" href='http://m.jd.com/product/1217499.html?sid=fbc2ca76a83becdddd6c9f57c28da9a5'>
+        				<span class="p-img"><img src="http://m.360buyimg.com/n2/jfs/t277/193/1005339798/768456/29136988/542d0798N19d42ce3.jpg" alt=""></span>
+        				<span class="p-name">Apple iPhone 6 (A1586) 16GB 金色 移动联通电信4G手机</span>
+        				<span class="p-price">
+							    							    								&yen;4283.00 
+    						            											</span>
+        			</a>
+        			<a href="javascript:void(0);" did="1217499"  class="btn-grey delHistory">删除</a>
+        		</li>
+			    			<li>
+        			<a class="wareHistory-btn-pingJS" did="1618201" href='http://m.jd.com/product/1618201.html?sid=fbc2ca76a83becdddd6c9f57c28da9a5'>
+        				<span class="p-img"><img src="http://m.360buyimg.com/n2/jfs/t1270/246/1076044366/120025/3d6a9ae3/556d64fcNf28f90d0.jpg" alt=""></span>
+        				<span class="p-name">【简约套装版】魅族 魅蓝note2 16GB 白色 移动联通双4G手机 双卡双待</span>
+        				<span class="p-price">
+							    							    								&yen;899.00 
+    						            											</span>
+        			</a>
+        			<a href="javascript:void(0);" did="1618201"  class="btn-grey delHistory">删除</a>
+        		</li>
+						<a href="javascript:void(0);" class="btn-clearout cleanHistory">清空</a>
+		</ul>
+	</div>
+
+<div id="autoHistoryHeight"></div>
+	
+<script type="text/javascript" src="http://static.m.jd.com/home/js/html5/autoHeight.js?v=14" ></script>
+<!--滚动加载插件 -->
+<link rel="stylesheet" type="text/css" href="/css/myJd/loading/listLoading.css?v=14" charset="utf-8"/>
+<script type="text/javascript" src="/js/html5/widget/scroll/jquery.passportVScrollPlugin1.1.js?v=14"></script>
+<script type="text/javascript" src="/js/html5/widget/scroll/defaultScrollParam.js?v=14" ></script>
+
+<script type="text/javascript">
+	$(function(){
+		autoHeight_history();
+	});	
+
+	$(".delHistory").live('click',function(){
+		var wareId = jQuery(this).attr("did").trim();
+		if (confirm("确定要删除该浏览记录吗？")){
+			jQuery.get(
+				"/myJd/history/cancelHistory.json",
+				{"wareId":wareId,"sid":'fbc2ca76a83becdddd6c9f57c28da9a5'},
+               function(data){
+					location.reload(true);
+				}, "json");
+			}
+		else
+		 {
+		   return false;
+	     }
+	});
+	
+	$(".cleanHistory").live('click',function(){
+		if (confirm("确定要清空浏览记录吗？")){
+			jQuery.get(
+				"/myJd/history/cleanHistory.json",
+				{"sid":'fbc2ca76a83becdddd6c9f57c28da9a5'},
+               function(data){
+					location.reload(true);
+				}, "json");
+			}
+		else
+		 {
+		   return false;
+	     }
+	});
+	
+	var args = {
+		hasData : function(){
+			return false;
+		},
+		sid : 'fbc2ca76a83becdddd6c9f57c28da9a5'
+	};
+	$('#wareHistoryDiv').jdVScrollPlugin(args);
+</script>
+
+<script>
+
+var executePingClick = function(id,jObj){
+	var href = jObj.attr("href").trim();
+	
+	//alert('MMyJDBrowsedHistory_Commodites' + " | " + id + " | " + urlRemoveParam(href,'sid'));
+	pingClick(true,'MMyJDBrowsedHistory_Commodites',id,urlRemoveParam(href,'sid'),'')
+}
+
+$(document).ready(function(){
+	//异步加载 点击 事件绑定
+	$(".wareHistory-btn-pingJS").live('click',function(){
+		var wareId = $(this).attr("did").trim();
+		
+		executePingClick(wareId,$(this));
+	});
+});
+
+</script>
+    
+	<!-- 通用尾 div -->
+	<div id="m_common_bottom" style="min-height:170px;"></div>
+	
+	<!-- 通用Tip div 
+	<div id="m_common_tip" style="min-height:50px;"></div>
+	-->
+		
+	<!-- del by lizhenyou 2015-3-30
+	<footer>
+		<div class="login-area" id="footer">
+        	<div class="login">
+				                	<a rel="nofollow" href='/user/home.action?sid=fbc2ca76a83becdddd6c9f57c28da9a5'>
+						        					35108985..
+        									</a>
+    				<span class="lg-bar">|</span>
+											<a rel="nofollow" href='https://passport.m.jd.com/user/logout.action?sid=fbc2ca76a83becdddd6c9f57c28da9a5'>退出</a>
+													<span  class="new-fr"><a href="http://m.jd.com/showvote.html?sid=fbc2ca76a83becdddd6c9f57c28da9a5">反馈</a><span class="lg-bar">|</span><a href="#top">回到顶部</a></span>
+            </div>
+        	<div class="version"><a href="http://m.jd.com/index.html?v=w&sid=fbc2ca76a83becdddd6c9f57c28da9a5">标准版</a><a href="javascript:void(0)" class="on">触屏版</a><a href="http://www.jd.com" id="toPcHome">电脑版</a></div>
+            <div id="clientArea">
+				<a href="http://m.jd.com/download/downApp.html?sid=fbc2ca76a83becdddd6c9f57c28da9a5"" id="layout_toClient" class="layout-openJD">客户端</a>
+			</div>
+			<div class="copyright">Copyright &copy; 2012-2015 京东JD.com 版权所有 </div>
+        </div>
+    </footer>
+	-->
+
+
+    <div style="display:none;">
+        	<img src="/ja.jsp?&amp;utmn=722502566&amp;utmr=http%3A%2F%2Fhome.m.jd.com%2FmyJd%2Fhome.action&amp;utmp=%2FmyJd%2Fhistory%2FwareHistory.action%3FfunctionId%3Dliulanjilu%26sid%3Dfbc2ca76a83becdddd6c9f57c28da9a5&amp;guid=ON&jav=touch&pin=b7/anBmhZ2jiXLFUb3jORFaeHcNB96sq&utmac=MO-J2011-1" />
+        </div>
+
+<script type="text/javascript">
+var jap = {
+    siteId : 'MO-J2011-1',
+    topic: 'traffic-jdm',
+    account : '',
+    skuid: '',
+    shopid: '',
+    orderid: '',
+    adsCookieName: 'mt_subsite',
+    jumpAppEnable : 1,
+    __cookie_jda: '__tra',
+    __cookie_jdb: '__trb',
+    __cookie_jdc: '__trc',
+    __cookie_jdu: '__tru',
+    __cookie_jdv: '__trv'
+};
+try{
+    jQuery.getScript("http://miscssl.360buyimg.com/jdf/1.0.0/unit/ja/1.0.0/ja.js",function(){});
+}catch(e){
+}
+</script>
+
+            <script type="text/javascript" src="/js/html5/pingJS.1.0.js"></script>
+        <script type="text/javascript">
+            pingJS();
+        </script>
+    
+
+
+<script type="text/javascript">
+$("#unsupport").hide();
+if(!testLocalStorage()){ //not support html5
+    if(0!=0 && !$clearCart && !$teamId){
+		$("#html5_cart_num").text(0>0>0);
+	}
+}else{
+	updateToolBar('');
+}
+
+$("#html5_cart").click(function(){
+//	syncCart('fbc2ca76a83becdddd6c9f57c28da9a5',true);
+	location.href='http://m.jd.com/cart/cart.action';
+});
+
+function reSearch(){
+var depCity = window.sessionStorage.getItem("airline_depCityName");
+	if(testSessionStorage() && isNotBlank(depCity) && !/^\s*$/.test(depCity) && depCity!=""){
+    	var airStr = '<form action="/airline/list.action" method="post" id="reseach">'
+        +'<input type="hidden" name="sid"  value="fbc2ca76a83becdddd6c9f57c28da9a5"/>'
+        +'<input type="hidden" name="depCity" value="'+ window.sessionStorage.getItem("airline_depCityName") +'"/>'
+        +'<input type="hidden" name="arrCity" value="'+ window.sessionStorage.getItem("airline_arrCityName") +'"/>'
+        +'<input type="hidden" name="depDate" value="'+ window.sessionStorage.getItem("airline_depDate") +'"/>'
+        +'<input type="hidden" name="depTime" value="'+ window.sessionStorage.getItem("airline_depTime") +'"/>'
+        +'<input type="hidden" name="classNo" value="'+ window.sessionStorage.getItem("airline_classNo") +'"/>'
+        +'</form>';
+    	$("body").append(airStr);
+    	$("#reseach").submit();
+	}else{
+    	window.location.href='http://m.jd.com/airline/index.action?sid=fbc2ca76a83becdddd6c9f57c28da9a5';
+	}
+}
+ //banner 关闭点击
+    $('.div_banner_close').click(function(){
+        $('#div_banner_header').unbind('click');
+        jQuery.post('/index/addClientCookieVal.json',function(d){
+              $('#div_banner_header').slideUp(500);
+        });
+    });
+    //banner 下载点击
+    $('.div_banner_download').click(function(){
+         var downloadUrl = $(this).attr('url');
+         jQuery.post('http://m.jd.com/index/addClientCookieVal.json',function(d){
+               window.location.href=downloadUrl;
+        });
+    });
+
+
+
+
+	
+</script>
+
+<!--通用头脚本  add by lizhenyou 2015-3-30 -->
+<script>
+    $(document).ready(function(){
+		var mchb = new MCommonHeaderBottom();
+    	var title = "浏览记录";
+    	var headerArg = {hrederId : 'm_common_header', title:title, sid : 'fbc2ca76a83becdddd6c9f57c28da9a5', isShowShortCut : false, selectedShortCut : '4'};
+    	mchb.header(headerArg);
+		
+		var sid = 'fbc2ca76a83becdddd6c9f57c28da9a5';
+    	var pin = '351089855-600710';
+    	var toPcSkipurl = 'http://www.jd.com/#m'; //跳转电脑版url
+    	var footerPlatforms = mchb.platformEnum(toPcSkipurl,sid).enum3_1;
+        var bottomArg = {bottomId : 'm_common_bottom', sid : sid, pin : pin ,footerPlatforms : footerPlatforms};
+        mchb.bottom(bottomArg);	
+    });
+	
+    </script>
+	
+	<script>
+		var urlRemoveParam = function(url,paramName){
+        	var myurl=new MJdUrl.URL(url);
+        	myurl.remove(paramName); //删除了 paramName 
+        	return myurl.url();
+        }
+	</script>
+</body>
+</html>
+

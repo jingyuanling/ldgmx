@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>绑定新手机</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-bound.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="wine-js/wine-bound.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow" onclick="javascript:history.back(-1);"><img src="imgs/left-return-arrow2.png" alt=""/></span>
+				<p class="text-center nav-tit-name">修改手机号</p>
+				<a href="wine-chat.html" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap">
+			<div class="wine-identity-content">
+				<p class="wine-identity wine-identity-verify">
+					<span class="left">手机号</span>
+					<input class="text-left" type="text" name="" id="" value="" placeholder="请输入新的手机号" />
+				</p>
+				<p class="wine-identity wine-identity-verify">
+					<span class="left">验证码</span>
+					<input class="text-center get-code-btn" type="button" name="" id="" value="获取验证码" />
+					<input class="text-left" type="text" name="" id="" value="" placeholder="请输入验证码" />
+				</p>
+			</div>
+			<div class="identity-sure-div">
+				<input class="text-center identity-sure" type="button" name="" id="" value="确  认" />
+			</div>
+			<div class="identity-alert">
+				<span class="right-logo"><img src="imgs/right-logo.png" alt="" /></span>
+				<p class="text">手机号绑定成功</p>
+			</div>
+		</div>
+	</body>
+</html>

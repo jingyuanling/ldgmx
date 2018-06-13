@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>收货地址</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-cart.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-submit-orders.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="wine-js/wine-submit-orders.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow"><img src="imgs/left-return-arrow.png" alt=""/></span>
+				<p class="text-center nav-tit-name">收货地址</p>
+				<a href="javascript:void(0)" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap wine-submit-wrap">
+			<ul class="get-address-ul">
+				<li>
+					<div class="address-content">
+						<span class="left-name">用户名用户名</span>
+						<i class="editor-address"><img src="imgs/editor-logo.png" alt="" /></i>
+						<p class="center-address">
+							<span class="phone-num">15237150152</span>
+							<span class="address-details">河南省 郑州市 郑东新区 金水东路21号 永和伯爵酒店5楼B区</span>
+						</p>
+					</div>
+					<div class="address-two-btn">
+						<div class="left">
+							<span class="pay-right-sel pay_sel_active"><img src="imgs/right-logo-white.png" alt=""></span>
+							已设为默认
+						</div>
+						<div class="address-delete-btn">
+							删除
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="address-content">
+						<span class="left-name">用户名用户名</span>
+						<i class="editor-address"><img src="imgs/editor-logo.png" alt="" /></i>
+						<p class="center-address">
+							<span class="phone-num">15237150152</span>
+							<span class="address-details">河南省 郑州市 郑东新区 金水东路21号 永和伯爵酒店5楼B区</span>
+						</p>
+					</div>
+					<div class="address-two-btn">
+						<div class="left">
+							<span class="pay-right-sel"><img src="imgs/right-logo-white.png" alt=""></span>
+							设为默认
+						</div>
+						<div class="address-delete-btn">
+							删除
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="address-btm-btn">
+				<p class="text-center">
+					<img src="imgs/add-logo.png" alt="" />
+					新建地址
+				</p>
+			</div>
+		</div>
+		<!--弹框-->
+		<!--点击删除按钮弹框-->
+		<div class="confirm-bounced-gray">
+			<div class="confirm-bounced-alert">
+				<p class="confirm-text" style="padding: 0;line-height: 2rem;">确认要删除收货地址吗？</p>
+				<div class="two-btn">
+					<div class="give-up">取消</div>
+					<div class="think-again">确认</div>
+				</div>
+			</div>
+		</div>
+		<!--添加收货地址-->
+		<div class="add-address-gray">
+			<div class="add-address-alert">
+				<div class="add-address-close"><img src="imgs/close-btn-round.png" alt=""/></div>
+				<p class="text-center add-address-tit">添加收货地址</p>
+				<ul>
+					<li>
+						<span>收货人：</span>
+						<input type="text" name="" id="" value="" />
+					</li>
+					<li>
+						<span>电话：</span>
+						<input type="text" name="" id="" value="" />
+					</li>
+					<li>
+						<span class="left">选择地址</span>
+						<span class="right">请选择<img src="imgs/right-arrow-gray.png" alt="" /></span>
+					</li>
+					<textarea class="detail-address" name="" rows="" cols="" placeholder="详细地址"></textarea>
+				</ul>
+				<input class="text-center save-btn" type="button" name="" id="" value="保存" />
+			</div>
+		</div>
+	</body>
+</html>

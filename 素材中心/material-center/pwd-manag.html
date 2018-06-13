@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>密码管理</title>
+	    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/headAndfoot.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/posters-generate.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/back-pwd.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/change-phone.css"/>
+	    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="material-nav">
+			<span class="glyphicon glyphicon-menu-left"></span>
+			<p class="text-center">密码管理</p>
+		</div>
+		<div class="container-fluid">
+			<form>
+				<div class="back-pwd-inps">
+					<div class="form-group">
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="输入原密码">
+				  	</div>
+				  	<div class="form-group">
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="输入新密码">
+				  	</div>
+				  	<div class="form-group">
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="再次输入新密码">
+				  		<p class="error">*两次密码不同，请重新确认！</p>
+				  	</div>
+				</div>
+				<button class="btn btn-block back-pwd-btn" type="button" data-toggle="modal" data-target="#myModal">确定</button>
+			</form>
+		</div>
+		<!--弹框-->
+		<div class="modal fade generate_alert" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		    <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			        <img class="center-block right-icon" src="img/right-icon.png"/>
+			        <p class="text-center">&emsp;修改成功！</p>
+			        <button type="button" class="btn btn-default sure_btn" data-dismiss="modal">确定</button>
+			    </div>
+		    </div>
+		</div>
+	</body>
+</html>

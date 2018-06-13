@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/j-caiwuguanli.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.9.1.js" ></script>
+<script type="text/javascript" src="js/date.js" ></script>
+<script type="text/javascript" src="js/iscroll.js" ></script>
+<script type="text/javascript">
+$(function(){
+    $('#beginTime').date();
+    $('#endTime').date({theme:"datetime"});
+});
+</script>
+<style type="text/css">
+.demo{width:300px;margin:40px auto 0 auto;}
+.demo .lie{margin:0 0 20px 0;}
+#dateshadow{
+    z-index: 1;
+    margin-top: 39px;
+    margin-bottom: 40px;
+    position: fixed;
+}
+</style>
+</head>
+<body>
+   <div class="myqianbao-box">
+   <div id="datePlugin"></div>
+        <div class="main-top">
+            <div class="goback">
+                <a href=""><img src="img/main-goback.png"></a>
+                <p>财务管理</p>
+            </div>
+        </div>
+
+        <div class="yumoney">
+            <p>账户余额</p><br>
+            <p class="money">100.25元</p>
+            <!-- <a href="chongzhi"> --><span>充值</span><!-- </a> -->
+            <a href="j-tixian.html"><span>提现</span></a>
+
+            <p class="riqi kbtn" id="beginTime">2016.01.01&nbsp;&nbsp;&nbsp;&nbsp;至&nbsp;&nbsp;&nbsp;&nbsp;2016.11.11</p>
+        </div>
+       <div class="list-cont">
+            
+            <div class="list">
+                <p>报货下单<span>-100</span></p>
+                <p class="time">2016-11-20   09:55:22</p>
+            </div>
+            <div class="list">
+                <p>验证提货<span>-100</span></p>
+                <p class="time">2016-11-20   09:55:22</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <a href="j-peisongdan.html"><li><img style="width:41px;" src="img/peisong.png"></li></a>
+            <a href="j-shangjiaguanli.html"><li><img style="width:27px;" src="img/shangjia.png"></li></a>
+            <a href="j-my.html"><li><img src="img/my2.png"></li></a>
+        </div>
+    </div>
+</body>
+</html>

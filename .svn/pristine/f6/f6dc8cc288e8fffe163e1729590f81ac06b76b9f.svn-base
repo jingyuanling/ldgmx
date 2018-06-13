@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="img/head.jpg" alt="">
+        </div>
+        <a href="http://www.xqgmx.com/mobile/item/630918446372093952?flag=1" class="click">
+            <img src="img/a.jpg" alt="">
+        </a>
+        <div class="content">
+            <img src="img/content.jpg" alt="">
+        </div>
+        <div class="introduce">
+            <h1>购买及使用方式</h1>
+            <p>
+                 用户下单成功后系统会自动为用户生成一个“灵动律所”
+                的账号，用户可通过活动页面扫码、微信菜单等形式进入“
+                灵动律所”，查看自己的当前余额及消费情况（“灵动律所”
+                的余额仅可用于冲抵河南瀛豫律师事务所民事、商业、行政
+                诉讼律师代理费使用）。并可通过“灵动律所”联系河南瀛
+                豫律师事务所要求提供相应服务。
+            </p>
+            <div class="saoma">
+                <img src="img/wei02.jpg" alt="">
+                <img src="img/wei01.jpg" alt="">
+            </div>
+        </div>
+        <div class="intro">
+            <h1>律所介绍</h1>
+            <p> 河南瀛豫律师事务所（原“河南正大永信律师事务所”
+            ）作为灜和律师机构在河南郑州的成员所，是经河南省司法
+            厅批准设立的省直属律师事务所，是一家高素质、高起点的
+            法律服务机构。成立于2006年8月设立资金211万元, 连续十
+            年荣获河南省司法厅颁发的规范管理先进单位、所风建设先
+            进单位，2016年被评为省级优秀律师事务所。河南瀛豫自购
+            1100㎡办公房，拥有执业经验丰富的专职律师、兼职律师及
+            行政管理人员五十余人，其中执业律师38人，实习律师7人。
+            </p>
+        </div>
+        <div class="rongyu">
+            <h1>律所荣誉</h1>
+            <ul>
+                <li>
+                    <img src="img/lsry1.jpg" alt="">
+                </li>
+				<li>
+                    <img src="img/lsry2.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="hezuo">
+            <h1>合作企业</h1>
+            <ul>
+                <li>
+                    <img src="img/user1.jpg" alt="">
+                </li>
+				<li>
+                    <img src="img/user2.jpg" alt="">
+                </li>
+				<li>
+                    <img src="img/user3.jpg" alt="">
+                </li>
+				<li>
+                    <img src="img/user4.jpg" alt="">
+                </li>
+				<li>
+                    <img src="img/user5.jpg" alt="">
+                </li>
+				<li>
+                    <img src="img/user6.jpg" alt="">
+                </li>
+ 
+
+            </ul>
+        </div>
+        <script src="js/rem.js"></script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!--pages/payOne/payOne.wxml-->
+<!--付款1  -->
+<page>
+  <!--导航栏-->
+		<view class="life_home_nav">
+			<view class="life_nav_left">
+				<image class="img1" src="../../res/images/return_img.png"/>
+			</view>
+			<view class="life_home_nav_center">
+				付款
+			</view>
+		</view>
+		<view class="life_pay_wrap">
+			<p class="life_billing_logo"><image src="../../res/images/pay_merchants_logo.png"/></p>
+			<p class="life_billing_name">星巴克咖啡</p>
+			<p class="life_consumer_claims">消费债权金</p>
+			<view class="life_consumer_claims_num">
+				<input class="life_consumer_inp" type="text" name="" id="" value="99" />
+				<span>¥</span>
+			</view>
+			<view class="life_sure_btn">
+					立即付款
+			</view>
+		</view>
+		<view class="life_pay_alert_wrap">
+			<view class="enter_pass_alert">
+				<p class="enter_pass_alert_title">
+					请输入支付密码
+					<span class="enter_pass_alert_delete">x</span>
+				</p>
+				<p class="transfer_amount_ident">转账金额</p>
+				<p class="transfer_amount">¥ 20.00</p>
+				<view class="alert_box">
+          <label for="ipt">
+                  <ul>
+                          <li class="first_li">*</li>
+                          <li>*</li>
+                          <li>*</li>
+                          <li>*</li>
+                          <li>*</li>
+                          <li>*</li>
+                  </ul>
+          </label>
+          <!-- <input class="alert_ipt" type="tel" id="ipt" maxlength="6"> -->
+		    </view>
+				<view class="life_alert_sure_btn">
+					确定
+				</view>
+			</view>
+			<view class="wrong_alert">
+				<p class="enter_pass_alert_title">
+					提示
+					<span class="wrong_alert_delete">x</span>
+				</p>
+				<p class="wrong_prompting">支付密码错误，请重新输入</p>
+				<p class="wrong_two_btn">
+					<span class="wrong_cancel">取消支付</span>
+					<span class="wrong_again">重新输入</span>
+				</p>
+			</view>
+		</view>
+		<view class="life_keyboard life_keyboard_H">
+			<view class="life_switch">
+				<image src="../../res/images/keyboard_down.png"/>
+			</view>
+			<ul class="life_keyboard_ul">
+				<li>1</li>
+				<li class="life_border">2</li>
+				<li>3</li>
+				<li>4</li>
+				<li class="life_border">5</li>
+				<li>6</li>
+				<li>7</li>
+				<li class="life_border">8</li>
+				<li>9</li>
+				<li class="life_different_point">.</li>
+				<li class="life_border">0</li>
+				<li class="life_different_delete">
+					<image src="../../res/images/keyboard_delete.png"/>
+				</li>
+			</ul>
+		</view>
+</page>

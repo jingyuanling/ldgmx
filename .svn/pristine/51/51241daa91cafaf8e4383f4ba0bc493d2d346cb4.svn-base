@@ -1,0 +1,102 @@
+@charset "utf-8";
+.tjzq{
+	padding: 0;
+	min-width: 300px;
+	max-width: 640px;
+	margin: 0 auto;
+}
+.tjxinxi{
+	width:100%;
+}
+.tjxinxibox ul{
+	border-bottom:1px solid #999;
+	overflow:hidden;
+	padding:8px 0;
+}
+.tjxinxibox li{
+	float:left;
+	font-size:16px;
+}
+.tjxinxibox li input{
+	border:none;
+	outline: none;
+	width:550px;
+}
+.tjxinxibox .theleft{
+	width:90px;
+	color:#848689;
+}
+.tjxinxibox .theleft span{
+	display:block;
+	text-align:right;
+}
+.shangchuan{
+	background:#ededed;
+	padding-top:10px;
+	border-bottom:1px solid #999;
+}
+.topbox:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.scbox{
+	float:left;
+	width:80px;
+	height:80px;
+	border:1px dashed #848689;
+	margin-left:15px;
+	position:relative;
+	background:#fff;
+}
+.backgroundimg{
+	background:url(../img/jias.png) #fff;
+}
+.closebox{
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background:#f00;
+	position:absolute;
+	right:-8px;
+	top:-8px;
+}
+.addinput{
+	position:absolute;
+	width:80px;
+	height:80px;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	left:0;
+	top:0;
+}
+.sming{
+	padding:10px 10px 25px;
+	font-size:14px;
+}
+.buttontijiao{
+	min-height:60px;
+}
+.buttontijiao a{
+	width:90%;
+	margin:10px auto 0;
+	background:red;
+	color:#fff;
+	display:block;
+	text-align: center;
+	height:40px;
+	line-height:40px;
+	border-radius:5px;
+}
+body .footer{
+	/*display: none;
+    width: 100%;
+    height: 46px;
+    min-width: 320px;*/
+    background: url(../img/foot.png);
+     background-size: 100% 46px;
+   
+
+}

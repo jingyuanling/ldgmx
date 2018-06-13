@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/s-tihuodan.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <script>
+     window.onload = function () {
+        var Db=document.getElementById('dingdan-box');
+        var Dbul=Db.getElementsByTagName('ul');
+
+        var Tit=document.getElementById('tit');
+        var Tis=Tit.getElementsByTagName('span');
+        // var Tis=Tit.getElementsByTagName('span');
+
+        // var Tii=Tis.childNodes;
+        
+             for (var i = 0; i < 4; i++) {
+                // Tis[i].index = i;
+                Tis[i].index = i;
+                Tis[i].onclick = function () {
+
+                    for (var i = 0; i < 4; i++) {
+                        Tis[i].className = '';
+                        Dbul[i].className = '';
+                    }
+                  this.className = 'active';
+                  Dbul[this.index].className = 'have';
+                  num = this.index;
+                }
+            }  
+ }
+  </script>
+</head>
+<body>
+   <div class="dingdan-box" id="dingdan-box">
+        <div class="main-top">
+            <div class="goback">
+                <a href=""><img src="img/main-goback.png"></a>
+                <div class="tit" id="tit">
+                    <li><span class="active">待收货</span></li>
+                    <li><span>待付款</span></li>
+                    <li><span>已取消</span></li>
+                    <li><span>全部订单</span></li>
+                </div>
+            </div>
+        </div>
+        <ul class="have">
+            <div class="dingdan">
+                <p>订单号：00000000<span class="right">已完成</span></p>
+                <p class="time">2016-11-18&nbsp;&nbsp;15:30:23</p>
+                <div class="shangpin clearfix">
+                    <a href="s-baohuodetails.html"><p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p></a>
+                    <a href="s-baohuodetails.html"><p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p></a>
+                    <a href="s-baohuodetails.html"><p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p class="zongmoney"><span>124元</span></p></a>
+                </div>
+            </div>
+            <div class="dingdan">
+                <p>订单号：00000000<span class="right">已完成</span></p>
+                <p class="time">2016-11-18&nbsp;&nbsp;15:30:23</p>
+                <div class="shangpin clearfix">
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p class="zongmoney"><span>124元</span></p>
+                </div>
+            </div>
+            <div class="dingdan">
+                <p>订单号：00000000<span class="right">已完成</span></p>
+                <p class="time">2016-11-18&nbsp;&nbsp;15:30:23</p>
+                <div class="shangpin clearfix">
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p class="zongmoney"><span>124元</span></p>
+                </div>
+        </ul>
+        <ul>
+            <div class="dingdan">
+                <p>订单号：00000000<span class="right">已完成</span></p>
+                <p class="time">2016-11-18&nbsp;&nbsp;15:30:23</p>
+                <div class="shangpin clearfix">
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p class="zongmoney"><span>124元</span></p>
+                </div>
+            </div>
+            <div class="dingdan">
+                <p>订单号：00000000<span class="right">已完成</span></p>
+                <p class="time">2016-11-18&nbsp;&nbsp;15:30:23</p>
+                <div class="shangpin clearfix">
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p class="zongmoney"><span>124元</span></p>
+                </div>
+            </div>
+        </ul>
+        <ul>
+            <div class="dingdan">
+                <p>订单号：00000000<span class="right">已完成</span></p>
+                <p class="time">2016-11-18&nbsp;&nbsp;15:30:23</p>
+                <div class="shangpin clearfix">
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p class="zongmoney"><span>124元</span></p>
+                </div>
+            </div>
+        </ul>
+        <ul>
+            <div class="dingdan">
+                <p>订单号：00000000<span class="right">已完成</span></p>
+                <p class="time">2016-11-18&nbsp;&nbsp;15:30:23</p>
+                <div class="shangpin clearfix">
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p><span><img src="img/yangpin.png"></span><span>季旦鲜虫草蛋（盒装）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="shuliang">1</span></p>
+                    <p class="zongmoney"><span>124元</span></p>
+                </div>
+            </div>
+           
+        </ul>
+        </div>
+
+
+        <div class="bottom">
+            <a href="s-index.html"><li><img src="img/shouye.png"></li></a>
+            <a href="s-tihuodan.html"><li><img style="width:42px;" src="img/tihuodan2.png"></li></a>
+            <a href="s-my.html"><li><img src="img/my.png"></li></a>
+        </div>
+    </div>
+</body>
+</html>

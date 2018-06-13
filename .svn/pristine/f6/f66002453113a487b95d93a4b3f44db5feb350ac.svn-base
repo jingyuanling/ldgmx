@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/hongbao02.css">
+    </head>
+    <body>
+        <div class="bg">
+            <div class="gift">
+                <img src="img/hongbao04.png" alt="">
+            </div>
+            <a class="button" href="javascript:void(0);">
+                <img src="img/hongbao05.png" alt="">
+            </a>
+            <p class="word"><a style="color:#fed391;" href="javascript:void(0);">查看</a>我的红包</p>
+        </div>
+        <script src="js/rem.js"></script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+.wine_header{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 46px;
+    background-color: #d9333f;
+    font-family:"微软雅黑";
+    position: fixed;
+    z-index: 999999;
+    overflow: hidden;
+}
+.wine_header>img{
+    position: absolute;
+    width: 10px;
+    top: 15px;
+    left: 13px;
+}
+.wine_header p{
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    line-height:46px;
+    box-sizing: border-box;
+}
+.wine_header_right{
+	height: 100%;
+	font-size: 1.5em;
+    /*color: #fff;*/
+    position: absolute;
+    right: 13px;
+    /*line-height: 39px;*/
+    top: 0;
+}
+.wine_header_right img{
+	height: 26px;
+	margin-top: 10px;
+}

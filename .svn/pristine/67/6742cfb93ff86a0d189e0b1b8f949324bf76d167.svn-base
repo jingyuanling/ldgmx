@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>礼盒拆开</title>
+		<link rel="stylesheet" type="text/css" href="css/open_box.css"/>
+	</head>
+	<body>
+		<div class="PC_box_open">
+			<div class="PC_open_content">
+				<div class="PC_open_delete">
+					<img src="img/box_delete.png"/>
+				</div>
+				<!--奖品div-->
+				<div class="gift_content">
+					<!--当奖品为3个-->
+					<!--<div class="prizes prize_one">
+						<p>智能电视</p>
+					</div>
+					<div class="prizes prize_two">
+						<p>iPhone7</p>
+					</div>
+					<div class="prizes prize_three">
+						<p>一折<br />债权金红包</p>
+					</div>-->
+					
+					
+					<!--当奖品为2个-->
+					<div class="prizes prize_two prize_num2">
+						<p>iPhone7</p>
+					</div>
+					<div class="prizes prize_three prize_num2">
+						<p>一折<br />债权金红包</p>
+					</div>
+					
+					
+					<!--当奖品为1个-->
+					<!--<div class="prizes prize_one prize_num1">
+						<p>智能电视</p>
+					</div>-->
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('.PC_open_delete').click(function(){
+				$('.PC_box_open').hide();
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+		<title>全部评论</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life-head-foot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life_full_eva.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="life_home_nav">
+			<div class="life_nav_left">
+				<img class="img1" src="img/return_img.png"/>
+			</div>
+			<div class="life_home_nav_center">
+				全部评论
+			</div>
+		</div>
+		<div class="full_eva_wrap">
+			<div class="syn_score_wrap">
+				<div class="syn_score_left">
+					<p class="p1">4.8&nbsp;</p>
+					<p class="p2">商家评分</p>
+				</div>
+				<div class="syn_score_right">
+					<p>
+						<span class="syn_right_title">质量</span>
+						<span class="syn_star_level">
+							<img src="img/small_yellow_star.png"/>
+							<img src="img/small_yellow_star.png"/>
+							<img src="img/small_yellow_star.png"/>
+							<img src="img/small_yellow_star.png"/>
+							<img src="img/small_yellow_star.png"/>
+						</span>
+						<span class="syn_score">4.8</span>
+					</p>
+					<p>
+						<span class="syn_right_title">服务</span>
+						<span class="syn_star_level">
+							<img src="img/small_yellow_star.png"/>
+							<img src="img/small_yellow_star.png"/>
+							<img src="img/small_yellow_star.png"/>
+							<img src="img/small_yellow_star.png"/>
+							<img src="img/small_yellow_star.png"/>
+						</span>
+						<span class="syn_score">4.8</span>
+					</p>
+				</div>
+			</div>
+			<div class="full_eva_content">
+				<div class="full_content_title">
+					<span class="span_click">全部(152)</span>
+					<span>有图(52)</span>
+					<span>五评(52)</span>
+					<span>差评(52)</span>
+				</div>
+				<!--评价内容-->
+				<div class="full_eva_center">
+					<div class="">
+						<ul class="full_eva_ul">
+							<li>
+								<div class="eva_left_photo">
+									<img src="img/all_logo.png"/>
+								</div>
+								<div class="eva_right_details">
+									<p class="full_eva_user">
+										<span class="span_name">kl1234567</span>
+										<span class="span_time">2017-10-19</span>
+									</p>
+									<p class="full_eva_star">
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+									</p>
+									<p class="full_eva_remark">好评好评好好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评</p>
+									<p class="full_eva_img">
+										<img src="img/merchant_2.jpg"/>
+										<img src="img/merchant_2.jpg"/>
+										<img src="img/merchant_2.jpg"/>
+									</p>
+									<p class="spend_time">消费时间：2017-10-19</p>
+								</div>
+							</li>
+							<li>
+								<div class="eva_left_photo">
+									<img src="img/all_logo.png"/>
+								</div>
+								<div class="eva_right_details">
+									<p class="full_eva_user">
+										<span class="span_name">kl1234567</span>
+										<span class="span_time">2017-10-19</span>
+									</p>
+									<p class="full_eva_star">
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+									</p>
+									<p class="full_eva_remark">好评好评好好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评</p>
+									<p class="full_eva_img">
+										<img src="img/merchant_2.jpg"/>
+										<img src="img/merchant_2.jpg"/>
+										<img src="img/merchant_2.jpg"/>
+									</p>
+									<p class="spend_time">消费时间：2017-10-19</p>
+								</div>
+							</li>
+							<li>
+								<div class="eva_left_photo">
+									<img src="img/all_logo.png"/>
+								</div>
+								<div class="eva_right_details">
+									<p class="full_eva_user">
+										<span class="span_name">kl1234567</span>
+										<span class="span_time">2017-10-19</span>
+									</p>
+									<p class="full_eva_star">
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+									</p>
+									<p class="full_eva_remark">好评好评好好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评</p>
+									<p class="full_eva_img">
+										<img src="img/merchant_2.jpg"/>
+										<img src="img/merchant_2.jpg"/>
+										<img src="img/merchant_2.jpg"/>
+									</p>
+									<p class="spend_time">消费时间：2017-10-19</p>
+								</div>
+							</li>
+							<li>
+								<div class="eva_left_photo">
+									<img src="img/all_logo.png"/>
+								</div>
+								<div class="eva_right_details">
+									<p class="full_eva_user">
+										<span class="span_name">kl1234567</span>
+										<span class="span_time">2017-10-19</span>
+									</p>
+									<p class="full_eva_star">
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+										<img src="img/small_yellow_star.png"/>
+									</p>
+									<p class="full_eva_remark">好评好评好好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评</p>
+									<p class="full_eva_img">
+										<img src="img/merchant_2.jpg"/>
+										<img src="img/merchant_2.jpg"/>
+										<img src="img/merchant_2.jpg"/>
+									</p>
+									<p class="spend_time">消费时间：2017-10-19</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			//标题栏的选中状态
+			$('.full_content_title span').click(function(){
+				$(this).siblings().css({"border-color":"#cccccc","color":"#484545"});
+				$(this).css({"border-color":"#ffa100","color":"#ffa100"});
+			});
+		</script>
+	</body>
+</html>

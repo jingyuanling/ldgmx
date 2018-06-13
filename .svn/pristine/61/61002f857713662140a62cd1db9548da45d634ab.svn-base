@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/gerenziliao.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+<body>
+   <div class="geren-box">
+        <div class="main-top">
+            <div class="goback">
+                <a href=""><img src="img/main-goback.png"></a>
+                <p>个人资料</p>
+            </div>
+        </div>
+        <div class="shezhi-cont">
+            <div class="list1">
+                <p>姓名</p>
+                <p class="right"><span>刘君盛</span>&nbsp;&nbsp;&nbsp;&nbsp;></p>
+            </div>
+            <div class="list1">
+                <p>性别</p>
+                <p class="right"><span>男</span>&nbsp;&nbsp;&nbsp;&nbsp;></p>
+            </div>
+            <div class="list1">
+                <p>生日</p>
+                <p class="right"><span>1991-01-02</span>&nbsp;&nbsp;&nbsp;&nbsp;></p>
+            </div>
+            <div class="list1 list2">
+                <p>电话</p>
+                <p class="right"><span>152****0152</span>&nbsp;&nbsp;&nbsp;&nbsp;></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

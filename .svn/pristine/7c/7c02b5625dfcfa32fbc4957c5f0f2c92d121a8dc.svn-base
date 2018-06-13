@@ -1,0 +1,417 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/bottom.css">
+<link rel="stylesheet" type="text/css" href="css/findagain.css">
+</head>
+
+<body>
+<div class="blzq-bg">
+	<div class="blzq-top">
+    	<div class="topbox">
+        	<p class="thep">亲，欢迎来到鑫光明行！</p>
+            <ul class="theul" id="theul">
+            	<div class="redbox"><a class="theblack" href="denglu.html" title="请登录">请登录</a>|<a href="zhuce.html" title="免费注册">免费注册</a>|<a href="main_1.html" title="我的鑫光明行">我的鑫光明行</a>|<a class="theblack" href="dingdan.html" title="我的订单">我的订单</a>|<a class="theblack" href="shanghushouye.html" title="卖家中心">卖家中心</a></div>
+                <li><b></b><a href="" title="关注微信">关注微信</a>
+                	<ul class="weixinbox"><span></span>
+                    	<dl class="weixin">
+                        	<img href="" titile="微信二维码">
+                        </dl>
+                    </ul>
+                </li>
+                <li><i></i><a href="" title="网站导航">网站导航</a>
+                	<ul class="wzdhang"><span></span>
+                    	<dl class="liex1">
+                        	<dt>热门频道</dt>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                        </dl>
+                        <dl class="liex">
+                        	<dt>当前热点</dt>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                        </dl>
+                        <dl class="liex">
+                        	<dt>优质商家</dt>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                        </dl>
+                        <dl class="liex liex2">
+                        	<dt>优质品牌</dt>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+                        </dl>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="blzq-logobox">
+        <div class="blzq-logo">
+            <div class="logoleft">
+                <div class="logotop">
+                    <a href="blzq-index.html"><img src="img/blzq-logo.png" alt="鑫.光明行 不良债权置换" title=""></a>
+                    <div class="search-box"><input placeholder="请输入名称"><a href="" title="">搜索</a></div>
+                </div>
+                <div class="logobottom">
+                    <dl class="logodl">
+                        <dt id="topfen">服务分类<b class="thisjt"></b>
+                        	<div id="zhankai" class="navce">
+                                <ul>
+                                    <li><a href="" title="">住宅住宅</a><a href="" title="">住好宅</a><a href="" title="">住宅</a></li>
+                                    <div class="textboxm">
+                                        <div class="textleft">
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="textright">
+                                            <div class="textimgtop">
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                            </div>
+                                            <div class="textimgbottom">
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                                <ul>
+                                    <li><a href="" title="">住宅住宅</a><a href="" title="">住好宅</a><a href="" title="">住宅</a></li>
+                                    <div class="textboxm">
+                                        <div class="textleft">
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="textright">
+                                            <div class="textimgtop">
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                            </div>
+                                            <div class="textimgbottom">
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                                <ul>
+                                    <li><a href="" title="">住宅</a><a href="" title="">住宅</a><a href="" title="">住宅</a></li>
+                                    <div class="textboxm">
+                                        <div class="textleft">
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="textright">
+                                            <div class="textimgtop">
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                            </div>
+                                            <div class="textimgbottom">
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                                <ul>
+                                    <li><a href="" title="">住宅</a><a href="" title="">住宅</a><a href="" title="">住宅</a></li>
+                                    <div class="textboxm">
+                                        <div class="textleft">
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                            <div class="chxpq">
+                                                <h5><a href="">大家电<b>></b></a></h5>
+                                                <p><a href="" target="_blank">平板电视</a><a href="" target="_blank">空调</a><a href="" target="_blank">冰箱</a><a href="" target="_blank">洗衣机</a><a href="" target="_blank">家庭影院</a><a href="" target="_blank">DVD</a><a href="" target="_blank">迷你音响</a><a href="" target="_blank">烟机/灶具</a><a href="" target="_blank">热水器</a><a href="" target="_blank">消毒柜/洗碗机</a><a href="" target="_blank">冷柜/冰吧</a><a href="" target="_blank">酒柜</a><a href="" target="_blank">家电配件</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="textright">
+                                            <div class="textimgtop">
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                            </div>
+                                            <div class="textimgbottom">
+                                                <a href=""><img alt="" title=""></a>
+                                                <a href=""><img alt="" title=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </dt>
+                        <dd><a href="" title="">不良债权</a></dd>
+                        <dd><a href="" title="">债权商城</a></dd>
+                        <dd><a href="" title="">积分商城</a></dd>
+                    </dl>
+                    <div class="shopcarbg">
+                        <div class="shopcarbox"><i></i><b>0</b><a href="">我的购物车&nbsp;&nbsp;></a></div>
+                        <div class="dorpdown-layer">
+                            <div class="spacer"></div>
+                            <div class="prompt"><div class="nogoods"><b></b>购物车中还没有商品，赶紧选购吧！</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logoright">
+                <img src="img/ditu.png" alt="全国分公司正在陆续建设中">
+            </div>
+        </div>
+    </div>
+    <div class="find">
+		<div class="mt">
+			<h3>找回密码</h3>
+		</div>
+        <div class="findstep">
+        	<ul class="thisiline contline">
+            	<dt>1</dt>
+                <dd>填写账户名</dd>
+            </ul>
+            <ul class="thisiline">
+            	<dt>2</dt>
+                <dd>验证身份</dd>
+            </ul>
+            <ul class="thisiline">
+            	<dt>3</dt>
+                <dd>设置新密码</dd>
+            </ul>
+            <ul class="thisiline">
+            	<dt>4</dt>
+                <dd>完成</dd>
+            </ul>
+        </div>
+        <div class="form">
+        	<div class="item">
+            	<span>账户名：</span>
+                <div class="fl">
+                	<input type="text" placeholder="用户名/邮箱/已验证手机">
+                </div>
+                <div class="clr"></div>
+            </div>
+            <div class="item">
+            	<span>验证码：</span>
+                <div class="fl">
+                	<input type="text">
+                    <label class="msg-error" id="password_error">验证码输入有误</label>
+                </div>
+                <div class="yanzhengmabox">
+                	<img>
+                    看不清
+                    <a href="">换一张</a>
+                </div>
+                <div class="clr"></div>
+            </div>
+            <div class="item">
+            	<span>&nbsp;</span>
+                <div class="fl">
+                	<a class="btn-5" href="findpassword-yanzheng.html">提交</a>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </div>
+    <div class="blzq-bottom">
+    	<div class="advantage">
+        	<div class="advantagebox">
+            	<div class="advantagemain">
+                	<b></b>
+                    <span>品类齐全&nbsp;&nbsp;轻松购物</span>
+                </div>
+                <div class="advantagemain">
+                	<b></b>
+                    <span>品类齐全&nbsp;&nbsp;轻松购物</span>
+                </div>
+                <div class="advantagemain">
+                	<b></b>
+                    <span>品类齐全&nbsp;&nbsp;轻松购物</span>
+                </div>
+                <div class="advantagemain">
+                	<b></b>
+                    <span>品类齐全&nbsp;&nbsp;轻松购物</span>
+                </div>
+            </div>
+        </div>
+        <div class="bottomnav">
+        	<div class="bottomnavtop">
+            	<dl>
+                	<dt>购物指南</dt>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                </dl>
+                <dl>
+                	<dt>购物指南</dt>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dt>&nbsp;</dt>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                </dl>
+                <dl>
+               	  <dt>购物指南</dt>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                </dl>
+                <dl>
+                	<dt>购物指南</dt>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                </dl>
+                <dl>
+                	<dt>购物指南</dt>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                    <dd><a href="" title="">购物指南</a></dd>
+                </dl>
+                <dl>
+                	<dt>地图</dt>
+                    <dd>介绍</dd>
+                </dl>
+            </div>
+            <div class="bottomnavbottom">
+            	<div class="bottomclassify"><a href="" title="">购物指南</a> | <a href="" title="">购物指南</a> | <a href="" title="">购物指南</a> | <a href="" title="">购物指南</a>
+                </div>
+                <div class="bottomclassify">购物指南购物指南购物指南购物指南购物指南购物指南购物指南购物指南购物指南购物指南购物指南购物指南购物指南购物指南购物指南购物指南购物指南
+                </div>
+                <div class="bottomclassify">
+                	<a href="" title=""><img width="103" height="32" title=""></a>
+                    <a href="" title=""><img width="103" height="32" title=""></a>
+                    <a href="" title=""><img width="103" height="32" title=""></a>
+                    <a href="" title=""><img width="103" height="32" title=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="bottomcolor">
+        	<p>
+                <span>©2015 财富之门 All rights reserved 北京灵动梦想信息科技有限公司 京ICP 114062096号</span>
+                <a href="" title="">返回财富之门首页</a>
+			</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

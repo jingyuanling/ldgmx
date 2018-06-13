@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-goods-evaluate.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-goods-details.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="wine-js/wine-goods-evaluate.js" type="text/javascript" charset="utf-8"></script>
+		<script src="wine-js/wine-goods-details.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-wrap wine-wrap-three">
+			<!--详情-->
+			<div class="details-goodsImg">
+				<!--图上两个按钮-->
+				<div class="top-two-btn">
+					<a class="left-arrow" href="javascript:void(0)"><img src="imgs/left-return-arrow-white.png" alt=""/></a>
+					<a class="right-cart" href="wine-cart.html"><img src="imgs/cart-logo-white.png"/></a>
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+					    <div class="swiper-slide"><img alt="" src="img/banner.jpg" alt=""/></div>
+					    <div class="swiper-slide"><img alt="" src="img/banner.jpg" alt=""/></div>
+					    <div class="swiper-slide"><img alt="" src="img/banner.jpg" alt=""/></div>
+					</div>
+					<div class="swiper-pagination text-right"></div>
+				</div>
+			</div>
+			<div class="details-goods-introduce">
+				<!--商品标题-->
+				<h1 class="h1-title">商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题</h1>
+				<span class="details-goods-prize">¥100<s>¥100</s></span>
+				<p class="details-awards-sales"><span class="awards">奖励经验10点</span><span class="sales">总销量100</span></p>
+			</div>
+			<div class="details-service-introduce">
+				<ul>
+					<li class="details-coupons-btn"><span>满100减10</span><span class="arrow"><img src="imgs/right-arrow-gray.png" alt=""/></span></li>
+					<li class="details-size-btn"><span>选择规格</span><span class="arrow"><img src="imgs/right-arrow-gray.png" alt=""/></span></li>
+					<li class="details-ensure-quality"><span>全场包邮·7天退换·48小时发货·假一赔十</span></li>
+				</ul>
+			</div>
+			<div class="wine-goods-evaluate">
+				<div class="wine-evaluate-tit">
+					<span class="vertical-line"></span>
+					<span class="eval-all-tit">商品评价（1024）</span>
+					<a href="wine-goods-evaluate.html" class="eval-look-more">查看全部<img src="imgs/right-arrow-red.png" alt=""/></span></a>
+					<span class="btm-line"></span>
+				</div>
+				<!--评语部分-->
+				<div class="wine-remark-wrap">
+					<div class="wine-remark-content1">
+						<div class="remark-class">
+							<ul>
+								<li>评价标签(10)</li>
+								<li class="remark_class_active">选中状态标签(10)</li>
+								<li class="remark_class_bad">差评标签(10)</li>
+							</ul>
+						</div>
+					</div>
+					<div class="wine-remark-content">
+						<ul>
+							<li>
+								<p class="user-message"><span class="user-photo"><img src="" alt=""/></span><span class="username">用户昵称</span></p>
+								<p class="remark">评价内容评价内容评价内容评价内容评价内容评价内容 评价内容评价内容</p>
+								<!--评价图图片-->
+								<div class="wine-remark-img">
+									<span><img src="" alt=""/></span>
+									<span><img src="" alt=""/></span>
+									<span><img src="" alt=""/></span>
+									<span><img src="" alt=""/></span>
+								</div>
+								<p class="wine-remark-size"><span>颜色：XXX</span><span class="time">2018-04-26</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="wine-evaluate-tit">
+					<span class="vertical-line"></span>
+					<span class="eval-all-tit">商品详情</span>
+				</div>
+				<div class="wine-details-img">
+					<span class="details-img">详情图<!--<img src="" alt=""/>--></span>
+					<span class="details-img">详情图<!--<img src="" alt=""/>--></span>
+				</div>
+			</div>
+			<!--底部-->
+			<div class="goods-details-btm">
+				<a href="店铺主页"><img style="width: 0.44rem; height: 0.44rem;" src="imgs/btm-to-home-logo.png" alt=""/></a>
+				<a><img style="width: 0.45rem; height: 0.45rem;" src="imgs/collect-logo.png" alt=""/></a>
+				<a href="联系客服"><img style="width: 0.45rem;" src="imgs/contact-service-logo.png" alt=""/></a>
+				<div class="btn-add-cart">加入购物车</div>
+				<div class="btn-buy-now">立即购买</div>
+			</div>
+		</div>
+		<!--底部弹出框-->
+		<!--1.选择规格-->
+		<div class="choose-size-gray">
+			<div class="choose-size-wrap">
+				<span class="goodsImg"><img src="img/banner.jpg" alt=""/></span>
+				<div class="choose-size-close"><img src="imgs/close-btn.png" alt=""/></div>
+				<p class="prize">¥100</p>
+				<p class="choosed-size">已选：规格1</p>
+				<div class="choosed-size-content">
+					<p class="color-tit">颜色</p>
+					<ul class="size-ul">
+						<li class="null">规格无库存</li>
+						<li class="have">规格1正常</li>
+						<li class="have have_active">规格选中</li>
+					</ul>
+					<p class="color-tit">包装</p>
+					<ul class="size-ul">
+						<li class="null">包装无库存</li>
+						<li class="have">包装1正常</li>
+						<li class="have have_active">规格选中</li>
+					</ul>
+					<div class="choose-num">
+						<span class="num-tit">数量</span>
+						<div class="choose-num-btn">
+							<p class="less_than_one">－</p>
+							<span>1</span>
+							<p>+</p>
+						</div>
+					</div>
+				</div>
+				<div class="details-choose-btn-div">
+					<input class="text-center details-choose-btn" type="button" name="" id="" value="确定" <!--disabled="disabled"--> />
+				</div>
+			</div>
+		</div>
+		<!--2.选择优惠券-->
+		<div class="choose-coupons-gray">
+			<div class="choose-coupons-wrap">
+				<div class="choose-coupons-close"><img src="imgs/close-btn-round.png" alt=""/></div>
+				<p class="choose-coupons-tit">优惠券</p>
+				<div class="choose-coupons-content">
+					<ul class="choose-coupons-ul">
+						<li class="not-get">
+							<span class="round round1"></span>
+							<span class="round round2"></span>
+							<span class="left-money">¥5</span>
+							<p class="condition">
+								<span class="up">全场满200可用</span>
+								<span class="under">有效期：2018.04.03-2018.05.02</span>
+							</p>
+							<span class="right-get-btn">领取</span>
+						</li>
+						<li class="not-get">
+							<span class="round round1"></span>
+							<span class="round round2"></span>
+							<span class="left-money">¥5</span>
+							<p class="condition">
+								<span class="up">全场满200可用</span>
+								<span class="under">有效期：2018.04.03-2018.05.02</span>
+							</p>
+							<span class="right-get-btn">领取</span>
+						</li>
+						<li class="get">
+							<span class="round round1"></span>
+							<span class="round round2"></span>
+							<span class="left-money">¥5</span>
+							<p class="condition">
+								<span class="up">全场满200可用</span>
+								<span class="under">有效期：2018.04.03-2018.05.02</span>
+							</p>
+							<span class="right-get-btn">领取</span>
+						</li>
+					</ul>
+				</div>
+				<div class="coupons-getall-btn">
+					<input class="text-center coupons-getall" type="button" name="" id="" value="一键领取" />
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: 2000,//可选选项，自动滑动
+				loop : true,
+				autoplayDisableOnInteraction : false,
+				pagination : '.swiper-pagination'
+			})
+		</script>
+	</body>
+</html>

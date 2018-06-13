@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/j-hongbao.css">
+    <script type="text/javascript" src="js/ceshi.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="beijing">
+        <img src="img/j-hbbj.png">
+        <div class="cont">
+            <img src="img/j-hb.png">
+            <div class="anniu">
+                <a href="#"><img src="img/j-djlq.png"></a>
+                <a href="#"><img src="img/j-jrgw.png"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

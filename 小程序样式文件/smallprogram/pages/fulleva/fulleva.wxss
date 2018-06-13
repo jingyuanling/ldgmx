@@ -1,0 +1,156 @@
+/* pages/fulleva/fulleva.wxss */
+::-webkit-scrollbar{
+  display:none;
+}
+.full_eva_wrap{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: #efefef;
+	padding-top: 100rpx;
+}
+.syn_score_wrap{
+	width: 100%;
+	padding: 30rpx 0;
+	background-color: white;
+	overflow: hidden;
+	border-bottom: 1rpx solid #dadada;
+}
+.syn_score_left,.syn_score_right{
+	float: left;
+}
+.syn_score_left{
+	width: 40%;
+	text-align: right;
+}
+.syn_score_left .p1{
+	font-size: 72rpx;
+	color: #ffd800;
+  padding-right:20rpx;
+}
+.syn_score_left .p2{
+	font-size: 24rpx;
+	padding-right: 25rpx;
+}
+.syn_score_right{
+	width: 60%;
+	padding-left: 5%;
+	font-size: 24rpx;
+}
+.syn_star_level image{
+  width: 20rpx;
+  height: 20rpx;
+	display: inline-block;
+}
+.syn_star_level{
+	position: relative;
+	top: -5rpx;
+  margin-left: 15rpx;
+	
+}
+.syn_score_right view{
+	margin-top: 20rpx;
+}
+.syn_score_right .syn_score{
+	color: #ffd800;
+	font-size: 28rpx;
+}
+.full_eva_content{
+	width: 100%;
+	background-color: white;
+	padding-bottom: 100rpx;
+	margin-top: 20rpx;
+	border-top: 1rpx solid #dadada;
+}
+.full_eva_content .full_content_title{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 30rpx 0;
+	border-bottom: 1rpx solid #dadada;
+}
+.full_content_title span{
+	width: 22%;
+	display: inline-block;
+	border: 2rpx solid #cccccc;
+	text-align: center;
+	font-size: 24rpx;
+	color: #484545;
+	line-height: 55rpx;
+	border-radius: 10rpx;
+}
+.full_eva_center{
+	width: 100%;
+}
+.full_eva_ul li{
+	padding: 20rpx 4%;
+	box-sizing: border-box;
+	border-bottom: 1rpx solid #dadada;
+	overflow: hidden;
+  display:block;
+}
+/* .full_eva_ul li:nth-last-child(1){
+	border-bottom: none;
+} */
+.full_eva_ul li .eva_left_photo,.full_eva_ul li .eva_right_details{
+	float: left;
+}
+.eva_left_photo{
+	width: 20%;
+}
+.eva_right_details{
+	width: 80%;
+	padding-top: 20rpx;
+}
+.eva_left_photo image{
+	border-radius: 50%;
+  width: 94rpx;
+  height:94rpx;
+}
+.full_eva_star,.full_eva_img{
+	overflow: hidden;
+}
+.full_eva_star image{
+	float: left;
+	width: 20rpx;
+	height: 20rpx;
+}
+.full_eva_img image{
+	float: left;
+	width: 133rpx;
+	height: 133rpx;
+	margin-right: 22rpx;
+	margin-bottom: 20rpx;
+}
+.full_eva_user{
+	overflow: hidden;
+}
+.full_eva_user span{
+	font-size: 30rpx;
+	color: #484545;
+}
+.full_eva_user .span_name{
+	float: left;
+}
+.full_eva_user .span_time{
+	float: right;
+	font-size: 22rpx;
+	color: #cccccc;
+}
+.eva_right_details view{
+	margin-bottom: 15rpx;
+}
+.full_eva_ul .full_eva_rpxark{
+	font-size: 30rpx;
+	color: #484545;
+	line-height: 40rpx;
+}
+.full_eva_ul .spend_time{
+	font-size: 22rpx;
+	color: #cccccc;
+}
+/*评价头部选中状态*/
+.full_content_title .span_click{
+	border-color: #ffa100;
+	color: #ffa100;
+}

@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/indexnew.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="css/swiper-3.3.1.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/swiper-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script>
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <title>首页</title>
+</head>
+<body>
+    <!-- header start -->
+<div class="header clearfix">
+        <div class="tit">
+            <a href="className.html"><img src="img/all.png"></a>
+        </div>
+        <div class="ipt">
+            <a href="search.html"><input id="ipt" type="text" class="form-control" placeholder="             请输入产品名,商品...">
+        </div>
+</div>
+<div class="box">
+    <div class="boxWrapper">
+        <div class="banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="img/banner.png"></a>
+                    </div> 
+                    <div class="swiper-slide">
+                        <a href="#"><img src="img/banner.png"></a>
+                    </div> 
+                    <div class="swiper-slide">
+                        <a href="#"><img src="img/banner.png"></a>
+                    </div> 
+                </div>
+               <div class="swiper-pagination"></div> 
+            </div>
+        </div>
+        <div class="brand">
+            <ul class="lei">
+                <a href=""><li><img src="img/hdzq.png"></li></a>
+                <a href=""><li><img src="img/tjzqt.png"></li></a>
+                <a href=""><li><img src="img/tjyl.png"></li></a>
+                <a href=""><li class="fr"><img src="img/ddgl.png"></li></a>
+            </ul>
+        </div>
+        <div class="cont clearfix">
+            <a href="#"><div class="contleft">
+                <div class="lefttop">
+                    <img src="img/i-car.png">
+                    <p>纯债权金专区<br><span>精选优品好货</span></p>
+                </div>
+                <div class="leftbottom">
+                    <img src="img/i-jiu.png">
+                </div>
+            </div></a>
+            <div class="contright">
+                <a href="#"><div class="righttop">
+                    <img class="img1" src="img/i-shou.png">
+                    <p>绝对正品<br><span>优质保证</span></p>
+                    <img class="img2" src="img/i-tu1.png">
+                </div></a>
+                <a href="#"><div class="rightbottom righttop">
+                    <img class="img1" src="img/i-new.png">
+                    <p>每日上新<br><span>新品不断</span></p>
+                    <img class="img2" src="img/i-tu1.png">
+                </div></a>
+            </div>
+        </div>
+        <div class="xptj">
+            <div class="xptj-tit"><img src="img/i-xptj.png"></div>
+            <div class="xptj-cont clearfix">
+                <div class="xcont-left">
+                    <div class="xcont-left-top">
+                        <a href="#"><img src="img/i-hot.png"></a>
+                    </div>
+                    <div class="xcont-left-bottom">
+                        <a href="#"><img src="img/i-chaye.png"></a>
+                    </div>
+                </div>
+                <div class="xcont-right">
+                    <a href="#"><img src="img/i-hongjiu.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="rmlb">
+            <div class="rmlb-tit">
+                <img src="img/i-rmlb.png">
+            </div>
+            <div class="rmlb-cont">
+                
+                <ul class="clearfix">
+                    <a href="#"><li>
+                        <p>债权专区<br><span>0现金买买买</span></p>
+                        <div class="tupian"><span><img src="img/i-vip.png"><span></div>
+                    </li></a>
+                    <a href="#"><li class="right">
+                        <p>品牌白酒<br><span>品味悠长品酒香</span></p>
+                        <div class="tupian"><span><img src="img/i-vip.png"><span></div>
+                    </li></a>
+                </ul>
+                <ul class="clearfix">
+                    <a href="#"><li>
+                        <p>个护化妆<br><span>打造最美的你</span></p>
+                        <div class="tupian"><span><img src="img/i-vip.png"><span></div>
+                    </li></a>
+                    <a href="#"><li class="right">
+                        <p>最新鲜<br><span>吃过鸡蛋果吗</span></p>
+                        <div class="tupian"><span><img src="img/i-vip.png"><span></div>
+                    </li></a>
+                </ul>
+                <ul class="clearfix">
+                    <a href="#"><li>
+                        <p>鞋类箱包<br><span>国内打牌全方位</span></p>
+                        <div class="tupian"><span><img src="img/i-vip.png"><span></div>
+                    </li></a>
+                    <a href="#"><li class="right">
+                        <p>果干蜜饯类<br><span>营养好吃馋不停</span></p>
+                        <div class="tupian"><span><img src="img/i-vip.png"><span></div>
+                    </li></a>
+                </ul>
+                <ul class="clearfix">
+                    <a href="#"><li>
+                        <p>服装服饰<br><span>商务潮流任你选</span></p>
+                        <div class="tupian"><span><img src="img/i-vip.png"><span></div>
+                    </li></a>
+                    <a href="#"><li class="right">
+                        <p>家居家纺<br><span>组成温馨的家</span></p>
+                        <div class="tupian"><span><img src="img/i-vip.png"><span></div>
+                    </li></a>
+                </ul>
+                <ul class="clearfix">
+                    <a href="#"><li>
+                        <p>家电数码<br><span>且买且珍惜</span></p>
+                        <div class="tupian"><span><img src="img/i-vip.png"><span></div>
+                    </li></a>
+                    <a href="#"><li class="right">
+                        <p>进口食品<br><span>吃遍全球美食</span></p>
+                        <div class="tupian"><span><img src="img/i-vip.png"><span></div>
+                    </li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="rmcp">
+            <div class="rmcp-tit">
+                <img src="img/i-rmcp.png">
+                <a href="#"><p>更多</p></a>
+            </div>
+            <!-- <div class="rmcp-cont">
+                 <ul class="clearfix">
+                     <a href="#"><li>
+                         <img src="img/i-chanpin.png">
+                         <div class="libottom">
+                             <p>产品的名字在这个地方产品</p>
+                             <p class="p2">惊爆价<span>￥666666</span></p>
+                         </div>
+                     </li></a>
+                     <a href="#"><li class="right">
+                         <img src="img/i-chanpin.png">
+                         <div class="libottom">
+                             <p>产品的名字在这个地方产品产品的名字在这个地方产品</p>
+                             <p class="p2">惊爆价<span>￥666666</span></p>
+                     </li></a>
+                 </ul>
+                 <ul class="clearfix">
+                     <a href="#"><li>
+                         <img src="img/i-chanpin.png">
+                         <div class="libottom">
+                             <p>产品的名字在这个地方产品</p>
+                             <p class="p2">惊爆价<span>￥666666</span></p>
+                         </div>
+                     </li></a>
+                     <a href="#"><li class="right">
+                         <img src="img/i-chanpin.png">
+                         <div class="libottom">
+                             <p>产品的名字在这个地方产品产品的名字在这个地方产品</p>
+                             <p class="p2">惊爆价<span>￥666666</span></p>
+                     </li></a>
+                 </ul>
+            </div> -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="rmcp-cont">
+                             <ul class="clearfix">
+                                 <a href="#">
+                                 	<li>
+	                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+	                                     <div class="libottom">
+	                                         <p>产品的名字在这个地方产品</p>
+	                                         <p class="p2">惊爆价<span>￥666666</span></p>
+	                                     </div>
+                                 	</li>
+                                 </a>
+                                 <a href="#"><li class="right">
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品产品的名字在这个地</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                 </li></a>
+                             </ul>
+                             <ul class="clearfix">
+                                 <a href="#"><li>
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                     </div>
+                                 </li></a>
+                                 <a href="#"><li class="right">
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品产品的名字在这个地</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                 </li></a>
+                             </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rmcp-cont">
+                             <ul class="clearfix">
+                                 <a href="#"><li>
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                     </div>
+                                 </li></a>
+                                 <a href="#"><li class="right">
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品产品的名字在这个地</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                 </li></a>
+                             </ul>
+                             <ul class="clearfix">
+                                 <a href="#"><li>
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                     </div>
+                                 </li></a>
+                                 <a href="#"><li class="right">
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品产品的名字在这个地</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                 </li></a>
+                             </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rmcp-cont">
+                             <ul class="clearfix">
+                                 <a href="#"><li>
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                     </div>
+                                 </li></a>
+                                 <a href="#"><li class="right">
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品产品的名字在这个地</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                 </li></a>
+                             </ul>
+                             <ul class="clearfix">
+                                 <a href="#"><li>
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                     </div>
+                                 </li></a>
+                                 <a href="#"><li class="right">
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品产品的名字在这个地</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                 </li></a>
+                             </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rmcp-cont">
+                             <ul class="clearfix">
+                                 <a href="#"><li>
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                     </div>
+                                 </li></a>
+                                 <a href="#"><li class="right">
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品产品的名字在这个地</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                 </li></a>
+                             </ul>
+                             <ul class="clearfix">
+                                 <a href="#"><li>
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                     </div>
+                                 </li></a>
+                                 <a href="#"><li class="right">
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品产品的名字在这个地</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                 </li></a>
+                             </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rmcp-cont">
+                             <ul class="clearfix">
+                                 <a href="#"><li>
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                     </div>
+                                 </li></a>
+                                 <a href="#"><li class="right">
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品产品的名字在这个地</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                 </li></a>
+                             </ul>
+                             <ul class="clearfix">
+                                 <a href="#"><li>
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                     </div>
+                                 </li></a>
+                                 <a href="#"><li class="right">
+                                     <div class="litop_img"><img src="img/i-chanpin.png"></div>
+                                     <div class="libottom">
+                                         <p>产品的名字在这个地方产品产品的名字在这个地</p>
+                                         <p class="p2">惊爆价<span>￥666666</span></p>
+                                 </li></a>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div> 
+                <script language="javascript"> 
+                    var mySwiper = new Swiper('.swiper-container',{
+                    prevButton:'.swiper-button-prev',
+                    nextButton:'.swiper-button-next',
+                    })
+                </script>
+            </div>
+        </div>
+        <div class="geceng">
+        </div> 
+    </div>
+</div>
+    <div class="footer">
+        <div class="background"><img src="img/foot.png"></div>
+        <ul class="clearfix">
+            <a 
+            href="index.html"><li><img src="img/home.png"><span>首页</span></li></a>
+            <a href="className.html"><li><img src="img/fenlei.png"><span>分类</span></li></a>
+            <a href="gouwuche.html"><li><img src="img/car2.png"><span class="span1">购物车</span></li></a>
+            <a href="person.html"><li><img src="img/user.png"><span class="span2">个人中心</span></li></a>
+        </ul>
+    </div>
+    <script src="js/wow.min.js" ></script>
+    <script>
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+    new WOW().init();
+};
+</script>
+<script>
+(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'onorientationchange' in window ? 'onorientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                }
+            };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  var mySwiper = new Swiper ('.swiper-container', {
+
+    direction: 'horizontal',
+    loop: true,
+    autoplay : 2000,
+    speed:300,
+    pagination : '.swiper-pagination',
+  })        
+  </script>
+</body>
+</html>

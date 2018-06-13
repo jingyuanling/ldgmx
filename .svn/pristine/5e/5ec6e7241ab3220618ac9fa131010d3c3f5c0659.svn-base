@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>团队管理</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-team-manage.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow" onclick="javascript:history.back(-1);"><img src="imgs/left-return-arrow2.png" alt=""/></span>
+				<p class="text-center nav-tit-name">团队管理</p>
+				<a href="wine-chat.html" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap">
+			<div class="wine-team-top">
+				
+			</div>
+			<div class="agent-details-content">
+				<div class="agent-details-top">
+					<div class="agent-order-comm">
+						<p class="agent-comm-p">
+							<span class="left-span1">100</span>
+							<span class="left-span2">订单数量</span>
+						</p>
+						<p class="agent-comm-p">
+							<span class="right-span1">2000</span>
+							<span class="right-span2">贡献佣金（元）</span>
+						</p>
+					</div>
+					<p class="returns-remind">当前等级<span>高级VIP</span>暂未享受团队分红</p>
+				</div>
+				<div class="wine-home-class">
+					<p class="wine-time-class-tit">团队成员（123人）</p>
+					<ul>
+						<li>
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>昵称</p>
+						</li>
+						<li>
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>昵称</p>
+						</li>
+						<li>
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>昵称</p>
+						</li>
+						<li>
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>昵称</p>
+						</li>
+						<li>
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>昵称</p>
+						</li>
+						<li>
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>昵称</p>
+						</li>
+						<li>
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>昵称</p>
+						</li>
+						<li>
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>昵称</p>
+						</li>
+						<li>
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>昵称</p>
+						</li>
+						<li>
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>昵称</p>
+						</li>
+					</ul>
+					<p class="team-btm-note">注：团队中任意成员消费，您均可获得商品相应经验值。</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

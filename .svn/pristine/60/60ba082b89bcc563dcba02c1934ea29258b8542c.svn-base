@@ -1,0 +1,22 @@
+body{
+	background-color: #f3f5f7;
+}
+.wine_member_wrap{
+	padding-top: 39px;
+}
+.wine_mem_inf:nth-child(1){
+	border-top: 1px solid gray;
+}
+.wine_mem_inf{
+	font-size: 0.7em;
+	overflow: hidden;
+	padding: 0 0.8em;
+	border-bottom: 1px solid gray;
+}
+.wine_member_wrap .wine_mem_inf span:nth-child(2){
+	float: right;
+}
+.wine_mem_inf span{
+	display: inline-block;
+	line-height: 2.5em;
+}

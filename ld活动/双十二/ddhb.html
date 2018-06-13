@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/ceshi.css" rel="stylesheet" type="text/css" />
+    <link href="css/ddhb.css" rel="stylesheet" type="text/css" />
+   
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <script  type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/invite.js"></script>  
+</head>
+<body id="body">
+<a name="top"></a>
+<header>
+        
+        <!-- 通用头 div -->
+<div class="header">
+    <div class="back">
+        <a href="dingdanxiangqing1.html"><img src="img/back.png"></a>
+    </div>
+    <div class="tit">
+        <p>订单确认</p>
+    </div>
+    <div class="brand">
+        <a href="#"><img src="img/personbrand.png"></a>
+    </div>
+</div>
+<div class="footer">
+        <div class="background">
+        <ul class="clearfix">
+            <a href="index.html"><li><img src="img/home.png"><span>首页</span></li></a>
+            <a href="className.html"><li><img src="img/fenlei.png"><span>分类</span></li></a>
+            <a href="gouwuche.html"><li><img src="img/car2.png"><span class="span1">购物车</span></li></a>
+            <a href="person.html"><li><img src="img/user.png"><span class="span2">个人中心</span></li></a>
+        </ul>
+        </div>
+</div>
+</header>
+<div class="ddhb">
+    <div class="hb">
+        <div class="hbcont">
+            <p class="p1"><span class="span1">￥</span><span>10</span>无限额</p>
+            <p>2016年7月21—2106年7月28<p>
+        </div>
+        <img id="hbdj" src="img/hbdj.png">
+    </div>
+    <div class="hb">
+        <div class="hbcont">
+            <p class="p1"><span class="span1">￥</span><span>10</span>无限额</p>
+            <p>2016年7月21—2106年7月28<p>
+        </div>
+        <img id="hbdj" src="img/hbdj.png">
+    </div>
+    <div class="hb">
+        <div class="hbcont">
+            <p class="p1"><span class="span1">￥</span><span>10</span>无限额</p>
+            <p>2016年7月21—2106年7月28<p>
+        </div>
+        <img id="hbdj" src="img/hbdj.png">
+    </div>
+    <div class="hb no">
+        <div class="hbcont">
+            <p class="p1"><span class="span1">￥</span><span>10</span>无限额</p>
+            <p>2016年7月21—2106年7月28<p>
+        </div>
+        <img src="img/wfsy.png">
+    </div>
+</div>
+<script language="javascript">
+      var Hbdj=document.getElementById("hbdj");
+            for (var i = 0; i < 3; i++) {
+                Hbdj[i].index = i;
+               Hbdj[i].onclick=function(){
+                  for (var i = 0; i < 3; i++) {   
+                if(Hbdj[i].src.indexOf("img/hbydj.png")>=0){
+                     Hbdj[i].src="img/hbdj.png";
+                }else{
+                     Hbdj[i].src="img/hbydj.png";
+                }
+            }
+          
+       }
+             }  
+    </script>
+</body>
+</html>            

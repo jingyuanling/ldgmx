@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>发起退款</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-create-eval.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-initiate-refund.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow"><img src="imgs/left-return-arrow.png" alt=""/></span>
+				<p class="text-center nav-tit-name">发起退款</p>
+				<a href="javascript:void(0)" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap wine-wrap-four">
+			<div class="initiate-upper">
+				<p class="initiate-type">
+					<span class="left">申请类型</span>
+					<span class="right">我要退款（无需退货）<img src="imgs/down-arrow-gray.png" alt="" /></span>
+				</p>
+				<p class="initiate-reason">
+					<span class="left">申请原因</span>
+					<span class="right">点击选择申请原因<img src="imgs/down-arrow-gray.png" alt="" /></span>
+				</p>
+				<p class="initiate-amount">
+					<span class="left">退款金额</span>
+					<span class="right amount">￥100</span>
+				</p>
+			</div>
+			<div class="initiate-middle">
+				<div class="create-eval-goods">
+					<p class="goods-title">补充说明</p>
+				</div>
+				<div class="eval-textarea-wrap">
+					<textarea class="create-eval-text" name="" rows="4" cols="" placeholder="请填写补充说明"></textarea>
+				</div>
+			</div>
+			<div class="initiate-down">
+				<div class="create-eval-goods">
+					<p class="goods-title">上传凭证<span>（最多3张）</span></p>
+				</div>
+				<ul class="eval-goodsImg">
+					<li><img src="imgs/box-logo.png" alt=""></li>
+					<li><img src="imgs/box-logo.png" alt=""></li>
+					<li><img src="imgs/box-logo.png" alt=""></li>
+					<div class="update-img-btn">
+						<img src="imgs/camera-logo.png" alt="">
+						<p>上传照片</p>
+						<input type="file" name="" id="" value="">
+					</div>
+				</ul>
+			</div>
+		</div>
+		<input class="initiate-submit" type="button" name="" id="" value="提交申请" />
+		<!--申请类型弹框-->
+		<div class="initi-type-alert">
+			<div class="initi-type-wrap">
+				<p class="initi-type-tit">申请类型</p>
+				<ul>
+					<li>
+						<p class="shang">我要退款（无需退货）<span class="pay-right-sel pay_sel_active"><img src="imgs/right-logo-white.png" alt=""></span></p>
+						<p class="xia">未收到货（包含未签收），或卖家协商同意前提下</p>
+					</li>
+					<li>
+						<p class="shang">我要退款（无需退货）<span class="pay-right-sel"><img src="imgs/right-logo-white.png" alt=""></span></p>
+						<p class="xia">未收到货（包含未签收），或卖家协商同意前提下</p>
+					</li>
+					<li>
+						<p class="shang">我要退款（无需退货）<span class="pay-right-sel"><img src="imgs/right-logo-white.png" alt=""></span></p>
+						<p class="xia">未收到货（包含未签收），或卖家协商同意前提下</p>
+					</li>
+				</ul>
+				<input class="initi-type-sure" type="button" name="" id="" value="确    定" />
+			</div>
+		</div>
+		<!--申请原因弹框-->
+		<div class="initi-reason-alert">
+			<div class="initi-reason-wrap">
+				<p class="initi-reason-tit">申请原因</p>
+				<ul>
+					<li>
+						<p class="shang">大小/尺寸/材质面料/颜色/款式与产品图不符<span class="pay-right-sel pay_sel_active"><img src="imgs/right-logo-white.png" alt=""></span></p>
+					</li>
+					<li>
+						<p class="shang">包装/商品破损/污渍/变形<span class="pay-right-sel"><img src="imgs/right-logo-white.png" alt=""></span></p>
+					</li>
+					<li>
+						<p class="shang">处理发票问题<span class="pay-right-sel"><img src="imgs/right-logo-white.png" alt=""></span></p>
+					</li>
+					<li>
+						<p class="shang">少发/漏发<span class="pay-right-sel"><img src="imgs/right-logo-white.png" alt=""></span></p>
+					</li>
+				</ul>
+				<input class="initi-reason-sure" type="button" name="" id="" value="确    定" />
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.initiate-type').click(function(){
+				$('.initi-type-alert').fadeIn();
+			});
+			$('.initi-type-wrap li').click(function(){
+				$('.initi-type-wrap .pay-right-sel').removeClass('pay_sel_active');
+				$(this).find('.pay-right-sel').addClass('pay_sel_active');
+				$('.initi-type-alert').fadeOut();
+			});
+			$('.initiate-reason').click(function(){
+				$('.initi-reason-alert').fadeIn();
+			});
+			$('.initi-reason-wrap li').click(function(){
+				$('.initi-reason-wrap .pay-right-sel').removeClass('pay_sel_active');
+				$(this).find('.pay-right-sel').addClass('pay_sel_active');
+				$('.initi-reason-alert').fadeOut();
+			});
+		</script>
+	</body>
+</html>

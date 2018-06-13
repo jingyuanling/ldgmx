@@ -1,0 +1,81 @@
+body{
+	background-color: #f3f5f7;
+}
+.wine_goodsList_head{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 0.8rem;
+    background: #d9333f;
+    position: fixed;
+    z-index: 100;
+}
+.wine_goodsList_head_return img{
+    width: 10px;
+    margin-left: 15px;
+    margin-top: 7px;
+    float: left;
+}
+.wine_ipt{
+    width: 4.4rem;
+    height: 0.45rem;
+    margin: 0 auto;
+    margin-top: 0.175rem;
+}
+.wine_ipt_search{
+	width: 5.1rem;
+	margin-left: 0.2rem;
+}
+.wine_ipt .wine_ipt_inp{
+    width: 100%;
+    height: 100%;
+    border:none;
+    float: left;
+    border-radius: 0.2rem;
+    padding-left: 0.6rem;
+    font-size: 0.26rem;
+}
+.wine_ipt img{
+    width: 0.36rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: -0.4rem;
+}
+.wine_home{
+    height: 0.45rem;
+    position: absolute;
+    right: 0.20rem;
+    top: 0.175rem;
+    font-size: 0.36rem;
+    line-height: 0.45rem;
+    font-family: "黑体";
+}
+.wine_home span{
+	color: white;
+	font-size: 1.2em;
+}
+.search_content{
+	width: 100%;
+	height: 100%;
+	padding: 0.8rem 0.2rem;
+	box-sizing: border-box;
+	padding-bottom: 1.3rem;
+	overflow-y: scroll;
+}
+.wine_hot_search_titile{
+	font-size: 0.3rem;
+	padding-top: 0.2rem;
+}
+.search_content_ul{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.search_content_ul>li{
+	font-size: 0.26rem;
+	display: inline-block;
+	background-color: #dce1e9;
+	padding: 0.1rem 0.4rem;
+	border-radius: 0.1rem;
+	margin-top: 0.2rem;
+}

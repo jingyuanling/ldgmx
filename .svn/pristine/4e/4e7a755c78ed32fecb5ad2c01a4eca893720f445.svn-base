@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+.mhome{
+	padding: 0;
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f8f8f8;
+}
+.Web_tuan_banner,.Web_tuan_banner *{
+	max-width: 640px;
+	width:100%;
+}
+.HD_bg{
+	background:#158a70;
+	padding:10px;
+}
+.HD_box{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	background:#1aad8c;
+	position:relative;
+	margin-top:15px;
+	padding:50px 10px 30px;
+}
+.HD_title{
+	background:url(../img/hd_title.png) no-repeat;
+	background-size:100%;
+	width:174px;
+	height:56px;
+	position:absolute;
+	top:-17px;
+	left:50%;
+	margin-left:-87px;
+}
+.HD_txt{
+	height:30px;
+	line-height:30px;
+	background:#158a70;
+	position:relative;
+}
+.HD_txt.marTop{
+	margin-top:10px;
+}
+.HD_txt .num.theone{
+	background:url(../img/num_1.png) no-repeat;
+	background-size:100%;
+}
+.HD_txt .num.thetwo{
+	background:url(../img/num_2.png) no-repeat;
+	background-size:100%;
+}
+.HD_txt .num.thethree{
+	background:url(../img/num_3.png) no-repeat;
+	background-size:100%;
+}
+.HD_txt .num.thefour{
+	background:url(../img/num_4.png) no-repeat;
+	background-size:100%;
+}
+.HD_txt .num.thefive{
+	background:url(../img/num_5.png) no-repeat;
+	background-size:100%;
+}
+.HD_txt .num{
+	width:38px;
+	height:34px;
+	position:absolute;
+	top:-4px;
+}
+.HD_main{
+	margin-left:54px;
+	font-size:14px;
+	color:#fff;
+}
+.HD_huan{
+	width:59px;
+	height:49px;
+	background:url(../img/huan.png) no-repeat;
+	background-size:100%;
+	position:absolute;
+	top:-30px;
+	left:50%;
+	margin-left:-30px;
+	z-index:10;
+}
+.herobox{
+	position:relative;
+	background:#158a70;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	padding:20px 5px 10px;
+}
+.heroTitle{
+	background:url(../img/hero.png) no-repeat;
+	background-size:100%;
+	width:252px;
+	height:30px;
+	position:absolute;
+	top:-18px;
+	left:50%;
+	margin-left:-126px;
+}
+.herolist tr{
+	background:#1aad8c;
+	color:#fff;
+	border-bottom:10px solid #158a70;
+	text-align:center;
+}
+.herolist tr th{
+	border-right:1px solid #fff;
+}
+.herolist tr th:last-of-type{
+	border:none;
+}
+.herolist tr td{
+	font-size:14px;
+	line-height:21px;
+}
+.hz{
+	width:36px;
+	height:21px;
+	margin:auto;
+}
+.hz.n1{
+	background:url(../img/n-1.png) no-repeat;
+	background-size:100%;
+}
+.hz.n2{
+	background:url(../img/n-2.png) no-repeat;
+	background-size:100%;
+}
+.hz.n3{
+	background:url(../img/n-3.png) no-repeat;
+	background-size:100%;
+}
+.mybutton{
+	width:148px;
+	height:38px;
+	margin:10px auto 0;
+}
+.mybutton a{
+	display:block;
+	width:148px;
+	height:38px;
+	background:url(../img/mybutton.png) no-repeat;
+	background-size:100%;
+}
+.stateTitle{
+	width:186px;
+	height:45px;
+	background:url(../img/state.png) no-repeat;
+	background-size:100%;
+	position:absolute;
+	z-index:9;
+	top:6px;
+	left:50%;
+	margin-left:-93px;
+}
+.statebox{
+	padding-top:10px;
+	font-size:14px;
+	color:#fff;
+}
+.statetxt p{
+	position:relative;
+	padding-left:10px;
+	line-height:24px;
+}
+.statetxt p i{
+	position:absolute;
+	left:1px;
+}
+.statetxt span{
+	color:#facc15;
+}

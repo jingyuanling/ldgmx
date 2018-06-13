@@ -1,0 +1,115 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+html{
+    background-color: #eaeaea;
+    min-width: 320px;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.geren-box{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    background-color: #eaeaea;
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+.main-top p{
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+.yanzheng{
+    margin-top: 20px;
+}
+.yanzheng p{
+    background-color: #fff;
+    width: 100%;
+    padding-left: 15px;
+    height: 40px;
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    line-height: 38px;
+    font-size: 12px;
+}
+.yanzheng p input{
+    height: 38px;
+    border: none;
+    margin-left: 10px;
+    outline: none;
+}
+.yanzheng p.p2{
+    border-top:none;
+    padding-right: 10px;
+}
+.yanzheng p.p2 input{
+    margin-left: 10px;
+    width: 96px;
+}
+.yanzheng p.p2 span.get{
+    width: 70px;
+    height: 25px;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    line-height: 23px;
+    display: block;
+    margin-top: 7px;
+    float: right;margin-right: 9px;
+    border-radius: 8px;
+}
+.yanzheng p.p2 span.time{
+    display: block;
+    float: right;
+    width: 71px;
+    height: 23px;
+    margin-top: 8px;
+    background-color: #a39f9f;
+    font-size: 12px;
+    color: #fff;
+    line-height: 23px;
+    text-align: center;
+}
+p.yanzheng{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    height: 35px;
+    line-height: 33px;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    font-size: 12px;
+    background-color: #fff;
+    margin-top: 20px;
+
+}

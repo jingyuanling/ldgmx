@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+		<style type="text/css">
+			.wy-alert-gray{
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0,0,0,0.5);
+				overflow: scroll;
+				position: fixed;
+			}
+			.wy-alert-prize3{
+				display: inline-block;
+			}
+			.wy-alert-gray .wy-alert-prize1,.wy-alert-gray .wy-alert-prize2,.wy-alert-prize3{
+				width: 300px;
+				height: 600px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-top: -300px;
+				margin-left: -150px;
+			}
+			.wy-alert-prize1 img,.wy-alert-prize2 img,.wy-alert-prize3 img{
+				width: 100%;
+				height: 100%;
+			}
+			.no-prize-cancel{
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 30px;
+				height: 30px;
+			}
+			.no-prize-again{
+			    width: 170px;
+			    height: 60px;
+			    position: absolute;
+			    display: inline-block;
+			    bottom: 30px;
+			    left: 65px;
+			}
+			.wy-alert-prize1{
+				position: relative;
+				display: none;
+			}
+			.wy-alert-prize2{
+				position: relative;
+				display: none;
+			}
+			.wy-alert-prize3{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wy-alert-gray">
+			<div class="wy-alert-prize1">
+				<img class="no-prize" src="../PC-alert/img/fail.png"/>
+				<div class="no-prize-cancel"></div>
+				<a href="###" class="no-prize-again"></a>
+			</div>
+			<div class="wy-alert-prize2">
+				<img class="have-prize" src="../PC-alert/img/win.png"/>
+				<div class="no-prize-cancel"></div>
+				<a href="###" class="no-prize-again"></a>
+			</div>
+			<a href="###" class="wy-alert-prize3">
+				<img class="have-prize" src="../mobile-alert/img/get-red-box.png"/>
+			</a>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$('.no-prize-cancel').click(function(){
+					$('.wy-alert-gray').hide();
+				});
+			});
+		</script>
+	</body>
+</html>

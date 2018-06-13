@@ -1,0 +1,82 @@
+body{
+	font-family: "黑体";
+}
+.dingdan-box{
+    width: 100%;
+    background-color: #f3f5f7;
+	padding: 0.8rem 0;
+}
+.dingdan-box .dingdan{
+    width: 100%;
+    background-color: #fff;
+    padding: 0 0.2rem;
+    border-bottom: 1px solid #cccccd;
+    border-top: 1px solid #cccccd;
+    margin-bottom: 0.2rem;
+}
+.dingdan-box .dingdan-title {
+    padding: 0.2rem 0;
+    position: relative;
+}
+.dingdan-box .dingdan-title p:nth-child(1){
+	margin-bottom: 0.1rem;
+}
+.dingdan p{
+    font-size: 0.28rem;
+    color: #000;
+}
+.dingdan-box .dingdan-title .right{
+    position: absolute;
+    right: 0.2rem;
+    top: 0.3rem;
+    font-size: 0.3rem;
+    color: #d9333f;
+}
+.dingdan p.time{
+    font-size: 0.24rem;
+    color: #a29fa2;
+}
+.shangpin{
+    padding: 0.24rem 0 0;
+    border-top:1px solid #cccccd;
+}
+.shangpin p{
+    font-size: 0.26rem;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    line-height: 0.46rem;
+    margin-bottom: 0.15rem;
+}
+.shangpin img{
+    float: left;
+    width: 0.46rem;
+    height: 0.46rem;
+    margin-right: 0.4rem;
+    border: 0.01rem solid #d7d7d7;
+}
+.shangpin p span.shuliang{
+    color:#a29fa2;
+    float: right;
+    margin-top: -0.35rem;
+}
+.shangpin p.zongmoney{
+    border-top:1px solid #cccccd;
+    padding: 0.15rem 0;
+    font-size: 0.3rem;
+    color: #d9333f;
+    margin-bottom: 0;
+}
+.shangpin p.zongmoney span{
+    float: right;
+}
+.shangpin .order_goods_name{
+	width: 4.2rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+.shangpin p.zongmoney span:nth-child(2){
+	color: #999999;
+}

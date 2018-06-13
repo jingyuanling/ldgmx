@@ -1,0 +1,186 @@
+.wine-head::-webkit-scrollbar{
+	display: none;
+}
+.wine-head-wrap{
+	width: 7.5rem;
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	border-top: 0.01rem solid #9b9b9b;
+	border-bottom: 0.01rem solid #e1dfda;
+	background-color: #ffffff;
+	z-index: 9;
+	max-width: 750px;
+    min-width: 320px;
+    background-color: #e9e9e9;
+}
+/*第一个头部*/
+.wine-head-nav{
+	width: 100%;
+	height: 1.03rem;
+	position: relative;
+	padding: 0 0.45rem 0 0.37rem;
+	background-color: #FFFFFF;
+}
+.wine-head-nav-two{
+	margin-bottom: 0.02rem;
+}
+.wine-head-nav .nav-tit-name{
+	height: 1.03rem;
+	line-height: 1.03rem;
+	font-size: 0.3333rem;
+	color: #333333;
+}
+.wine-head-nav .left-return-arrow{
+	width: 0.2rem;
+	height: 0.42rem;
+	position: absolute;
+	top: 0.305rem;
+}
+.wine-head-nav .left-return-arrow img,.wine-head-nav .right-logo img{
+	width: 100%;
+	height: 100%;
+}
+.wine-head-nav .right-logo{
+	width: 0.41rem;
+	height: 0.42rem;
+	position: absolute;
+	right: 0.37rem;
+	top: 0.305rem;
+	display: inline-block;
+}
+.wine-head-nav .right-logo-news{
+	width: 0.54rem;
+	height: 0.54rem;
+	top: 0.25rem;
+}
+/*第二个头部*/
+.wine-head-nav-class{
+	width: 100%;
+	height: 0.83rem;
+	padding: 0 0.37rem;
+	background-color: #FFFFFF;
+}
+.wine-head{
+	width: 100%;
+	height: 100%;
+	overflow-x: scroll;
+}
+.wine-head ul{
+	width: 12rem;
+	overflow: hidden;
+}
+.wine-head li{
+	width: 0.67rem;
+	height: 100%;
+	float: left;
+	font-size: 0.3333rem;
+	line-height: 0.83rem;
+	margin-right: 0.4rem;
+	position: relative;
+	text-align: center;
+}
+.wine-head li a{
+	color: #666666;
+}
+.wine-head .head_li_active a{
+	color: #e20000;
+}
+.wine-head .head_li_active span{
+	display: block;
+	width: 100%;
+	height: 0.05rem;
+	background-color: #e20000;
+	position: absolute;
+	bottom: 0;
+	border-radius: 0.02rem;
+}
+.wine-head-nav .right-text{
+	font-size: 0.2916rem;
+	display: block;
+	height: 100%;
+	position: absolute;
+	right: 0.37rem;
+	color: #333333;
+	top: 0;
+	line-height: 1.05rem;
+}
+.wine-head li:nth-last-child(1){
+	margin-right: 0;
+}
+@media only screen and (max-width: 320px) {
+	.wine-head li{
+		line-height: 0.82rem;
+	}
+}
+/*底部*/
+.wine-foot{
+	width: 100%;
+	height: 1.05rem;
+	position: fixed;
+	bottom: 0;
+	max-width: 750px;
+    min-width: 320px;
+    padding-top: 0.18rem;
+    border-top: 0.01rem solid #dadada;
+    background-color: #FFFFFF;
+}
+.wine-foot table{
+	width: 100%;
+}
+.wine-foot table td{
+	text-align: center;
+	color: #666666;
+}
+.wine-foot table td .img{
+	display: inline-block;
+	width: 100%;
+	height: 0.44rem;
+}
+.wine-foot table td .img img{
+	height: 100%;
+}
+.wine-foot table td .text{
+	display: inline-block;
+	width: 100%;
+	height: 0.39rem;
+	line-height: 0.39rem;
+	font-size: 0.2083rem;
+	color: #666666;
+}
+.wine-foot table td .text-red{
+	color: #e20000;
+}
+/*回到顶部按钮*/
+.btm-none-return{
+	height: 0;
+	width: 100%;
+	position: fixed;
+	bottom: 2.26rem;
+	max-width: 750px;
+    min-width: 320px;
+}
+.return-no-btm{
+	bottom: 1.23rem;
+}
+.return-top-btn{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0.41rem;
+	height: 0.83rem;
+	width: 0.83rem;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 0 0 0.3rem rgba(0,0,0,0.35);
+}
+.return-top-btn img{
+	width: 0.42rem;
+	height: 0.2rem;
+	margin: 0.18rem auto 0;
+}
+.return-top-btn p{
+	font-size: 0.2083rem;
+	color: #666666;
+}

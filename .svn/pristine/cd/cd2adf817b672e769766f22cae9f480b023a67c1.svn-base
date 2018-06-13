@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>更换手机号</title>
+	    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/headAndfoot.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/posters-generate.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/back-pwd.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/change-phone.css"/>
+	    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="material-nav">
+			<span class="glyphicon glyphicon-menu-left"></span>
+			<p class="text-center">海报生成</p>
+		</div>
+		<div class="container-fluid">
+			<form>
+				<div class="back-pwd-inps">
+					<p class="change-current-num">当前手机号：152111111111111</p>
+					<div class="form-group">
+					    <input class="form-control" name="" type="text" placeholder="请输入手机号">
+				  	</div>
+				  	<div class="form-group form-group2">
+					    <input class="form-control" name="" type="text" placeholder="输入验证码">
+					    <button class="btn btn-default back-pwd-code" type="button">获取验证码</button>
+					    <p class="error">*验证码有误！</p>
+				  	</div>
+				</div>
+				<button class="btn btn-block back-pwd-btn" type="button" data-toggle="modal" data-target="#myModal">确定</button>
+			</form>
+		</div>
+		<!--弹框-->
+		<div class="modal fade generate_alert" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		    <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			        <img class="center-block right-icon" src="img/right-icon.png"/>
+			        <p class="text-center">&emsp;修改成功！</p>
+			        <button type="button" class="btn btn-default sure_btn" data-dismiss="modal">确定</button>
+			    </div>
+		    </div>
+		</div>
+	</body>
+</html>

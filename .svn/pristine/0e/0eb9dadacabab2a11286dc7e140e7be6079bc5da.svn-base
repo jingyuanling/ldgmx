@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>头部页面</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="wine-js/wine-header.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--回到顶部按钮-->
+		<div class="btm-none-return">
+			<a href="#return-top" class="return-top-btn">
+				<span><img src="imgs/return-top-arrow.png" alt=""/></span>
+				<p>顶部</p>
+			</a>
+		</div>
+		<!--底部-->
+		<div class="wine-foot">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>
+						<a href="wine-home.html">
+							<p class="img"><img src="imgs/btm-home-gray.png" alt=""/></p>
+							<p class="text">首页</p>
+						</a>
+					</td>
+					<td>
+						<a href="###">
+							<p class="img"><img src="imgs/btm-search-gray.png" alt=""/></p>
+							<p class="text">搜索</p>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<p class="img"><img src="imgs/btm-cart-gray.png" alt=""/></p>
+							<p class="text">购物车</p>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<p class="img"><img src="imgs/btm-promote-gray.png" alt=""/></p>
+							<p class="text">推广码</p>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<p class="img"><img src="imgs/btm-person-gray.png" alt=""/></p>
+							<p class="text">个人中心</p>
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

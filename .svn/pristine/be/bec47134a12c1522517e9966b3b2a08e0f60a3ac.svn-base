@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+html{
+    background-color:#ebebeb
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.mytihuoquan-box{
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaea;
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+    font-family:"微软雅黑";
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+.main-top img.serch{
+    position: relative;
+   /* position: absolute;*/
+    float: right;
+    width: 15px;
+    margin-top: -30px;
+    margin-right: 13px;
+
+}
+.main-top p{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+
+.dian-tit{
+    width: 100%;
+    padding: 8px 19px;
+    background-color: #f0f0f2;
+    margin-top: 3px;
+}
+.dian-tit img{
+    width: 69px;
+    float: left;
+}
+.dian-tit .cont{
+    padding-left: 80px;
+    line-height: 20px;
+     padding-right: 60px;
+}
+.dian-tit .cont p{
+
+   color: #000;
+   font-size: 13px;
+   letter-spacing: 1px;
+   line-height: 15px;
+}
+.dian-tit .cont p.p1{
+    height: 32px;
+}
+.dian-tit .cont p.p1 span{
+    float: right;
+    margin-right: -55px;
+    color: #3baca1;
+}
+.dian-tit .cont p.p2{
+   color: #8b8b8b;
+   font-size: 12px;
+   line-height: 20px;
+}
+.dian-tit .cont p.p2 span{
+    display: block;
+    border-radius: 5px;
+    padding:2px 5px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #8b8b8b;
+    text-align: center;line-height: 15px;
+    font-size: 12px;
+    color: #8b8b8b;
+    float: right;
+    margin-right: -55px;
+    margin-top: 15px;
+}
+.dian-tit .cont p.juli{
+    color: #8b8b8b;
+    letter-spacing:0px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.fenlei li{
+    float: left;
+    font-size: 12px;
+    list-style: none;
+    width: 50%;
+    height: 30px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;line-height: 30px;
+}
+.fenlei li.active{
+    color: #e6262d;
+    border-bottom: 1px solid #e6262d;
+}

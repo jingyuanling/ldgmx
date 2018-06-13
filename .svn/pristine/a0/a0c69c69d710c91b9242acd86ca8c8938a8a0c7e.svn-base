@@ -1,0 +1,68 @@
+.material-nav{
+	border-bottom: none;
+}
+.container-fluid{
+	padding: 0.88rem 0;
+	background-color: #f2f2f2;
+}
+.btn.active, .btn:active{
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.material-sort .btn-group{
+	width: 2.15rem;
+	line-height: 0.8rem;
+}
+.material-sort .btn-group .btn{
+	width: 100%;
+	text-align: right;
+	font-size: 0.24rem;
+	background-color: white;
+	color: #939393;
+}
+.material-sort{
+	background-color: white;
+	border-bottom: 0.02rem solid #eeeeee;
+}
+.material-sort .material-sort2 .btn{
+	text-align: center;
+}
+.material-sort .material-sort3 .btn{
+	text-align: left;
+}
+.material-sort .material-sort1 .dropdown-menu{
+	max-width: 2.15rem;
+	min-width: 2.15rem;
+	padding: 0 0 0.2rem;
+	border:none;
+}
+.material-sort .material-sort1 .dropdown-menu li a{
+	width: 100%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.24rem;
+	padding: 0 0.2rem 0 0;
+}
+.material-sort .material-sort1 .caret{
+	border-top: 0.11rem dashed;
+    border-right: 0.12rem solid transparent;
+    border-left: 0.12rem solid transparent;
+}
+.material-sort .material-sort2{
+	margin-left: 0.525rem;
+}
+.material-sort .material-sort3{
+	float: right;
+}
+/*下拉列表点击事件*/
+.material_sort1_a_active{
+	color: #f03b42!important;
+	background-color: #e5e5e5;
+}
+.sort_btn_active{
+	color: #f03b42!important;
+}

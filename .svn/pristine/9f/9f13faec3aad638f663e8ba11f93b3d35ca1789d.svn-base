@@ -1,0 +1,1752 @@
+﻿$axure.loadCurrentPage({
+  "url":"往期押宝详情.html",
+  "generationDate":new Date(1449815595745.48),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"301440b9dea8414a9a32973130ba3e28",
+    "type":"Axure:Page",
+    "name":"往期押宝详情",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"center",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"center",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"34c3665481334cc5ab15f995aa76c114",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":100,
+              "y":123},
+            "size":{
+              "width":700,
+              "height":360}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"956a23f31a12422fad3fed0f745f7c3b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":100,
+                  "y":123},
+                "size":{
+                  "width":700,
+                  "height":360}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝详情页/u0.png"}},
+{
+          "id":"55052c686ec344cbb1ea17164ab04ec7",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1200,
+              "height":27}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9e6c2a16efe643408524769892007d5e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1200,
+                  "height":27}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u0.png"}},
+{
+          "id":"795a60294da447d899af172f323d4812",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":95,
+              "y":37},
+            "size":{
+              "width":235,
+              "height":47}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f965395f07574d929f52cd3dcd18a2b6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":95,
+                  "y":37},
+                "size":{
+                  "width":235,
+                  "height":47}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 押宝首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"押宝首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/押宝首页/u2.png"}},
+{
+          "id":"9586244abb394c7c82a6deeb22f170d6",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Normal', 'Arial'",
+            "fontSize":"18px",
+            "fontWeight":"400",
+            "location":{
+              "x":380,
+              "y":49.5},
+            "size":{
+              "width":73,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"dca1c48281f946269e0f418c79707cf8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Normal', 'Arial'",
+                "fontSize":"18px",
+                "fontWeight":"400",
+                "location":{
+                  "x":380,
+                  "y":49.5},
+                "size":{
+                  "width":73,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"685b50a6d20949f792f47cbd49262ad1",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Normal', 'Arial'",
+            "fontSize":"18px",
+            "fontWeight":"400",
+            "location":{
+              "x":477,
+              "y":50},
+            "size":{
+              "width":91,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d952475a86b44a0dbc57257b6f9bc24f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Normal', 'Arial'",
+                "fontSize":"18px",
+                "fontWeight":"400",
+                "location":{
+                  "x":477,
+                  "y":50},
+                "size":{
+                  "width":91,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"bca4ce7706e44808868133f9dcb15902",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Normal', 'Arial'",
+            "fontSize":"18px",
+            "fontWeight":"400",
+            "location":{
+              "x":599,
+              "y":50},
+            "size":{
+              "width":37,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a4cddc6e8c8b4643badcaed7d5f9e0a5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Normal', 'Arial'",
+                "fontSize":"18px",
+                "fontWeight":"400",
+                "location":{
+                  "x":599,
+                  "y":50},
+                "size":{
+                  "width":37,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"3c4ce2bdf50b4866aa326eb1aa14c9dd",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":970,
+              "y":42.5},
+            "size":{
+              "width":127,
+              "height":37}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1bf2a13721364fabb0072cf557259906",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":970,
+                  "y":42.5},
+                "size":{
+                  "width":127,
+                  "height":37}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 我的清单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"我的清单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/押宝首页/u10.png"}},
+{
+          "id":"3c3f55d42fa743f9a955a881dd0e5b71",
+          "label":"",
+          "type":"horizontalLine",
+          "styleType":"horizontalLine",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":84},
+            "size":{
+              "width":1200,
+              "height":10},
+            "borderWidth":"2",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "start~":"resources/images/transparent.gif",
+            "end~":"resources/images/transparent.gif",
+            "line~":"images/押宝列表页/u12_line.png"}},
+{
+          "id":"09022f28d66744bab5bec2f073637cca",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"12px",
+            "location":{
+              "x":100,
+              "y":96},
+            "size":{
+              "width":375,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"09ac3f50615046e29c1f98bdf97bcd1f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"12px",
+                "location":{
+                  "x":100,
+                  "y":96},
+                "size":{
+                  "width":375,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"2097c3c820464a53aeaa213057996196",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":400,
+              "y":373},
+            "size":{
+              "width":430,
+              "height":53}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"21768c80741f483aa3b4d446b71736a8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":400,
+                  "y":373},
+                "size":{
+                  "width":430,
+                  "height":53}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝详情页/u19.png"}},
+{
+          "id":"aabdd9d20b7646139e86dfd067c3f0fb",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":95,
+              "y":493},
+            "size":{
+              "width":164,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"37ba8d19d5e74401ba1d93c24d5deeff",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":95,
+                  "y":493},
+                "size":{
+                  "width":164,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝详情页/u21.png"}},
+{
+          "id":"cc78a3ffcf494bc1ae9dd6536fe91451",
+          "label":"详情",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":100,
+              "y":689},
+            "size":{
+              "width":10,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"8a899b4c47d740c28a4cbbd6199bdf9d",
+              "label":"奖品详情",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"516a6a2b8a0445d396141b75ca25b2e7",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":1000,
+                      "height":42}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"e5b48fbb2e684e678bbbc27e99372ec7",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":1000,
+                          "height":42}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/往期押宝详情/u22.png"}},
+{
+                  "id":"256f64557a4647ea985ba02bfcc593a8",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":118,
+                      "y":0},
+                    "size":{
+                      "width":90,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"设置 详情 to 参与记录",
+                              "panelsToStates":[{
+                                  "panelPath":["cc78a3ffcf494bc1ae9dd6536fe91451"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true},
+{
+                  "id":"9eb796ea17bb4b038cddb847727a5770",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":218,
+                      "y":2},
+                    "size":{
+                      "width":90,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"设置 详情 to 晒单",
+                              "panelsToStates":[{
+                                  "panelPath":["cc78a3ffcf494bc1ae9dd6536fe91451"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":3,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true},
+{
+                  "id":"ff7d94cf0cc84806991d8d333537a50c",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":48},
+                    "size":{
+                      "width":1000,
+                      "height":165}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"063cb07025804ecdb5938047ecaa6449",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":0,
+                          "y":48},
+                        "size":{
+                          "width":1000,
+                          "height":165}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/往期押宝详情/u26.png"}},
+{
+                  "id":"c74300f76865419b97a93facb2ffe20d",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":213},
+                    "size":{
+                      "width":1000,
+                      "height":429}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"4856df6225834c2b9d8c5ea5b7774b2b",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":0,
+                          "y":213},
+                        "size":{
+                          "width":1000,
+                          "height":429}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/往期押宝详情/u28.png"}}]},
+{
+              "id":"7bb750a55f0a49f09eadacd8628d8836",
+              "label":"参与记录",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"2bafa810015344e89784dca662bdd65e",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":48},
+                    "size":{
+                      "width":1000,
+                      "height":441}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"56d5fd1500ff48f6be1aa64f016c1a21",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":0,
+                          "y":48},
+                        "size":{
+                          "width":1000,
+                          "height":441}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/押宝详情页/u32.png"}},
+{
+                  "id":"37a7f820880b4e5d8e9bf967a3ffc20c",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":1000,
+                      "height":41}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"31ea1d5d61e0428295fefdcd95ab30e3",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":1000,
+                          "height":41}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/往期押宝详情/u32.png"}},
+{
+                  "id":"9bd27b626ea54404a0d7992db94f1aee",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":250,
+                      "y":0},
+                    "size":{
+                      "width":90,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"设置 详情 to 晒单",
+                              "panelsToStates":[{
+                                  "panelPath":["cc78a3ffcf494bc1ae9dd6536fe91451"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":3,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true},
+{
+                  "id":"b9c85fdcee3d4406b4978e82a9c55d5e",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":0},
+                    "size":{
+                      "width":90,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"设置 详情 to 奖品详情",
+                              "panelsToStates":[{
+                                  "panelPath":["cc78a3ffcf494bc1ae9dd6536fe91451"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true},
+{
+                  "id":"e6e2a16258ac4da590339c9d2866f12f",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":15,
+                      "y":90},
+                    "size":{
+                      "width":105,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 用户信息",
+                              "target":{
+                                "targetType":"page",
+                                "url":"用户信息.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true},
+{
+                  "id":"c461f5adf2e14983ab72591fc0846b57",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":20,
+                      "y":130},
+                    "size":{
+                      "width":100,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 用户信息",
+                              "target":{
+                                "targetType":"page",
+                                "url":"用户信息.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true},
+{
+                  "id":"eae30ec3e41a4fdab3fc7fec00f69719",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":20,
+                      "y":164},
+                    "size":{
+                      "width":100,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 用户信息",
+                              "target":{
+                                "targetType":"page",
+                                "url":"用户信息.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true}]},
+{
+              "id":"9ac7b857cfc84321af0f1853cb81a4ef",
+              "label":"晒单",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"6a90a232f51e4f18bcb9dd733a291ccc",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":68},
+                    "size":{
+                      "width":1000,
+                      "height":265}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"658bf6f487d549fe8868dd22f0a99de4",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":0,
+                          "y":68},
+                        "size":{
+                          "width":1000,
+                          "height":265}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/押宝详情页/u36.png"}},
+{
+                  "id":"28fe47883c2f4da9b60ee9a6d0153cc6",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Arial Negreta', 'Arial'",
+                    "fontWeight":"700",
+                    "size":{
+                      "width":1000,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"8cfb408c4012449aa930477336f2b3be",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Arial Negreta', 'Arial'",
+                        "fontWeight":"700",
+                        "size":{
+                          "width":1000,
+                          "height":40}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/往期押宝详情/u41.png"}},
+{
+                  "id":"ea90f242454f4fe8be0e05281eb440ac",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":130,
+                      "y":0},
+                    "size":{
+                      "width":90,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"设置 详情 to 参与记录",
+                              "panelsToStates":[{
+                                  "panelPath":["cc78a3ffcf494bc1ae9dd6536fe91451"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true},
+{
+                  "id":"f55b0a492a954a79ac972dcfaf9e5773",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":20,
+                      "y":0},
+                    "size":{
+                      "width":90,
+                      "height":40}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"设置 详情 to 奖品详情",
+                              "panelsToStates":[{
+                                  "panelPath":["cc78a3ffcf494bc1ae9dd6536fe91451"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true},
+{
+                  "id":"1d2203c00b7744b693977f78be26af8e",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":240,
+                      "y":90},
+                    "size":{
+                      "width":70,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 用户信息",
+                              "target":{
+                                "targetType":"page",
+                                "url":"用户信息.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true},
+{
+                  "id":"424cceb2a91f444a85f8972bdedbc27d",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":690,
+                      "y":118},
+                    "size":{
+                      "width":70,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 用户信息",
+                              "target":{
+                                "targetType":"page",
+                                "url":"用户信息.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true},
+{
+                  "id":"e293eec85ffd467fb2aed5105769b84b",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":315},
+                    "size":{
+                      "width":1000,
+                      "height":265}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"cdc3476870b349b09c5ad3daffce17ea",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":0,
+                          "y":315},
+                        "size":{
+                          "width":1000,
+                          "height":265}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/押宝详情页/u36.png"}},
+{
+                  "id":"405d24d95b3746049de1e4fb4bdcf2af",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":240,
+                      "y":337},
+                    "size":{
+                      "width":70,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 用户信息",
+                              "target":{
+                                "targetType":"page",
+                                "url":"用户信息.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true},
+{
+                  "id":"70bb8b0f434c4168bf5849fd0168b991",
+                  "label":"",
+                  "parentDynamicPanel":"cc78a3ffcf494bc1ae9dd6536fe91451",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":690,
+                      "y":365},
+                    "size":{
+                      "width":70,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"在 当前窗口 打开 用户信息",
+                              "target":{
+                                "targetType":"page",
+                                "url":"用户信息.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true}]}]},
+{
+          "id":"265f535285544a9fbcf29ca65a17bcb4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":1370},
+            "size":{
+              "width":1200,
+              "height":405}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a7f0b750425449e094adaec2c1e242d9",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":1370},
+                "size":{
+                  "width":1200,
+                  "height":405}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u82.png"}},
+{
+          "id":"cbdd6c3ff2294d4db9cc75ce72f5303b",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":400,
+              "y":191},
+            "size":{
+              "width":430,
+              "height":262}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"470cf729fecb49e8a158d0957f20ed42",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":400,
+                  "y":191},
+                "size":{
+                  "width":430,
+                  "height":262}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/往期押宝详情/u53.png"}},
+{
+          "id":"7201c8d5d22a400cb6a50b056e03c299",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":95,
+              "y":533},
+            "size":{
+              "width":1002,
+              "height":146}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"200e45e5c0414e4d80aea66a8e78f952",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":95,
+                  "y":533},
+                "size":{
+                  "width":1002,
+                  "height":146}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/往期押宝详情/u55.png"}},
+{
+          "id":"a0cfe60a6225463382c15eb48d2bc99b",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":859,
+              "y":123},
+            "size":{
+              "width":243,
+              "height":388}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d665bf8e999a43eabcf4cb3b005246d5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":859,
+                  "y":123},
+                "size":{
+                  "width":243,
+                  "height":388}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/往期押宝详情/u57.png"}},
+{
+          "id":"4681a934d1e94795b6ac145dc19393d3",
+          "label":"所有",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":705,
+              "y":334},
+            "size":{
+              "width":10,
+              "height":10},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"e15808921cad437abe126cb38f19a9bf",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"391863ed1e094116aba9a5896bb2b665",
+                  "label":"",
+                  "parentDynamicPanel":"4681a934d1e94795b6ac145dc19393d3",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":255,
+                      "height":140}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"0262596a34114362ba4f6ea5affd31b1",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"4681a934d1e94795b6ac145dc19393d3",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":255,
+                          "height":140}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/往期押宝详情/u60.png"}},
+{
+                  "id":"622203c80905456eb182bd675c333713",
+                  "label":"",
+                  "parentDynamicPanel":"4681a934d1e94795b6ac145dc19393d3",
+                  "type":"imageMapRegion",
+                  "styleType":"imageMapRegion",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":240,
+                      "y":0},
+                    "size":{
+                      "width":15,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"隐藏 所有",
+                              "objectsToFades":[{
+                                  "objectPath":["4681a934d1e94795b6ac145dc19393d3"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]}]}]}},
+                  "tabbable":true}]}]},
+{
+          "id":"d5c4c948d2e04b1abeed4f8627e1c37c",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":705,
+              "y":315},
+            "size":{
+              "width":85,
+              "height":19}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"设置 所有 to 状态1 show if hidden",
+                      "panelsToStates":[{
+                          "panelPath":["4681a934d1e94795b6ac145dc19393d3"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":true,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"333aefe9cd5a40088e41bcd10c37cc53",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":890,
+              "y":420},
+            "size":{
+              "width":180,
+              "height":33}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 我的清单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"我的清单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"7726b8d5f39c402e94ecf4db827da409",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":565,
+              "y":315},
+            "size":{
+              "width":105,
+              "height":19}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户信息",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户信息.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"5b7009b8ce1449d6b5f6ccdeca4bcba1",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":890,
+              "y":191},
+            "size":{
+              "width":180,
+              "height":143}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 押宝详情页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"押宝详情页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"7dd60cd5be85450c974e511124f070ea",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":430,
+              "y":960},
+            "size":{
+              "width":60,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户信息",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户信息.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"0ad10d1242e04577b2d4c7208e8f81de",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":430,
+              "y":993},
+            "size":{
+              "width":60,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户信息",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户信息.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"c7dca99e5c934cf7845e416a63bdcb7a",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":420,
+              "y":1025},
+            "size":{
+              "width":80,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户信息",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户信息.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "34c3665481334cc5ab15f995aa76c114":{
+      "scriptId":"u0"},
+    "956a23f31a12422fad3fed0f745f7c3b":{
+      "scriptId":"u1"},
+    "55052c686ec344cbb1ea17164ab04ec7":{
+      "scriptId":"u2"},
+    "9e6c2a16efe643408524769892007d5e":{
+      "scriptId":"u3"},
+    "795a60294da447d899af172f323d4812":{
+      "scriptId":"u4"},
+    "f965395f07574d929f52cd3dcd18a2b6":{
+      "scriptId":"u5"},
+    "9586244abb394c7c82a6deeb22f170d6":{
+      "scriptId":"u6"},
+    "dca1c48281f946269e0f418c79707cf8":{
+      "scriptId":"u7"},
+    "685b50a6d20949f792f47cbd49262ad1":{
+      "scriptId":"u8"},
+    "d952475a86b44a0dbc57257b6f9bc24f":{
+      "scriptId":"u9"},
+    "bca4ce7706e44808868133f9dcb15902":{
+      "scriptId":"u10"},
+    "a4cddc6e8c8b4643badcaed7d5f9e0a5":{
+      "scriptId":"u11"},
+    "3c4ce2bdf50b4866aa326eb1aa14c9dd":{
+      "scriptId":"u12"},
+    "1bf2a13721364fabb0072cf557259906":{
+      "scriptId":"u13"},
+    "3c3f55d42fa743f9a955a881dd0e5b71":{
+      "scriptId":"u14"},
+    "09022f28d66744bab5bec2f073637cca":{
+      "scriptId":"u15"},
+    "09ac3f50615046e29c1f98bdf97bcd1f":{
+      "scriptId":"u16"},
+    "2097c3c820464a53aeaa213057996196":{
+      "scriptId":"u17"},
+    "21768c80741f483aa3b4d446b71736a8":{
+      "scriptId":"u18"},
+    "aabdd9d20b7646139e86dfd067c3f0fb":{
+      "scriptId":"u19"},
+    "37ba8d19d5e74401ba1d93c24d5deeff":{
+      "scriptId":"u20"},
+    "cc78a3ffcf494bc1ae9dd6536fe91451":{
+      "scriptId":"u21"},
+    "516a6a2b8a0445d396141b75ca25b2e7":{
+      "scriptId":"u22"},
+    "e5b48fbb2e684e678bbbc27e99372ec7":{
+      "scriptId":"u23"},
+    "256f64557a4647ea985ba02bfcc593a8":{
+      "scriptId":"u24"},
+    "9eb796ea17bb4b038cddb847727a5770":{
+      "scriptId":"u25"},
+    "ff7d94cf0cc84806991d8d333537a50c":{
+      "scriptId":"u26"},
+    "063cb07025804ecdb5938047ecaa6449":{
+      "scriptId":"u27"},
+    "c74300f76865419b97a93facb2ffe20d":{
+      "scriptId":"u28"},
+    "4856df6225834c2b9d8c5ea5b7774b2b":{
+      "scriptId":"u29"},
+    "2bafa810015344e89784dca662bdd65e":{
+      "scriptId":"u30"},
+    "56d5fd1500ff48f6be1aa64f016c1a21":{
+      "scriptId":"u31"},
+    "37a7f820880b4e5d8e9bf967a3ffc20c":{
+      "scriptId":"u32"},
+    "31ea1d5d61e0428295fefdcd95ab30e3":{
+      "scriptId":"u33"},
+    "9bd27b626ea54404a0d7992db94f1aee":{
+      "scriptId":"u34"},
+    "b9c85fdcee3d4406b4978e82a9c55d5e":{
+      "scriptId":"u35"},
+    "e6e2a16258ac4da590339c9d2866f12f":{
+      "scriptId":"u36"},
+    "c461f5adf2e14983ab72591fc0846b57":{
+      "scriptId":"u37"},
+    "eae30ec3e41a4fdab3fc7fec00f69719":{
+      "scriptId":"u38"},
+    "6a90a232f51e4f18bcb9dd733a291ccc":{
+      "scriptId":"u39"},
+    "658bf6f487d549fe8868dd22f0a99de4":{
+      "scriptId":"u40"},
+    "28fe47883c2f4da9b60ee9a6d0153cc6":{
+      "scriptId":"u41"},
+    "8cfb408c4012449aa930477336f2b3be":{
+      "scriptId":"u42"},
+    "ea90f242454f4fe8be0e05281eb440ac":{
+      "scriptId":"u43"},
+    "f55b0a492a954a79ac972dcfaf9e5773":{
+      "scriptId":"u44"},
+    "1d2203c00b7744b693977f78be26af8e":{
+      "scriptId":"u45"},
+    "424cceb2a91f444a85f8972bdedbc27d":{
+      "scriptId":"u46"},
+    "e293eec85ffd467fb2aed5105769b84b":{
+      "scriptId":"u47"},
+    "cdc3476870b349b09c5ad3daffce17ea":{
+      "scriptId":"u48"},
+    "405d24d95b3746049de1e4fb4bdcf2af":{
+      "scriptId":"u49"},
+    "70bb8b0f434c4168bf5849fd0168b991":{
+      "scriptId":"u50"},
+    "265f535285544a9fbcf29ca65a17bcb4":{
+      "scriptId":"u51"},
+    "a7f0b750425449e094adaec2c1e242d9":{
+      "scriptId":"u52"},
+    "cbdd6c3ff2294d4db9cc75ce72f5303b":{
+      "scriptId":"u53"},
+    "470cf729fecb49e8a158d0957f20ed42":{
+      "scriptId":"u54"},
+    "7201c8d5d22a400cb6a50b056e03c299":{
+      "scriptId":"u55"},
+    "200e45e5c0414e4d80aea66a8e78f952":{
+      "scriptId":"u56"},
+    "a0cfe60a6225463382c15eb48d2bc99b":{
+      "scriptId":"u57"},
+    "d665bf8e999a43eabcf4cb3b005246d5":{
+      "scriptId":"u58"},
+    "4681a934d1e94795b6ac145dc19393d3":{
+      "scriptId":"u59"},
+    "391863ed1e094116aba9a5896bb2b665":{
+      "scriptId":"u60"},
+    "0262596a34114362ba4f6ea5affd31b1":{
+      "scriptId":"u61"},
+    "622203c80905456eb182bd675c333713":{
+      "scriptId":"u62"},
+    "d5c4c948d2e04b1abeed4f8627e1c37c":{
+      "scriptId":"u63"},
+    "333aefe9cd5a40088e41bcd10c37cc53":{
+      "scriptId":"u64"},
+    "7726b8d5f39c402e94ecf4db827da409":{
+      "scriptId":"u65"},
+    "5b7009b8ce1449d6b5f6ccdeca4bcba1":{
+      "scriptId":"u66"},
+    "7dd60cd5be85450c974e511124f070ea":{
+      "scriptId":"u67"},
+    "0ad10d1242e04577b2d4c7208e8f81de":{
+      "scriptId":"u68"},
+    "c7dca99e5c934cf7845e416a63bdcb7a":{
+      "scriptId":"u69"}}});

@@ -1,0 +1,90 @@
+.dingdandetails-box{
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaea;
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+.main-top p{
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+.dingdanhao{
+    width: 100%;
+    padding: 8px 15px;
+    background-color: #fff;
+    margin-top: 5px;
+
+}
+.dingdanhao p{
+    font-size: 14px;
+    color: #000;
+    line-height: 25px;
+}
+.ding-shangpin{
+    margin-top: 12px;
+}
+.ding-shangpin p{
+    line-height: 35px;
+}
+.ding-shangpin img{
+    float: left;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.ding-shangpin p span.shuliang{
+    color:#a29fa2;;
+}
+.ding-shangpin p span.right{
+    float: right;
+}
+.xiadantime{
+    width: 100%;
+    padding: 8px 15px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+.xiadantime p{
+    font-size: 14px;
+    color: #000;
+    line-height: 25px;
+}
+p.lifu{
+    width: 80%;
+    height: 40px;
+    background-color: #e84e40;
+    margin:0 auto;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+p.quxiao{
+    width: 80%;
+    height: 40px;
+    background-color: #2baf2b;
+    margin:0 auto;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}

@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+html{
+     background-color: #f0f0f2;
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.newsdetails-box{
+    width: 100%;
+    background-color:#f0f0f2;
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.main-top p.ok{
+    width: 36px;
+    float: right;
+    margin-top: -40px;
+    margin-right: 13px;
+    color: #fff;
+
+}
+
+.main-top p{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+.goback span{
+    float: right;
+    font-size: 14px;
+    color: #fff;
+    margin-top: -29px;
+    margin-right: 15px;
+}
+.mingcheng{
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    margin-top: 10px;
+}
+.mingcheng p{
+    padding: 0 15px;
+    background-color: #fff;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    color: #000;
+}
+.mingcheng input{
+    height: 33px;
+    border:none;
+    margin-left: 10px;
+    width: 210px;
+    outline: none;
+}
+.jiage span{
+    width: 100%;
+    display: block;
+    line-height: 35px;
+    font-size: 12px;
+    color: #000;
+    padding-left: 15px;
+
+}
+.jiage .list{
+    padding: 0 8px;
+    height: 35px;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    border-top: 1px solid #d2d2d2;
+   
+}
+.jiage .list img{
+    width: 20px;
+    float: left;
+    margin-top:5px;
+    margin-right: 10px;
+}
+.jiage span.right{
+    display: block;
+    color: #d2d2d2;
+    float:right;
+}
+.jiage .list1{
+    width: 100%;
+    height: 40px;
+    background-color:#fff;
+    border-top: 1px solid #bfbfbf;
+}
+.jiage .list1 img{
+    float: left;
+    width: 21px;
+    margin-left: 13px;
+    margin-top: 8px;
+}
+.jiage .list1 p{
+    font-size: 12px;
+    float: left;
+    line-height: 38px;
+    margin-left: 15px;
+}
+.jiage .list1 p.right {
+    color:#979797;
+    font-size: 12px;
+    float: right;
+    margin-right: 25px;
+}
+.jiage .list2{
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.jiage{
+	width: 100%;
+	overflow: hidden;
+}
+.chanDiv{
+	width: 100%;
+	overflow: hidden;
+}
+.right{
+	cursor: pointer;
+}
+.change_price{
+	width: 0;
+    height: 40px;
+    background-color: #fff;
+    border-top: 1px solid #bfbfbf;
+}
+.inp_price{
+	display: inline-block;
+    width: 85.42%;
+	height:40px;
+	border: 0;
+	font-size: 16px;
+	outline:none;
+}
+
+.inp_rmb{
+	height: 40px;
+	width: 13%;
+	font-size: 20px;
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+}
+.inp_rmb,#inp_price{
+	line-height: 40px;
+}
+
+.list1,.change_price{
+	float: left;
+	overflow: hidden;
+}

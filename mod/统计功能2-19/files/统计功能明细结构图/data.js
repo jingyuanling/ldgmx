@@ -1,0 +1,118 @@
+﻿$axure.loadCurrentPage({
+  "url":"统计功能明细结构图.html",
+  "generationDate":new Date(1455876387319.37),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"8db1ef1fd7594e4187f9729ba6b3ddd8",
+    "type":"Axure:Page",
+    "name":"统计功能明细结构图",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"center",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"center",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"c24f5050d8154badbb6384afefba4bd1",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":59,
+              "y":127},
+            "size":{
+              "width":1131,
+              "height":3930}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"931c836b0fd94e43a74dd4bb0e139a7f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":59,
+                  "y":127},
+                "size":{
+                  "width":1131,
+                  "height":3930}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/统计功能明细结构图/u0.png"}},
+{
+          "id":"8937e012d9664d698b48542372ccde55",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontSize":"36px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF000000,
+              "opacity":1},
+            "location":{
+              "x":548,
+              "y":40},
+            "size":{
+              "width":325,
+              "height":42}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1e7c29e3afbf4edb9a1a8798c0613775",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"36px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000,
+                  "opacity":1},
+                "location":{
+                  "x":548,
+                  "y":40},
+                "size":{
+                  "width":325,
+                  "height":42}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "c24f5050d8154badbb6384afefba4bd1":{
+      "scriptId":"u0"},
+    "931c836b0fd94e43a74dd4bb0e139a7f":{
+      "scriptId":"u1"},
+    "8937e012d9664d698b48542372ccde55":{
+      "scriptId":"u2"},
+    "1e7c29e3afbf4edb9a1a8798c0613775":{
+      "scriptId":"u3"}}});

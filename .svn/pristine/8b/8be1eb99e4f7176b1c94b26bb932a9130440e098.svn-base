@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headandfoot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/clerk-manage.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<title>添加店员</title>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="system-nav">
+			<img class="left-return" src="img/left_return.png"/>
+			<p class="title-name">店员管理</p>
+			<a href="add-clerk.html"><img class="right-add" src="img/add-card.png"/></a>
+		</div>
+		<div class="add-clerk-wrap">
+			<ul>
+				<li>
+					<a href="clerk-inform.html">
+						<div class="clerk-portrait">
+							<img src="img/head-portrait.png"/>
+						</div>
+						<div class="clerk-introduce">
+							<p class="clerk-name">张小明</p>
+							<p class="open-role">开通角色:&nbsp;<span>订单管理</span><span>、商品管理</span><span>、订单管理</span></p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="clerk-inform.html">
+						<div class="clerk-portrait">
+							<img src="img/head-portrait.png"/>
+						</div>
+						<div class="clerk-introduce">
+							<p class="clerk-name">张小明</p>
+							<p class="open-role">开通角色:&nbsp;<span>订单管理</span><span>、商品管理</span><span>、订单管理</span></p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="clerk-inform.html">
+						<div class="clerk-portrait">
+							<img src="img/head-portrait.png"/>
+						</div>
+						<div class="clerk-introduce">
+							<p class="clerk-name">张小明</p>
+							<p class="open-role">开通角色:&nbsp;<span>订单管理</span><span>、商品管理</span><span>、订单管理</span></p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

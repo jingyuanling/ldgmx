@@ -1,0 +1,261 @@
+/* pages/payOne/payOne.wxss */
+.life_pay_wrap{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: #fff;
+	padding-top: 100rpx;
+	font-size: 0;
+}
+.life_billing_logo{
+	padding-top: 45rpx;
+	text-align: center;
+}
+.life_billing_logo image{
+	margin: 0 auto;
+	height: 130rpx;
+  width: 130rpx;
+}
+.life_billing_name{
+	text-align: center;
+	font-size: 36rpx;
+    line-height: 80rpx;
+}
+.life_pay_wrap2{
+	position: relative;
+}
+.life_consumer_claims{
+    padding: 0 3%;
+    box-sizing: border-box;
+    line-height: 140rpx;
+    border-top: 1rpx solid #d3d3d3;
+    margin-top: 20rpx;
+    font-size: 36rpx;
+}
+.life_consumer_claims_num{
+	width: 94%;
+	margin-left: 3%;
+	height: 120rpx;
+	position: relative;
+}
+.life_consumer_inp{
+    width: 100%;
+    height:100%;
+    outline: none;
+    padding: 20rpx 3% 20rpx 15%;
+    box-sizing: border-box;
+    line-height: 80rpx;
+    font-size: 90rpx;
+    border: 1rpx solid #d3d3d3;
+    border-radius: 8rpx;
+}
+.life_consumer_claims_num span{
+	display: inline-block;
+	width: 15%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	font-size: 60rpx;
+	line-height: 120rpx;
+}
+.life_sure_btn{
+    width: 80%;
+    background-color: #ff5858;
+    color: white;
+    line-height: 86rpx;
+    text-align: center;
+    font-size: 38rpx;
+    margin-left: 10%;
+    margin-top: 70rpx;
+    border-radius: 8rpx;
+    display: inline-block;
+    margin-bottom: 100rpx;
+}
+.life_keyboard{
+	width: 100%;
+	position: absolute;
+	bottom: 0;	
+	background-color: #f5f5f5;
+	overflow: hidden;
+	min-width: 320px;
+	max-width: 750px;
+}
+.life_keyboard_H{
+	  height: 0;  
+}
+.life_switch{
+	width: 100%;
+	padding: 20rpx 0;
+  text-align:center;
+	background-color: #f5f5f5;
+}
+.life_switch image{
+    height: 20rpx;
+    width: 60rpx;
+	margin: 0 auto;
+}
+.life_different_delete{
+	position: relative;
+}
+.life_keyboard_ul .life_different_delete image{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70rpx;
+  height: 45rpx;
+  margin-left: -35rpx;
+  margin-top: -22.5rpx;
+}
+.life_keyboard_ul{
+	width: 100%;
+	overflow: hidden;
+	border-top: 1rpx solid #d2d2d2;
+	border-left: 1rpx solid #d2d2d2;
+	border-right: 1rpx solid #d2d2d2;
+}
+.life_border{
+	border-right: 1rpx solid #d2d2d2;
+	border-left: 1rpx solid #d2d2d2;
+}
+.life_keyboard_ul li{
+    width: 33.33%;
+    float: left;
+    height: 120rpx;
+    line-height: 120rpx;
+    text-align: center;
+    font-size: 42rpx;
+    border-bottom: 1rpx solid #d2d2d2;
+}
+.life_different_point,.life_different_delete{
+	background-color: #e0e0e0;
+}
+.life_pay_alert_wrap{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	min-width: 320px;
+	max-width: 750px;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	display: none;  
+	font-size: 0;
+  z-index: 99;
+}
+.enter_pass_alert,.wrong_alert{
+	width: 80%;
+	margin-left: 10%;
+	background-color: #FFFFFF;
+	position: absolute;
+	 display: none; 
+	top: 50%;
+    margin-top: -215rpx;
+}
+.enter_pass_alert_title{
+	display: inline-block;
+	width: 100%;
+    height: 65rpx;
+    font-size: 28rpx;
+    line-height: 65rpx;
+    overflow: hidden;
+    padding-left: 3%;
+    color: #222222;
+    border-bottom: 1rpx solid #d5d3d3;
+}
+.wrong_prompting{
+    font-size: 30rpx;
+    line-height: 150rpx;
+	text-align: left;
+	padding-left: 5%;
+}
+.enter_pass_alert_title span,.wrong_alert_delete span{
+	float: right;
+	color: #d5d3d3;
+	margin-right: 5%;	
+	font-size: 38rpx;
+}
+.transfer_amount_ident{
+	text-align: center;
+    font-size: 24rpx;
+    line-height: 90rpx;
+}
+.transfer_amount{
+	text-align: center;
+    font-size: 60rpx;
+    margin-bottom: 40rpx;
+}
+.life_alert_sure_btn{
+	width: 100%;
+	font-size: 40rpx;
+	line-height: 84rpx;
+	text-align: center;
+	background-color: #d9333f;
+	color: white;
+}
+/*模拟密码输入框*/
+.alert_box{
+    background: #fff;
+    text-align: center;
+}
+.alert_box input{
+	margin: 0;
+	padding: 0;
+	width: 1rpx;
+	opacity: 0;
+	height: 1rpx;
+	border: none;
+}
+.alert_box label{
+    display: block;
+    margin-bottom: 20rpx;
+}
+.alert_box ul{
+    border: 1px solid #c8c8c8;
+    font-size: 0;
+    display: inline-block;
+    position: relative;
+}
+.alert_box ul li{
+    display: inline-block;
+    width: 50rpx;
+    height: 50rpx;
+    font-size: 40rpx;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50rpx;
+    border-left: 1rpx solid #e6e6e6;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.alert_box ul .first_li {
+    border-left: none;
+}
+.wrong_two_btn{
+	overflow: hidden;
+	margin-bottom: 50rpx;
+}
+.wrong_two_btn span{
+	float: right;
+	margin-right: 20rpx;
+	font-size: 28rpx;
+}
+.wrong_again{
+	color: #d9333f;
+}
+.wrong_alert{
+	top: 50%;
+	margin-top: -150rpx;
+}
+/*add*/
+.life_billing_money span{
+	font-size: 90rpx;
+}
+.pay2_bottom{
+	width: 100%;
+	overflow: hidden;
+}
+.life_imm_eva,.life_look_details{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}

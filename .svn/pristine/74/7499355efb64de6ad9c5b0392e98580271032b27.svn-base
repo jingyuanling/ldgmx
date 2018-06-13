@@ -1,0 +1,112 @@
+﻿$axure.loadCurrentPage({
+  "url":"总览-流程_结构.html",
+  "generationDate":new Date(1444989698357.09),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"100abca6d76c4769b700dcd8a8d93720",
+    "type":"Axure:Page",
+    "name":"总览-流程/结构",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFCCCCCC},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"77dc0b83488245579e8216b6696572dc",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "location":{
+              "x":30,
+              "y":30},
+            "size":{
+              "width":840,
+              "height":41}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"80c6e26b71a543869d255e42a77734d4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "location":{
+                  "x":30,
+                  "y":30},
+                "size":{
+                  "width":840,
+                  "height":41}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"db2a8946420a43819a50a63e964c2339",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":81},
+            "size":{
+              "width":486,
+              "height":1094}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"49f85bfcaf00406f9faaf2e1ab76dd8c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":30,
+                  "y":81},
+                "size":{
+                  "width":486,
+                  "height":1094}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/总览-流程_结构/u2.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "77dc0b83488245579e8216b6696572dc":{
+      "scriptId":"u0"},
+    "80c6e26b71a543869d255e42a77734d4":{
+      "scriptId":"u1"},
+    "db2a8946420a43819a50a63e964c2339":{
+      "scriptId":"u2"},
+    "49f85bfcaf00406f9faaf2e1ab76dd8c":{
+      "scriptId":"u3"}}});

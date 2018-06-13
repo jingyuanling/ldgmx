@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>搜索</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-search.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="wine-js/wine-search.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<p class="text-center nav-tit-name">搜索</p>
+			</div>
+			<div class="wine-search-inp">
+				<a class="text-center search-inp-a" href="wine-search-input.html"><img src="imgs/search-logo.png"/>搜索你要的商品</a>
+			</div>
+		</div>
+		<div class="wine-search-class-wrap">
+			<div class="search-left-class">
+				<ul>
+					<li class="li_active"><a href="#jiushui"><span></span>酒水</a></li>
+					<li><a href="#fushi"><span></span>服饰</a></li>
+					<li><a href="#jiadian"><span></span>家电</a></li>
+					<li><a href="#jiaju"><span></span>家具</a></li>
+					<li><a href="#baojian"><span></span>保健</a></li>
+					<li><a href="#yiliao"><span></span>医疗</a></li>
+					<li><a href="#dianzi"><span></span>电子</a></li>
+				</ul>
+			</div>
+			<div class="search-right-class">
+				<table class="search-right-tab" border="0" cellspacing="0" cellpadding="0">
+					<a href="javascript:void(0)" class="search-right-class-tit"><span id="jiushui" class="first-class">酒水</span><span class="search-look-more">查看更多<img src="imgs/right-arrow-red.png" alt=""/></span></a>
+					<tr>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+					</tr>
+				</table>
+				<table class="search-right-tab" border="0" cellspacing="0" cellpadding="0">
+					<a href="javascript:void(0)" class="search-right-class-tit"><span id="fushi" class="first-class">服饰</span><span class="search-look-more">查看更多<img src="imgs/right-arrow-red.png" alt=""/></span></a>
+					<tr>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+					</tr>
+				</table>
+				<table class="search-right-tab" border="0" cellspacing="0" cellpadding="0">
+					<a href="javascript:void(0)" class="search-right-class-tit"><span id="jiadian" class="first-class">家电</span><span class="search-look-more">查看更多<img src="imgs/right-arrow-red.png" alt=""/></span></a>
+					<tr>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+						<td>
+							<div class="class-img-div">
+								<span class="class-img"></span>
+							</div>
+							<p class="class-name">分类</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="wine-foot">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>
+						<a href="wine-home.html">
+							<p class="img"><img src="imgs/btm-home-gray.png" alt=""/></p>
+							<p class="text">首页</p>
+						</a>
+					</td>
+					<td>
+						<a href="###">
+							<p class="img"><img src="imgs/btm-search-red.png" alt=""/></p>
+							<p class="text text-red">搜索</p>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<p class="img"><img src="imgs/btm-cart-gray.png" alt=""/></p>
+							<p class="text">购物车</p>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<p class="img"><img src="imgs/btm-promote-gray.png" alt=""/></p>
+							<p class="text">推广码</p>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<p class="img"><img src="imgs/btm-person-gray.png" alt=""/></p>
+							<p class="text">个人中心</p>
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

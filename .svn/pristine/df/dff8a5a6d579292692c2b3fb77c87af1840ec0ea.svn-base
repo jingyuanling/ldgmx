@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+		<title>我的评价</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life-head-foot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life_my_eva.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="life_home_nav">
+			<div class="life_nav_left">
+				<img class="img1" src="img/return_img.png"/>
+			</div>
+			<div class="life_home_nav_center">
+				我的评价
+			</div>
+		</div>
+		<div class="my_eva_wrap">
+			<ul class="my_eva_ul">
+				<li class="my_eva_li">
+					<div class="my_eva_li_left">
+						<img src="img/debt_dollor.png"/>
+					</div>
+					<div class="my_eva_li_right">
+						<p class="my_eva_username">某位用户</p>
+						<p class="my_eva_star">
+							<img src="img/yellow_star.png"/>
+							<img src="img/yellow_star.png"/>
+							<img src="img/yellow_star.png"/>
+							<img src="img/yellow_star.png"/>
+							<img src="img/yellow_star.png"/>
+						</p>
+						<p class="my_eva_remark">
+							五星好评啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+						</p>
+						<a href="###">
+							<div class="enter_store_wrap">
+								<div class="enter_store_logo">
+									<img src="img/add_photos.png"/>
+								</div>
+								<p class="enter_store_p">
+									<span class="store_name">星巴克咖啡星巴克咖啡</span>
+									<span class="enter_store">进入店铺&nbsp;<img src="img/right_arrow.png"/></span>
+								</p>
+							</div>
+							<p class="enter_del_eva">删除评论</p>
+						</a>
+					</div>
+				</li>
+				<li class="my_eva_li">
+					<div class="my_eva_li_left">
+						<img src="img/debt_dollor.png"/>
+					</div>
+					<div class="my_eva_li_right">
+						<p class="my_eva_username">某位用户</p>
+						<p class="my_eva_star">
+							<img src="img/yellow_star.png"/>
+							<img src="img/yellow_star.png"/>
+							<img src="img/yellow_star.png"/>
+							<img src="img/yellow_star.png"/>
+							<img src="img/yellow_star.png"/>
+						</p>
+						<p class="my_eva_remark">
+							五星好评啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+						</p>
+						<a href="###">
+							<div class="enter_store_wrap">
+								<div class="enter_store_logo">
+									<img src="img/add_photos.png"/>
+								</div>
+								<p class="enter_store_p">
+									<span class="store_name">星巴克咖啡星巴克咖啡</span>
+									<span class="enter_store">进入店铺&nbsp;<img src="img/right_arrow.png"/></span>
+								</p>
+							</div>
+							<p class="enter_del_eva">删除评论</p>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

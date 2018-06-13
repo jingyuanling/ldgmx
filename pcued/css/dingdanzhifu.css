@@ -1,0 +1,233 @@
+@charset "utf-8";
+.dingdan_main{
+	height:700px;
+	width:100%;
+	border-top:1px solid #e6e6e6;
+	margin:10px auto;
+}
+.dingdan_main_kuang{
+	width:1000px;
+	margin:auto;
+	font-family:"宋体";
+}
+.dingdan_1{
+	overflow:hidden;
+	border-bottom:1px solid #e6e6e6;
+	padding:20px 0;
+}
+.dingdan_1 .dingdan_1_a{
+	float:left;
+}
+.dingdan_1 .dingdan_1_b{
+	float:right;
+}
+.dingdan_1_a dl dt{
+	font-weight:600;
+	font-size:14px;
+	line-height:30px;
+}
+.dingdan_1_a dl dd{
+	font-size:12px;
+	line-height:30px;
+}
+.dingdan_1_a dl dd b{
+	font-weight:300;
+	color:#d43638;
+}
+.dingdan_1_b span{
+	display:block;
+}
+.dingdan_1_b span b{
+	font-size:12px;
+	font-weight:300;
+	line-height:24px;
+	display:inline-block;
+	width:100px;
+	text-align:right;
+}
+.dingdan_1_b span i{
+	font-size:14px;
+	font-family:"Arial Black";
+	color:#ff4500;
+}
+.dingdan_2{
+	padding:20px 0;
+}
+.dingdan_2 span{
+	display:block;
+	font-size:12px;
+	line-height:24px;
+}
+/*.dingdan_3{
+	border-top:3px solid #666;
+}
+.zhifu_choice{
+	border-bottom:1px solid #e6e6e6;
+	margin-top:10px;
+}
+.zhifu_choice span{
+	font-family:"微软雅黑";
+	font-size:18px;
+	line-height:50px;
+	color:#999;
+}
+.zhifu_choice.in{
+	font-family:"微软雅黑";
+	font-size:18px;
+	line-height:50px;
+	color:#4d4d4d;
+	border:2px solid #8aafcb;
+}*/
+.zfstylename{
+	padding:10px 0;
+}
+.xzdgbox{
+	padding-top: 5px;
+	padding-left: 18px;
+	overflow:hidden;
+}
+.xzdgbox .e{
+	float:left;
+	margin-left:20px;
+}
+.xzdgbox .e i{
+	color:#ff5d5b;
+	font-size:20px;
+	font-weight:600;
+}
+.dingdan_pay{
+	float:right;
+	margin-top:20px;
+}
+.djzqstyle{
+	border-bottom: 1px solid #ddd;
+	margin-top:10px;
+}
+.zfstylename{
+	padding: 0 2px 1px;
+	position:relative;
+	border: 2px solid #b0c2e1;
+	padding: 0;
+	border-radius: 2px;
+	background-color: #fff;
+}
+.p-wrap {
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.p-k-check:hover em{
+	background-position:-214px -180px;
+}
+.p-k-check{
+	display:block;
+	line-height: 22px;
+	cursor: pointer;
+	float:left;
+}
+.clicent .ui-checkbox-L em{
+	background-position:-186px -180px;
+}
+.ui-checkbox-L {
+	display: inline-block;
+	width: 24px;
+	height: 22px;
+	vertical-align: middle;
+}
+.ui-checkbox-L em {
+	display: block;
+	width: 24px;
+	height: 22px;
+	background-image:url(../img/tubiao.png);
+	background-repeat: no-repeat;
+	background-position:-187px -205px;
+}
+.dingdan_pay input{
+	width:100px;
+	height:30px;
+	ling-height:30px;
+	color:#fff;
+	background:#0088c0;
+	text-align:center;
+	font-size:12px;
+	cursor:pointer;
+}
+.dingdan_pay span{
+	margin-right:20px;
+	margin-top:9px;
+	font-size:12px;
+}
+.dingdan_pay span i{
+	font-size:16px;
+	font-family:"Arial Black";
+	color:#d43638;}
+.dingdan_pay span,.dingdan_pay input{
+	display:block;
+	float:left;
+}
+.p-amount {
+	position: absolute;
+	width: 140px;
+	right: 18px;
+	top: 14px;
+	text-align: right;
+	line-height: 26px;
+}
+.p-amount em{
+	font-style:normal;
+}
+.p-amount strong {
+	font-size: 18px;
+	vertical-align: bottom;
+	color: #ff5d5b;
+	margin: 0 3px;
+}
+.bank-area {
+	padding: 15px 58px 0;
+	overflow: hidden;
+}
+.ui-tab{
+	border-bottom: 1px solid #c6c6c6;
+}
+.ui-tab ul:after{
+	display:block;
+	visibility:hidden;
+	height:0;
+	clear:both;
+	content:"";
+}
+.ui-tab ul li{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: -1px;
+	position:relative;
+	background:#fff;
+}
+.ui-tab .ui-tab-item a {
+	border-radius: 3px 3px 0 0;
+	background: #fff;
+	line-height: 34px;
+	height: 35px;
+	padding: 0 20px;
+	border: 1px solid #c6c6c6;
+	border-bottom: 0;
+	color: #4D4D4D;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+}
+.morebank{
+	padding:10px 5px;
+}
+.morebank ul li{
+	float:left;
+	width:140px;
+	margin-right:5px;
+	height:70px;
+	margin-bottom:5px;
+}
+.morebank ul li img{
+	width:140px;
+	height:70px;
+	background:red;
+}

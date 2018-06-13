@@ -1,0 +1,83 @@
+.draw_content{
+	width: 100%;
+}
+.draw_content_card_line{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 3%;
+}
+.draw_content_card_line .draw_content_card{
+	width: 33%;
+	max-width: 135px;
+}
+.draw_content_card_line .draw_content_card img{
+	width: 100%;
+}
+.draw_content .draw_remain{
+	text-align: center;
+	font-size: 1em;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+.draw_content .draw_remain strong{
+	color: #c5488a;
+}
+.draw_content .draw_get_num{
+	text-align: center;
+	font-size: 1em;
+}
+
+@media only screen and (max-width: 359px) {
+	.draw_content_card_line .draw_content_card{
+		width: 28%;
+	}
+}
+.hide_bord{
+	width: 100%;
+}
+
+
+.draw_content_card{
+	position: relative;
+}
+.face{
+	position: absolute;
+	top: 0;
+	-webkit-backface-visibility:hidden;
+    -webkit-transition:all .3s;
+}
+.front{
+	width: 100%;
+	height: 100%;
+	-webkit-transform: rotateY(180deg);
+	position: relative;
+	top: -100%;
+}
+.front img{
+   position: absolute;
+   top: 50%;
+   margin-top: -50%;
+}
+.back{
+	width: 100%;
+	height: 100%;
+	-webkit-transform:rotateY(0deg);
+}
+.back1{
+	background: url(../img/queqiao_card.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.back2{
+	background: url(../img/queqiao_card2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.back3{
+	background: url(../img/queqiao_card3.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.back4{
+	background: url(../img/queqiao_card4.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+

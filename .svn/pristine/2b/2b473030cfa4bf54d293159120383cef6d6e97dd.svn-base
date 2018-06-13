@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			.kj-top-states{
+				display: inline-block;
+				width: 100%;
+				position: relative;
+			}
+			.kj-top-states img{
+				width: 100%;
+			}
+			.kj-top-states .text{
+				font-size: 20px;
+				position: absolute;
+				left: 58%;
+				top: 45%;
+				display: inline-block;
+				width: 21%;
+				color: #FFFFFF;
+				text-align: center;
+			}
+			.kj-top-states .text2{
+				font-size: 20px;
+				position: absolute;
+				top: 45%;
+				right: 4.6%;
+				text-align: right;
+				color: #FFFFFF;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="###" class="kj-top-states">
+			<img src="img/first-state.jpg"/>
+		</a>
+		<a href="###" class="kj-top-states">
+			<img src="img/second-state.jpg"/>
+			<span class="text">当前进度3/5</span>
+		</a>
+		<div class="kj-top-states">
+			<img src="img/third-state.jpg"/>
+			<span class="text2">5个小时后失效</span>
+		</div>
+	</body>
+</html>

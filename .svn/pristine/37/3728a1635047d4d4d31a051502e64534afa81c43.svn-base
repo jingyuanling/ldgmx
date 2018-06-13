@@ -1,0 +1,155 @@
+<!--pages/food/food.wxml-->
+<page>
+  <!--导航栏-->
+		<view class="life_home_nav">
+			<view class="life_nav_left">
+				<image class="img2" src="../../res/images/back.png"/>
+			</view>
+			<view class="life_home_nav_center">
+				美食
+			</view>
+			<view class="life_home_nav_right">
+				<navigator url="###">
+					<image class="home_nav_right_map" src="../../res/images/map_img_logo.png"/>
+				</navigator>
+			</view>
+		</view>
+		<view class="life_food_wrap">
+			<!--分类栏-->
+			<view class="life_class_nav_wrap">
+				<view class="life_class_nav">
+					<view class="life_class_nav_programa">
+						<span>西餐
+							<view class="life_class_nav_triangle"></view>
+						</span>
+						<view class="life_border_right"></view>
+					</view>
+					<view class="life_class_nav_address">
+						<span>附近
+							<view class="life_class_nav_triangle"></view>
+						</span>
+					</view>
+				</view>
+				<!--点击分类nav展开部分-->
+				<view class="life_class_details_wrap">
+					<!--1-->
+					<!--<view class="life_class_details">
+						<view class="life_class_details_left_wrap">
+							<view class="life_class_details_left">
+								<ul>
+									<li>全部</li>
+									<li>美食</li>
+									<li>休闲娱乐</li>
+									<li>周边游</li>
+									<li>KTV</li>
+									<li>酒店</li>
+								</ul>
+							</view>
+						</view>
+						<view class="life_class_details_right_wrap">
+							<view class="life_class_details_right">
+								<ul>
+									<li>火锅
+										<image src="../../res/images/selected_img.png"/>
+									</li>
+									<li>早餐
+										<image src="../../res/images/selected_img.png"/>
+									</li>
+									<li>快餐
+										<image src="../../res/images/selected_img.png"/>
+									</li>
+									<li>烧烤
+										<image src="../../res/images/selected_img.png"/>
+									</li>
+									<li>自助餐
+										<image src="../../res/images/selected_img.png"/>
+									</li>
+								</ul>
+							</view>
+						</view>
+					</view>-->
+					<!--2-->
+					<view class="life_class_details">
+						<view class="life_class_details_left_wrap">
+							<view class="life_class_details_left">
+								<ul>
+									<li>附近</li>
+									<li>二七区</li>
+									<li>管城区</li>
+									<li>金水区</li>
+									<li>高新区</li>
+								</ul>
+							</view>
+						</view>
+						<view class="life_class_details_right_wrap">
+							<view class="life_class_details_right">
+								<ul>
+									<li>1km
+										<image src="../../res/images/selected_img.png"/>
+									</li>
+									<li>3km
+										<image src="../../res/images/selected_img.png"/>
+									</li>
+									<li>5km
+										<image src="../../res/images/selected_img.png"/>
+									</li>
+									<li>10km
+										<image src="../../res/images/selected_img.png"/>
+									</li>
+									<li>附近
+										<image src="../../res/images/selected_img.png"/>
+									</li>
+								</ul>
+							</view>
+						</view>
+					</view>
+				</view>
+		</view>
+    <view class="home_good_recommend">
+          <view class="home_good_recommend_list">
+            <ul>
+              <li>
+              <navigator url="/pages/shopDetails/shopDetails">
+                  <view class="good_list_left_img">
+                <image class="electr_left_img2" src="../../res/images/merchant_2.jpg"/>
+                    </view>
+                    <view class="good_list_right_text">
+                <view class="right_text_goods_name">
+                  <p>店铺名称</p>
+                  <span>店铺分类</span>
+                </view>
+                <view class="good_list_right_address">
+                  <p>店铺地址</p>
+                  <span>1m</span>
+                </view>
+                <view class="good_list_right_deduction">
+                  债权金冲抵<span>20%</span>
+                </view>
+                  </view>
+              </navigator>
+              </li>
+              <li>
+              <navigator url="${base}/mobile/life/store/${store.id}">
+                  <view class="good_list_left_img">
+                <image class="electr_left_img2" src="../../res/images/merchant_2.jpg"/>
+                    </view>
+                    <view class="good_list_right_text">
+                <view class="right_text_goods_name">
+                  <p>店铺名称</p>
+                  <span>店铺分类</span>
+                </view>
+                <view class="good_list_right_address">
+                  <p>店铺地址</p>
+                  <span>1m</span>
+                </view>
+                <view class="good_list_right_deduction">
+                  债权金冲抵<span>20%</span>
+                </view>
+                  </view>
+              </navigator>
+              </li>
+           </ul>
+          </view>
+        </view>
+  </view>
+</page>

@@ -1,0 +1,222 @@
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+.index-box{
+    background-color: #f0f0f2;
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.header{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 37px;
+    background: #548e12;
+    position: fixed;
+    z-index: 100;
+    margin-top: -37px;
+}
+.logo img{
+    width:39px;
+    margin-left: 15px;
+    margin-top: 7px;
+    float: left;
+}
+.ipt{
+    margin-left: 60px;
+    margin-right: 51px;
+    height: 37px;
+}
+.ipt input{
+    width: 100%;
+    border:none;
+    height: 24px;
+    float: left;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+.ipt img{
+    width: 12px;
+    float: right;
+    margin-top: -19px;
+    margin-right: 7px;
+}
+.shopcar img{
+    float: right;
+    width: 23px;
+    margin-right: 15px;
+    margin-top: -28px;
+}
+.banner{
+    width: 100%;
+    margin-top: 37px;
+}
+.banner .swiper-container img{
+    width: 100%;
+}
+.hot{
+    width: 98%;
+    margin:0 auto;
+    margin-top: 1%;
+}
+.hot ul{
+    width: 100%;
+    height: 8.7em;
+    margin-bottom: 1%;
+}
+.hot ul li{
+    list-style: none;
+    float: left;
+    margin-right: 1%;
+    width: 49.5%;
+    height: 8.7em;
+    font-weight: 900;
+    background-color: #fff;
+}
+.hot ul li.right{
+    margin-right: 0px;
+}
+.hot ul li img{
+    width: 6.2em;
+    float: right;
+    margin-top: 0.8em;
+    margin-right: 0.4em;
+}
+.hot ul li .cont{
+    width: 5.6em;
+    padding-left: 0.2em;
+    float: left;
+    text-align: center;
+}
+.hot ul li i{
+    display: block;
+    margin-top: 2em;
+    color: #e40000;
+   
+}
+.hot ul a li p{
+    color: #000;
+    font-size: 0.8em;
+    margin-top: 0.4em;
+}
+.guanggaowei img{
+    width: 98%;
+    margin-left: 1%;
+}
+.index-more{
+    margin-top: 2%;
+}
+.tit img{
+   width: 98%;
+   margin-left: 1%;
+}
+.index-more .shangpin{
+    width: 93%;
+    margin-left: 3.5%;
+    margin-top: 1%;
+}
+.shangpin ul{
+   margin-bottom: 3%;
+}
+.shangpin ul li{
+    background-color: #fff;
+    width: 47.8%;
+    height: 16.5em;
+    list-style: none;
+    float: left;
+    margin-right: 3%;
+    border-radius: 3px;
+    border:1px solid #d1d1d1;
+}
+.shangpin ul li.right{
+    margin-right: 0px;
+}
+.tupian{
+    width: 100%;
+    height: 11.8em;
+}
+.tupian img{
+    width: 100%;
+    height: 11.8em;
+}
+.shangpin .name{
+    width: 80%;
+    height: 4.5em;
+    padding-top: 0.2em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.shangpin .name p{
+    color: #000;
+    font-size: 0.6em;
+    height: 3em;
+}
+.shangpin .name p.money{
+    font-size: 1.1em;
+    font-weight: 900;
+    color: #c30000;
+    height: 0.7em;
+}
+.bottom{
+    width: 100%;
+    height:47px;
+    background-color: #fff;
+}
+.bottom li{
+    width: 33.3%;
+    float: left;
+    list-style: none;
+}
+.bottom li img{
+    margin:0 auto;
+    width: 27px;
+    margin-top: 6px;
+}
+.xiaodian-tit{
+    width: 100%;
+    height: 6.6em;
+    margin-top: 1em;
+    background:url(../img/xiaodian-tit.png) no-repeat 0 0;
+    background-size:100% 6.6em;
+    position: relative;
+}
+.xiaodian-tit p.touxiang{
+    position: absolute;
+    width: 5.3em;
+    height: 5.3em;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -2.6em;
+    margin-top: -2.6em;
+    z-index: 1;
+}
+.xiaodian-tit p.touxiang img{
+    width: 5.3em;
+}
+.xiaodian-tit p.name{
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    line-height: 1.3em;
+    position: absolute;
+    margin-top: 3.5em;
+    width: 100%;
+    text-align: center;
+}

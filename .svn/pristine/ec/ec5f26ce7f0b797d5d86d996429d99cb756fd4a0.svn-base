@@ -1,0 +1,186 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-body">
+    <!-- 顶部搜索栏 -->
+    <view class="life_home_nav">
+      <view class="life_nav_left">
+		{{locationCity}}
+		<image class="life_home_triangle_small" src="../../res/images/triangle_small.png"/>
+	</view>
+	
+	<view class="life_home_nav_inp">
+		
+			<input type="text" name="" id="" value="" placeholder="搜索你想要的" />
+		
+		<image src="../../res/images/search_img.png"/>
+	</view>
+	<view class="life_home_nav_right">
+		
+			<image src="../../res/images/saoyisaoimg.png"/>
+		
+	</view>
+     </view>
+
+    <!--<view class="life_home_nav">
+	<div class="life_nav_left">
+		{{locationCity}}
+		<image class="life_home_triangle_small" src="../../res/images/triangle_small.png"/>
+	</div>
+	<div class="life_home_nav_inp">
+		<navigator url="toSearch">
+			<input type="text" name="" id="" value="" placeholder="搜索你想要的" />
+		</navigator>
+		<image src="../../res/images/search_img.png"/>
+	</div>
+	<div class="life_home_nav_right">
+		<navigator url="javascript:void(0);" class="saoyisao">
+			<image src="../../res/images/saoyisaoimg.png"/>
+		</navigator>
+	</div>
+    </view>-->
+   <view class="life_home_wrap">
+    <!-- 轮播图 -->
+      <swiper class="swiper-container life_home_banner" indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-wrapper {{item}}">
+              <image class="image" src="../../res/images/meishibanner.jpg"/>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+    <!-- 分类栏 -->
+    <view class="life_home_classify">
+      <navigator url="${base}/mobile/life/list?categoryId=${category.id}">
+        <view class="home_classify_among">
+          <image src="../../res/images/meishi_logo.png" />
+          <p>美食</p>
+        </view>
+      </navigator>
+
+      <navigator url="${base}/mobile/life/list?categoryId=${category.id}">
+        <view class="home_classify_among">
+          <image src="../../res/images/hotel_logo.png"/>
+          <p>酒店</p>
+        </view>
+      </navigator>
+
+      <navigator url="${base}/mobile/life/list?categoryId=${category.id}">
+        <view class="home_classify_among">
+          <image src="../../res/images/fallow_logo.png"/>
+          <p>休闲娱乐</p>
+        </view>
+      </navigator>
+
+      <navigator url="${base}/mobile/life/list?categoryId=${category.id}">
+        <view class="home_classify_among">
+          <image src="../../res/images/music_logo.png"/>
+          <p>KTV</p>
+        </view>
+      </navigator>
+
+      <navigator url="${base}/mobile/life/list">
+        <view class="home_classify_among">
+          <image src="../../res/images/all_logo.png"/>
+          <p>全部</p>
+        </view>
+      </navigator>
+    </view>
+
+    <!-- 火热推荐 -->
+    <view class="life_home_hot">
+      <view class="home_hot_title">
+        <image src="../../res/images/flame_logo.png"/>
+        火热推荐
+      </view>
+      <view class="home_hot_content">
+        <navigator class="home_hot_content_navigator1" url="">
+          <view class="home_hot_details">
+            <view class="home_hot_discount">
+              <p class="home_hot_discount_P">推荐一</p>
+              <span class="home_hot_discount_span">冲抵20%</span>
+            </view>
+            <view class="home_hot_merchant_logo">
+              <image src="../../res/images/meishibanner.jpg"/>
+            </view>
+          </view>
+        </navigator>
+
+        <navigator url="">
+          <view class="home_hot_details">
+            <view class="home_hot_discount">
+              <p class="home_hot_discount_P">推荐二</p>
+              <span class="home_hot_discount_span">冲抵20%</span>
+            </view>
+            <view class="home_hot_merchant_logo">
+              <image src="../../res/images/meishibanner.jpg"/>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+
+    <!-- 优质商家 -->
+    <view class="home_good_recommend_title_div">
+      <p class="home_good_recommend_title"><strong>优质商家</strong></p>
+    </view>
+    <view class="home_good_recommend" id="wrapper">
+      <view id="scroller">
+        <view class="home_good_recommend_list" id="order_content_ul">
+          <view>
+            <navigator url="${base}/mobile/life/store/${store.id}">
+              <ul>
+		<li>
+		    <view class="good_list_left_img">
+			<image class="electr_left_img2" src="../../res/images/merchant_2.jpg"/>
+		      </view>
+		      <view class="good_list_right_text">
+			<view class="right_text_goods_name">
+			  <p>店铺名称</p>
+			  <span>店铺分类</span>
+			</view>
+			<view class="good_list_right_address">
+			  <p>店铺地址</p>
+			  <span>1m</span>
+			</view>
+			<view class="good_list_right_deduction">
+			  债权金冲抵<span>20%</span>
+			</view>
+		     </view>
+		</li>
+	      </ul>
+            </navigator>
+          </view>
+          <view>
+            <navigator url="${base}/mobile/life/store/${store.id}">
+              <ul>
+		<li>
+		    <view class="good_list_left_img">
+			<image class="electr_left_img2" src="../../res/images/merchant_2.jpg"/>
+		      </view>
+		      <view class="good_list_right_text">
+			<view class="right_text_goods_name">
+			  <p>店铺名称</p>
+			  <span>店铺分类</span>
+			</view>
+			<view class="good_list_right_address">
+			  <p>店铺地址</p>
+			  <span>1m</span>
+			</view>
+			<view class="good_list_right_deduction">
+			  债权金冲抵<span>20%</span>
+			</view>
+		     </view>
+		</li>
+	      </ul>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+ </view>

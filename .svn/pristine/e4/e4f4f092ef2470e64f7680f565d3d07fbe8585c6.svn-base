@@ -1,0 +1,75 @@
+body{
+	background-color: #f3f5f7;
+}
+.wine_mine_user{
+	display: flex;
+	justify-content: space-around;
+	background-color: #cd222f;
+	padding: 45px 0 6px 0;
+}
+.wine_mine_user_left{
+	display: flex;
+	justify-content: space-around;
+}
+.wine_mine_photo{
+	width: 7em;
+	height: 7em;
+	border-radius: 50%;
+	margin-right: 0.5em;
+}
+.wine_mine_photo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.wine_mine_name .wine_mine_name_p1{
+	font-size: 1.2em;
+	color: white;
+	line-height: 3.5em;
+}
+.wine_mine_name .wine_mine_name_p2{
+	font-size: 1.0em;
+	line-height: 3.0em;
+	color: white;
+}
+.wine_mine_user_right{
+	width: 2.0em;
+}
+.wine_mine_user_right img{
+	width: 100%;
+	margin-top: 2em;
+}
+.wine_order{
+	width: 100%;
+	padding: 0.5em 0.5em;
+	box-sizing: border-box;
+	background-color: #f8f8f8;
+	margin-top: 0.5em;
+	border: 1px solid #d7d7d7;
+}
+.wine_order .wine_order_span1{
+	float: left;
+}
+.wine_order .wine_order_span2{
+	float: right;
+	color: #acacac;
+}
+.wine_order_bottom{
+	width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5em;
+}
+.wine_order_bottom li{
+	height: 42px;
+    float: left;
+    list-style: none;
+}
+.wine_order_bottom li img{
+    margin:0 auto;
+    height: 42px;
+    margin-top: 4px;
+}

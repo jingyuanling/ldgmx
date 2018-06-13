@@ -1,0 +1,950 @@
+
+ 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+															   	 					   京东触屏版
+									</title>
+    	<meta name="author" content="m.jd.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" CONTENT="-1">           
+    <meta http-equiv="Cache-Control" CONTENT="no-cache">           
+    <meta http-equiv="Pragma" CONTENT="no-cache">           	
+	<link rel="stylesheet" type="text/css" href="css/base2013.css" charset="gbk"/>
+	<link rel="stylesheet" type="text/css" href="css/seckill.css" charset="gbk"/>	
+	<link rel="stylesheet" type="text/css" href="hcss/header.css" charset="utf-8"/>		
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/reset.css" rel="stylesheet" type="text/css" /> -->
+				
+					
+		        								<link rel="apple-touch-icon-precomposed" href="http://st.360buyimg.com/m/images/apple-touch-icon.png?v=jd2015102723"/>
+						<script type="text/javascript">
+			var _winLocation=window.location.href;//获得当前页面的路径，根据路径规则进行逐页替换
+			var _isWebKit = '__proto__' in {};//是否是webkit内核
+			if(_isWebKit){//如果是webkit内核，则分模块使用zepto
+				//要使用zeptojs的路径列表，可以做为分模块替换的开关
+				var _locationList=new Array();
+				//活动模块
+				_locationList.push('/activity/proActList');
+				_locationList.push('/activity/proActWareList');
+				_locationList.push('/activity/list');
+				//商品分类模块
+				_locationList.push('/category/');
+				//京东快讯模块
+				_locationList.push('/newslist.html');
+				_locationList.push('/newslist/');
+				_locationList.push('/news/');
+				//机票模块
+				_locationList.push('/airline/');
+				//酒店模块
+				_locationList.push('/hotel/');
+				//团购模块
+				_locationList.push('/tuan/');
+				//首页相关
+				_locationList.push('/hotbrand.html');//品牌馆
+				//商品筛选相关
+				_locationList.push('/ware/view.action');
+				_locationList.push('/ware/expandSort.action');
+				_locationList.push('/ware/categoryFilter.action');
+				_locationList.push('/ware/search.action');
+				_locationList.push('/products/');
+				_locationList.push('/index/getWare.action')//热门特惠
+				_locationList.push('/notice/');//通告模块
+				_locationList.push('/coupons/');//随地惠模块
+				_locationList.push('/chongzhi/');//手机充值模块
+				_locationList.push('/comment/');//手机推荐模块
+				_locationList.push('/pay/');//支付
+				_locationList.push('/order/');//订单
+				_locationList.push('/norder/');//订单
+				
+				_locationList.push('/seckill/');//秒杀
+				
+				_locationList.push('/sale/act/');//sale
+				_locationList.push('/sale/mall/');//sale
+				//_locationList.push('/market/floorWare.action');//掌上专享
+				
+				var _needReplace = false;
+				//如果当前路径符合要使用的路径规则，则进行替换
+				for(var i=0;i<_locationList.length;i++){
+					if(_winLocation.indexOf(_locationList[i])!=-1){
+						_needReplace=true;
+						break;
+					}
+				}
+				//如果是首页的话，则使用zepto
+				var _tmp = _winLocation.replace(/(^http:\/\/)|(\/*$)/g,'');
+				if(_tmp.indexOf('/')<0 || (_tmp.split('/').length<=2 && _tmp.indexOf('/index')>=0)){
+					_needReplace=true;
+				}
+				//如果是商品详情页的话，则使用zepto
+                var _dlocationList=new Array();
+                _dlocationList.push(/\/product\/([0-9]+)\.html/);
+                _dlocationList.push(/\/orderComment\/([0-9]+)\.html/);
+                _dlocationList.push(/\/consultations\/([0-9]+)\.html/);
+                _dlocationList.push(/\/consultations\/([0-9]+)-([0-9]+)\.html/);
+                _dlocationList.push(/\/comments\/([0-9]+)\.html/);
+                for(var i=0,len=_dlocationList.length;i<len;i++){
+                	if(_dlocationList[i].test(_winLocation)){
+                		_needReplace=true;
+               			 break;
+               		 }
+                }
+				if(_needReplace){
+					document.write('<script src="http://st.360buyimg.com/m/js/zepto.min.js?v=jd2015102723"><\/script>');
+					document.write('<script type="text/javascript">window.jQuery=window.Zepto;<\/script>');
+				}else{
+					document.write('<script src="http://st.360buyimg.com/m/js/jquery-1.6.2.min.js?v=jd2015102723"><\/script>');
+				}
+			}else{//如果是非webkit内核直接使用jquery
+				document.write('<script src="http://st.360buyimg.com/m/js/jquery-1.6.2.min.js?v=jd2015102723"><\/script>');
+			}
+		</script>
+				        <script type="text/javascript" src="http://st.360buyimg.com/m/js/html5/common.js?v=jd2015102723"></script>
+        <script type="text/javascript" src="http://st.360buyimg.com/m/js/html5/spin.min.js?v=jd2015102723"></script>
+		
+		<!--引用通用头尾的js、css -->
+		<script src="http://st.360buyimg.com/common/commonH_B/js/m_common_header_bottom.js" type="text/javascript"></script>
+        <script  type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/invite.js"></script>
+    <script src="js/m_common_header_bottom.js" type="text/javascript"></script>
+
+	</head>
+
+<body id="body">
+<a name="top"></a>
+<header>
+			    						 <!-- 通用头 div -->
+        <div class="header">
+        <div class="back">
+            <a href="index.html"><img src="img/back.png"></a>
+        </div>
+        <div class="tit">
+            <p>秒杀</p>
+        </div>
+        <div class="brand">
+            <a href="#"><img src="img/personbrand.png"></a>
+        </div>
+    </div>
+    <div class="footer" style="line-height: 20px">
+        <div class="background">
+        <ul class="clearfix">
+            <a href=""><li><img src="img/home.png"><span>首页</span></li></a>
+            <a href=""><li><img src="img/fenlei.png"><span>分类</span></li></a>
+            <a href=""><li><img src="img/car2.png"><span class="span1">购物车</span></li></a>
+            <a href="person.html"><li><img src="img/user.png"><span class="span2">个人中心</span></li></a>
+        </ul>
+        </div>
+    </div>                                 
+		 <!-- <div id="m_common_header" style="min-height:45px;"></div> -->
+		<!--
+		<div class="new-header">
+        	<a href="javascript:pageBack();" class="new-a-back" id="backUrl"><span>返回</span></a>
+							<h2>秒杀</h2>
+			            <a href="javascript:void(0)" id="btnJdkey" class="new-a-jd"><span>京东键</span></a>
+    	</div>
+		<div class="new-jd-tab" style="display:none" id="jdkey">
+        	<div class="new-tbl-type">
+                <a href="/?sid=cd3703e18c01557d33321b673973614a" class="new-tbl-cell">
+                	<span class="icon">首页</span>
+					<p style="color:#6e6e6e;">首页</p>
+                </a>
+                <a href="/category/all.html?sid=cd3703e18c01557d33321b673973614a" class="new-tbl-cell">
+                	<span class="icon2">分类搜索</span>
+					<p style="color:#6e6e6e;">分类搜索</p>
+                </a>
+                <a href="javascript:void(0)" id="html5_cart" class="new-tbl-cell">
+                	<span class="icon3">购物车</span>
+					<p style="color:#6e6e6e;">购物车</p>
+                </a>
+                <a href="/user/home.action?sid=cd3703e18c01557d33321b673973614a" class="new-tbl-cell">
+                	<span class="icon4">我的京东</span>
+					<p style="color:#6e6e6e;">我的京东</p>
+                </a>
+            </div>
+		</div>-->
+	</header>
+<script type="text/javascript">
+window.onunload=function(){}
+</script>
+<script src="http://st.360buyimg.com/m/js/2014/base/Mbase.js?v=jd2015102723" type="text/javascript" ></script>
+
+<form id="seckillForm" action="/seckill/seckillList.action?sid=cd3703e18c01557d33321b673973614a" method="get">
+		 <input type="hidden" name="gid" id="gid" value="">
+</form>
+<header class="topfixed">
+	<ul class="tap-list">
+													    <li class="cur" id="29">
+				            			<p>16点场</p>
+            			<p>16:00</p>
+						            			   <span></span>
+						            		</li>
+		    									<li id="30">
+				            			<p>20点场</p>
+            			<p>20:00</p>
+						            			   <span></span>
+						            		</li>
+		    									<li id="26">
+				            			<p>0点场</p>
+            			<p>明日00:00</p>
+						            			   <span></span>
+						            		</li>
+		    									<li id="27">
+				            			<p>8点场</p>
+            			<p>明日08:00</p>
+						            		</li>
+		    			</ul>
+</header>
+<p class="bgsplit"></p>
+<header class="list-head">
+	    	<span id="seckillTile">抢购中</span>
+        <span class="time"><span id="timeText">距离本场结束<span class="red" id="hms">00 : 00 : 00</span></span> </span>
+	</header>
+<ul class="good-list">
+		    			 														  <li>
+					                		<a href="http://item.m.jd.com/product/1622154787.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1402/325/556565516/72317/9bffc341/5596372fN8d672fec.jpg!q70.jpg">
+                			<p class="g-title">颂礼 USB二合一手机数据线适用小米三星 苹果iPhone5/5s/5c/6/Plus充电 橙色</p>
+                			<p class="g-price">￥11.11</p>
+                			<p class="g-price-odd"><del>￥29.00</del></p>
+                			<span class="count">3.9折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1600338364.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1096/246/1176333228/114127/b0b9b349/557d434fN38ec2d6b.jpg!q70.jpg">
+                			<p class="g-title">小米（MI）插线板 多功能插排接线板 3孔usb插座拖线板 官方标配</p>
+                			<p class="g-price">￥49.00</p>
+                			<p class="g-price-odd"><del>￥53.00</del></p>
+                			<span class="count">9.3折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1191242.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1987/311/649231761/116789/b015ac47/561f7e27N51670864.jpg!q70.jpg">
+                			<p class="g-title">西班牙进口红酒 圣霞多·西班牙爱肯特斯干红葡萄酒 750ml*6瓶</p>
+                			<p class="g-price">￥138.00</p>
+                			<p class="g-price-odd"><del>￥198.00</del></p>
+                			<span class="count">7.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/10006089702.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2014/310/895476172/258053/1608c371/563307dcNad128b13.jpg!q70.jpg">
+                			<p class="g-title">【初冬新品 京东11.11提前购 限量500双】奔跑吧自由男子运动鞋加绒保暖 黑色-四季款 42码</p>
+                			<p class="g-price">￥99.00</p>
+                			<p class="g-price-odd"><del>￥789.00</del></p>
+                			<span class="count">1.3折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1004243942.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2008/244/665140634/346696/6e4df6a9/561e2b6bN5ab73dcb.jpg!q70.jpg">
+                			<p class="g-title">亲润孕妇护肤品豆乳3件套装 补水保湿安全化妆品补水保湿豆乳专用</p>
+                			<p class="g-price">￥198.00</p>
+                			<p class="g-price-odd"><del>￥298.00</del></p>
+                			<span class="count">6.7折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1776980622.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2269/158/544482129/58020/9ddc0620/5615ca1eNc8ee8e7e.jpg!q70.jpg">
+                			<p class="g-title">白云边 12年 陈酿酒 42度 500ml 6瓶装</p>
+                			<p class="g-price">￥629.00</p>
+                			<p class="g-price-odd"><del>￥649.00</del></p>
+                			<span class="count">9.7折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1038781937.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1864/347/421740971/237543/2ab2cc5/56076a61N3ecc2610.jpg!q70.jpg">
+                			<p class="g-title">马登秋季男鞋真皮靴马丁靴男英伦男靴子男士短靴工装靴男军靴沙漠靴男鞋 蜜蜡色 40</p>
+                			<p class="g-price">￥169.00</p>
+                			<p class="g-price-odd"><del>￥185.00</del></p>
+                			<span class="count">9.2折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1214087617.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1195/334/928501021/262618/53f37e7c/555d31d4Nb9b57d25.jpg!q70.jpg">
+                			<p class="g-title">超级伯克原装进口啤酒原味清啤（皮尔森啤酒）330ml 瓶装啤酒 12支</p>
+                			<p class="g-price">￥88.00</p>
+                			<p class="g-price-odd"><del>￥148.00</del></p>
+                			<span class="count">6.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1111256048.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t958/95/457859205/165118/2a6a3a01/5525f2e7Nb0335fbd.jpg!q70.jpg">
+                			<p class="g-title">HITOMORROW澳洲进口黑椒牛排套餐10片澳洲牛肉调理腌制</p>
+                			<p class="g-price">￥138.00</p>
+                			<p class="g-price-odd"><del>￥258.00</del></p>
+                			<span class="count">5.4折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1144700627.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_g16/M00/06/08/rBEbRlN0ZFwIAAAAAAKNIw18200AABN-gHmeRcAAo07318.jpg!q70.jpg">
+                			<p class="g-title">马驰宝 汽车机油 全合成5W-40 SN级 4升</p>
+                			<p class="g-price">￥418.00</p>
+                			<p class="g-price-odd"><del>￥488.00</del></p>
+                			<span class="count">8.6折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1227122498.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1477/160/1170512621/187797/9a25cd68/55be10aaNa2b3bc63.jpg!q70.jpg">
+                			<p class="g-title">萱伊娜2015秋冬新款韩版女装 特价修身上衣大码短款棉衣冬装外套XYN1502 红色 L</p>
+                			<p class="g-price">￥69.00</p>
+                			<p class="g-price-odd"><del>￥99.00</del></p>
+                			<span class="count">7.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1140625.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t466/107/1167240724/136227/8b10ebf9/54b87a56Ncd94a6a1.jpg!q70.jpg">
+                			<p class="g-title">dostyle EK202 玻璃不锈钢电水壶1.7L</p>
+                			<p class="g-price">￥159.00</p>
+                			<p class="g-price-odd"><del>￥179.00</del></p>
+                			<span class="count">8.9折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1333296041.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t334/285/1304799219/130364/cbe7c393/54362031N2b694776.jpg!q70.jpg">
+                			<p class="g-title">百露2.5L厨房杂粮密封罐三件套 塑料五谷收纳罐储物罐 储物罐3个装</p>
+                			<p class="g-price">￥19.90</p>
+                			<p class="g-price-odd"><del>￥35.00</del></p>
+                			<span class="count">5.7折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1180226.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1249/280/1163481245/80080/677a73af/557948b4N8305878a.jpg!q70.jpg">
+                			<p class="g-title">蓝弦 H+涡轮升级版 立体声HiFi音乐蓝牙耳机 通用型 头戴式 黑色</p>
+                			<p class="g-price">￥99.00</p>
+                			<p class="g-price-odd"><del>￥119.00</del></p>
+                			<span class="count">8.4折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1183552.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t211/47/348267169/77220/f4cfe8c8/53e9c409N00aafd0e.jpg!q70.jpg">
+                			<p class="g-title">膳魔师（THERMOS）儿童高真空不锈钢吸管杯350ml 哆啦A梦 F4011 DRM002</p>
+                			<p class="g-price">￥169.00</p>
+                			<p class="g-price-odd"><del>￥179.00</del></p>
+                			<span class="count">9.5折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1411251837.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t847/118/567408554/335564/ddcbdf2f/552f89ceN90a3d9e8.jpg!q70.jpg">
+                			<p class="g-title">匹奇926卷发棒 直卷两用直发器陶瓷 拉直板夹板烫发不伤发卷发器</p>
+                			<p class="g-price">￥19.90</p>
+                			<p class="g-price-odd"><del>￥29.90</del></p>
+                			<span class="count">6.7折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1495446588.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1891/228/2091841/265372/abef9018/55e55934N81a1c9df.jpg!q70.jpg">
+                			<p class="g-title">英雄 HERO 7055钢笔墨水套装 钢笔+墨水礼盒套装 香槟</p>
+                			<p class="g-price">￥39.00</p>
+                			<p class="g-price-odd"><del>￥88.00</del></p>
+                			<span class="count">4.5折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1589654866.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2368/261/385331870/236210/efce15de/5603614bN06c1c1db.jpg!q70.jpg">
+                			<p class="g-title">多德士仰卧板腹肌板仰卧起坐板健腹板 家用健身器材 8泡棉顶配款</p>
+                			<p class="g-price">￥138.00</p>
+                			<p class="g-price-odd"><del>￥189.00</del></p>
+                			<span class="count">7.3折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1635249604.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2428/206/787778670/394686/635e9582/56298241Nc7c4f1a4.jpg!q70.jpg">
+                			<p class="g-title">【闪购特卖】金字塔 沙发垫套装 四季沙发套双面加厚磨毛绗缝布艺沙发巾 可爱方格(A面)+水墨花(B面) 70cm宽小L套装</p>
+                			<p class="g-price">￥89.00</p>
+                			<p class="g-price-odd"><del>￥258.00</del></p>
+                			<span class="count">3.5折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1647818961.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2242/191/844052057/266080/ef8fcac3/562f1933Nd03f3117.jpg!q70.jpg">
+                			<p class="g-title">孩之宝（Hasbro）变形金刚4儿童模型玩具 一步变形大黄蜂A7799</p>
+                			<p class="g-price">￥43.00</p>
+                			<p class="g-price-odd"><del>￥109.00</del></p>
+                			<span class="count">4.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1648533948.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2101/234/740132316/735067/b4ace29e/5625f1c6N22ba8263.jpg!q70.jpg">
+                			<p class="g-title">【11.11抢先购】秋冬新款加绒加厚保暖pu皮毛一体皮衣男士修身夹克外套 咖啡 M</p>
+                			<p class="g-price">￥149.00</p>
+                			<p class="g-price-odd"><del>￥498.00</del></p>
+                			<span class="count">3.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1287700.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t682/86/1442689900/72604/2068f553/54f13208N2ad18f40.jpg!q70.jpg">
+                			<p class="g-title">初我Truewow 润妍保湿5件套</p>
+                			<p class="g-price">￥139.00</p>
+                			<p class="g-price-odd"><del>￥219.00</del></p>
+                			<span class="count">6.4折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1677639992.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2215/193/824466080/221905/6446cdc3/562edfe2N291e6e4e.jpg!q70.jpg">
+                			<p class="g-title">彪马 PUMA 2015秋冬 生活系列运动男装休闲连帽针织外套 825608 黑色 M(175/96A)</p>
+                			<p class="g-price">￥189.00</p>
+                			<p class="g-price-odd"><del>￥399.00</del></p>
+                			<span class="count">4.8折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1687869178.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1858/107/725548907/183982/716fda20/5626f482N9e26c3ad.jpg!q70.jpg">
+                			<p class="g-title">【抢名品 直降1000】法国芭步仕Burbupps 轻奢名品 贵族专供 高端定制商务皮鞋 黑色-标准码 37</p>
+                			<p class="g-price">￥199.00</p>
+                			<p class="g-price-odd"><del>￥1399.00</del></p>
+                			<span class="count">1.5折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/10006067457.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2359/232/333303561/188216/75c28bcc/56013d55Nd1a9b407.jpg!q70.jpg">
+                			<p class="g-title">【京东11.11提前 抢限量400抢完即止】晞米XM 时尚运动跑步鞋男士超轻防水休闲鞋 深海蓝 42</p>
+                			<p class="g-price">￥79.00</p>
+                			<p class="g-price-odd"><del>￥199.00</del></p>
+                			<span class="count">4.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1722486288.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2146/252/490692629/344643/b7a350c7/560f6bc6Ndfd1150b.jpg!q70.jpg">
+                			<p class="g-title">赛嘉（seago）声波电动牙刷成人 SG-906 天之蓝</p>
+                			<p class="g-price">￥19.90</p>
+                			<p class="g-price-odd"><del>￥39.00</del></p>
+                			<span class="count">5.1折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1180637.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t259/82/14528204/46680/957dd442/53e34b13N9492fa81.jpg!q70.jpg">
+                			<p class="g-title">飞亚达（FIYTA）手表 经典系列石英情侣表白盘钢带女表LJ098.WWW</p>
+                			<p class="g-price">￥299.00</p>
+                			<p class="g-price-odd"><del>￥428.00</del></p>
+                			<span class="count">7.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1733593005.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2422/106/542299522/90560/fbb5362e/56164c63N76dcb552.jpg!q70.jpg">
+                			<p class="g-title">苹果原装数据线iPhone6 5S/5/5C/Plus充电线iPad4/3Air2充电器头 Lightning数据线</p>
+                			<p class="g-price">￥45.00</p>
+                			<p class="g-price-odd"><del>￥77.00</del></p>
+                			<span class="count">5.9折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1739024055.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1897/350/731261516/389711/a2b5853d/5624aa30N4ce63433.jpg!q70.jpg">
+                			<p class="g-title">恒源祥男女士精梳棉薄款保暖内衣 秋衣秋裤保暖套装情侣套装 黑灰(男) XL</p>
+                			<p class="g-price">￥69.00</p>
+                			<p class="g-price-odd"><del>￥89.00</del></p>
+                			<span class="count">7.8折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1757462992.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2272/182/691037325/166737/c1aeccb6/5620826bNb2d5ed2a.jpg!q70.jpg">
+                			<p class="g-title">卡洛黛茜头层牛皮男士短款钱包+自动扣牛皮皮带组合套装 5075+PD009</p>
+                			<p class="g-price">￥49.00</p>
+                			<p class="g-price-odd"><del>￥149.00</del></p>
+                			<span class="count">3.3折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1762598713.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2230/198/423218737/242753/5d897139/5608b090N97017532.jpg!q70.jpg">
+                			<p class="g-title">韵品香 普洱茶 熟茶 散茶 03年勐海古树金芽礼盒装250克 陈年宫廷普洱茶 茶叶 礼品茶 红线茶罐</p>
+                			<p class="g-price">￥99.00</p>
+                			<p class="g-price-odd"><del>￥128.00</del></p>
+                			<span class="count">7.8折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1804697606.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1960/141/735242069/140907/3fe45432/5626ef87N5dabe4d6.jpg!q70.jpg">
+                			<p class="g-title">儿童睡前故事书0-3-6宝宝早教书启蒙读物本幼儿经典童话故事绘本</p>
+                			<p class="g-price">￥19.80</p>
+                			<p class="g-price-odd"><del>￥40.00</del></p>
+                			<span class="count">5.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1809559998.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2410/341/841803165/251490/43eb0d9e/563066d0N9bd692c9.jpg!q70.jpg">
+                			<p class="g-title">【广元馆】武媚娘酒  玛咖酒  广元特产  1*110ML</p>
+                			<p class="g-price">￥9.90</p>
+                			<p class="g-price-odd"><del>￥20.00</del></p>
+                			<span class="count">5.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1949369.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2446/110/590084759/56421/159f5866/561893acNf0f8d505.jpg!q70.jpg">
+                			<p class="g-title">INTEX深蓝植绒双人加大充气床68765送原装手泵和2个枕头</p>
+                			<p class="g-price">￥158.00</p>
+                			<p class="g-price-odd"><del>￥175.00</del></p>
+                			<span class="count">9.1折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1341050.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1660/65/463885839/50979/47784a7b/55d533e9N1e5b6ade.jpg!q70.jpg">
+                			<p class="g-title">腾达（Tenda）FH456 4天线覆盖450㎡无线路由器</p>
+                			<p class="g-price">￥79.00</p>
+                			<p class="g-price-odd"><del>￥89.00</del></p>
+                			<span class="count">8.9折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1894246.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2248/248/755672071/173872/42b49a48/562897f3Naa155280.jpg!q70.jpg">
+                			<p class="g-title">恒源祥保暖内衣 男女棉质圆领套装秋衣秋裤 情侣保暖内衣套装男麻灰色 175(XL)ZC6001</p>
+                			<p class="g-price">￥79.00</p>
+                			<p class="g-price-odd"><del>￥109.00</del></p>
+                			<span class="count">7.3折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1952460941.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2197/154/325616139/118591/8ebbaad2/560255e9N4145a518.jpg!q70.jpg">
+                			<p class="g-title">惠普/HP F330 行车记录仪高清广角夜视 1080p迷你防碰瓷 骑士黑 原装标配</p>
+                			<p class="g-price">￥399.00</p>
+                			<p class="g-price-odd"><del>￥499.00</del></p>
+                			<span class="count">8.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/2009736.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2128/275/774297399/55550/f3917a18/56270877Naf8be432.jpg!q70.jpg">
+                			<p class="g-title">绿润lorain 净佳卫士除甲醛除苯甲醛清除剂新房装修家具除味250ml</p>
+                			<p class="g-price">￥79.00</p>
+                			<p class="g-price-odd"><del>￥99.00</del></p>
+                			<span class="count">8.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1893668.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2173/245/634941058/32075/d4ca072c/561df3a3N098e95aa.jpg!q70.jpg">
+                			<p class="g-title">三禾（sanho）32cm炒锅LC32C3 可立盖不粘锅无油烟燃气电磁炉通用</p>
+                			<p class="g-price">￥199.00</p>
+                			<p class="g-price-odd"><del>￥299.00</del></p>
+                			<span class="count">6.7折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1295584.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t553/245/909182801/160307/38a8111e/5497c599Ncad56066.jpg!q70.jpg">
+                			<p class="g-title">口水娃 口水鱼小鱼干 麻辣味 15g*20/盒</p>
+                			<p class="g-price">￥17.90</p>
+                			<p class="g-price-odd"><del>￥19.90</del></p>
+                			<span class="count">9.0折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1954207.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1861/344/729274016/139289/d9d7d08f/5625c952Nca399566.jpg!q70.jpg">
+                			<p class="g-title">【闪购特卖】DARNELL羽绒服男冬季新款加厚连帽保暖休闲外套 8820 米色 2XL</p>
+                			<p class="g-price">￥256.00</p>
+                			<p class="g-price-odd"><del>￥499.00</del></p>
+                			<span class="count">5.2折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1704537.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t982/240/1396191172/50543/a85bc162/559c7d25Ne3da2368.jpg!q70.jpg">
+                			<p class="g-title">飞毛腿 15000毫安 移动电源/充电宝 聚合物 双USB输出 M105 PLUS 银色</p>
+                			<p class="g-price">￥99.00</p>
+                			<p class="g-price-odd"><del>￥118.00</del></p>
+                			<span class="count">8.4折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/805256.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_g14/M00/18/19/rBEhVlMmTS4IAAAAAACoanOmYjEAAKVPQPf-0wAAKiC777.jpg!q70.jpg">
+                			<p class="g-title">声缪斯（SONMUSE）GM-SE5N 守护大师 插座插排接线板排插防雷五位分控 全长1.8米</p>
+                			<p class="g-price">￥29.90</p>
+                			<p class="g-price-odd"><del>￥49.00</del></p>
+                			<span class="count">6.1折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1001178867.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2113/194/552170611/273115/1ad64832/5618a928N2a4c1c31.jpg!q70.jpg">
+                			<p class="g-title">彩虹全线路特别安全保护双控双温双人电热毯(JD104)(170*140CM)(花色随机)</p>
+                			<p class="g-price">￥124.00</p>
+                			<p class="g-price-odd"><del>￥148.00</del></p>
+                			<span class="count">8.4折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1403311447.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1282/92/725597414/221491/28529939/559f2dedN45a216db.jpg!q70.jpg">
+                			<p class="g-title">IBV手表男士机械表 飞行员系列 多功能防水夜光男表 8592 黑边黑面钢带</p>
+                			<p class="g-price">￥385.00</p>
+                			<p class="g-price-odd"><del>￥1198.00</del></p>
+                			<span class="count">3.3折</span>
+							        					                		</a>
+                	</li>
+			    										  <li>
+					                		<a href="http://item.m.jd.com/product/1615513982.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t979/133/1311546623/347138/1a43d9af/558e74d2N20ad6a41.jpg!q70.jpg">
+                			<p class="g-title">美国花雨伞家纺 全棉美式斜纹四件套纯棉被套床单套件床上用品 杏雨梨云 1.5m(5英尺)床</p>
+                			<p class="g-price">￥111.00</p>
+                			<p class="g-price-odd"><del>￥229.00</del></p>
+                			<span class="count">4.9折</span>
+							        					                		</a>
+                	</li>
+			    										  <li class="over">
+					                		<a href="http://item.m.jd.com/product/1785196865.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t2479/178/613064350/79920/e5acc52f/561b1e1dNb112d8de.jpg!q70.jpg">
+                			<p class="g-title">超级伯克 原装进口啤酒 超级伯克迷你黑啤200ml 1支</p>
+                			<p class="g-price">￥1.0</p>
+                			<p class="g-price-odd"><del>￥20.0</del></p>
+                			<span class="count">0.5折</span>
+							        					   <div class="mask">
+                        			<p>已抢完</p>
+                        		</div>
+        					                		</a>
+                	</li>
+			    										  <li class="over">
+					                		<a href="http://item.m.jd.com/product/1687781148.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1762/104/279894106/69283/97f2d378/55cedd41Ncd2806e1.jpg!q70.jpg">
+                			<p class="g-title">乐服 苹果可折叠削皮器  厨房必备便携式刨皮刀 小巧玲珑水果刨 去皮器 苹果折叠削皮器 颜色随机</p>
+                			<p class="g-price">￥1.11</p>
+                			<p class="g-price-odd"><del>￥5.55</del></p>
+                			<span class="count">2.0折</span>
+							        					   <div class="mask">
+                        			<p>已抢完</p>
+                        		</div>
+        					                		</a>
+                	</li>
+			    										  <li class="over">
+					                		<a href="http://item.m.jd.com/product/1331125.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1114/164/1066445394/119692/1bfc05ca/5571610fNbe360f0c.jpg!q70.jpg">
+                			<p class="g-title">海尔（Haier）S410 14英寸超薄笔记本电脑（Intel四核 4G 500G WIFI 720P摄像头）实用办公商务电脑</p>
+                			<p class="g-price">￥1799.0</p>
+                			<p class="g-price-odd"><del>￥1899.0</del></p>
+                			<span class="count">9.5折</span>
+							        					   <div class="mask">
+                        			<p>已抢完</p>
+                        		</div>
+        					                		</a>
+                	</li>
+			    										  <li class="over">
+					                		<a href="http://item.m.jd.com/product/1150550.html">
+                			<img src="http://m.360buyimg.com/mobilecms/s150x150_jfs/t1660/182/774354088/137428/79d1be75/55dc486aN87d57b67.jpg!q70.jpg">
+                			<p class="g-title">百草味 腰果坚果 炭烧腰果 190g/袋</p>
+                			<p class="g-price">￥11.11</p>
+                			<p class="g-price-odd"><del>￥17.9</del></p>
+                			<span class="count">6.2折</span>
+							        					   <div class="mask">
+                        			<p>已抢完</p>
+                        		</div>
+        					                		</a>
+                	</li>
+			    			 					 					 					 				<!--		    <a href="/seckill/seckillList.action?gid=30&sid=cd3703e18c01557d33321b673973614a" class="page-next">没有喜欢的?看看下一场!</a>
+		-->
+		<a href="javascript: void(0);" id="layout_toClient" class="page-next">去客户端查看更多秒杀商品！</a>
+	</ul>
+<script type="text/javascript">
+var seckillSecond="8359";
+$(document).ready(function(){
+    countDown("8359",".time"); 	
+	$(".topfixed>ul>li").each(function(){
+        $(this).click(
+            function(){
+                var gid=$(this).attr("id");
+                $("#gid").val(gid);
+                $("#seckillForm").submit();
+            });
+    });
+	
+	M.require('http://st.360buyimg.com/m/js/2014/module/plugIn/downloadAppPlugIn.js?v=jd2015102723', function(){
+		$('#layout_toClient').downloadAppPlugIn();
+	})
+	
+})
+
+function countDown(sys_second,id){ 
+	var timer = setInterval(function(){ 
+		if (sys_second > 1) { 
+		    var seckillListTime = window.localStorage.getItem('seckill_list');
+			if(seckillListTime!=undefined && seckillListTime!=null && seckillListTime!=""){
+			    var nowTime=new Date().getTime();
+			    var backTime=seckillListTime.split("_")[1];
+				var goTime=seckillListTime.split("_")[0];
+				if(seckillSecond==goTime){
+    				var sTime=parseInt((nowTime-backTime)/1000);
+    				if(sTime>1){
+    				    sys_second=sys_second-sTime+1;
+    				}
+				}
+			}
+			sys_second -= 1; 
+			var hour = Math.floor((sys_second / 3600) % 24); 
+			var minute = Math.floor((sys_second / 60) % 60); 
+			var second = Math.floor(sys_second % 60); 
+			hour=hour<10?"0"+hour:hour;//计算小时 
+			minute=minute<10?"0"+minute:minute;//计算分钟 
+			second=second<10?"0"+second:second;//计算秒杀 
+			var hour_elem = $(id).find('#hms'); 
+			$(hour_elem).text(hour).append(" : ").append(minute).append(" : ").append(second);
+			window.localStorage.setItem('seckill_list',seckillSecond+'_'+new Date().getTime());
+		} else { 
+			clearInterval(timer);
+			var t=Math.floor(Math.random()*3)
+			var ts=setInterval(function(){
+        		if(t>0){
+        		   t-=1;
+        		}else{
+				   clearInterval(ts);
+				   $("#gid").val("");
+                   $("#seckillForm").submit();
+				}
+        	},1000);
+		} 
+	}, 1000); 
+} 
+
+</script>
+
+
+
+    <!-- 通用尾 div -->
+	<div id="m_common_bottom" style="min-height:170px;"></div>
+	<!--
+	<div class="login-area" id="footer"  style="margin:0 auto 15px;" >
+        	<div class="login">
+									    					<a href="https://passport.m.jd.com/user/login.action?sid=cd3703e18c01557d33321b673973614a">登录</a><span class="lg-bar">|</span><a href="https://passport.m.jd.com/user/mobileRegister.action?v=t&sid=cd3703e18c01557d33321b673973614a">注册</a>
+    												<span  class="new-fr"><a href="/showvote.html?sid=cd3703e18c01557d33321b673973614a">反馈</a><span class="lg-bar">|</span><a href="#top">回到顶部</a></span>
+            </div>
+			<div class="version">
+				<span  id="clientArea">
+    				    					<a href="/download/downApp.html?sid=cd3703e18c01557d33321b673973614a" id="toClient" class="openJD">客户端</a>
+    								</span>
+				<a href="javascript:void(0)" class="on">触屏版</a>
+				<a onclick="skip();" href="javascript:void(0);" id="toPcHome">电脑版</a>        	</div>
+        	
+            <div class="copyright">Copyright &copy; 2012-2015 京东JD.com 版权所有</div>
+	</div>-->
+
+    <div style="display:none;">
+    					<img src="/ja.jsp?&amp;utmn=2006135091&amp;utmr=http%3A%2F%2Fm.jd.com%2F%3Fsid%3Dcd3703e18c01557d33321b673973614a&amp;utmp=%2Fseckill%2FseckillList.action%3F&amp;guid=ON&jav=html5&pin=-&utmac=MO-J2011-1&provinceId=&cityId=&countryId=&townId=&skuId=&skuPrice=&stockState=" />
+			    </div>
+
+    <script type="text/javascript" src="http://h5.m.jd.com/active/track/mping.min.js"></script>
+    <script type="text/javascript">
+        try{
+            var pv= new MPing.inputs.PV();   //构造pv 请求
+            var mping = new MPing();        //构造上报实例
+            mping.send(pv);                //上报pv
+        } catch (e){}
+    </script>
+
+
+<script type="text/javascript">
+$("#unsupport").hide();
+if(!testLocalStorage()){ //not support html5
+    if(0!=0 && !$clearCart && !$teamId){
+		$("#html5_cart_num").text(0>0>0);
+	}
+}else{
+	updateToolBar('');
+}
+
+$("#html5_cart").click(function(){
+//	syncCart('cd3703e18c01557d33321b673973614a',true);
+	location.href='/cart/cart.action';
+});
+var jap = {
+        siteId : 'MO-J2011-1',
+        topic: 'traffic-jdm',
+        account : '',
+        skuid: '',
+        shopid: '',
+        orderid: '',
+        adsCookieName: 'mt_subsite',
+        jumpAppEnable : 1,
+        __cookie_jda: '__tra',
+        __cookie_jdb: '__trb',
+        __cookie_jdc: '__trc',
+        __cookie_jdu: '__tru',
+        __cookie_jdv: '__trv'
+	};
+function reSearch(){
+var depCity = window.sessionStorage.getItem("airline_depCityName");
+	if(testSessionStorage() && isNotBlank(depCity) && !/^\s*$/.test(depCity) && depCity!=""){
+    	var airStr = '<form action="/airline/list.action" method="post" id="reseach">'
+        +'<input type="hidden" name="sid"  value="cd3703e18c01557d33321b673973614a"/>'
+        +'<input type="hidden" name="depCity" value="'+ window.sessionStorage.getItem("airline_depCityName") +'"/>'
+        +'<input type="hidden" name="arrCity" value="'+ window.sessionStorage.getItem("airline_arrCityName") +'"/>'
+        +'<input type="hidden" name="depDate" value="'+ window.sessionStorage.getItem("airline_depDate") +'"/>'
+        +'<input type="hidden" name="depTime" value="'+ window.sessionStorage.getItem("airline_depTime") +'"/>'
+        +'<input type="hidden" name="classNo" value="'+ window.sessionStorage.getItem("airline_classNo") +'"/>'
+        +'</form>';
+    	$("body").append(airStr);
+    	$("#reseach").submit();
+	}else{
+    	window.location.href='/airline/index.action?sid=cd3703e18c01557d33321b673973614a';
+	}
+}
+ //banner 关闭点击
+    $('.div_banner_close').click(function(){
+        $('#div_banner_header').unbind('click');
+        jQuery.post('/index/addClientCookieVal.json',function(d){
+              $('#div_banner_header').slideUp(500);
+        });
+    });
+    //banner 下载点击
+    $('.div_banner_download').click(function(){
+         var downloadUrl = $(this).attr('url');
+         jQuery.post('/index/addClientCookieVal.json',function(d){
+               window.location.href=downloadUrl;
+        });
+    });
+    window._clientVersion_ = '';
+    
+	$(document).ready(function(){
+		var _loadScript = function(url, options,cb){
+			var script = document.createElement("script");
+			var def = {
+				type: "text/javascript",
+				charset:"utf-8"
+			}
+			options= options|| {
+			}
+			for(var i in options){
+				def[i] = options[i];
+			}
+			script.src = url;
+			
+			for(var i in def){
+				script.setAttribute(i,def[i]);
+			}
+			script.addEventListener("load",function(){
+				cb && cb();
+			},false)
+			document.getElementsByTagName("head")[0].appendChild(script);
+		}
+				 _loadScript("http://misc.360buyimg.com/jdf/1.0.0/unit/ja/1.0.0/ja.js",{},function(){
+         });
+						if($(".download-con").length || $("#clientArea").length){
+			_loadScript("http://st.360buyimg.com/m/js/2013/installapp.js?v=jd2015102723",{},function(){
+				 $("#clientArea").length && downcheck($("#clientArea"),false);
+			});
+		}
+		        //通用头尾
+		var mchb = new MCommonHeaderBottom();
+    	var title = "秒杀";
+    	var headerArg = {hrederId : 'm_common_header', title:title, sid : 'cd3703e18c01557d33321b673973614a', isShowShortCut : false};
+    	mchb.header(headerArg); 
+    
+		var sid = 'cd3703e18c01557d33321b673973614a';
+    	var pin = '';
+    	var toPcSkipurl = 'http://www.jd.com/#m'; //跳转电脑版url
+    	var footerPlatforms = mchb.platformEnum(toPcSkipurl,sid).enum3_1;
+        var bottomArg = {bottomId : 'm_common_bottom', sid : sid, pin : pin ,footerPlatforms : footerPlatforms};
+        mchb.bottom(bottomArg);	
+    
+		var tipArg = {tipId : 'm_common_tip', sid : 'cd3703e18c01557d33321b673973614a', isfloat: true, isAlwayShow : false,
+				onClickTrynow: function(){},
+				onClickTipX: function(){}};
+		mchb.jdTip(tipArg);
+		
+	})
+			function skip(){
+		addCookie('pcm', '1' ,1, '', 'jd.com');
+		var localurl = 'http://www.jd.com/#m';
+		if(localurl == 'http://www.jd.com/#m'){
+			var localurl = document.location.href;
+    		if(localurl.indexOf('http://m.jd.com/sale/mall') == 0){
+    			var saleurl = localurl.replace('http://m.jd.com/sale/mall', 'http://sale.jd.com/mall');
+    			saleurl = saleurl+'#m'
+    			window.location.href = saleurl;
+				return;
+    		}else if(localurl.indexOf('http://m.jd.com/sale/act') == 0){
+    			var saleurl = localurl.replace('http://m.jd.com/sale/act', 'http://sale.jd.com/act');
+    			saleurl = saleurl+'#m'
+    		 	window.location.href = saleurl;
+				return;
+    		}else{
+    			 window.location.href = 'http://www.jd.com/#m';
+				 return;
+    		}
+		}
+		window.location.href = localurl;
+	}
+	
+	function addCookie(name, value, expires, path, domain){ 
+        var str=name+"="+escape(value); 
+        if(expires!=""){ 
+            var date=new Date(); 
+            date.setTime(date.getTime()+expires*24*3600*1000);//expires单位为天 
+            str+=";expires="+date.toGMTString(); 
+        } 
+        if(path!=""){ 
+        	str+=";path="+path;//指定可访问cookie的目录 
+        } 
+        if(domain!=""){ 
+        	str+=";domain="+domain;//指定可访问cookie的域 
+        } 
+        document.cookie=str; 
+    } 
+	function search_new(){
+		var history = jQuery("#newkeyword").val();
+		if(jQuery.trim(history).length > 0){
+    		history = jQuery.trim(history);
+    		var value = '';
+    		var h = "searchhistory";
+    		var g = localStorage.getItem(h);
+    		var count = 0;
+    		if(g != null){
+    			history = makeSearchName(history);
+    			var v = [history];
+    			g = decodeURIComponent(g);
+    			var data = g.split("|");
+    			for(var i=0; i < data.length; i++){
+    				if(count == 14){
+    					break;
+    				}
+    				if(data[i] != history){
+    					v.push(data[i]);
+    				}
+    				count++;
+    			}
+    			value = v.join('|');
+    		}else{
+    			var v = history;
+    			value = v;
+    		}
+    		localStorage.setItem(h,encodeURIComponent(value));
+			jQuery('#searchForm').submit();
+		}
+	}
+</script>
+</body>
+</html>

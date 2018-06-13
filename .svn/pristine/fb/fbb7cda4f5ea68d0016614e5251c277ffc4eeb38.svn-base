@@ -1,0 +1,49 @@
+$(function(){
+	//提交订单页面js
+	//选择地址弹框
+	$('.show-address').click(function(){
+		$('.add-address-gray').fadeIn();
+	});
+	$('.add-address-close').click(function(){
+		$('.add-address-gray').fadeOut();
+	});
+	//选择优惠券弹框
+	$('.special-offers').click(function(){
+		$('.choose-coupons-gray').fadeIn();
+	});
+	//选择是否使用优惠券
+	$('.choose-use').click(function(){
+		$('.choose-use-sel').toggleClass('pay_sel_active');
+	});
+    //确定按钮
+	$('.whether-use-coupon .sure,.choose-coupons-gray').click(function(){
+		$('.choose-coupons-gray').fadeOut();
+	});
+//	document.getElementsByClassName("choose-coupons-wrap")[0].addEventListener("click",function(event){
+//      event.stopPropagation();    
+//  },false)
+	//返回支付的叉号点击事件
+	$('.pay-return-close,.pay-return-gray').click(function(){
+		$('.pay-return-gray').fadeOut();
+	});
+//	document.getElementsByClassName("pay-return-alert")[0].addEventListener("click",function(event){
+//      event.stopPropagation();    
+//  },false)
+	//是否继续付款确认弹框
+	$('.think-again').click(function(){
+		$('.confirm-bounced-gray').fadeOut();
+	});
+	
+	//收货地址页面js
+	//删除按钮
+	$('.address-delete-btn').click(function(){
+		$('.confirm-bounced-gray').fadeIn();
+	});
+	$('.give-up,.think-again').click(function(){
+		$('.confirm-bounced-gray').fadeOut();
+	});
+	//添加收货地址按钮
+	$('.address-btm-btn').click(function(){
+		$('.add-address-gray').fadeIn();
+	})
+});

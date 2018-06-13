@@ -1,0 +1,54 @@
+<!--pages/selectAddress/selectAddress.wxml-->
+<page>
+  <!--导航栏-->
+		<view class="life_home_nav">
+			<view class="life_nav_left">
+				<navigator url="###"><image class="img1" src="../../res/images/return_img.png"/></navigator>
+			</view>
+			<view class="life_home_nav_center">
+				选择所在地
+			</view>
+		</view>
+		<view class="life_select_address_wrap">
+			<view class="life_select_content_inp">
+				<view class="life_select_inp_div">
+					<input type="text" name="" id="" value="" placeholder="搜索城市" />
+					<navigator url="###"><span class="life_select_inp_span"><image src="../../res/images/search_img.png"/></span></navigator>
+				</view>
+			</view>
+			<view class="life_select_localize">
+				定位城市：郑州市
+			</view>
+			<view class="life_hot_city">
+				热门城市
+			</view>
+			<view class="life_hot_search">
+				<view class="life_hot_search_content">
+					<span>小龙虾</span>
+					<span>王婆大虾</span>
+					<span>王婆大虾</span>
+					<span>王婆大虾</span>
+					<span>开封大排档</span>
+					<span>早餐</span>
+					<span>午餐</span>
+				</view>
+			</view>
+			<view class="life_hot_city">
+				全部城市
+			</view>
+			<view class="life_hot_city">
+				A
+			</view>
+			<view class="life_hot_search">
+				<view class="life_hot_search_content">
+					<span>小龙虾</span>
+					<span>王婆大虾</span>
+					<span>王婆大虾</span>
+					<span>王婆大虾</span>
+					<span>开封大排档</span>
+					<span>早餐</span>
+					<span>午餐</span>
+				</view>
+			</view>
+		</view>
+</page>

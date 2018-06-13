@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>财务管理</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headandfoot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/financial-manage.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="system-nav">
+			<img class="left-return" src="img/left_return.png"/>
+			<p class="title-name">财务管理</p>
+		</div>
+		<div class="financial-wrap">
+	        <div class="financial-upper-div">
+	        	<div class="financial-balance">
+		        	<p class="financial-balance-p1 poundage-remind">
+		        		<img class="crown-img" src="img/crown-img.png"/>
+		        			提现一次：收取2元手续费坳
+		        		<img class="remind-img" src="img/remind-img.png"/>
+		        	</p>
+		        	<p class="financial-balance-p2">954234.187</p>
+		        	<p class="financial-balance-p1">账户余额(元)</p>
+		        </div>
+		        <div class="financial-money-details">
+		        	<div class="left">
+		        		<p>65234</p>
+		        		<p>预估收入(元)</p>
+		        	</div>
+		        	<div class="right">
+		        		<p>6523.42</p>
+		        		<p>提现金额(元)</p>
+		        	</div>
+		        </div>
+	        </div>
+	        <div class="financial-two-btn">
+	        	<div class="financial-drawal-btn">
+	        		我的银行卡
+	        	</div>
+	        	<div class="financial-com-btn">
+	        		提  现
+	        	</div>
+	        </div>
+        </div>
+        <!--底部栏-->
+		<div class="system-btm">
+			<ul>
+				<li>
+					<img class="seller_center" src="img/seller_center_gray.png"/>
+					<p>卖家中心</p>
+				</li>
+				<li>
+					<img class="management_center" src="img/management_center_red.png"/>
+					<p class="system-btm-p">管理中心</p>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

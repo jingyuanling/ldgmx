@@ -1,0 +1,64 @@
+.rules618-wrap{
+	width: 100%;
+	min-width: 1200px;
+	font-family: "黑体";
+}
+.rules618-banner,.rules618-banner img{
+	width: 100%;
+}
+.rules618-content-wrap{
+	width: 100%;
+	height: 2289px;
+	background: url(../img/rules618-down-bg.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	padding-top: 70px;
+	position: relative;
+}
+.rules618-content{
+	width: 1206px;
+	height: 1961px;
+	background: url(../img/rules618-content-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+.rules618-content-text{
+	color: #FFFFFF;
+	padding-top: 140px;
+}
+.rules618-content-text h1{
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+}
+.rules618-content-text h2{
+	font-size: 28px;
+	text-align: center;
+	margin-top: 125px;
+	margin-bottom: 30px;
+}
+.rules618-content-text-p{
+	padding: 0 200px;
+}
+.rules618-content-text-p p{
+	font-size: 20px;
+	line-height: 43px;
+}
+.rules618-btm{
+	width: 100%;
+	height: 140px;
+	background-color: #7c02e1;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.rules618-btm p{
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 30px auto 10px;
+}
+.rules618-btm img{
+	width: 288px;
+	height: 27px;
+	margin: 0 auto;
+}

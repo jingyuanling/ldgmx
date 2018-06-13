@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>抽奖页面十连抽</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ten-even-draw.css"/>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="draw-wrap">
+			<div class="draw_content_upper">
+				<div class="draw-content">
+					<div class="draw_content_tit">
+						<img src="img/big-title.png"/>
+					</div>
+					<div class="draw-center">
+						<div class="left_winners">
+							<div class="left_winners_tit">
+								中奖广播
+							</div>
+							<!--轮播-->
+				        	<div class="left_winners_con">
+								<div class="swiper-container">
+							    	<div class="swiper-wrapper">
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>张某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>王某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>王某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>张某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>张某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>张某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>张某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>张某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>张某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>张某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									    <div class="swiper-slide">
+									    	<div class="winners_line">
+									    		<span>王某某</span>
+									    		<span>获得了一个颈椎枕</span>
+									    		<span>03.12  09:00:15</span>
+									    	</div>
+									    </div>
+									  </div>
+							    </div>
+							</div>
+						</div>
+						<div class="right_even_draw">
+							<div class="right_even_draw_content">
+								<ul class="draw_content_ul">
+									<li>
+										<div class="draw_img">
+											<img src="img/prize1.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize2.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize3.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize4.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize5.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize6.png"/>
+										</div>
+									</li>
+									<li class="draw_two_btn">
+										<canvas id="mapCanvas"></canvas>
+										<div class="draw_img" id="draw_img">
+											<!--<img class="one_drat_btn" src="img/one-drat-btn.png"/>-->
+											<input  class="one_drat_btn drat_btn" type="button" name="" id="" value="" />
+											<img class="one_drat_btn drat_btn" src="img/ten-draw-btn.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize7.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize8.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize9.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize10.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize11.png"/>
+										</div>
+									</li>
+									<li>
+										<div class="draw_img">
+											<img src="img/prize12.png"/>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--左侧小女孩-->
+						<div class="right_girl">
+							<img src="img/people.png"/>
+						</div>
+						<!--右侧不抽白不抽-->
+						<div class="right_bcbbc">
+							<img src="img/bcbbc.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="draw_content_down">
+				<div class="draw_ruls">
+					<div class="left_boy">
+						<img src="img/people2.png"/>
+					</div>
+					<p class="draw_ruls_tit"><img src="img/active-ruls-title.png"/></p>
+					<div class="draw_ruls_text">
+						<div><span>1</span><p>大转盘抽奖系统将在每天特定时间开放，（每天上午10：00~12：00，下午15：00~17：00，      晚上20：00~21：30限时开放），活动结束时间以网站公告为准.</p></div>
+						<div><span>2</span><p>每次抽奖消耗100个债权金，开放时间内，每天参与抽奖次数不限。</p></div>
+						<div><span>3</span><p>抽中的债权金将于10分钟之内冲入您的债权金账户中。</p></div>
+						<div><span>4</span><p>抽中的奖品将在活动结束3~5个工作日为您发出。</p></div>
+						<div><span>5</span><p>所有抽奖过程中，消耗的债权金不予返还。</p></div>
+						<div><span>6</span><p>对于查实作弊行为，灵动·光明行有权利拒绝发放奖品。</p></div>
+						<div><span>7</span><p>灵动光明行商城在法律范围内保留本次活动的最终解释权。</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--获奖奖品弹框-->
+		<div class="prize-alert-gray">
+			<div class="prize-alert-content">
+				<img class="content_bg" src="img/alert-content-bg.png"/>
+				<div class="alert-prize-zone">
+					<img class="delete-alert-btn" src="img/delete-alert-btn.png"/>
+					<ul class="alert-prize-zone-ul">
+						<li>
+							<div class="get-prize-img">
+								<img src="img/prize-iphone.jpg"/>
+							</div>
+							<p class="prize_name">iphone8一台</p>
+						</li>
+						<li>
+							<div class="get-prize-img">
+								<img src="img/prize-money.jpg"/>
+							</div>
+							<p class="prize_name">4999现金红包</p>
+						</li>
+						<li>
+							<div class="get-prize-img">
+								<img src="img/prize-zqj.png"/>
+							</div>
+							<p class="prize_name">588债权金红包</p>
+						</li>
+						<li>
+							<div class="get-prize-img">
+								<img src="img/prize-cervical-pillow.jpg"/>
+							</div>
+							<p class="prize_name">高端颈椎枕</p>
+						</li>
+						<li>
+							<div class="get-prize-img">
+								<img src="img/prize-zqj.png"/>
+							</div>
+							<p class="prize_name">588债权金红包</p>
+						</li>
+						<li>
+							<div class="get-prize-img">
+								<img src="img/prize-iphone.jpg"/>
+							</div>
+							<p class="prize_name">iphone8一台</p>
+						</li>
+						<li>
+							<div class="get-prize-img">
+								<img src="img/prize-money.jpg"/>
+							</div>
+							<p class="prize_name">4999现金红包</p>
+						</li>
+						<li>
+							<div class="get-prize-img">
+								<img src="img/prize-zqj.png"/>
+							</div>
+							<p class="prize_name">588债权金红包</p>
+						</li>
+						<li>
+							<div class="get-prize-img">
+								<img src="img/prize-cervical-pillow.jpg"/>
+							</div>
+							<p class="prize_name">高端颈椎枕</p>
+						</li>
+						<li>
+							<div class="get-prize-img">
+								<img src="img/prize-zqj.png"/>
+							</div>
+							<p class="prize_name">588债权金红包</p>
+						</li>
+						<!--一连抽奖品-->
+						<!--<li class="one-prize">
+							<div class="get-prize-img">
+								<img src="img/prize-zqj2.png"/>
+							</div>
+							<p class="prize_name">588债权金红包</p>
+						</li>-->
+					</ul>
+				</div>
+				<div class="award-btn">
+					<strong>立即领取</strong>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$('.delete-alert-btn').click(function(){
+			$('.prize-alert-gray').hide();
+		});
+		var mySwiper = new Swiper('.swiper-container',{
+			direction: 'vertical',
+			slidesPerView : 10,
+			spaceBetween : 8,
+			autoplay: 500,
+			loop:true,
+			autoplayDisableOnInteraction: false,
+			slideToClickedSlide: true
+		});
+		//获取对象
+		var canvas = document.getElementById("mapCanvas");
+		var context = canvas.getContext('2d');
+		//第一种方式
+		var draw_img = document.getElementById('draw_img');
+		//第二种方式
+		canvas.width = draw_img.offsetWidth;
+		canvas.height = draw_img.offsetHeight;
+		console.log(canvas.width);
+		console.log(canvas.height);
+		//第三步:绘制游戏的背景图片
+		var backgroundImg = new Image();
+		backgroundImg.src = "img/draw-btn-bg.png";
+		//创建一个背景图对象(只有一个)
+		var background = {
+			//属性
+			x:0,
+			y:0,
+			w:canvas.width,
+			h:canvas.height,
+			//方法
+			draw:function () {
+				//如何在不改变原背景图像素的情况下,铺满整个屏幕绘制?
+				//获取最大列数和最大行数  方便绘制全屏幕
+				var row = Math.ceil(canvas.height / 88);//向上取整
+				var col = Math.ceil(canvas.width / 374);
+				//使用双层for循环嵌套绘制背景图
+				for (var j = -col; j < col; j++) {
+					for (var i = 0; i < row; i++) {
+						//绘制图片
+						context.drawImage(backgroundImg,j * 374 + this.x,i * 88,374,88);
+					}
+				}
+			},//一个键值对结束,下面还有键值对,逗号隔开
+			//方法  背景移动
+			move:function () {
+				this.x++;
+				//判断如果移动完一张背景图之后需要重置this.y的位置
+				var row = Math.ceil(canvas.width / 374);
+				if (this.x >= 374 * row) {
+					this.x = 0;//重置
+				}
+			}
+		}
+		//最后一步:定义一个用来调用所有功能函数的总函数
+		function beginGame () {
+			//清空之前的画布
+			context.clearRect(0,0,canvas.width,canvas.height);
+			//第四步:调用绘制背景图和移动背景图的方法
+			background.draw();
+			background.move();
+			//刷新 调用方法
+			window.requestAnimationFrame(beginGame);
+		}
+		beginGame();
+	</script>
+</html>

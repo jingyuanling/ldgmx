@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>我的收藏</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-home.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-collect.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow" onclick="javascript:history.back(-1);"><img src="imgs/left-return-arrow2.png" alt=""/></span>
+				<p class="text-center nav-tit-name">我的收藏</p>
+				<p class="right-text collect-mamage-btn">管理</p>
+			</div>
+		</div>
+		<div class="wine-wrap">
+			<!--筛选头部-->
+			<table class="balance-nav-tab" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="balance_nav_active">全部<span class="line-red"></span></td>
+					<td>降价中<span class="line-red"></span></td>
+					<td>低库存<span class="line-red"></span></td>
+				</tr>
+			</table>
+			<div class="wine-firstclass-list">
+				<ul>
+					<li>
+						<div class="collect-selected-div">
+							<i class="collect-selected"><img src="imgs/right-logo-white.png" alt=""></i>
+						</div>
+						<a href="wine-goods-details.html">
+							<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+							<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+							<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+						</a>
+					</li>
+					<li>
+						<div class="collect-selected-div">
+							<i class="collect-selected"><img src="imgs/right-logo-white.png" alt=""></i>
+						</div>
+						<a href="wine-goods-details.html">
+							<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+							<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+							<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+						</a>
+					</li>
+					<li>
+						<div class="collect-selected-div">
+							<i class="collect-selected"><img src="imgs/right-logo-white.png" alt=""></i>
+						</div>
+						<a href="wine-goods-details.html">
+							<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+							<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+							<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+						</a>
+					</li>
+					<li>
+						<div class="collect-selected-div">
+							<i class="collect-selected"><img src="imgs/right-logo-white.png" alt=""></i>
+						</div>
+						<a href="wine-goods-details.html">
+							<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+							<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+							<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--底部删除按钮-->
+			<div class="btm-settlement">
+				<div class="sel-all-div"><i class="sel-all"><img src="imgs/right-logo-white.png" alt=""></i>全选</div>
+				<div class="account-btn">删除</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var bool = 1;
+			$('.collect-mamage-btn').click(function(){
+				if (bool) {
+					$(this).html('完成');
+					$('.collect-selected-div,.btm-settlement').show();
+					bool = 0;
+				} else{
+					$(this).html('编辑');
+					$('.collect-selected-div,.btm-settlement').hide();
+					bool = 1;
+				}
+			});
+			$('.collect-selected-div').click(function(){
+				$(this).find('i').toggleClass('collect_selected_active');
+			});
+			//全选
+			var bool2 = 1
+			$('.sel-all-div').click(function(){
+				if (bool2) {
+					$('.collect-selected-div').find('i').addClass('collect_selected_active');
+					$(this).find('i').addClass('sel_active');
+					bool2 = 0;
+				} else{
+					$('.collect-selected-div').find('i').removeClass('collect_selected_active');
+					$(this).find('i').removeClass('sel_active');
+					bool2 = 1;
+				}
+			});
+		</script>
+	</body>
+</html>

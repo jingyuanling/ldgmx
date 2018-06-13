@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/search-result.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/ceshi.css">
+</head>
+<body>
+   <div class="searchresult-box">
+        <div class="main-top">
+            <div class="goback">
+                <img src="img/main-goback.png">
+                <p>"虫草蛋"</p>
+            </div>
+            <a href="search.html"><img class="serch" src="img/d-search.png"></a>
+        </div>
+        <div class="search-cont">
+            <li>
+                <a href=""><img src="img/yangpin.png"></a>
+                <div class="cont">
+                    <p>季旦鲜虫草蛋(盒装)季旦</p>
+                    <p>62元</p>
+                </div>
+            </li>
+             <li class="right">
+                <a href=""><img src="img/yangpin.png"></a>
+                <div class="cont">
+                    <p>季旦鲜虫草蛋(盒装)季旦</p>
+                    <p>62元</p>
+                </div>
+            </li>
+            <li>
+                <a href=""><img src="img/yangpin.png"></a>
+                <div class="cont">
+                    <p>季旦鲜虫草蛋(盒装)季旦</p>
+                    <p>62元</p>
+                </div>
+            </li>
+             <li class="right">
+                <a href=""><img src="img/yangpin.png"></a>
+                <div class="cont">
+                    <p>季旦鲜虫草蛋(盒装)季旦</p>
+                    <p>62元</p>
+                </div>
+            </li>
+        </div>
+    </div>
+ 
+</body>
+</html>

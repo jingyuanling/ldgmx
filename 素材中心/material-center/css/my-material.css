@@ -1,0 +1,26 @@
+.material-sort2{
+	width: 100%;
+	height: 0.88rem;
+	overflow: hidden;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	max-width: 750px;
+	min-width: 320px;
+}
+.material-sort2 .sort2-p{
+	font-size: 0.24rem;
+	color: #939393;
+	height: 0.88rem;
+	float: left;
+	width: 50%;
+}
+.material-sort2 .sort2-p span{
+	display: inline-block;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+.material-sort2 .sort2-p-red span{
+	color: #f03b42;
+	border-bottom: 0.02rem solid #f03b42;
+}

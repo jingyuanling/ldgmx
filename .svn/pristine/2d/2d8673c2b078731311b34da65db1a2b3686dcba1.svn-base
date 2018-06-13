@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/double12.css" />
+</head>
+<body>
+    <div class="hongbao-tankuangceng" id="hongbao-tankuangceng">
+        <div class="hongbao-tankuang"> 
+             <img class="hongbaoclose" id="hongbaoknow2" src="img/hongbaoclose.png">
+             <p class="wenzineirong">请点击领取红包  本日剩余：00次</p>
+             <div class="dianji" id="dianji">
+                 
+             </div>
+             <div class="hongbaoyikai" id="hongbaoyikai">
+                 <p class="hongbaomoney">1000元</p>
+                 <div class="hongbaoknow">
+                     <img id="hongbaoknow" src="img/hongbaoknow.png">
+                 </div>
+             </div>
+        </div>
+    </div>
+    <script language="javascript">
+      var Htan=document.getElementById("hongbao-tankuangceng");
+      var Hknow2=document.getElementById("hongbaoknow2");
+      var Hknow=document.getElementById("hongbaoknow");
+      var Dian=document.getElementById("dianji");
+      var Kai=document.getElementById("hongbaoyikai");
+             Dian.onclick=function(){
+               Kai.style.display="block";
+             }
+        Hknow.onclick=function(){
+               Htan.style.display="none";
+             }
+             Hknow2.onclick=function(){
+               Htan.style.display="none";
+             }
+    </script>
+</body>
+</html>

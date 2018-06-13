@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+		<title>美食</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life-head-foot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life_order_record.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life_order_record.css"/>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="life_home_nav">
+			<div class="life_nav_left">
+				<img src="img/back.png"/>
+			</div>
+			<div class="life_home_nav_center">
+				消费记录
+			</div>
+			<div class="life_home_nav_right">
+				<a href="###">
+					筛选
+				</a>
+			</div>
+		</div>
+		<div class="life_order_record_wrap">
+			<div class="order_record_title">
+				本月消费
+			</div>
+			<ul class="order_record_details_ul">
+				<li>
+					<div class="order_record_details">
+						<div class="order_merchant_logo">
+							<img src="img/pay_merchants_logo.png"/>
+						</div>
+						<div class="order_consumption_amount">
+							-60.00
+						</div>
+						<div class="order_merchant_message">
+							<p>星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡</p>
+							<p>8月17日&nbsp;&nbsp;12.00</p>
+						</div>
+					</div>
+					<div class="order_record_details">
+						<div class="order_merchant_logo">
+							<img src="img/pay_merchants_logo.png"/>
+						</div>
+						<div class="order_consumption_amount">
+							-60.00
+						</div>
+						<div class="order_merchant_message">
+							<p>星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡</p>
+							<p>8月17日&nbsp;&nbsp;12.00</p>
+						</div>
+					</div>  
+				</li>
+			</ul>
+			<div class="order_record_title">
+				2017-7
+			</div>
+			<div class="order_record_details">
+				<div class="order_merchant_logo">
+					<img src="img/pay_merchants_logo.png"/>
+				</div>
+				<div class="order_consumption_amount">
+					-60.00
+				</div>
+				<div class="order_merchant_message">
+					<p>星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡</p>
+					<p>8月17日&nbsp;&nbsp;12.00</p>
+				</div>
+			</div>
+			<div class="order_record_details">
+				<div class="order_merchant_logo">
+					<img src="img/pay_merchants_logo.png"/>
+				</div>
+				<div class="order_consumption_amount">
+					-60.00
+				</div>
+				<div class="order_merchant_message">
+					<p>星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡星巴克咖啡</p>
+					<p>8月17日&nbsp;&nbsp;12.00</p>
+				</div>
+			</div>
+			<div class="life_bottom">
+				<a href="###">
+					<div class="life_bottom_columns">
+						<img src="img/home_shallow.png" alt="" />
+						<p>首页</p>
+						<div class="life_border_right"></div>
+					</div>
+				</a>
+				<a href="###">
+					<div class="life_bottom_columns">
+						<img src="img/address_bottom_shallow.png"/>
+						<p>附近</p>
+						<div class="life_border_right"></div>
+					</div>
+				</a>
+				<a href="###">
+					<div class="life_bottom_columns">
+						<img src="img/expense_calendar_deep.png"/>
+						<p class="life_bottom_deep">消费记录</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

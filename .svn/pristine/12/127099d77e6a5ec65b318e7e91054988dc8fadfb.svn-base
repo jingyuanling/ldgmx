@@ -1,0 +1,97 @@
+/* pages/selectAddress/selectAddress.wxss */
+.life_select_address_wrap{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: #efefef;
+	padding-top: 100rpx;
+}
+.life_select_inp_div{
+	width: 94%;
+    height: 65rpx;
+    margin-left: 3%;
+    position: relative;
+    font-size: 0;
+}
+.life_select_content_inp{
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 20rpx 0;
+	margin-bottom: 20rpx;
+	border-bottom: 1rpx solid #e2e2e2;
+}
+.life_select_content_inp input{
+	width: 100%;
+  height:65rpx;
+	font-size: 28rpx;
+	border: none;
+	text-align: center;
+	line-height: 65rpx;
+	background-color: #e6e6e6;
+	padding-right: 100rpx;
+	box-sizing: border-box;
+	border-radius: 10rpx;
+}
+.life_select_inp_span{
+	display: inline-block;
+	width: 100rpx;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #d9333f;
+	text-align: center;
+	border-radius: 0 10rpx 10rpx 0;
+}
+.life_select_inp_span image{
+    height: 27rpx;
+    width: 27rpx;
+	margin: 0 auto;
+	margin-top: 19rpx;
+}
+.life_select_localize{
+	width: 100%;
+	font-size: 34rpx;
+	text-align: center;
+	line-height: 100rpx;
+	background-color: white;
+	color: #022222;
+	border-top: 1rpx solid #e2e2e2;
+	border-bottom: 1rpx solid #e2e2e2;
+}
+.life_hot_city{
+	width: 100%;
+    font-size: 34rpx;
+    line-height: 70rpx;
+    padding-left: 3%;
+    color: #666666;
+}
+.life_hot_search{
+	width: 100%;
+    padding-top: 20rpx;
+	background-color: white;
+	border-top: 1rpx solid #e2e2e2;
+	border-bottom: 1rpx solid #e2e2e2;
+}
+.life_all_search{
+	background-color: white;
+}
+.life_hot_search_content{
+	width: 100%;
+	font-size: 0;
+}
+.life_hot_search span{
+	border: 1rpx solid #d3d3d3;
+	color: #666666;
+    font-size: 30rpx;
+    display: inline-block;
+    padding: 15rpx 30rpx;
+    border-radius: 10rpx;
+    margin-bottom: 16rpx;
+    margin-left: 20rpx;
+}
+/*选择城市的选中状态*/
+.life_all_search_content .life_all_search_active,.life_hot_search_content  .life_all_search_active{
+	color: white;
+	background-color: #d9333f;
+}

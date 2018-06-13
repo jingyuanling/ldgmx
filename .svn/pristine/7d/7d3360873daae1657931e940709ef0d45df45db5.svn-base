@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+		<title>付款</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life-head-foot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life_billing_details.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life_pay.css"/>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="life_home_nav">
+			<div class="life_nav_left">
+				<img src="img/return_img.png"/>
+			</div>
+			<div class="life_home_nav_center">
+				付款
+			</div>
+		</div>
+		<div class="life_pay_wrap">
+			<p class="life_billing_logo"><img src="img/pay_success.png"/></p>
+			<p class="life_billing_name">付款成功</p>
+			<p class="life_billing_money">¥60.00</p>
+			<p class="life_billing_message">
+				<span class="life_bond_payment_span1">消费对象</span>
+				<span class="life_bond_payment_span2">星巴克咖啡</span>
+			</p>
+			<a href="###">
+				<div class="life_sure_btn2">
+						完成
+				</div>
+			</a>
+			<a href="###">
+				<p class="life_look_details">查看详情</p>
+			</a>
+		</div>
+	</body>
+</html>

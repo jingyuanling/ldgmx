@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>做任务瓜分300万现金</title>
+		<link rel="stylesheet" type="text/css" href="css/do_task.css"/>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--最小化图片-->
+		<div class="out_small_btn">
+			<img src="img/ks_hb.png"/>
+		</div>
+		<div class="do_task_all">
+			<!--删除按钮-->
+			<div class="do_task_all_delete">
+				
+			</div>
+			<div class="do_task_wrap">
+				
+				<!--弥补和弹窗-->
+				<div class="makeup_alert fail_alert">
+					<div class="sure_btn">
+						确定
+					</div>
+				</div>
+				<!--大标题-->
+				<div class="do_task_title">
+					<img src="img/do_task_title.png"/>
+				</div>
+				<!--任务全部完成-->
+				<div class="complete_task_content">
+					<img class="complete_task_content_img" src="img/end_price.png"/>
+					<div class="complete_task_not_start">
+						<img src="img/not_start.png"/>
+					</div>
+				</div>
+				<p class="complete_task_bottom_p">
+					您已完成全部任务，请等待领取奖金!
+				</p>
+				<span class="complete_task_bottom_span">200人已完成，7月28日15:00发放奖金</span>
+				
+				<!--今日任务弹框-->
+				<div class="today_task_alert">
+					<div class="today_task_alert_delete">
+						
+					</div>
+					<div class="today_task_alert_title">
+						
+					</div>
+					<div class="today_task_alert_content">
+						<div class="today_task_alert_content_left"style="position: relative;">
+							<img style="width: 100%;height: 100%;" src="img/海报4.jpg"/>
+							<!--<div class="alert_gray_layer" style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;background-color: rgba(0,0,0,0.3);">
+								
+							</div>-->
+						</div>
+						<div class="today_task_alert_content_right">
+							<div class="today_task_right_title"></div>
+							<div class="today_reward_title">
+								今日奖励
+							</div>
+							<div class="today_reward_content">
+								<span>5000<img src="img/RMB.png"/></span>
+							</div>
+							<div class="today_task_alert_bottom">
+								<div class="today_task_alert_bottom_left">
+									
+								</div>
+								<div class="today_task_alert_bottom_right">
+									<div class="download_poster_btn">
+										
+									</div>
+									<div class="sweep_save">
+										扫码保存到手机
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				<!--第一行-->
+				<div class="do_task_wrap_line1 do_task_wrap_line">
+					<div class="line1_one_day line1_days">
+						<!--当天及当前以前的任务，加上剪刀状态，所有剪刀起初默认隐藏，class名加上scissors_show显示-->
+						<img class="scissors_hide scissors_show" src="img/scissors.png"/>
+						<!--每天模块底层按钮，通过添加背景图片，第一个默认为“领取任务”，后面默认为“未开始”-->
+						<!--“领取任务get_btn”，“未开始not_start”,“已完成complete_btn”,“弥补makeup_btn”-->
+						<div class="all_day_btn get_btn"></div>
+						<!--灰层，默认第二个以后都有灰层，添加灰层，加上class名“gray_layer”即可,如果是弥补的灰层class名为“sigh_gray_layer”-->
+					
+						
+					</div>
+					<div class="line1_two_day line1_days line_day_right">
+						<img class="scissors_hide" src="img/scissors.png"/>
+						<div class="all_day_btn makeup_btn"></div>
+						<!--灰层-->
+						<div class="gray_layer"></div>
+						<div class="sigh_gray_layer">
+							<img class="sigh" src="img/sigh.png"/>
+							<!--移入弥补灰层提醒图片-->
+							<img class="mouse_alert_sign" src="img/mouse_alert.png"/>
+						</div>
+					</div>
+					<div class="line1_three_day line1_days line_day_right">
+						<img class="scissors_hide" src="img/scissors.png"/>
+						<div class="all_day_btn complete_btn"></div>
+						<div class="gray_layer"></div>
+					</div>
+					<div class="line1_four_day line1_days line_day_right">
+						<img class="scissors_hide" src="img/scissors.png"/>
+						<div class="all_day_btn not_start"></div>
+						<div class="gray_layer"></div>
+					</div>
+				</div>
+				<!--第二行-->
+				<div class="do_task_wrap_line2 do_task_wrap_line">
+					<div class="line2_one_day line2_days">
+						<img class="scissors_hide" src="img/scissors.png"/>
+						<div class="all_day_btn not_start"></div>
+						<div class="gray_layer"></div>
+					</div>
+					<div class="line2_two_day line2_days line_day_right">
+						<img class="scissors_hide" src="img/scissors.png"/>
+						<div class="all_day_btn not_start"></div>
+						<div class="gray_layer"></div>
+					</div>
+					<div class="line2_three_day line2_days line_day_right">
+						<img class="scissors_hide" src="img/scissors.png"/>
+						<div class="all_day_btn not_start"></div>
+						<div class="gray_layer"></div>
+					</div>
+					<!--领奖模块-->
+					<div class="line2_four_day line2_days line_day_right">
+						<div class="all_day_btn not_start"></div>
+						<div class="gray_layer"></div>
+					</div>
+				</div>
+				<!--底部文字-->
+				<div class="do_task_bottom_text">
+					<img class="mouse_alert" src="img/mouse_alert.png"/>
+					<span class="bottom_title_span">弥补卡：0
+						<img class="remind" src="img/remind.png"/>
+					</span>
+					<span>200人已完成，7月28日15:00发放奖金</span>
+				</div>
+			</div>
+			<div class="do_task_rules">
+				<span class="rules_span">活动规则</span>
+				<p class="rules_p">
+					活动期间，每个用户均可领取七日宣传任务，每天领取海报按要求邀请好友扫码即为完
+				成任务，可获得当日奖励，连续七日均完成任务即可在28 日与同样完成任务的人共享分
+				配300万奖金 。    （活动最终归灵动·光明行所有）
+				</p>
+			</div>
+			
+			
+			<!--<div class="complete_task_wrap">
+				<div class="do_task_title">
+					<img src="img/do_task_title.png"/>
+				</div>
+				
+				<div class="complete_task_content">
+					<img class="complete_task_content_img" src="img/end_price.png"/>
+					<div class="complete_task_not_start">
+						<img src="img/not_start.png"/>
+					</div>
+				</div>
+				<p class="complete_task_bottom_p">
+					您已完成全部任务，请等待领取奖金!
+				</p>
+				<span class="complete_task_bottom_span">200人已完成，7月28日15:00发放奖金</span>
+			</div>-->
+			
+		</div>
+		<script type="text/javascript">
+			//点击删除按钮
+			$('.do_task_all_delete').click(function(){
+				$('.do_task_all').hide();
+				$('.out_small_btn').show();
+			});
+			$('.out_small_btn').click(function(){
+				$('.do_task_all').show();
+				$('.out_small_btn').hide();
+			});
+			//感叹号的移入、移出事件
+			$('.remind').mouseenter(function(){
+				$('.mouse_alert').show();
+			});
+			$('.remind').mouseleave(function(){
+				$('.mouse_alert').hide();
+			});
+			//弥补的点击事件
+			$('.makeup_btn').click(function(){
+				$(".makeup_alert").show();
+			});
+			$('.sure_btn').click(function(){
+				$(".makeup_alert").hide();
+			});
+			//领取任务点击事件
+			$('.get_btn').click(function(){
+				$('.today_task_alert').show();
+			});
+			//领取弹出框中的删除按钮的点击事件
+			$('.today_task_alert_delete').click(function(){
+				$('.today_task_alert').hide();
+			});
+			//带感叹号灰层的移入移出时事件
+			$('.sigh_gray_layer').mouseenter(function(){
+				$('.mouse_alert_sign').show();
+			});
+			$('.sigh_gray_layer').mouseleave(function(){
+				$('.mouse_alert_sign').hide();
+			});
+		</script>
+	</body>
+</html>

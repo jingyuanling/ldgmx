@@ -1,0 +1,150 @@
+.wine-wrap{
+	padding: 1.05rem 0;
+	height: 100%;
+	overflow-y: scroll;
+}
+.business-top{
+	width: 100%;
+	height: 2.52rem;
+	background: url(../imgs/business-banner.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: 0.55rem;
+}
+.business-upper{
+	background-color: #FFFFFF;
+	margin-bottom: 0.17rem;
+	padding-bottom: 0.5rem;
+}
+.business-class{
+	width: 100%;
+	height: 1.5rem;
+	margin-bottom: 0.4rem;
+	padding: 0 0.37rem;
+}
+.business-class table{
+	width: 100%;
+	height: 100%;
+}
+.business-class table td{
+	text-align: center;
+	color: #666666;
+}
+.business-class table td .img{
+	display: inline-block;
+	width: 1.05rem;
+	height: 1.05rem;
+}
+.business-class table td .img img{
+	height: 100%;
+	width: 100%;
+}
+.business-class table td .text{
+	display: inline-block;
+	width: 100%;
+	height: 0.39rem;
+	line-height: 0.39rem;
+	font-size: 0.2083rem;
+	color: #666666;
+	margin-top: 0.12rem;
+}
+.business-class table td .text-red{
+	color: #e20000;
+}
+.business-conditions{
+	padding: 0 0.37rem;
+}
+.business-conditions p{
+	font-size: 0.25rem;
+	color: #666666;
+	position: relative;
+	padding-left: 0.28rem;
+	line-height: 0.43rem;
+	margin-bottom: 0.07rem;
+}
+.business-conditions p span{
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color: #d10000;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.16rem;
+	left: 0;
+}
+.business-down{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.business-down .person-order-tit{
+	display: inline-block;
+	height: 1.05rem;
+    line-height: 1.05rem;
+    width: 100%;
+    padding: 0 0.37rem;
+    background-color: #FFFFFF;
+    position: relative;
+    border-bottom: 0.01rem solid #dbdbdb;
+}
+.business-down .person-order-tit .vertical-line {
+    width: 0.08rem;
+    height: 0.45rem;
+    background-color: #d10000;
+    position: absolute;
+    left: 0;
+    top: 0.3rem;
+    border-radius: 0.04rem;
+}
+.business-down .person-order-tit .left {
+    font-size: 0.2917rem;
+    color: #333333;
+}
+.cart-list-li {
+    height: 2.42rem;
+    padding: 0.27rem 0.37rem 0;
+    overflow: hidden;
+    border-bottom: 0.01rem solid #e6e6e6;
+}
+.left-goodImg-div {
+    width: 1.88rem;
+    height: 1.88rem;
+    float: left;
+    margin-right: 0.2rem;
+}
+.cart-list-li .good-desc {
+    font-size: 0.2708rem;
+    line-height: 0.36rem;
+    height: 0.7rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: #333333;
+}
+.choose-num {
+	height: 0.6rem;
+	line-height: 0.8rem;
+    display: block;
+    margin-top: 0.5rem;
+    overflow: hidden;
+}
+.cart-goodsImg img {
+    width: 1.88rem;
+    height: 1.88rem;
+    border-radius: 0.06rem;
+}
+.choose-num .num-tit {
+    font-size: 0.3333rem;
+    color: #d10000;
+}
+.choose-num-btn {
+    float: right;
+    text-align: center;
+    width: 2.5rem;
+    height: 0.6rem;
+    border-radius: 0.05rem;
+    color: #FFFFFF;
+    font-size: 0.2917rem;
+    line-height: 0.6rem;
+    overflow: hidden;
+    border-radius: 0.05rem;
+    background-color: #d10000;
+}

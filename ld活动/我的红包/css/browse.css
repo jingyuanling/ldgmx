@@ -1,0 +1,73 @@
+@charset "utf-8";
+.browse{
+	margin-bottom:20px;
+}
+.browse .browse_title{
+	background:#f2f2f2;
+	overflow:hidden;
+	font-size:14px;
+}
+.browse .browse_title li{
+	font-size:14px;
+	float:left;
+	height:46px;
+	line-height:46px;
+	width:118px;
+	text-align:center;
+	cursor:pointer;
+	color:#ff4500;
+}
+.daymain{
+	margin-top:20px;
+}
+.step_main{
+	margin-left:20px;
+	padding-bottom:40px;
+	border-left:1px solid #e6e6e6;
+}
+.step_main h3 i{
+	margin-left:-9px;
+	display:inline-block;
+	width:19px;
+	height:19px;
+	background:url(../img/xiaotubiao.png) no-repeat -23px -132px }
+.step_main h3 b{
+	font-family:"微软雅黑";
+	margin:0 20px;
+}
+.step_main h3 span{
+	font-size:12px;
+	font-family:"宋体";
+	font-weight:300;
+}
+.step_main ul{
+	margin:0 0 20px 20px;
+	overflow:hidden;
+}
+.step_main ul li{
+	float:left;
+	display:inline-block;
+	margin:20px 0 0 20px;
+}
+.step_main ul li a{
+	display:block;
+	width:180px;
+	height:200px;
+	overflow:hidden;
+}
+.step_main ul li p{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width:180px;
+	margin:auto;
+	line-height:30px;
+	font-size:12px;
+	font-family:"宋体";
+}
+.step_main ul li span{
+	margin-left:10px;
+	font-size:14px;
+	font-family:"Arial Black";
+	color:#ff4500;
+}

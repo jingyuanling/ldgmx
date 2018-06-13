@@ -1,0 +1,135 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+html{
+    background-color:#ebebeb
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.tuiguang-box{
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaea;
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+    font-family:"微软雅黑";
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.main-top p{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+.tuiguang-cont .shuoming{
+    border-bottom:1px solid #c7c8c6;
+    width: 100%;
+    padding: 5px 8px;
+}
+.shuoming p{
+    line-height: 20px;
+    float: left;
+    font-size: 12px;
+    padding-right: 25px;
+    color: #000;
+}
+.shuoming span{
+    float: right;
+    margin-top: -35px;
+}
+.xiaodian{
+    width: 100%;
+    height: 150px;
+    border-bottom:1px solid #c7c8c6;
+}
+.dian-tit{
+    width: 100%;
+    padding: 8px 8px;
+    height: 150px;
+    border-bottom:1px solid #c7c8c6;
+}
+.dian-tit img{
+    width: 69px;
+    float: left;
+}
+.dian-tit .cont{
+    padding-top: 5px;
+    float: left;
+    margin-left: 10px;
+}
+.dian-tit .cont p{
+   color: #000;
+   font-size: 12px;
+   line-height: 20px;
+}
+.dian-tit .cont p.p2{
+   color: #8b8b8b;
+   font-size: 12px;
+   line-height: 20px;
+}
+.dian-tit .cont p.juli{
+    width: 60px;
+    background-color: #26a69a;
+    color:#fff;
+    letter-spacing:0px;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 3px;
+}
+.dian-tit .cont p.yijie{
+    background-color: #e84e40;
+}
+.dian-tit .jine{
+    width: 100%;
+    height:77px;
+    margin-top:83px ;
+
+}
+.dian-tit .jine p{
+   color: #8b8b8b;
+   font-size: 12px;
+   line-height: 15px;
+   margin-top: 5px;
+}
+.dian-tit .jine p.p2{
+    color: #000;
+}
+.dian-tit .jine .p1 span,.p2 span{
+   float: left;
+   width: 33.3333%;
+}
+.dian-tit .jine p span.center{
+   text-align: center;
+}
+.dian-tit .jine p span.right{
+   text-align: right;
+}
+.dian-tit .jine p.riqi span{
+    float: right;
+}

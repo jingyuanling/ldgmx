@@ -1,0 +1,24 @@
+<!--pages/myMoney/myMoney.wxml-->
+<page>
+  <!--导航栏-->
+		<view class="life_home_nav">
+			<view class="life_nav_left">
+				<image class="img1" src="../../res/images/return_img.png"/>
+			</view>
+			<view class="life_home_nav_center">
+				我的资金
+			</view>
+		</view>
+		<view class="life_mymoney_wrap">
+			<view class="money_total">
+				<image src="../../res/images/debt_dollor.png"/>
+				<p class="p1">债权金</p>
+				<p class="p2">100000.00</p>
+			</view>
+			<navigator url="/pages/balance/balance">
+				<p class="balance_subsidiary">
+					余额明细
+				</p>
+			</navigator>
+		</view>
+</page>

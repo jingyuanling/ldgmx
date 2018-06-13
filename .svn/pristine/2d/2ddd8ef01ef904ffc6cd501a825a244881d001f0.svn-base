@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>商品评价</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-goods-evaluate.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="wine-js/wine-goods-evaluate.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow"><img src="imgs/left-return-arrow.png" alt=""/></span>
+				<p class="text-center nav-tit-name">二级分类</p>
+				<a href="javascript:void(0)" class="right-logo"><img src="imgs/nav-cart-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap wine-wrap-four">
+			<!--评语部分-->
+			<div class="wine-remark-wrap">
+				<div class="wine-remark-content1">
+					<div class="remark-class">
+						<ul>
+							<li>评价标签(10)</li>
+							<li>评价标签(10)</li>
+							<li>评价标签(10)</li>
+							<li class="remark_class_active">选中状态标签(10)</li>
+							<li class="remark_class_bad">差评标签(10)</li>
+						</ul>
+					</div>
+				</div>
+				<div class="wine-remark-content">
+					<ul>
+						<li>
+							<p class="user-message"><span class="user-photo"><img src="" alt=""/></span><span class="username">用户昵称</span></p>
+							<p class="remark">评价内容评价内容评价内容评价内容评价内容评价内容 评价内容评价内容</p>
+							<!--评价图图片-->
+							<div class="wine-remark-img">
+								<span><img src="" alt=""/></span>
+								<span><img src="" alt=""/></span>
+								<span><img src="" alt=""/></span>
+								<span><img src="" alt=""/></span>
+							</div>
+							<p class="wine-remark-size"><span>颜色：XXX</span><span class="time">2018-04-26</span></p>
+						</li>
+						<li>
+							<p class="user-message"><span class="user-photo"><img src="" alt=""/></span><span class="username">用户昵称</span></p>
+							<p class="remark">评价内容评价内容评价内容评价内容评价内容评价内容 评价内容评价内容</p>
+							<!--评价图图片-->
+							<div class="wine-remark-img">
+								<span><img src="" alt=""/></span>
+								<span><img src="" alt=""/></span>
+								<span><img src="" alt=""/></span>
+								<span><img src="" alt=""/></span>
+							</div>
+							<p class="wine-remark-size"><span>颜色：XXX</span><span class="time">2018-04-26</span></p>
+						</li>
+						<li>
+							<p class="user-message"><span class="user-photo"><img src="" alt=""/></span><span class="username">用户昵称</span></p>
+							<p class="remark">评价内容评价内容评价内容评价内容评价内容评价内容 评价内容评价内容</p>
+							<!--评价图图片-->
+							<div class="wine-remark-img">
+								<span><img src="" alt=""/></span>
+								<span><img src="" alt=""/></span>
+								<span><img src="" alt=""/></span>
+								<span><img src="" alt=""/></span>
+							</div>
+							<p class="wine-remark-size"><span>颜色：XXX</span><span class="time">2018-04-26</span></p>
+						</li>
+					</ul>
+					<!--加载到最后一条信息时候-->
+					<p class="wine-remark-btm">已经到底啦！剩下的决定就看你的了!</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

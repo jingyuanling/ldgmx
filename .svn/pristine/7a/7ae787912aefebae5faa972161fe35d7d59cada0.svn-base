@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>4%商品列表</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/CZQ_index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/four_percent_list.css"/>
+	</head>
+	<body>
+	<div class="blzq-bg">
+		<div class="blzq-top">
+	    	<div class="topbox">
+	        	<p class="thep">亲，欢迎来到鑫光明行！</p>
+	            <ul class="theul" id="theul">
+	            	<div class="redbox"><a class="theblack" href="" title="请登录">请登录</a><a href="" title="免费注册">免费注册</a><a href="" title="债权说明">债权说明</a><a class="theblack" href="" title="我的订单">我的订单</a></div>
+	                <li><b></b><a href="" title="商品分类">商品分类</a>
+	                	<ul><span></span>
+	                    	<dl>
+	                        	<dd><div><a href="">品牌街</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div></dd>
+	                        </dl>
+	                    </ul>
+	                </li>
+	                <li><b></b><a href="" title="卖家中心">卖家中心</a>
+	                	<ul><span></span>
+	                    	<dl>
+	                        	<dd><div><a href="">品牌街</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div></dd>
+	                        </dl>
+	                    </ul>
+	                </li>
+	                <li><b></b><a href="" title="联系客服">联系客服</a>
+	                	<ul><span></span>
+	                    	<dl>
+	                        	<dd><div><a href="">品牌街</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div></dd>
+	                        </dl>
+	                    </ul>
+	                </li>
+	                <li><i></i><a href="" title="网站导航">网站导航</a>
+	                	<ul class="wzdhang"><span></span>
+	                    	<dl class="liex1">
+	                        	<dt>特色主题</dt>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                        </dl>
+	                        <dl class="liex">
+	                        	<dt>特色主题</dt>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                        </dl>
+	                        <dl class="liex">
+	                        	<dt>特色主题</dt>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                        </dl>
+	                        <dl class="liex liex2">
+	                        	<dt>特色主题</dt>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                            <dd><div><a href="">品牌街</a></div><div><a href="">今日首发</a></div><div><a href="">今日首发</a></div></dd>
+	                        </dl>
+	                    </ul>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
+	    <!--导航栏-->
+	    <div class="nav-wrap">
+	    	<div class="nav-wrap-contnet">
+				<div class="nav_logo">
+					<a href="###"><img src="img/blzq-logo.png"/></a>	
+				</div>
+	    		<div class="czq_logo">
+	    			<a href="###"><img src="img/CZQ.png"/></a>
+	    		</div>
+	    		<div class="nav_inp">
+	    			<input type="" name="" id="czq_inp" value="" placeholder="输入搜索的商品" />
+	    			<div class="search_btn">搜索</div>
+	    		</div>
+	    		<div class="cart_btn">
+	    			<a href="###"><img src="img/cart.png"/></a>
+	    		</div>
+	    		<div class="nav_bottom">
+	    			<div class="nav_bottom_left">
+	    				<a href="###"><span><strong>纯债权专区</strong></span></a>
+	    				<a href="###"><span>零电商费</span></a>
+	    				<a href="###"><span style="color: #f15946;">4%电商费</span></a>
+	    			</div>
+	    			<div class="nav_bottom_right">
+	    				<img src="img/VIP_logo.png" alt="" />
+	    				<span style="position: relative;top: -8px;">VIP到期时间：2018-07-24</span>
+	    				<!--<span>本专区仅供VIP客户购买！购买VIP！</span>-->
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	</div>
+	<!--头部以下主体部分-->
+	<div class="CZQ_content_wrap">
+		<div class="CZQ_content_wrap_nav">
+			<img src="img/title_logo.png"/>
+			<a href="###"><span>4%电商费&nbsp;&nbsp;&nbsp;></span></a>
+			<a href="###"><span>&nbsp;&nbsp;商品列表</span></a>
+		</div>
+		<div class="CZQ_content_class">
+			<span style="background-color: #FD5740;color: white;">全部</span>
+			<span>白酒</span>
+			<span>红酒</span>
+			<span>啤酒</span>
+			<span>米酒</span>
+			<span>黄酒</span>
+			<span>药酒</span>
+		</div>
+		<div class="CZQ_gray_nav">
+			<span style="background-color: #FFFFFF;color: #f15946;">默认排行</span>
+			<span>价格最高</span>
+			<span>价格最高</span>
+			<span>最新上架</span>
+			<span>评价最多</span>
+		</div>
+		<div class="CZQ_content_bottom">
+			<div class="four_percent_area">
+				<div class="CZQ_goods_list_wrap">
+					<div class="CZQ_goods_list">
+						<div class="CZQ_goods_list_img">
+							<img src="img/goods.png"/>
+						</div>
+						<p class="goods_description">热销 茅台全家福荣耀100 浓香型白酒52° 500ml/瓶*6......</p>
+						<!--抢购-->
+						<a href="###">
+							<div class="CZQ_price_div">
+								<span class="now_price">¥0.00&nbsp;&nbsp;</span>
+								<s style="font-size: 16.72px;color: #fa8e83;">298.00</s>
+								<img class="QGimg" src="img/qianggou.png"/>
+							</div>
+						</a>
+					</div>
+					<div class="CZQ_goods_list">
+						<div class="CZQ_goods_list_img">
+							<img src="img/goods.png"/>
+						</div>
+						<p class="goods_description">热销 茅台全家福荣耀100 浓香型白酒52° 500ml/瓶*6......</p>
+						<!--抢购-->
+						<a href="###">
+							<div class="CZQ_price_div">
+								<span class="now_price">¥0.00&nbsp;&nbsp;</span>
+								<s style="font-size: 16.72px;color: #fa8e83;">298.00</s>
+								<img class="QGimg" src="img/qianggou.png"/>
+							</div>
+						</a>
+					</div>
+					<div class="CZQ_goods_list">
+						<div class="CZQ_goods_list_img">
+							<img src="img/goods.png"/>
+						</div>
+						<p class="goods_description">热销 茅台全家福荣耀100 浓香型白酒52° 500ml/瓶*6......</p>
+						<!--抢购-->
+						<a href="###">
+							<div class="CZQ_price_div">
+								<span class="now_price">¥0.00&nbsp;&nbsp;</span>
+								<s style="font-size: 16.72px;color: #fa8e83;">298.00</s>
+								<img class="QGimg" src="img/qianggou.png"/>
+							</div>
+						</a>
+					</div>
+					<div class="CZQ_goods_list">
+						<div class="CZQ_goods_list_img">
+							<img src="img/goods.png"/>
+						</div>
+						<p class="goods_description">热销 茅台全家福荣耀100 浓香型白酒52° 500ml/瓶*6......</p>
+						<!--抢购-->
+						<a href="###">
+							<div class="CZQ_price_div">
+								<span class="now_price">¥0.00&nbsp;&nbsp;</span>
+								<s style="font-size: 16.72px;color: #fa8e83;">298.00</s>
+								<img class="QGimg" src="img/qianggou.png"/>
+							</div>
+						</a>
+					</div>
+					<div class="CZQ_goods_list">
+						<div class="CZQ_goods_list_img">
+							<img src="img/goods.png"/>
+						</div>
+						<p class="goods_description">热销 茅台全家福荣耀100 浓香型白酒52° 500ml/瓶*6......</p>
+						<!--抢购-->
+						<a href="###">
+							<div class="CZQ_price_div">
+								<span class="now_price">¥0.00&nbsp;&nbsp;</span>
+								<s style="font-size: 16.72px;color: #fa8e83;">298.00</s>
+								<img class="QGimg" src="img/qianggou.png"/>
+							</div>
+						</a>
+					</div>
+					<div class="CZQ_goods_list">
+						<div class="CZQ_goods_list_img">
+							<img src="img/goods.png"/>
+						</div>
+						<p class="goods_description">热销 茅台全家福荣耀100 浓香型白酒52° 500ml/瓶*6......</p>
+						<!--抢购-->
+						<a href="###">
+							<div class="CZQ_price_div">
+								<span class="now_price">¥0.00&nbsp;&nbsp;</span>
+								<s style="font-size: 16.72px;color: #fa8e83;">298.00</s>
+								<img class="QGimg" src="img/qianggou.png"/>
+							</div>
+						</a>
+					</div>
+					<div class="CZQ_goods_list">
+						<div class="CZQ_goods_list_img">
+							<img src="img/goods.png"/>
+						</div>
+						<p class="goods_description">热销 茅台全家福荣耀100 浓香型白酒52° 500ml/瓶*6......</p>
+						<!--抢购-->
+						<a href="###">
+							<div class="CZQ_price_div">
+								<span class="now_price">¥0.00&nbsp;&nbsp;</span>
+								<s style="font-size: 16.72px;color: #fa8e83;">298.00</s>
+								<img class="QGimg" src="img/qianggou.png"/>
+							</div>
+						</a>
+					</div>
+					<div class="CZQ_goods_list">
+						<div class="CZQ_goods_list_img">
+							<img src="img/goods.png"/>
+						</div>
+						<p class="goods_description">热销 茅台全家福荣耀100 浓香型白酒52° 500ml/瓶*6......</p>
+						<!--抢购-->
+						<a href="###">
+							<div class="CZQ_price_div">
+								<span class="now_price">¥0.00&nbsp;&nbsp;</span>
+								<s style="font-size: 16.72px;color: #fa8e83;">298.00</s>
+								<img class="QGimg" src="img/qianggou.png"/>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--页码序列-->
+		<div class="page_num">
+			<span class="page_num_spanleft"><a href="###">&lt;</a></span>
+			<ul class="page_num_ul">
+				<li style="color: #f15946;border: 0;">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li style="border: 0;line-height: 50px;">......</li>
+				<li>40</li>
+			</ul>
+			<span class="page_num_spanright"><a href="###">&gt;</a></span>
+		</div>
+	</div>
+	</body>
+</html>

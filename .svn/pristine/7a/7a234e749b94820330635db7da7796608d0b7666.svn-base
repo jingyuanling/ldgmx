@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>列表展示</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-4.1.6.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="css/list-shows.css"/>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-4.1.6.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="list-shows-wrap">
+			<!--头部-->
+			<div class="zone-head">
+				<div class="zone-head-center">
+					<span class="ld-logo"><img src="img/ld-logo.png"/></span>
+					<div class="head-search-inp">
+						<input type="text" name="" id="" value="" placeholder="请输入名称" />
+						<span class="search-btn">搜索</span>
+						<p class="top-search"><span>茅台</span><span>茅台</span><span>五粮液</span><span>五粮液</span><span>五粮液</span><span>五粮液</span><span>五粮液</span><span>五粮液</span></p>
+					</div>
+					<a href="###" class="zone-cart-btn">
+						<img class="cart-img" src="img/cart.png"/>
+						我的购物车
+						<span class="cart-goods-num">0</span>
+						<div class="cart-zero-hover">
+							<img class="sleep-cart-img" src="img/sleep-cart.png"/>
+							购物车还没有商品，赶紧选购吧！
+						</div>
+					</a>
+				</div>
+				<!--导航栏-->
+				<div class="zone-menu">
+					<!--专区-->
+					<a href="###">纯债权专区</a>
+					<a href="###">酒水专区</a>
+					<a href="###">生鲜专区</a>
+					<a href="###" class="last-a">小家电专区</a>
+				</div>
+			</div>
+			<!--主体部分-->
+			<div class="list-shows-content">
+				<!--分类导航栏-->
+				<div class="fine-goods-nav">
+					<!--分类列表的头部-->
+					<div class="fine-goods-nav-tit">
+						灵动精选商品分类
+					</div>
+					<div class="fine-goods-nav-tab">
+						<div class="tab-head">
+							<div class="tab_head_item">
+								<a class="item_title" href="###"><img src="img/icon1.png" alt="" />海鲜水产</a>
+								<div class="item_children">
+									<a href="###">鱼类</a>
+									<a href="###">鱼类</a>
+									<a href="###">鱼类</a>
+								</div>
+								<div class="tab_body">
+									<div class="tab_body_item">
+										<div class="fresh_fs_nav_cate">
+											<dl class="cate_item item1">
+												<dt class="cate_tit">
+													<a href="###" class="cate_tit_lk">鱼类</a>
+													<i class="cate_tit_arrow">&gt;</i>
+												</dt>
+												<dd class="cate_con">
+													<a href="##" class="cate_con_lk">海带</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+												</dd>
+											</dl>
+											<dl class="cate_item item1">
+												<dt class="cate_tit">
+													<a href="###" class="cate_tit_lk">鱼类</a>
+													<i class="cate_tit_arrow">&gt;</i>
+												</dt>
+												<dd class="cate_con">
+													<a href="##" class="cate_con_lk">海带</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+												</dd>
+											</dl>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab_head_item">
+								<a class="item_title" href="###"><img src="img/icon1.png" alt="" />海鲜水产</a>
+								<div class="item_children">
+									<a href="###">鱼类</a>
+									<a href="###">鱼类</a>
+									<a href="###">鱼类</a>
+								</div>
+								<div class="tab_body">
+									<div class="tab_body_item">
+										<div class="fresh_fs_nav_cate">
+											<dl class="cate_item item1">
+												<dt class="cate_tit">
+													<a href="###" class="cate_tit_lk">鱼类</a>
+													<i class="cate_tit_arrow">&gt;</i>
+												</dt>
+												<dd class="cate_con">
+													<a href="##" class="cate_con_lk">海带</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+												</dd>
+											</dl>
+											<dl class="cate_item item1">
+												<dt class="cate_tit">
+													<a href="###" class="cate_tit_lk">鱼类</a>
+													<i class="cate_tit_arrow">&gt;</i>
+												</dt>
+												<dd class="cate_con">
+													<a href="##" class="cate_con_lk">海带</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+												</dd>
+											</dl>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab_head_item">
+								<a class="item_title" href="###"><img src="img/icon1.png" alt="" />海鲜水产</a>
+								<div class="item_children">
+									<a href="###">鱼类</a>
+									<a href="###">鱼类</a>
+									<a href="###">鱼类</a>
+								</div>
+								<div class="tab_body">
+									<div class="tab_body_item">
+										<div class="fresh_fs_nav_cate">
+											<dl class="cate_item item1">
+												<dt class="cate_tit">
+													<a href="###" class="cate_tit_lk">鱼类</a>
+													<i class="cate_tit_arrow">&gt;</i>
+												</dt>
+												<dd class="cate_con">
+													<a href="##" class="cate_con_lk">海带</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+												</dd>
+											</dl>
+											<dl class="cate_item item1">
+												<dt class="cate_tit">
+													<a href="###" class="cate_tit_lk">鱼类</a>
+													<i class="cate_tit_arrow">&gt;</i>
+												</dt>
+												<dd class="cate_con">
+													<a href="##" class="cate_con_lk">海带</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+												</dd>
+											</dl>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab_head_item">
+								<a class="item_title" href="###"><img src="img/icon1.png" alt="" />海鲜水产</a>
+								<div class="item_children">
+									<a href="###">鱼类</a>
+									<a href="###">鱼类</a>
+									<a href="###">鱼类</a>
+								</div>
+								<div class="tab_body">
+									<div class="tab_body_item">
+										<div class="fresh_fs_nav_cate">
+											<dl class="cate_item item1">
+												<dt class="cate_tit">
+													<a href="###" class="cate_tit_lk">鱼类</a>
+													<i class="cate_tit_arrow">&gt;</i>
+												</dt>
+												<dd class="cate_con">
+													<a href="##" class="cate_con_lk">海带</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+												</dd>
+											</dl>
+											<dl class="cate_item item1">
+												<dt class="cate_tit">
+													<a href="###" class="cate_tit_lk">鱼类</a>
+													<i class="cate_tit_arrow">&gt;</i>
+												</dt>
+												<dd class="cate_con">
+													<a href="##" class="cate_con_lk">海带</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+												</dd>
+											</dl>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab_head_item tab_head_item_last">
+								<a class="item_title" href="###"><img src="img/icon1.png" alt="" />海鲜水产</a>
+								<div class="item_children">
+									<a href="###">鱼类</a>
+									<a href="###">鱼类</a>
+									<a href="###">鱼类</a>
+								</div>
+								<div class="tab_body">
+									<div class="tab_body_item">
+										<div class="fresh_fs_nav_cate">
+											<dl class="cate_item item1">
+												<dt class="cate_tit">
+													<a href="###" class="cate_tit_lk">鱼类</a>
+													<i class="cate_tit_arrow">&gt;</i>
+												</dt>
+												<dd class="cate_con">
+													<a href="##" class="cate_con_lk">海带</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+												</dd>
+											</dl>
+											<dl class="cate_item item1">
+												<dt class="cate_tit">
+													<a href="###" class="cate_tit_lk">鱼类</a>
+													<i class="cate_tit_arrow">&gt;</i>
+												</dt>
+												<dd class="cate_con">
+													<a href="##" class="cate_con_lk">海带</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+													<a href="##" class="cate_con_lk">鱿鱼干</a>
+												</dd>
+											</dl>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--面包屑导航-->
+				<div class="breadcrumb-nav">
+					<div class="crumbs-nav-item">  
+						<a href="boutique-zone.html" class="crumbs-link"><strong>生鲜</strong></a>  
+						<i class="crumbs-arrow">&gt;</i>
+					</div>
+					<div class="crumbs-nav-item">
+						<div class="menu-drop z-menu-drop-open">
+							<div class="trigger">
+								<span class="second_class">水果</span>
+								<i class="menu-drop-arrow"></i>
+							</div>
+						</div>
+						<div class="menu-drop-main">
+							<ul class="menu-drop-list clearfix">
+								<li>
+									<a href="###">橘子</a>
+								</li>
+								<li>
+									<a href="###">火龙果</a>
+								</li>
+							</ul>
+						</div>
+						<i class="crumbs-arrow">&gt;</i>
+					</div>
+				</div>
+				<!--商品筛选分类列表-->
+				<div class="class-container">
+					<!--标头-->
+					<div class="class-cont-tit">
+						<span class="class-first"><strong>水果</strong></span>
+						<span><strong>商品筛选</strong></span>
+						<p>共11164个商品</p>
+					</div>
+					<ul class="class-cont-content class-cont-content-active">
+						<li class="max_height">
+							<p class="name-of-class">分类：</p>
+							<div class="class-content-center">
+								<div class="name-detaile-class">
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>灵动生鲜</span>	
+									<span>车厘子</span>
+								</div>
+								<div class="more-class">
+									<span>更多</span>
+									<div class="more_box_arrow"></div>
+								</div>
+							</div>
+						</li>
+						<li class="max_height">
+							<p class="name-of-class">品牌：</p>
+							<div class="class-content-center">
+								<div class="name-detaile-class">
+									<span>灵动生鲜灵动生鲜灵动生鲜</span>	
+									<span>车厘子</span>
+								</div>
+								<div class="more-class">
+									<span>更多</span>
+									<div class="more_box_arrow"></div>
+								</div>
+							</div>
+						</li>
+						<li class="max_height">
+							<p class="name-of-class">原产地：</p>
+							<div class="class-content-center">
+								<div class="name-detaile-class">
+									<span>灵动生鲜</span>	
+									<span>车厘子</span>
+								</div>
+								<div class="more-class">
+									<span>更多</span>
+									<div class="more_box_arrow"></div>
+								</div>
+							</div>
+						</li>
+						<li class="max_height">
+							<p class="name-of-class">价格：</p>
+							<div class="class-content-center">
+								<div class="name-detaile-class">
+									<span>0-29</span>	
+									<span>30-59</span>
+									<span>60-89</span>
+									<span>100-199</span>
+									<span>200-299</span>
+									<span>300-399</span>
+									<span>400以上</span>
+									<div class="price_change_div">
+										<input class="price_change_inp" type="text" name="" id="" value="" />
+										<div class="price_change_connector">-</div>
+										<input class="price_change_inp" type="text" name="" id="" value="" />
+										<div class="price_change_btn">
+											确定
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="max_height">
+							<p class="name-of-class">国产/进口：</p>
+							<div class="class-content-center">
+								<div class="name-detaile-class">
+									<span>灵动生鲜</span>	
+									<span>车厘子</span>
+								</div>
+								<div class="more-class">
+									<span>更多</span>
+									<div class="more_box_arrow"></div>
+								</div>
+							</div>
+						</li>
+						<li class="max_height">
+							<p class="name-of-class">资格认证：</p>
+							<div class="class-content-center">
+								<div class="name-detaile-class">
+									<span>灵动生鲜</span>	
+									<span>车厘子</span>
+								</div>
+								<div class="more-class">
+									<span>更多</span>
+									<div class="more_box_arrow"></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="selector-more" id="J_selectorMore">
+                    	<span class="sm-wrap">更多选项（价格、度数、香型等）<i class="menu-drop-arrow"></i></span>
+                    </div>
+				</div>
+				<!--商品排序-->
+				<div class="list-goods-sort">
+					<ul class="list-goods-sort-ul">
+						<li class="li-hover">
+							综合排序
+							<i></i>
+						</li>
+						<li class="li-hover">
+							销量
+							<i class="sort-i"><img src="img/arrow2-1.png"/><!--<img src="img/arrow2-2.png"/>--></i>
+						</li>
+						<li class="li-hover">
+							价格
+							<i class="sort-i-triangle"><!--<img src="img/arrow1.png"/>--></i>
+						</li>
+						<li class="li-hover">
+							评论数
+							<i class="sort-i"><img src="img/arrow2-1.png"/><!--<img src="img/arrow2-2.png"/>--></i>
+						</li>
+						<li class="li-hover">
+							上架时间
+							<i class="sort-i"><img src="img/arrow2-1.png"/><!--<img src="img/arrow2-2.png"/>--></i>
+						</li>
+					</ul>
+					<div class="right-page-show">
+						<p><span class="one_page">1</span>/185</p>
+						<span class="left_previous">&lt;</span>
+						<span class="right_after">&gt;</span>
+					</div>
+				</div>
+				<div class="list-goods-show-wrap">
+					<ul>
+						<li class="list-goods-show-li">
+							<div class="goods_img">
+								<img src="img/goods-img1.png"/>
+								<p class="list_goods_desc">百香果 精品中果12个装  单果百香果 精品中果12个装  单果10-80g 百香果 精品中果</p>
+								<p class="list_goods_price"><span>¥ 16000</span><s>¥ 19000</s></p>
+							</div>
+						</li>
+						<li class="list-goods-show-li">
+							<div class="goods_img">
+								<img src="img/goods-img1.png"/>
+								<p class="list_goods_desc">百香果 精品中果12个装  单果百香果 精品中果12个装  单果10-80g 百香果 精品中果</p>
+								<p class="list_goods_price"><span>¥ 16000</span><s>¥ 19000</s></p>
+							</div>
+						</li>
+						<li class="list-goods-show-li">
+							<div class="goods_img">
+								<img src="img/goods-img1.png"/>
+								<p class="list_goods_desc">百香果 精品中果12个装  单果百香果 精品中果12个装  单果10-80g 百香果 精品中果</p>
+								<p class="list_goods_price"><span>¥ 16000</span><s>¥ 19000</s></p>
+							</div>
+						</li>
+						<li class="list-goods-show-li">
+							<div class="goods_img">
+								<img src="img/goods-img1.png"/>
+								<p class="list_goods_desc">百香果 精品中果12个装  单果百香果 精品中果12个装  单果10-80g 百香果 精品中果</p>
+								<p class="list_goods_price"><span>¥ 16000</span><s>¥ 19000</s></p>
+							</div>
+						</li>
+						<li class="list-goods-show-li">
+							<div class="goods_img">
+								<img src="img/goods-img1.png"/>
+								<p class="list_goods_desc">百香果 精品中果12个装  单果百香果 精品中果12个装  单果10-80g 百香果 精品中果</p>
+								<p class="list_goods_price"><span>¥ 16000</span><s>¥ 19000</s></p>
+							</div>
+						</li>
+						<li class="list-goods-show-li">
+							<div class="goods_img">
+								<img src="img/goods-img1.png"/>
+								<p class="list_goods_desc">百香果 精品中果12个装  单果百香果 精品中果12个装  单果10-80g 百香果 精品中果</p>
+								<p class="list_goods_price"><span>¥ 16000</span><s>¥ 19000</s></p>
+							</div>
+						</li>
+						<li class="list-goods-show-li">
+							<div class="goods_img">
+								<img src="img/goods-img1.png"/>
+								<p class="list_goods_desc">百香果 精品中果12个装  单果百香果 精品中果12个装  单果10-80g 百香果 精品中果</p>
+								<p class="list_goods_price"><span>¥ 16000</span><s>¥ 19000</s></p>
+							</div>
+						</li>
+					</ul>
+					<div class="page_num">
+						<span class="page_num_spanleft">上一页</span>
+						<ul class="page_num_ul">
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+							<li id="page_ellipsis">......</li>
+							<li>40</li>
+						</ul>
+						<span class="page_num_spanright">下一页</span>
+						<div class="inp_page_num">
+							<span style="margin-left: 15px;margin-right: 10px;">共178页</span>
+							到第<input type="text" name="" id="" value="" />页
+							<span class="page_sure">确定</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$('.more-class').click(function(){
+			$(this).parent().parent().toggleClass('max_height');
+			$(this).parent().parent().toggleClass('add_border_li');
+			$(this).find('.more_box_arrow').toggleClass('more_box_arrow_active');
+		});
+		$('.page_num_ul li').click(function(){
+			$('.page_num_ul li').removeClass('click_page_li');
+			$(this).addClass('click_page_li');
+		});
+		$('.selector-more .sm-wrap').click(function(){
+			$('.class-cont-content').toggleClass('class-cont-content-active');
+			$('.sm-wrap .menu-drop-arrow').toggleClass('menu-drop-arrow-active');
+			$('.more-class').toggle();
+		});
+		$('.list-goods-sort-ul li').click(function(){
+			$('.list-goods-sort-ul li').removeClass('li-active');
+			$('.list-goods-sort-ul li').find('i').css({"display":"none"});
+			$(this).addClass('li-active');
+			$(this).find('i').css({"display":"inline-block"});
+			$(this).toggleClass("li-hover");
+		})
+		//鼠标 移入显示列表
+		$('.fine-goods-nav-tit').mouseenter(function(){
+			$('.fine-goods-nav-tab').show();
+		});
+		$('.fine-goods-nav').mouseleave(function(){
+			$('.fine-goods-nav-tab').hide();
+		});
+	</script>
+</html>

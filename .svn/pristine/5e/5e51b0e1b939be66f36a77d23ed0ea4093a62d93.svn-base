@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>VIP开通</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/vip开通/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/vip开通/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u535" class="ax_default box_1">
+        <div id="u535_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u536" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u537" class="ax_default label">
+        <div id="u537_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u538" class="text" style="visibility: visible;">
+          <p><span>光明行首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u539" class="ax_default placeholder">
+        <img id="u539_img" class="img " src="images/零电商费详情/u269.png"/>
+        <!-- Unnamed () -->
+        <div id="u540" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u541" class="ax_default _三级标题">
+        <div id="u541_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u542" class="text" style="visibility: visible;">
+          <p><span>纯债权专区</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u543" class="ax_default box_1">
+        <div id="u543_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u544" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u545" class="ax_default button">
+        <div id="u545_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u546" class="text" style="visibility: visible;">
+          <p><span>搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u547" class="ax_default line">
+        <img id="u547_img" class="img " src="images/纯债权专区/u14.png"/>
+        <!-- Unnamed () -->
+        <div id="u548" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u549" class="ax_default box_1">
+        <div id="u549_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u550" class="text" style="visibility: visible;">
+          <p><span>纯债权专区</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u551" class="ax_default _三级标题">
+        <div id="u551_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u552" class="text" style="visibility: visible;">
+          <p><span>零电商费</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u553" class="ax_default _三级标题">
+        <div id="u553_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u554" class="text" style="visibility: visible;">
+          <p><span>4%电商费</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u555" class="ax_default box_1">
+        <div id="u555_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u556" class="text" style="visibility: visible;">
+          <p><span>我的购物车</span></p>
+        </div>
+      </div>
+
+      <!-- VIP (动态面板) -->
+      <div id="u557" class="ax_default" data-label="VIP">
+        <div id="u557_state0" class="panel_state" data-label="已开通">
+          <div id="u557_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u558" class="ax_default _一级标题">
+              <div id="u558_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u559" class="text" style="visibility: visible;">
+                <p><span style="text-decoration:underline;">VIP到期时间：2018-07-24</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u560" class="ax_default icon">
+              <img id="u560_img" class="img " src="images/纯债权专区/u95.png"/>
+              <!-- Unnamed () -->
+              <div id="u561" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u557_state1" class="panel_state" data-label="未开通" style="display: none; visibility: hidden;">
+          <div id="u557_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u562" class="ax_default _一级标题">
+              <div id="u562_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u563" class="text" style="visibility: visible;">
+                <p><span style="text-decoration:underline;">本专区仅供VIP客户购买！购买VIP!</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u564" class="ax_default box_2">
+        <div id="u564_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u565" class="text" style="visibility: visible;">
+          <p><span>开通VIP</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u566" class="ax_default box_2">
+        <div id="u566_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u567" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u568" class="ax_default box_1">
+        <div id="u568_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u569" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u570" class="ax_default _三级标题">
+        <div id="u570_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u571" class="text" style="visibility: visible;">
+          <p><span>纯债权专区及0电商费商品购买资格</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u572" class="ax_default _三级标题">
+        <div id="u572_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u573" class="text" style="visibility: visible;">
+          <p><span>购物必返10%债权金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u574" class="ax_default _三级标题">
+        <div id="u574_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u575" class="text" style="visibility: visible;">
+          <p><span>每月5张随机红包</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u576" class="ax_default _一级标题">
+        <div id="u576_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u577" class="text" style="visibility: visible;">
+          <p><span>VIP福利</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u578" class="ax_default _文本段落">
+        <img id="u578_img" class="img " src="images/vip开通/u578.png"/>
+        <!-- Unnamed () -->
+        <div id="u579" class="text" style="visibility: visible;">
+          <p><span>开通套餐：&nbsp; &nbsp; &nbsp; &nbsp; VIP会员</span></p><p><span><br></span></p><p><span>付费模式：&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 按年付费</span></p><p><span><br></span></p><p><span>应付金额：&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ￥599</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u580" class="ax_default button">
+        <div id="u580_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u581" class="text" style="visibility: visible;">
+          <p><span>去付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u582" class="ax_default placeholder">
+        <img id="u582_img" class="img " src="images/纯债权专区/u130.png"/>
+        <!-- Unnamed () -->
+        <div id="u583" class="text" style="visibility: visible;">
+          <p><span>网站底部</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

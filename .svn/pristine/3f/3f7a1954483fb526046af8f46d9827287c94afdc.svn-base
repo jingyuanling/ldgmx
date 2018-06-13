@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>我的H5</title>
+	    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/headAndfoot.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/poster-details.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/my-H5-details.css"/>
+	    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="material-nav">
+			<span class="glyphicon glyphicon-menu-left"></span>
+			<p class="text-center">我的H5</p>
+		</div>
+		<div class="container-fluid">
+			<div class="poster-details-img">
+				<img class="center-block right-icon" src="img/goods-img.png"/>
+			</div>
+			<div class="details-desc">
+				<div class="details-desc-upper">
+					<h1>我是标题</h1>
+					<p class="down-num">
+						<span class="num">历史访客0人</span>
+						<span class="num">历史浏览0次</span>
+						<span class="num">历史数据0条</span>
+					</p>
+					<span class="text-center time">查看数据</span>
+				</div>
+				<p class="details-desc-p">
+					迪丽热巴迪丽热巴太好看了迪丽热巴嘀哩嘀哩到达地点都感到赶到根深蒂固SD敢达多多多多多多多多多多多多多多多……
+				</p>
+			</div>
+			<p class="text-left btm-advice-text">*建议使用电脑或手机自带浏览器进行下载</p>
+		</div>
+		<div class="text-center details-use-btm">
+			立即使用
+		</div>
+	</body>
+</html>

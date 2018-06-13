@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>生日</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_personal_data.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine_header">
+			<img src="img/wine_return.png"/>
+			<a href="LD_wine_personal_data.html"></a>
+			<a href="LD_wine_personal_data.html">
+				<div class="wine_header_right">
+	            	完成
+	            </div>
+			</a>
+            <div class="wine_all_class_goback">
+                <p>生日</p>
+            </div>
+        </div>
+        <div class="wine_birthday_wrap">
+			<div class="wine_birthday_content">
+				<div class="wine_birthday_text">生日</div>
+				<div class="year">
+					<select id="year">
+					<select>
+				</div>
+				<div>年</div>
+				<div class="month">
+					<select id="month">
+					<select>
+				</div>
+				<div>月</div>
+				<div class="day">
+					<select id="day">
+					<select>
+				</div>
+				<div>日</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var now = new Date();
+			var nowNum = now.getFullYear();
+			addOpeion(nowNum,100,'year');
+			addDays(1,12,'month');
+			addDays(1,31,'day');
+			$(function(){
+				$(document).on("change","#month",function(){
+					var value = $(this).val()*1;
+					switch(value){
+						case 1:addDays(1,31,'day');break;
+						case 2:addDays(1,28,'day');break;
+						case 3:addDays(1,31,'day');break;
+						case 5:addDays(1,31,'day');break;
+						case 7:addDays(1,31,'day');break;
+						case 8:addDays(1,31,'day');break;
+						case 10:addDays(1,31,'day');break;
+						case 12:addDays(1,31,'day');break;
+						default:addDays(1,30,'day');
+					}
+				});
+			})
+			$(function(){
+				$(document).on("change","#month",function(){
+					var value = $(this).val()*1;
+					switch(value){
+						case 1:addDays(1,31,'day');break;
+						case 2:addDays(1,28,'day');break;
+						case 3:addDays(1,31,'day');break;
+						case 5:addDays(1,31,'day');break;
+						case 7:addDays(1,31,'day');break;
+						case 8:addDays(1,31,'day');break;
+						case 10:addDays(1,31,'day');break;
+						case 12:addDays(1,31,'day');break;
+						default:addDays(1,30,'day');
+					}
+				});
+			})
+			
+			function addOpeion(startNum,count,object){
+				var obj = $("#"+object);
+				var num = startNum*1;
+				for(var i=0;i<count;i++){
+					var option = "<option value='"+num+"'>"+num+"</option>";
+					num--;
+					obj.append(option);
+				}
+			}
+			
+			function addDays(startNum,count,object){
+				var obj = $("#"+object);
+				obj.find("option:not(:first)").remove();
+				var num = startNum*1;
+				for(var i=0;i<count;i++){
+					var option = "<option value='"+num+"'>"+num+"</option>";
+					num++;
+					obj.append(option);
+				}
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>瀛豫律所</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/LS-index.css">
+    <link rel="stylesheet" type="text/css" href="css/LS_ceshi.css">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+   <div class="index-box">
+        <div class="top">
+            <p>瀛豫律所</p>
+            <input readonly id="shuru" class="ime-disabled" placeholder="请输入手机号">
+            <img class="cha2" src="img/chahao2.png" style="display:none;">
+        </div>
+        <div class="middle clearfix">
+            <a href="###"><li><img src="img/yanzhenghistory.png">验证历史</li></a>
+            <a href="###"><li class="right"><img src="img/kehumessage.png">客户信息</li></a>
+        </div>
+
+        <div class="jianpan clearfix" id="jianpan">
+            <img class="xiala" src="img/j-jiantou.png">
+            <ul class="clearfix"><li>1</li><li>2</li><li class="right">3</li></ul>
+            <ul class="clearfix"><li>4</li><li>5</li><li class="right">6</li></ul>
+            <ul class="clearfix"><li>7</li><li>8</li><li class="right">9</li></ul>
+            <ul class="clearfix last"><li class="cha"><img src="img/chahao.png"></li><li>0</li><li class="right anniu">验证</li></ul>
+        </div>    
+    </div>
+  
+    <script type="text/javascript">
+    $(".cha").click (function(){
+        var str=$("#shuru").val();
+
+        $("#shuru").val(str.substring(0,str.length-1));
+          if ($("#shuru").val()=="") {
+               $(".cha2").css("display","none");
+           }
+          
+    });
+
+     $(".cha2").click (function(){
+        $("#shuru").val("");
+         if ($("#shuru").val()=="") {
+               $(".cha2").css("display","none");
+           }
+           else{
+             $(".cha2").css("display","block");
+           }
+    });
+     window.onload = function () {
+
+      var aJ =document.getElementById('jianpan')
+      var aJl =aJ.getElementsByTagName('li');
+
+       for (var i = 0; i < aJl.length; i++) {
+                aJl[i].index = i;
+                aJl[i].onclick = function () {
+
+                    
+                    var str=$("#shuru").val();
+                    str=str+this.innerHTML;
+                    if(str.length<9){
+                        $("#shuru").val(str);
+                         $(".cha2").css("display","block");
+                    }
+                }
+             } 
+
+           
+  }
+
+    $(document).ready(function(){
+  $("#shuru").click(function(){
+    $(".jianpan").css("display","block");
+    $(".middle").css("display","none");
+    
+   
+  });
+  $(".xiala").click(function(){
+   
+     $(".jianpan").css("display","none");
+     $(".middle").css("display","block");
+  
+  });
+
+});
+
+  
+   
+    </script>
+</body>
+</html>

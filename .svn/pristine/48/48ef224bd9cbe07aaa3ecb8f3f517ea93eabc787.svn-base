@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+.order-form{
+	width:1200px;
+	margin:50px auto 40px;
+}
+.Receiving-address h3{
+	font-size:14px;
+}
+.addbox{
+	overflow:hidden;
+	margin-top:15px;
+}
+.addbox dl{
+	font-size:12px;
+	float:left;
+	width:212px;
+	height:85px;
+	margin-right:10px;
+	border:5px solid #ddd;
+	border-image:url(../img/border.png) 5 round;
+	padding:5px;
+	position:relative;
+}
+.addbox dl p{
+	position:absolute;
+	top:-5px;
+	right:-5px;
+	padding:3px;
+	background:rgba(0,0,0,0.4);
+	color:#fff;
+}
+.addbox dl dt{
+	border-bottom:1px solid #f2f2f2;
+	line-height:24px;
+}
+.addbox dl dd{
+	margin-top:4px;
+}
+.addbox dl dd a{
+	color:#cc9977;
+}
+.addbox dl dd a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.addbox>dl:last-of-type{
+	margin-right:0;
+}
+.Administration{
+	overflow:hidden;
+	width:100%;
+	margin-top:20px;
+}
+.Administration a{
+	display:block;
+	font-size:12px;
+	color:#cc9977;
+}
+.Administration a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.Administration .admleft{
+	float:left;
+}
+.Administration .admright{
+	float:right;
+}
+.Payment-method{
+	margin-top:36px;
+}
+.Payment-method h3{
+	font-size:14px;
+}
+.Payment-method ul{
+	overflow:hidden;
+	margin-top:10px;
+	font-size:12px;
+}
+.Payment-method ul li{
+	float:left;
+	margin-right:10px;
+	background:#868686;
+	width:102px;
+	height:25px;
+	text-align:center;
+	line-height:25px;
+	color:#fff;
+	cursor:pointer;
+}
+.Payment-method ul li.ontheli{
+	background:#ff9933;
+	font-weight:600;
+}
+.Order-list{
+	margin-top:40px;
+	font-size:12px;
+}
+.Order-list h3{
+	font-size:14px;
+}
+.Order-list table{
+	margin-top:20px;
+}
+.Order-list th{
+	line-height:30px;
+}
+.Order-list td{
+	border-top:3px solid #b2d1ff;
+	padding:10px 0;
+}
+.Order-list table dt img{
+	width:56px;
+	height:56px;
+}
+.Order-list table dl{
+	overflow:hidden;
+}
+.Order-list table dt,.Order-list table dd{
+	float:left;
+}
+.Order-list table dt{
+	margin-left:10px;
+	margin-right:5px;
+}
+.Advantage{
+	overflow:hidden;
+	margin-top:10px;
+}
+.Advantageleft{
+	float:left;
+}
+.Advantageleft img{
+	margin-right:2px;
+}
+.Advantageright{
+	float:right;
+	margin-left:10px;
+}
+.Advantageright span{
+	color:#999;
+}
+.numbox{
+	overflow:hidden;
+	width:82px;
+	margin:auto;
+}
+.numbox div{
+	float:left;
+}
+.numbox div input{
+	border:1px solid #ccc;
+	height:17px;
+	width:34px;
+	text-align:center;
+}
+.Symbol{
+	width:11px;
+	height:11px;
+	border:1px solid #ccc;
+	line-height:12px;
+	text-align:center;
+	font-size:10px;
+	margin:3px 5px;
+	cursor:pointer;
+}
+.leave-a-message{
+	overflow:hidden;
+}
+.leave-a-message div{
+	float:left;
+	width:33%;
+}
+.leaveleft{
+	padding-left:5px;
+}
+.leaveleft input{
+	width:248px;
+	height:20px;
+	border:1px solid #ccc;
+}
+.xiugainame a{
+	color:#cc9977;
+}
+.xiugainame a:hover{
+	color:red;
+	text-decoration:underline;
+}
+.xiugainame input{
+	width:50px;
+}
+.hejimany span{
+	display:block;
+	text-align:right;
+}
+.Cost-information{
+	border-bottom:1px dashed #ccc;
+	padding:30px 0;
+	overflow:hidden;
+}
+.costbox{
+	float:right;
+	overflow:hidden;
+}
+.costbox p{
+	float:left;
+	margin-left:30px;
+	line-height:30px;
+}
+.costbox p i{
+	font-style:normal;
+	font-size:16px;
+	font-weight:600;
+	color:#ff4500;
+	line-height:24px;
+}
+.subican{
+	overflow:hidden;
+	margin-top:30px;
+}
+.subican input{
+	display:block;
+	width:82px;
+	height:37px;
+	background:#b10000;
+	color:#fff;
+	float:right;
+}
+.mallname{
+	font-size:14px;
+}

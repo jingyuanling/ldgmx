@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>下订单页面弹框</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.get-words-gray{
+				width: 100%;
+				height: 100%;
+				min-width: 320px;
+				max-width: 750px;
+				position: fixed;
+				top: 0;
+				left: 0;
+				background-color: rgba(0,0,0,0.5);
+				font-family: "黑体";
+			}
+			.get-words-content{
+				width: 5.00rem;
+				height: 8.35rem;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-left: -2.50rem;
+				margin-top: -4.18rem;
+				padding-top: 0.2rem;
+			}
+			.get-words-img{
+				width: 3.32rem;
+				height: 6.46rem;
+				margin: 0 auto;
+				position: relative;
+			}
+			.get-words-img img{
+				width: 100%;
+				height: 100%;
+			}
+			.get-words-delete{
+				width: 0.4rem;
+				height: 0.4rem;
+				padding: 0.11rem;
+				display: block;
+				border-radius: 50%;
+				background-color: white;
+				position: absolute;
+				top: -0.2rem;
+				right: -0.25rem;
+			}
+			.get-words-delete img{
+				width: 0.18rem;
+				height: 0.18rem;
+			}
+			.get-words-text{
+				text-align: center;
+				color: white;
+				font-size: 0.35rem;
+				line-height: 1rem;
+			}
+			.at-once-merge-a{
+				text-align: center;
+				color: white;
+				width: 2.9rem;
+				height: 0.7rem;
+				background-color: #fa353f;
+				line-height: 0.7rem;
+				margin: 0 auto;
+				font-size: 0.43rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="get-words-gray">
+			<div class="get-words-content">
+				<div class="get-words-img">
+					<img src="img/words-active-guang.png"/>
+					<span class="get-words-delete"><img src="img/delete1.png"/></span>
+				</div>
+				<!--如果集齐，文字变成“您已集齐五字，是否合成” 立即合成按钮显示（默认隐藏）-->
+				<p class="get-words-text">恭喜你获得一个“光”字</p>
+				<div class="at-once-merge-a">
+					立即合成
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.get-words-delete').click(function(){
+				$('.get-words-gray').hide();
+			});
+		</script>
+	</body>
+</html>

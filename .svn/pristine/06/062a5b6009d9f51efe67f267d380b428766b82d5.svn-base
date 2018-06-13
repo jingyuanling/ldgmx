@@ -1,0 +1,124 @@
+@charset "utf-8";
+* {
+    margin:0;
+    padding:0;
+}
+.personal_lie{
+    float: left;
+
+}
+/*.myhongbao-tit{
+    width: 1060px;
+    height: 50px;
+}
+.myhongbao-tit .tit1{
+    width: 530px;
+    height: 50px;
+    float: left;
+}*/
+.myhongbao-tit{
+    width: 1060px;
+    height: 50px;
+    background-image: url(../img/xindaozhang.png);
+    background-size:1060px 50px; 
+
+}
+.myhongbao-tit .tit2{
+    margin-left: 530px;
+    width: 530px;
+    height: 50px;
+    float: left;
+}
+.myhongbao-tit2{
+    width: 1060px;
+    height: 50px;
+    background-image: url(../img/daoqi.png);
+    background-size:1060px 50px; 
+
+}
+.myhongbao-tit2 .tit1{
+    width: 530px;
+    height: 50px;
+    float: left;
+}
+/*.myhongbao-tit img{
+    display: none;
+}*/
+.myhongbao{
+   width:1060px;
+   height:800px;
+   background-color: #f7f7f7;
+   float: left;
+}
+.myhongbao-list ul{
+    width: 1060px;
+    height: 310px;
+    margin-top: 20px;
+}
+.myhongbao-list ul li{
+    float: left;
+    margin-left: 10px;
+    width: 252px;
+    height: 310px;
+}
+li img{
+    width: 252px;
+}
+li.green{
+    background-image: url(../img/green.png);
+    background-size: 250px 310px;
+}
+.cont{
+    width:220px;
+    height: 150px; 
+    padding-top: 60px;
+    /*background-color: red;*/
+    margin:0 auto;
+}
+li p{
+    z-index: 2;
+    line-height:19px; 
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+li p .span1{
+    font-size: 33px;
+}
+li p .span2{
+    font-size: 57px;
+}
+li .p1{
+    margin-top: 10px;
+}
+li .p2{
+    margin-top: 15px;
+}
+.use{
+
+    width: 252px;
+    height: 50px;
+    margin-top: 30px;
+}
+.use span{
+    float: right;
+    margin-right:50px;
+    font-size: 12px;
+    color: #000;
+    line-height: 50px;
+}
+.use img{
+    margin-top: 14px;
+    float: right;
+    margin-right: -30px;
+    width: 19px;
+    height: 19px;
+}
+li.red{
+    background-image: url(../img/red.png);
+    background-size: 250px 310px;
+}
+li.blue{
+    background-image: url(../img/blue.png);
+    background-size: 250px 310px;
+}

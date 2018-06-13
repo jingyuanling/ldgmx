@@ -1,0 +1,108 @@
+.wine-wrap{
+	height: 100%;
+	background-color: #FFFFFF;
+	padding: 1.05rem 0.37rem;
+	overflow-y: scroll;
+	position: relative;
+}
+.cert-tit{
+	height: 1.08rem;
+	line-height: 1.08rem;
+	color: #333333;
+	font-size: 0.2916rem;
+}
+.cart-photo{
+	width: 6.46rem;
+	height: 4.38rem;
+	background-color: #b5b5b5;
+	margin: 0 auto;
+	border-radius: 0.1rem;
+	overflow: hidden;
+	font-size: 0.2916rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 3.76rem;
+	line-height: 4.38rem;
+	position: relative;
+}
+.cart-photo-small{
+	width: 5.84rem;
+	height: 3.76rem;
+	background: url(../imgs/card-phoyo-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0.31rem;
+	left: 0.31rem;
+}
+.cart-photo-small img{
+	width: 5.13rem;
+	height: 3.13rem;
+	border-radius: 0.17rem;
+	margin: 0.315rem auto;
+    display: block;
+}
+.wine-identity{
+	height: 1.05rem;
+	line-height: 1.05rem;
+	border-bottom: 0.01rem solid #e7e7e7;
+}
+.wine-identity .left{
+	font-size: 0.2916rem;
+	color: #333333;
+}
+.wine-identity input{
+	float: right;
+	width: 80%;
+	height: 100%;
+	color: #999999;
+	font-size: 0.2916rem;
+}
+.identity-sure-div{
+	width: 100%;
+	padding: 0 0.37rem;
+	margin-top: 0.35rem;
+}
+.identity-sure{
+	width: 100%;
+	height: 0.94rem;
+	line-height: 0.94rem;
+	background-color: #d10000;
+	color: #FFFFFF;
+	font-size: 0.3124rem;
+	letter-spacing: 0.2rem;
+	text-indent: 0.2rem;
+	border-radius: 0.07rem;
+}
+.identity-annotation{
+	font-size: 0.2499rem;
+	color: #999999;
+	line-height: 0.3749rem;
+	margin-top: 0.15rem;
+}
+.identity-alert{
+	width: 3.22rem;
+	height: 2.25rem;
+	padding-top: 0.49rem;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -1.125rem;
+	margin-left: -1.61rem;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	border-radius: 0.12rem;
+}
+.identity-alert .right-logo{
+	width: 0.69rem;
+	height: 0.68rem;
+}
+.identity-alert .right-logo img{
+	width: 100%;
+	height: 100%;
+}
+.identity-alert .text{
+	font-size: 0.2916rem;
+	line-height: 1rem;
+	color: #FFFFFF;
+}

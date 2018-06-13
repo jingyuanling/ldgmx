@@ -1,0 +1,497 @@
+.life_details_wrap{
+	width: 100%;
+    background-color: #efefef;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 0;
+}
+.life_shop_details_content {
+	padding-bottom: 0.25rem;
+	background-color: #FFFFFF;
+}
+.life_shop_name {
+    font-size: 0.34rem;
+    color: #222222;
+    padding: 0.3rem 3%;
+}
+.life_shop_name .chang{
+	float: right;
+	color: #FF7800;
+	display: inline-block;
+	border: 0.01rem solid #ff7800;
+    padding: 0.05rem 0.15rem;
+}
+.life_shop_type{
+	overflow: hidden;
+	padding: 0 3%;
+}
+.life_shop_details_content img {
+	display: inline-block;
+    height: 0.39rem;
+    width: 0.27rem;
+}
+.life_shop_type img{
+	float: left;
+    width: 0.30rem;
+    height: 0.28rem;
+    margin-right: 0.05rem;
+}
+.life_shop_address, .life_shop_phone, .life_shop_time {
+	font-size: 0.30rem;
+}
+.life_shop_address span,.life_shop_phone span,.life_shop_time span{
+	display: inline-block;
+	width:2em;
+	height:100%;
+}
+.life_shop_time {
+	margin-top: 0.8em;
+	background-color: #FFFFFF;
+	padding-left: 3%;
+}
+.life_shop_time img {
+	display: inline-block;
+	height:1.5em;
+}
+.life_shop_address{
+	position: relative;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	background-color: #efefef;
+	height: 0.70rem;
+	margin-top: 0.2rem;
+	padding-left: 3%;
+	line-height: 0.70rem;
+	padding-right: 1.4rem;
+}
+.life_shop_address .phone_btn{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #d9333f;
+	width: 1.40rem;
+	height: 100%;
+}
+.life_shop_address .phone_btn img{
+    width: 0.41rem;
+    height: 0.41rem;
+    display: block;
+    margin-top: 0.15rem;
+    margin-left: 0.5rem;
+}
+.life_shop_goods_introduce {
+	padding: 0.3rem 3%;
+	margin-top: 0.2rem;
+	background-color: #FFFFFF;
+	border-bottom: 0.01rem solid #f2f2f2;
+}
+.life_shop_goods_ul {
+	margin-top: 0.8em;
+}
+
+.life_shop_goods_ul2 {
+	height: 11em;
+	overflow: hidden;
+}
+
+.life_shop_goods_ul li {
+	font-size: 1.1em;
+	letter-spacing: 2px;
+	line-height: 2em;
+}
+
+.life_look_more {
+	font-size: 0.25rem;
+	text-align: center;
+	line-height: 0.7rem;
+	background-color: #FFFFFF;
+	color: #222222;
+	margin-bottom: 0.2rem;
+}
+.life_look_more img{
+	display: inline-block;
+    width: 0.25rem;
+    height: 0.13rem;
+}
+.life_shop_goods_bottom {
+	background-color: #FFFFFF;
+    margin-bottom: 0.2rem;
+    padding: 0.3rem 3%;
+}
+
+.life_shop_goods_bottom_btn {
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 3em;
+	background-color: #ff5858;
+}
+#context{
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	padding: 0 1% 0 1%;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-top: 1em;
+}
+.context {
+	height: 11.8em;
+}
+.store_map_wrap{
+	width: 100%;
+    height: 100%;
+    max-width:640px;
+    min-width:320px;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    display: none;
+}
+.store_map{
+	width: 80%;
+    height: 18em;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin-top: -9em;
+    border-radius: 0.8em;
+    border: 0.3em solid #d3d3d3;
+}
+.good_list_right_address .black_text{
+	color: #222222;
+	font-size: 0.28rem;
+}
+.good_list_right_address .red_text{
+	color: #d9333f;
+	margin-right: 0.2rem;
+}
+.home_good_recommend_title img{
+    height: 0.39rem;
+    width: 0.29rem;
+    display: inline-block;
+    margin-right: 0.2rem;
+    position: relative;
+    top: -0.12rem;
+}
+.home_good_recommend_title,.home_good_recommend_list ul{
+	border: none;
+	padding-left: 0;
+}
+.life_shop_goods_bottom .introduce {
+    font-size: 0.24rem;
+}
+.home_good_recommend_title strong{
+    font-size: 0.34rem;
+}
+.good_list_right_deduction{
+	color: #222222;
+}
+.good_list_right_deduction .red_text{
+	color: #d9333f;
+	font-size: 0.3rem;
+}
+.good_list_right_deduction .gray_text{
+	color: #afafaf;
+	margin-left: 0.2rem;
+}
+.home_good_recommend_title .business_hours{
+	font-size: 0.19rem;
+	float: right;
+	color: #222222;
+}
+.full_eva_content .details_eva_title{
+    padding: 0.28rem 3%;
+    border-bottom: 0.01rem solid #f5f5f5;
+}
+.full_eva_content .details_eva_title .span1{
+	font-size: 0.34rem;
+}
+.full_eva_content .details_eva_title .span2{
+    font-size: 0.2rem;
+    margin-left: 0.2rem;
+	color: #bababa;
+}
+.full_eva_content .details_eva_title img{
+	float: right;
+    width: 0.18rem;
+    height: 0.3rem;
+}
+.life_shop_btm{
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 1.10rem;
+	min-width: 320px;
+	max-width: 750px;
+	background-color: #ffffff;
+	z-index: 999;
+	border-top: 1px solid #f4f4f4;
+}
+.life_shop_btm .shop_btm_left,.life_shop_btm .shop_btm_right{
+	width: 50%;
+	float: left;
+}
+.life_shop_btm .shop_btm_right{
+	background-color: #ff5858;
+	color: white;
+	font-size: 0.42rem;
+	line-height: 1.10rem;
+	text-align: center;
+}
+.life_shop_btm .shop_btm_share,.life_shop_btm .shop_btm_coloect{
+	width: 50%;
+	float: left;
+}
+.shop_btm_left .shop_btm_share{
+	border-right: 1px solid #f4f4f4;
+	box-sizing: border-box;
+}
+.shop_btm_left img{
+    width: 0.56rem;
+    height: 0.60rem;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+.shop_btm_left p{
+	text-align: center;
+	font-size: 0.24rem;
+	color: #d2d2d2;
+}
+/*弹出框*/
+.phone_alert_gray{
+	width: 100%;
+	height: 100%;
+	max-width: 750px;
+	min-width: 320px;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	display: none;
+}
+.phone_alert{
+	width: 4.80rem;
+	background-color: white;
+	position: absolute;
+	left: 50%;
+    margin-left: -2.40rem;
+    top: 50%;
+    margin-top: -1.40rem;
+}
+.phone_alert .phone_num{
+    width: 100%;
+    height: 1.85rem;
+    overflow: hidden;
+    line-height: 1.85rem;
+    font-size: 0.36rem;
+    text-align: center;
+}
+.phone_btn{
+	width: 100%;
+	overflow: hidden;
+}
+.phone_btn span{
+	width: 50%;
+	float: left;
+	text-align: center;
+	line-height: 0.8rem;
+    font-size: 0.36rem;
+	color: white;
+}
+.phone_btn .phone_cancel{
+	background-color: #a3a3a3;
+}
+.phone_btn .phone_sure{
+	background-color: #d9333f;
+}
+.phone_btn .phone_sure a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+.phone_alert_gray2{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.home_good_recommend_list{
+	width: 100%;
+}
+.home_good_recommend_list .good_list_left_img{
+	float: left;
+	width: 1.6rem;
+    height: 1.6rem;
+}
+.home_good_recommend_list .good_list_left_img img{
+	width: 100%;
+	height: 100%;
+}
+.home_good_recommend_list .good_list_right_text{
+	width: 100%;
+	height: 1.6rem;
+    padding-left: 1.8rem;
+	box-sizing: border-box;
+}
+.home_good_recommend_list ul li{
+	margin-top: 0.2rem;
+}
+.good_list_right_text .right_text_goods_name,.good_list_right_text .good_list_right_address,.good_list_right_text .good_list_right_deduction{
+	height: 0.55rem;
+	width: 100%;
+	line-height: 0.55rem;
+	font-size: 0.3rem;
+	overflow: hidden;
+}
+.good_list_right_text .good_list_right_deduction{
+	font-size: 0.28rem;
+}
+/*插件样式更改*/
+.swiper-container{
+	width: 100%;
+}
+.life_home_banner .swiper-slide img{
+	width: 100%;
+	height: 2.9rem;
+}
+.swiper-pagination-bullet {
+	width: 0.1rem;
+	height: 0.1rem;
+	display: inline-block;
+	border-radius: 100%;
+	opacity: .2
+}
+.swiper-pagination-bullet-active {
+	opacity: 1;
+	background: #d9333f
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23d9333f'%2F%3E%3C%2Fsvg%3E");
+	right: 0.1rem;
+    height: 0.5rem;
+	left: auto
+}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23d9333f'%2F%3E%3C%2Fsvg%3E");
+	left: 0.1rem;
+	height: 0.5rem;
+	right: auto
+}
+.home_good_recommend_list ul{
+	margin:0.1rem 0;
+    border-top: 0.01rem dashed #d7d7d7;
+}
+.home_good_recommend_list ul {
+    border-top: 0.01rem dashed transparent;
+    margin-top:0;
+}
+/*评价样式*/
+.full_eva_content{
+	width: 100%;
+	background-color: white;
+	padding-bottom: 1.00rem;
+	margin-top: 0.2rem;
+	border-top: 0.01rem solid #dadada;
+}
+.full_eva_content .full_content_title{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 0.3rem 0;
+	border-bottom: 1px solid #dadada;
+}
+.full_content_title span{
+	width: 22%;
+	display: inline-block;
+	border: 0.02rem solid #cccccc;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #484545;
+	line-height: 0.55rem;
+	border-radius: 0.1rem;
+}
+.full_eva_center{
+	width: 100%;
+}
+.full_eva_ul li{
+	padding: 0.2rem 4%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #dadada;
+	overflow: hidden;
+}
+.full_eva_ul li:nth-last-child(1){
+	border-bottom: none;
+}
+.full_eva_ul li .eva_left_photo,.full_eva_ul li .eva_right_details{
+	float: left;
+}
+.eva_left_photo{
+	width: 20%;
+}
+.eva_right_details{
+	width: 80%;
+	padding-top: 0.2rem;
+}
+.eva_left_photo img{
+	border-radius: 50%;
+	width: 85%;
+}
+.full_eva_star,.full_eva_img{
+	overflow: hidden;
+}
+.full_eva_star img{
+	float: left;
+	width: 0.2rem;
+	height: 0.2rem;
+}
+.full_eva_img img{
+	float: left;
+	width: 1.33rem;
+	height: 1.33rem;
+	margin-right: 0.22rem;
+	margin-bottom: 0.2rem;
+}
+.full_eva_user{
+	overflow: hidden;
+}
+.full_eva_user span{
+	font-size: 0.3rem;
+	color: #484545;
+}
+.full_eva_user .span_name{
+	float: left;
+}
+.full_eva_user .span_time{
+	float: right;
+	font-size: 0.22rem;
+	color: #cccccc;
+}
+.eva_right_details p{
+	margin-bottom: 0.15rem;
+}
+.full_eva_ul .full_eva_remark{
+	font-size: 0.3rem;
+	color: #484545;
+	line-height: 0.4rem;
+}
+.full_eva_ul .spend_time{
+	font-size: 0.22rem;
+	color: #cccccc;
+}
+/*评价头部选中状态*/
+.full_content_title .span_click{
+	border-color: #ffa100;
+	color: #ffa100;
+}

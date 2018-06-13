@@ -1,0 +1,37 @@
+<page>
+		<!--导航栏-->
+		<view class="life_home_nav">
+			<view class="life_nav_left">
+				<image class="img1" src="../../res/images/return_img.png"/>
+			</view>
+			<view class="life_home_nav_center">
+				余额明细
+			</view>
+		</view>
+		<view class="life_balance_wrap">
+			<view class="ul">
+				<view class="li">
+					<view class="state">
+						<span class="state_span1">2017-09-20</span>
+						<span class="state_span2">成功</span>
+					</view>
+					<view class="state_details">
+						<span>充值</span><span class="color1">（签到）</span>
+						<span>收入/支出金额:</span><span class="color2">+4</span>
+					</view>
+					<view class="state_balance">操作后余额：<span>1004</span></view>
+				</view>
+				<view class="li">
+					<view class="state">
+						<span class="state_span1">2017-09-20</span>
+						<span class="state_span2">成功</span>
+					</view>
+					<view class="state_details">
+						<span>充值</span><span class="color1">（签到）</span>
+						<span>收入/支出金额:</span><span class="color2">+4</span>
+					</view>
+					<view class="state_balance">操作后余额：<span>1004</span></view>
+				</view>
+			</view>
+		</view>
+	</page>

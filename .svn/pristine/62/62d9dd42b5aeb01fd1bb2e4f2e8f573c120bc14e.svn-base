@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+	<head>
+		<title>我的优惠券</title>
+    	<meta charset="utf-8">
+        <meta content="yes" name="apple-touch-fullscreen"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<link href="css/reset.css" rel="stylesheet" type="text/css" />
+		<style type="text/css">
+			html,body{
+				width: 100%;
+				height: 100%;
+				max-width: 640px;
+				min-width: 320px;
+				margin: 0 auto;
+			}
+			::-webkit-scrollbar{
+			  display:none;
+			}
+			.my_coupon_wrap{
+				width: 100%;
+				height: 100%;
+				overflow-y: scroll;
+				padding: 50px 3%;
+				background-color: #dcdcdc;
+			}
+			.my_coupon_wrap .my_coupon_ul li{
+				width: 100%;
+				height: 6em;
+				background-color: white;
+				margin-bottom: 0.8em;
+				border-radius: 0.3em;
+			}
+			.no_coupon{
+				line-height: 6em;
+				text-align: center;
+				font-size: 1em;
+				color: #050505;
+			}
+			.my_coupon_ul div{
+				float: left;
+				height: 100%;
+				
+			}
+			.my_coupon_left{
+				width: 65%;
+				display: table;
+				padding-left: 3%;
+			}
+			.my_coupon_right{
+				width: 35%;
+				background: url(img/amount-bg.png) 0 0 no-repeat;
+				background-size: 100% 100%;
+				display: table;
+				border-radius: 0 0.3em 0.3em 0;
+			}
+			.my_coupon_right p{
+				display: inline-block;
+				width: 100%;
+				text-align: center;
+				font-size: 0.9em;
+				display:table-cell;
+				vertical-align:middle;
+				color: white;
+			}
+			.my_coupon_right p span{
+				font-size: 1.5em;
+			}
+			.my_coupon_left p{
+				display:table-cell;
+				vertical-align:middle;
+				color: #666666;
+				font-size: 0.8em;
+			}
+			.my_coupon_left p span{
+				font-size: 1.2em;
+			}
+			.my_coupon_left p a{
+				color: #666666;
+				display: inline-block;
+				width: 67%;
+			}
+			.scope_application{
+				display: inline-block;
+				color: #c70021;
+				width: 33%;
+				overflow: hidden;
+			}
+			.shop_name{
+				display: inline-block;
+				width: 67%;
+				color: #212121;
+				white-space:nowrap;
+				overflow: hidden;
+				text-overflow:ellipsis;
+			}
+		</style>
+	</head>
+<body>
+	<div class="my_coupon_wrap">
+		<ul class="my_coupon_ul">
+			<li>
+				<div class="my_coupon_left">
+					<p><span class="shop_name">店铺 :&nbsp;&nbsp;顶呱呱火锅顶呱呱火锅</span><span class="scope_application">全场通用</span>
+						<br />
+						<a>2017-10-10  23:59:00</a>  到期
+					</p>
+				</div>
+				<div class="my_coupon_right">
+					<p>¥<span>2000</span>
+						<br />
+						无门槛优惠券
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="my_coupon_left">
+					<p><span class="shop_name">店铺 :&nbsp;&nbsp;顶呱呱火锅顶呱呱火锅</span><span class="scope_application">全场通用</span>
+						<br />
+						<a>2017-10-10  23:59:00</a>  到期
+					</p>
+				</div>
+				<div class="my_coupon_right">
+					<p>¥<span>2000</span>
+						<br />
+						满6000减2000
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="my_coupon_left">
+					<p><span class="shop_name">店铺 :&nbsp;&nbsp;顶呱呱火锅顶呱呱火锅</span><span class="scope_application">全场通用</span>
+						<br />
+						<a>2017-10-10  23:59:00</a>  到期
+					</p>
+				</div>
+				<div class="my_coupon_right">
+					<p>¥<span>2000</span>
+						<br />
+						无门槛优惠券
+					</p>
+				</div>
+			</li>
+			<li class="no_coupon">
+				您没有优惠券
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
+
+

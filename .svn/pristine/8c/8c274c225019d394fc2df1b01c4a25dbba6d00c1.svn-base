@@ -1,0 +1,264 @@
+body{
+	background-color: #f3f5f7;
+}
+.wine_commission_wrap{
+	width: 100%;
+	height: 100%;
+	padding-top: 39px;
+	background-color: #f3f5f7;
+	margin-top: 3.2em;
+}
+.wine_commission_title{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	overflow: hidden;
+	padding: 0.5em 0.3em;
+	box-sizing: border-box;
+	border-bottom: 1px solid #bfbebe;
+	background-color: #f8f8f8;
+	position: fixed;
+	top: 39px;
+}
+.wine_commission_title select{
+	font-size: 1.2em;
+	border: 0;
+	background-color: #f3f5f7;
+}
+.wine_commission_title_span{
+	display: inline-block;
+	float: right;
+}
+.wine_commission_title_span img{
+	display: inline-block;
+	margin-right: 0.2em;
+}
+.wine_commission_details{
+	margin-top: 0.5em;
+	border-top: 1px solid #bfbebe;
+	border-bottom: 1px solid #bfbebe;
+	overflow: hidden;
+	padding: 0.5em 0;
+	background-color: #f8f8f8;
+}
+.wine_commission_details p{
+	overflow: hidden;
+	padding-right: 0.5em;
+}
+.wine_commission_details p span{
+	font-size: 1.2em;
+}
+.commission_details_name{
+	display: inline-block;
+	background-color: #d9333f;
+	padding-left: 0.5em;
+	padding-right: 0.3em;
+	border-radius: 0 0.4em 0.4em 0;
+	color: white;
+	margin-right: 0.5em;
+}
+.commission_details_num{
+	color: #bfbebe;
+}
+.commission_details_time{
+	float: right;
+	color: #bfbebe;
+	margin-top: 0.2em;
+	display: inline-block;
+	padding-right: 0.5em;
+}
+.wine_commission_money{
+	float: left;
+	width: 33.33%;
+	background-color: #f8f8f8;
+}
+.wine_commission_money p{
+	text-align: center;
+	font-size: 1.8em;
+	color: #d9333f;
+	padding: 0.5em 0;
+}
+.wine_commission_money span{
+	display: inline-block;
+	width: 100%;
+	color: #bfbebe;
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 0.5em;
+}
+/*代理人详情*/
+.agency_man_details_wrap{
+	padding-top: 39px;
+	border-bottom: 1px solid #d7d7d7;
+}
+.agency_man_details_top{
+	padding: 1.5em;
+	background-color: #cd222f;
+	overflow: hidden;
+}
+.agency_man_photo{
+	width: 4em;
+	height: 4em;
+	margin-right: 0.8em;
+}
+.agency_man_photo img{
+	width: 100%;
+	height: 100%;
+}
+.agency_man_photo,.agency_man_photo img{
+	border-radius: 50%;
+}
+.agency_man_details_topL{
+	float: left;
+	overflow: hidden;
+	padding-right: 2.2em;
+	border-right: 1px solid white;
+}
+.agency_man_details_topR{
+	float: right;
+	line-height: 2em;
+}
+.agency_man_photo,.agency_man_photo_text{
+	float: left;
+	line-height: 2em;
+	color: white;
+}
+.agency_man_photo_text_name,.agency_man_details_topR_p1{
+	font-size: 1.3em;
+}
+.agency_man_photo_text_p2,.agency_man_details_topR_p2{
+	font-size: 1.2em;
+}
+.agency_man_details_topR p{
+	text-align: center;
+	color: white;
+}
+.order_entrance{
+	overflow: hidden;
+	border-bottom: 1px solid #d7d7d7;
+}
+.wine_last_order .wine_last_orderP1{
+	overflow: hidden;
+	line-height: 3em;
+	background-color: #f8f8f8;
+	margin-top: 0.5em;
+	border-bottom: 1px solid #d7d7d7;
+	border-top: 1px solid #d7d7d7;
+	padding: 0 0.5em;
+	box-sizing: border-box;
+}
+.wine_last_order .wine_last_orderP1 span:nth-child(1){
+	float: left;
+	font-size: 1.2em;
+}
+.wine_last_order .wine_last_orderP1 span:nth-child(2){
+	float: right;
+	font-size: 1.2em;
+	color: #bfbfbf;
+}
+.wine_order_details_entrance{
+	padding: 0 0.5em;
+	box-sizing: border-box;
+	background-color: #f8f8f8;
+}
+.wine_order_details_entrance .wine_order_details_entrance1{
+	line-height: 3em;
+	overflow: hidden;
+	font-size: 1.2em;
+}
+.wine_order_details_entrance .wine_order_details_entrance1 span:nth-child(1){
+	float: left;
+	color: black;
+}
+.wine_order_details_entrance .wine_order_details_entrance1 span:nth-child(2){
+	float: right;
+	color: #bfbfbf;
+}
+.wine_order_mes>div{
+	float: left;
+}
+.wine_order_mes .good_describe{
+	width: 70%;
+	font-size: 1.2em;
+	padding-left: 0.8em;
+}
+.wine_order_mes .good_describe span{
+	float: right;
+	margin-top: 2em;
+}
+.wine_order_mes .good_describe span a{
+	color: #df5a64;
+}
+.good_photo{
+	width: 30%;
+}
+.good_photo img{
+	width: 100%;
+}
+.wine_order_mes{
+	overflow: hidden;
+	border-bottom: 1px solid #d7d7d7;
+	background-color: #f8f8f8;
+	padding-bottom: 1em;
+}
+.agency_man_commission_reward{
+	text-align: center;
+	padding: 1em 0.5em;
+	box-sizing: border-box;
+	font-size: 1.2em;
+	overflow: hidden;
+	
+}
+.agency_man_commission_reward span:nth-child(1){
+	float: left;
+}
+.agency_man_commission_reward span:nth-child(2){
+	color: #df5a64;
+}
+
+/*弹出框*/
+.wine_time_alert_wrap{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+.wine_time_alert{
+	width: 90%;
+	position: absolute;
+	margin-left: 5%;
+	border: 1px solid red;
+}
+.wine_time_alert .wine_time_alertS,.wine_time_alert .wine_time_alertX{
+	width: 100%;
+}
+.wine_time_alertX{
+	width: 100%;
+}
+.wine_time_alertX .wine_time_alertX_L,.wine_time_alertX .wine_time_alertX_R{
+	width: 50%;
+	float: left;
+	text-align: center;
+	line-height: 3em;
+	font-size: 1.2em;
+	border-top: 1px solid #d7d7d7;
+}
+.wine_time_alertX .wine_time_alertX_L{
+	background-color: #FFFFFF;
+	color: #000000;
+	border-radius: 0 0 0 5px;
+}
+.wine_time_alertX .wine_time_alertX_R{
+	background-color: #ff4747;
+	color: #FFFFFF;
+	border-radius: 0 0 5px 0;
+}
+.wine_time_alertS{
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px 5px 0 0;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+		<title>付款</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life-head-foot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life_pay.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="life_home_nav">
+			<div class="life_nav_left">
+				<img class="img1" src="img/return_img.png"/>
+			</div>
+			<div class="life_home_nav_center">
+				付款
+			</div>
+		</div>
+		<div class="life_pay_wrap">
+			<p class="life_billing_logo"><img src="img/pay_merchants_logo.png"/></p>
+			<p class="life_billing_name">星巴克咖啡</p>
+			<p class="life_consumer_claims">消费债权金</p>
+			<div class="life_consumer_claims_num">
+				<input class="life_consumer_inp" type="text" name="" id="" value="99" />
+				<span>¥</span>
+			</div>
+			<div class="life_sure_btn">
+					立即付款
+			</div>
+		</div>
+		<div class="life_pay_alert_wrap">
+			<div class="enter_pass_alert">
+				<p class="enter_pass_alert_title">
+					请输入支付密码
+					<span class="enter_pass_alert_delete">x</span>
+				</p>
+				<p class="transfer_amount_ident">转账金额</p>
+				<p class="transfer_amount">¥ 20.00</p>
+				<div class="alert_box">
+			        <label for="ipt">
+			                <ul>
+			                        <li class="first_li">*</li>
+			                        <li>*</li>
+			                        <li>*</li>
+			                        <li>*</li>
+			                        <li>*</li>
+			                        <li>*</li>
+			                </ul>
+			        </label>
+			        <input class="alert_ipt" type="tel" id="ipt" maxlength="6">
+		        </div>
+				<div class="life_alert_sure_btn">
+					确定
+				</div>
+			</div>
+			<div class="wrong_alert">
+				<p class="enter_pass_alert_title">
+					提示
+					<span class="wrong_alert_delete">x</span>
+				</p>
+				<p class="wrong_prompting">支付密码错误，请重新输入</p>
+				<p class="wrong_two_btn">
+					<span class="wrong_cancel">取消支付</span>
+					<span class="wrong_again">重新输入</span>
+				</p>
+			</div>
+		</div>
+		<div class="life_keyboard life_keyboard_H">
+			<div class="life_switch">
+				<img src="img/keyboard_down.png"/>
+			</div>
+			<ul class="life_keyboard_ul">
+				<li>1</li>
+				<li class="life_border">2</li>
+				<li>3</li>
+				<li>4</li>
+				<li class="life_border">5</li>
+				<li>6</li>
+				<li>7</li>
+				<li class="life_border">8</li>
+				<li>9</li>
+				<li class="life_different_point">.</li>
+				<li class="life_border">0</li>
+				<li class="life_different_delete">
+					<img src="img/keyboard_delete.png"/>
+				</li>
+			</ul>
+		</div>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('.alert_box input').on('.alert_box input', function (e){
+                var numLen = 6;
+                var pw = $('.alert_box input').val();
+                var list = $('.alert_box li');
+                for(var i=0; i<numLen; i++){
+                        if(pw[i]){
+                                $(list[i]).text('*');
+                        }else{
+                                $(list[i]).text('');
+                        }
+                }
+        	});
+			
+			
+			$('.life_consumer_inp').click(function(){
+				$('.life_keyboard').removeClass('life_keyboard_H');
+				$('.life_pay_wrap').addClass('life_pay_wrap2');
+			});
+			$('.alert_box li').click(function(){
+				$('.life_keyboard').removeClass('life_keyboard_H');
+			});
+			$('.life_switch').click(function(){
+				$('.life_keyboard').addClass('life_keyboard_H');
+				$('.life_pay_wrap').removeClass('life_pay_wrap2');
+			});
+			$('.life_sure_btn').click(function(){
+				$('.life_pay_alert_wrap').show();
+				$('.enter_pass_alert').show();
+				$('.wrong_alert').hide();
+				$('.life_keyboard').addClass('life_keyboard_H');
+				$('.life_pay_wrap').removeClass('life_pay_wrap2');
+			});
+			$('.enter_pass_alert_delete,.wrong_alert_delete,.wrong_cancel').click(function(){
+				$('.life_pay_alert_wrap').hide();
+			});
+			$('.life_alert_sure_btn').click(function(){
+				$('.enter_pass_alert').hide();
+				$('.wrong_alert').show();
+				$('.life_keyboard').addClass('life_keyboard_H');
+			});
+			$('.wrong_again').click(function(){
+				$('.wrong_alert').hide();
+				$('.enter_pass_alert').show();
+			});
+			
+			
+			$(".life_consumer_inp").focus(function(){
+		        document.activeElement.blur();
+		    });
+//			$(".alert_ipt").focus(function(){
+//		        document.activeElement.blur();
+//		    });
+		    
+	        $(".life_different_delete").click(function(){    
+		        $(".alert_box li").html($(".alert_box li").html().substr(0,$(".alert_box li").html().length-1));
+	        });
+		</script>
+	</body>
+</html>

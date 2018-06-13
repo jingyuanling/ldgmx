@@ -1,0 +1,39 @@
+.my_magpie_content{
+	width: 100%;
+}
+.my_magpie_content .my_magpies_line{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2%;
+}
+.my_magpie_content .my_magpies{
+	width: 30%;
+	max-width: 117px;
+}
+.my_magpie_content .my_magpies img{
+	width: 100%;
+}
+.my_magpie_content .my_magpies span{
+	font-size: 1em;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: #c03a48;
+}
+.my_magpie_bottom{
+	width: 100%;
+	margin-top: 5%;
+}
+.my_magpie_bottom img{
+	width: 27%;
+	max-width: 150px;
+	position: absolute;
+	bottom: 3%;
+}
+.my_magpie_bottom .my_magpie_bottom_exchange{
+	left: 18%;
+}
+.my_magpie_bottom .my_magpie_bottom_catch{
+	right: 18%;
+}

@@ -1,0 +1,497 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="yes" name="apple-touch-fullscreen"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="css/base2013.css" charset="gbk"/>
+		<link rel="apple-touch-icon-precomposed" href="http://m.jd.com/images/apple-touch-icon.png"/>
+						<script type="text/javascript" src="/js/jquery-1.6.2.min.js"></script>
+				        <script type="text/javascript" src="/js/html5/common.js?v=201307121358"></script>
+        <script type= "text/javascript" src="/js/html5/spin.min.js"></script>
+		
+		<!--通用头尾css js add by lizhenyou 2015-4-17-->
+		<link rel="stylesheet" type="text/css" href="css/header.css" charset="utf-8"/>
+        <link href="css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="css/header.css" rel="stylesheet" type="text/css" />
+        <script  type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/invite.js"></script>
+		<script src="/common/commonH_B/js/m_common_header_bottom.js" type="text/javascript"></script>
+
+	</head>
+
+<body id="body">
+<a name="top"></a>
+<header>
+			
+		<!-- 通用头 div -->
+        <div class="header">
+        <div class="back">
+            <a href="index.html"><img src="img/back.png"></a>
+        </div>
+        <div class="tit">
+            <p>找回密码</p>
+        </div>
+        <div class="brand">
+            <a href="#"><img src="img/personbrand.png"></a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="background">
+        <ul class="clearfix">
+            <a href="index.html"><li><img src="img/home.png"><span>首页</span></li></a>
+            <a href="className.html"><li><img src="img/fenlei.png"><span>分类</span></li></a>
+            <a href="gouwuche.html"><li><img src="img/car2.png"><span class="span1">购物车</span></li></a>
+            <a href="person.html"><li><img src="img/user.png"><span class="span2">个人中心</span></li></a>
+        </ul>
+        </div>
+</div>
+		<!-- <div id="m_common_header" style="min-height:45px;"></div> -->
+	
+		<!-- 
+		<div class="new-header">
+        	<a href="javascript:pageBack();" class="new-a-back"><span>返回</span></a>
+							<h2>修改手机验证</h2>
+			            <a href="javascript:void(0)" id="btnJdkey" class="new-a-jd"><span>京东键</span></a>
+    	</div>
+		<div class="new-jd-tab" style="display:none" id="jdkey">
+        	<div class="new-tbl-type">
+                <a href="http://m.jd.com/index.html?sid=2a25f19e741a4ec9f93c0b7a97a88471" class="new-tbl-cell">
+                	<span class="icon">首页</span>
+					<p style="color:#6e6e6e;">首页</p>
+                </a>
+                <a href="http://m.jd.com/category/all.html?sid=2a25f19e741a4ec9f93c0b7a97a88471" class="new-tbl-cell">
+                	<span class="icon2">分类搜索</span>
+					<p style="color:#6e6e6e;">分类搜索</p>
+                </a>
+                <a href="javascript:void(0)" id="html5_cart" class="new-tbl-cell">
+                	<span class="icon3">购物车</span>
+					<p style="color:#6e6e6e;">购物车</p>
+                </a>
+                <a href="/user/home.action?sid=2a25f19e741a4ec9f93c0b7a97a88471" class="new-tbl-cell">
+                	<span class="icon4">我的京东</span>
+					<p style="color:#6e6e6e;">我的京东</p>
+                </a>
+            </div>
+        </div>
+		-->
+	</header>
+<link rel="stylesheet" type="text/css" href="css/reset.css" charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/title-bar.css" charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/arrow.css" charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/b-arrow.css" charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/m-arrow.css" charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/btn.css" charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/b-btn.css" charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/sqr-checkbox.css" charset="utf-8"/> 
+<link rel="stylesheet" type="text/css" href="css/sjyz.css" charset="utf-8"/>
+
+<div class="yz">
+    <div class="xjk">
+        <form id="frm_validateUserPhoneCheckCode" method="post">
+            <div class="content">
+                <!--p class="msg2">为确保是您本人在操作，需要验证您的身份</p -->
+                 <div class="box-mg">
+                    <span class="input-border">
+                        <input id="code" name="code" type="text" class="input" placeholder="请输入原密码" errorLabel="errorTips" notBlank="notBlank" valueMissingTxt="请输入原密码">
+                        <!-- [D] 输入密码同时把display:none改成display:block-->
+                        <a href="#" class="close" style="display:none"></a>
+                    </span>
+                </div>
+                
+                <div class="box-mg">
+                    <span class="input-border">
+                        <input id="code" name="code" type="text" class="input" placeholder="请输入新密码" errorLabel="errorTips" notBlank="notBlank" valueMissingTxt="请输入新密码">
+                        <!-- [D] 输入密码同时把display:none改成display:block-->
+                        <a href="#" class="close" style="display:none"></a>
+                    </span>
+                </div>
+                
+                 <div class="box-mg">
+                    <span class="input-border">
+                        <input id="code" name="code" type="text" class="input" placeholder="请再次确认密码" errorLabel="errorTips" notBlank="notBlank" valueMissingTxt="请再次确认密码">
+                        <!-- [D] 输入密码同时把display:none改成display:block-->
+                        <a href="#" class="close" style="display:none"></a>
+                    </span>
+                </div>
+                
+                <p id="errorTips" name="errorTips" class="msg" style="display:none;font-size:14px;color:rgb(255,0,0);margin-top:10px;">
+                </p>
+                <input type="hidden" value="" name="errmsg" id="errmsg">
+                <a id="btnSubmit" name="btnSubmit" href="javascript:void(0);" class="btn b-btn">提交</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+var sid = '2a25f19e741a4ec9f93c0b7a97a88471';
+var endTime;
+var distantTime = 120;
+var isClick = true;
+
+function checkMobile(){
+    var mobile = $("#mobile").val().trim();
+    if(mobile == ""){
+        $("#errorTips").show();
+        $("#errorTips").html("验证手机号不能为空");
+        return false;
+    }else{
+        if(!mobile.match(/^1\d{10}$/)){
+            $("#errorTips").show();
+            $("#errorTips").html("验证手机号格式有误,请重新输入");
+            return false;
+        }
+    }
+    return true;
+}
+
+function checkCode(){
+    var code = $('#code').val().trim();
+    if(code == ""){
+        $("#errorTips").show();
+        $("#errorTips").html("短信验证码不能为空");
+        return false;
+    }else{
+        if(!code.match(/^[0-9]*$/)){
+            $("#errorTips").show();
+            $("#errorTips").html("短信验证码格式有误,请重新输入");
+            return false;
+        }
+        if(!code.match(/^\d{6}$/)){
+            $("#errorTips").show();
+            $("#errorTips").html("短信验证码位数有误,请重新输入");
+            return false;
+        }
+    }
+    return true;
+}
+
+var mobileBlur = function(){
+    var mobile = $("#mobile").val().trim();
+    if(mobile == ''){
+        $("#errorTips").show();
+        $("#errorTips").html("验证手机号不能为空");
+        return false;
+    }else{
+        if(!mobile.match(/^1\d{10}$/)){
+            $("#errorTips").show();
+            $("#errorTips").html("验证手机号格式有误,请重新输入");
+            return false;
+        }
+    }
+    return true;
+}
+
+var mobileFocus = function(){
+    $("#errorTips").hide();
+    $("#errorTips").html("");
+}
+
+var codeBlur = function(){
+    var code = $('#code').val().trim();
+    if(code == ''){
+        $("#errorTips").show();
+        $("#errorTips").html("短信验证码不能为空");
+        return false;
+    }else{
+        if(!code.match(/^[0-9]*$/)){
+            $("#errorTips").show();
+            $("#errorTips").html("短信验证码格式有误,请重新输入");
+            return false;
+        }
+        if(!code.match(/^\d{6}$/)){
+            $("#errorTips").show();
+            $("#errorTips").html("短信验证码位数有误,请重新输入");
+            return false;
+        }
+    }
+    return true;
+}
+
+var codeFocus = function(){
+    $("#errorTips").hide();
+    $("#errorTips").html("");
+}
+
+//页面初始化
+$(document).ready(function(){
+    $('#code').focus(codeFocus);
+    $('#mobile').focus(mobileFocus);
+    endTime = new Date().getTime()/1000 + distantTime;
+    $('#btnCodeSend').click(reGetCode);
+    $('#frm_validateUserPhoneCheckCode').bind('submit',function(e){
+        if(!(checkMobile() && checkCode())){
+            e.preventDefault();
+        }
+    });
+    $('#btnSubmit').click(function(){
+        submitForm();
+    });
+});
+
+//AJAX 提交表单
+function submitForm(){
+    var mobile = $("#mobile").val().trim();
+    var code = $('#code').val().trim();
+    
+    if( checkMobile() && checkCode() ){
+        jQuery.ajax({
+            url : "/phonevalidation/doValidateUserPhoneCheckCode.json" ,
+            type : "post",
+            data : {
+                sid : sid,
+                code : code,
+                mobile : mobile
+            },
+            async : false,
+            beforeSend : function(data){
+            },
+            success : function(data) {
+                if(data.errmsg != undefined && data.errmsg != ""){
+                    $("#errorTips").show();
+                    $("#errorTips").html(data.errmsg);
+                    $('#code').val("");
+                }else{
+                    $("#errorTips").hide();
+                    $("#errorTips").html("");
+                    window.location.href = '/phonevalidation/validateUserSuccess.action?sid=2a25f19e741a4ec9f93c0b7a97a88471';
+                }
+            },
+            error : function(data){
+            },
+            complete : function(data){
+            }
+        });
+    }
+}
+
+//获得短信验证码
+function changeCodeStyle(){
+    var nowTime = new Date().getTime()/1000;
+    var time = Math.floor(endTime - nowTime);
+    $("#btnCodeSend").removeClass("message-num");
+    $("#btnCodeSend").addClass("message-num2");
+    $("#btnCodeSend").text("重新发送（" + time.toString() + "）");
+    if(time > 0){
+        setTimeout("changeCodeStyle()",1000);
+    }else{
+        $("#btnCodeSend").text("获取短信验证码");
+        $("#btnCodeSend").removeClass("message-num2");
+        $("#btnCodeSend").addClass("message-num");
+		isClick = true;
+    }
+}
+
+function reGetCode(){
+    $("#errorTips").hide();
+    $("#errorTips").html("");
+	if( checkMobile() && isClick){
+		getMsgCode();  //加载页面，先请求一次
+	}
+}
+
+//获取短信验证码
+function getMsgCode(){
+    var mobile = $("#mobile").val().trim();
+    var flag = $("#btnCodeSend").hasClass("message-num");
+    if(checkMobile() && flag && isClick){
+        jQuery.ajax({
+			url : "/phonevalidation/getCodeForBind.json",
+			type : "get",
+            data : {
+				sid:sid,
+				validateType:'3',
+				mobile:mobile
+			},
+			async : false,
+			beforeSend : function(data){
+			},
+            success : function(data){
+                if(data.isSuccess == "F"){
+					isClick = true;
+                    if(data.errmsg != undefined && data.errmsg != ""){
+                        $("#errorTips").show();
+                        $("#errorTips").html(data.errmsg);
+                        $('#code').val("");
+                    }else{
+                        $("#errorTips").hide();
+                        $("#errorTips").html("");
+                    }
+                }else if(data.isSuccess == "T"){
+                    $("#errorTips").show();
+                    $("#errorTips").html("短信已经发送到您的手机，如在120秒之内还没有收到短信验证码，请重新获取验证码");
+					isClick = false;
+					endTime = new Date().getTime()/1000 + distantTime;
+					changeCodeStyle();
+                }
+			},
+			error : function(data){
+			},
+			complete : function(data){
+			}
+		});
+    }
+}
+</script>
+	
+	<!-- 通用尾 div -->
+	<div id="m_common_bottom" style="min-height:170px;"></div>
+	
+	<!-- 
+    <footer>
+		<div class="login-area" id="footer">
+        	<div class="login">
+				                	<a rel="nofollow" href='/user/home.action?sid=2a25f19e741a4ec9f93c0b7a97a88471'>
+						        					jd_7ec26..
+        									</a>
+    				<span class="lg-bar">|</span>
+											<a rel="nofollow" href='https://passport.m.jd.com/user/logout.action?sid=2a25f19e741a4ec9f93c0b7a97a88471'>退出</a>
+													<span  class="new-fr"><a href="http://m.jd.com/showvote.html?sid=2a25f19e741a4ec9f93c0b7a97a88471">反馈</a><span class="lg-bar">|</span><a href="#top">回到顶部</a></span>
+            </div>
+        	<div class="version">
+				<a href="http://m.jd.com/download/downApp.html" id="layout_toClient" class="layout-openJD">客户端</a>
+				<a href="javascript:void(0)" class="on">触屏版</a>
+				<a href="http://www.jd.com" id="toPcHome">电脑版</a>
+			</div>
+            <div class="copyright">Copyright &copy; 2012-2015 京东JD.com 版权所有</div>
+        </div>
+    </footer>
+	-->
+
+
+    <div style="display:none;">
+        	<img src="/ja.jsp?&amp;utmn=326360461&amp;utmr=https%3A%2F%2Fpassport.m.jd.com%2Fphonevalidation%2FselectAuthenticationPattern.action%3FisSend%3D1%26sid%3D2a25f19e741a4ec9f93c0b7a97a88471&amp;utmp=%2Fphonevalidation%2FvalidateUserPhoneCheckCode.action%3Fsid%3D2a25f19e741a4ec9f93c0b7a97a88471&amp;guid=ON&jav=touch&pin=txjtfDTFmRYgAc2dDQhOEFaeHcNB96sq&utmac=MO-J2011-1" />
+        </div>
+
+    <script type="text/javascript">
+        var jap = {
+            siteId : 'MO-J2011-1',
+            topic: 'traffic-jdm',
+            account : '',
+            skuid: '',
+            shopid: '',
+            orderid: '',
+            adsCookieName: 'mt_subsite',
+            jumpAppEnable : 1,
+            __cookie_jda: '__tra',
+            __cookie_jdb: '__trb',
+            __cookie_jdc: '__trc',
+            __cookie_jdu: '__tru',
+            __cookie_jdv: '__trv'
+        };
+        
+        (function() {
+            var ja = document.createElement('script'); 
+            ja.type = 'text/javascript'; 
+            ja.async = true;
+            ja.src = ('https:' == document.location.protocol ? 'https://miscssl' : 'http://misc') + '.360buyimg.com/jdf/1.0.0/unit/ja/1.0.0/ja.js';
+            var s = document.getElementsByTagName('script')[0]; 
+            s.parentNode.insertBefore(ja,s);
+        })();
+    </script>
+
+            <script type="text/javascript" src="https://h5.m.jd.com/active/track/mping.min.js"></script>
+        <script type="text/javascript">
+            try{
+                var pv= new MPing.inputs.PV();
+                var mping = new MPing();
+                mping.send(pv);
+            } catch (e){
+            }
+        </script>
+    
+
+<script type="text/javascript">
+$("#unsupport").hide();
+if(!testLocalStorage()){ //not support html5
+    if(0!=0 && !$clearCart && !$teamId){
+		$("#html5_cart_num").text(0>0>0);
+	}
+}else{
+	updateToolBar('');
+}
+
+$("#html5_cart").click(function(){
+//	syncCart('2a25f19e741a4ec9f93c0b7a97a88471',true);
+	location.href='http://m.jd.com/cart/cart.action';
+});
+
+function reSearch(){
+var depCity = window.sessionStorage.getItem("airline_depCityName");
+	if(testSessionStorage() && isNotBlank(depCity) && !/^\s*$/.test(depCity) && depCity!=""){
+    	var airStr = '<form action="/airline/list.action" method="post" id="reseach">'
+        +'<input type="hidden" name="sid"  value="2a25f19e741a4ec9f93c0b7a97a88471"/>'
+        +'<input type="hidden" name="depCity" value="'+ window.sessionStorage.getItem("airline_depCityName") +'"/>'
+        +'<input type="hidden" name="arrCity" value="'+ window.sessionStorage.getItem("airline_arrCityName") +'"/>'
+        +'<input type="hidden" name="depDate" value="'+ window.sessionStorage.getItem("airline_depDate") +'"/>'
+        +'<input type="hidden" name="depTime" value="'+ window.sessionStorage.getItem("airline_depTime") +'"/>'
+        +'<input type="hidden" name="classNo" value="'+ window.sessionStorage.getItem("airline_classNo") +'"/>'
+        +'</form>';
+    	$("body").append(airStr);
+    	$("#reseach").submit();
+	}else{
+    	window.location.href='http://m.jd.com/airline/index.action?sid=2a25f19e741a4ec9f93c0b7a97a88471';
+	}
+}
+ //banner 关闭点击
+    $('.div_banner_close').click(function(){
+        $('#div_banner_header').unbind('click');
+        jQuery.post('/index/addClientCookieVal.json',function(d){
+              $('#div_banner_header').slideUp(500);
+        });
+    });
+    //banner 下载点击
+    $('.div_banner_download').click(function(){
+         var downloadUrl = $(this).attr('url');
+         jQuery.post('http://m.jd.com/index/addClientCookieVal.json',function(d){
+               window.location.href=downloadUrl;
+        });
+    });
+
+</script>
+
+
+
+<!--通用头尾  add by lizhenyou 2015-3-30 -->
+<script>
+    $(document).ready(function(){
+
+		//	通用头尾js add by lizhenyou 2015-4-20 由于 passport 是 https 的，
+		//	但是cdn暂不支持，所以把通用头尾的功能copy到本地
+
+		var option = {
+			
+			useDefaultImp : true,
+			
+			css : ['/common/commonH_B/css/header.css'],
+			
+			js : [
+			      '/common/commonH_B/js/m_common.js',
+			      '/js/html5/downloadAppPlugIn.js',
+			      ]
+			
+		};
+	
+		var mchb = new MCommonHeaderBottom(option);
+		
+    	var title = "修改手机验证";
+    	var headerArg = {hrederId : 'm_common_header', title:title, sid : '2a25f19e741a4ec9f93c0b7a97a88471', isShowShortCut : false};
+    	mchb.header(headerArg);
+    
+		var sid = '2a25f19e741a4ec9f93c0b7a97a88471';
+    	var pin = 'jd_7ec26657ddf17';
+    	var toPcSkipurl = 'http://www.jd.com/#m'; //跳转电脑版url
+    	var footerPlatforms = mchb.platformEnum(toPcSkipurl,sid).enum3_1;
+        var bottomArg = {bottomId : 'm_common_bottom', sid : sid, pin : pin ,footerPlatforms : footerPlatforms};
+        mchb.bottom(bottomArg);	
+    
+		var tipArg = {tipId : 'm_common_tip', sid : '2a25f19e741a4ec9f93c0b7a97a88471', isfloat: true, isAlwayShow : false,
+				onClickTrynow: function(){},
+				onClickTipX: function(){}};
+		mchb.jdTip(tipArg);
+    });
+</script>
+</body>
+</html>
+
+

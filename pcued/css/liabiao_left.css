@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+.personal{
+	width:1200px;
+	margin:20px auto;
+	overflow:hidden;
+	padding-left: 10px;
+	position: relative;
+}
+.personal_main{
+	width:1060px;
+	font-family:"宋体";
+}
+.personal_lie{
+	width:140px;
+	margin-bottom:30px;
+}
+.personal_lie,.personal_main{
+	float:left;
+	}
+.personal_lie dt{
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+	line-height:24px;
+	margin-top:10px;
+}
+
+.personal_lie dd{
+	font-size:12px;
+	color:#808080;
+	line-height:24px;
+}
+.personal_lie dd a:hover{
+	color:#ff4500;
+	text-decoration:underline;
+}
+.personal_lie .news{
+	position:relative;
+}
+.personal_lie .news span{
+	line-height:14px;
+	text-align:center;
+	position:absolute;
+	top:-10px;
+	left:25px;
+	font-size:10px;
+	font-family:"宋体";
+	color:#fff;
+	display:block;
+	width:23px;
+	height:18px;
+	background:url(../img/xiaotubiao.png) no-repeat -74px -62px
+}
+.saretitle{
+	height:40px;
+	line-height:40px;
+	padding-left:10px;
+	background:#f2f2f2;
+}
+.saretitle h3{
+	font-size:14px;
+	color:#ff4500;
+}

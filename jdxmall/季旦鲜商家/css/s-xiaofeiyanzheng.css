@@ -1,0 +1,144 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+html{
+    background-color:#ebebeb
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.tihuoquan-box{
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaea;
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+    font-family:"微软雅黑";
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+.main-top p{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+.dian-tit{
+    width: 100%;
+    padding: 8px 19px;
+    background-color: #fff;
+    border-bottom:1px solid #cfcfcf;
+}
+
+.number{
+    width: 100%;
+    background-color: #fff;
+    border-top:1px solid #cfcfcf;
+}
+.number p{
+    padding-left: 15px;
+    color: #888588;
+    font-size: 12px;
+    line-height: 25px;
+}
+.number p.juanma{
+    line-height: 35px;
+    color: #000;
+    font-size: 14px;
+    border-top:1px solid #cfcfcf;
+}
+.number p.juanma span.right{
+    float: right;
+    margin-right: 15px;
+    color:  #888588;
+}
+.tihuo p{
+    padding-left: 15px;
+    font-size: 12px;
+    background-color: #fff;
+    width: 100%;
+    height: 30px;
+    line-height: 28px;
+    margin-top: 15px;
+    border-top:1px solid #cfcfcf;
+    border-bottom:1px solid #cfcfcf;
+}
+.tihuo p img{
+    width: 20px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 12px;
+}
+.tihuo p span{
+    float: right;
+    margin-right: 15px;
+}
+.middle p{
+    background-color: #fff;
+    width: 100%;
+    padding:0 17px;
+    line-height: 40px;
+}
+.middle p img{
+    width: 25px;
+    margin-top: 8px;
+    margin-right: 8px;
+    float: left;
+}
+.middle p span{
+    color: #000;
+    font-size: 12px;
+}
+
+.middle p span.right{
+    float: right;
+    color: #a2a0a0;
+}
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+}
+.bottom p{
+    width: 240px;
+    margin:0 auto;
+}
+.bottom p span{
+    float: left;
+    font-size: 12px;
+    border-radius: 8px;
+    display: block;
+    width: 110px;
+    background-color: #e84e40;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+.bottom p span.right{
+    margin-left: 20px;
+    background-color: #78909c;
+}

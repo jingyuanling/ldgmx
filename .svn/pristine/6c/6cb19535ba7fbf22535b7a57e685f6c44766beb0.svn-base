@@ -1,0 +1,188 @@
+body{
+    background-color: #f3f5f7;
+}
+.details-box{
+    width: 100%;
+    background-color: #fff;
+}
+.main-top{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 39px;
+    background-color: #d9333f;
+    position: fixed;
+    top: 0;
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.main-top img.serch{
+    position: relative;
+    float: right;
+    width: 18px;
+    margin-top: -28px;
+    margin-right: 13px;
+
+}
+.main-top p{
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+    overflow: hidden;
+    text-align: center;
+}
+.main-top p span{
+    display: inline-block;
+}
+.main-top p a{
+    color: #fff;
+}
+.main-top p span.s1{
+	margin-right: 1.5em;
+    color: #fff;
+    font-size: 1.3em;
+}
+.main-top p span i{
+    display: block;
+    margin-top: -5px;
+    text-align:center;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+.main-top p span.s2{
+    font-size: 1.3em;
+}
+.details{
+	padding-top: 39px;
+}
+.details .banner{
+    width: 100%;
+    border-bottom:2px solid #bfbfbf;
+    padding: 2em 1em;
+    box-sizing: border-box;
+}
+.details .banner img{
+    width: 80%;
+    margin:0 auto;
+}
+.details-cont{
+    margin-bottom: 15px;
+}
+.details-cont > p{
+   font-size: 16px;
+   margin-top: 10px;
+   color: #000;
+   margin-left: 12px;
+}
+.details-cont p img{
+    float: right;
+    width: 30px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+.details-cont p.money{
+    color: #ee002d;
+}
+
+.details-cont p.guige span{
+    display: block;
+    width: 48px;
+    height: 27px;
+    border: 1px solid #bfbfbf;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 16px;
+    font-size: 12px;
+
+}
+.details-cont .wine_details_tit{
+    padding-left: 12px;
+    margin-left: 0;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f0f0f2;
+    box-sizing: border-box;
+    text-align: center;
+}
+.details-cont > img{
+    width: 100%;
+}
+.wine_details_bottom{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin-top: -15px;
+    position: fixed;
+    bottom: 0;
+    background-color: #f8f8f8;
+}
+.wine_details_bottom>div{
+	float: left;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+	font-size: 1.0em;
+	color: white;
+	
+}
+.wine_details_bottom_left{
+	width: 25%;
+}
+.wine_details_bottom_left img{
+    height: 3em;
+    margin: 0 auto;
+    margin-top: 0.5em;
+}
+.wine_details_bottom_center{
+	width: 30%;
+	background-color: #ffa21d;
+}
+.wine_details_bottom_right{
+	width: 45%;
+	background-color: #d9333f;
+}
+.wine_purchase_num_div{
+	overflow: hidden;
+	display: inline-block;
+}
+.wine_purchase_num_div>div{
+	float: left;
+	font-size: 1.0em;
+}
+.wine_num_less,.wine_num_more{
+	border: 1px solid #d7d7d7;
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	line-height: 1.5em;
+}
+.wine_real_num{
+	width: 3.0em;
+	height: 1.5em;
+	text-align: center;
+	line-height: 1.5em;
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+}
+.wine_purchase_num .wine_purchase_num_span{
+	font-size: 1.0em;
+	display: inline-block;
+	height: 1.5em;
+	line-height: 1.5em;
+	position: relative;
+	top: -0.25em;
+}
+.wine_purchase_num{
+	margin-top: 0.5em;
+	padding: 0 12px;
+	box-sizing: border-box;
+}

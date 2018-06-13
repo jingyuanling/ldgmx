@@ -1,0 +1,644 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+        </title> 
+        <meta charset="utf-8">
+        <meta content="yes" name="apple-touch-fullscreen"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">        
+		<link rel="stylesheet" type="text/css" href="css/base.css"charset="gbk"/>
+		<link rel="stylesheet" type="text/css" href="css/extend.css"charset="gbk"/>
+		<link rel="stylesheet" type="text/css" href="css/hotel.css" charset="gbk"/>
+		<link rel="stylesheet" type="text/css" href="css/airline.css" charset="gbk"/>
+		<script type="text/javascript">
+			var _winLocation=window.location.href;//获得当前页面的路径，根据路径规则进行逐页替换
+			var _isWebKit = '__proto__' in {};//是否是webkit内核
+			if(_isWebKit){//如果是webkit内核，则分模块使用zepto
+				//要使用zeptojs的路径列表，可以做为分模块替换的开关
+				var _locationList=new Array();
+				//活动模块
+				_locationList.push('/activity/proActList');
+				_locationList.push('/activity/proActWareList');
+				_locationList.push('/activity/list');
+				//商品分类模块
+				_locationList.push('/category/');
+				//京东快讯模块
+				_locationList.push('/newslist.html');
+				_locationList.push('/newslist/');
+				_locationList.push('/news/');
+				//机票模块
+				_locationList.push('/airline/');
+				//酒店模块
+				_locationList.push('/hotel/');
+				//团购模块
+				_locationList.push('/tuan/');
+				//首页相关
+				_locationList.push('/hotbrand.html');//品牌馆
+				//商品筛选相关
+				_locationList.push('/ware/expandSort.action');
+				_locationList.push('/ware/categoryFilter.action');
+				_locationList.push('/ware/search.action');
+				_locationList.push('/products/');
+				_locationList.push('/index/getWare.action')//热门特惠
+				_locationList.push('/notice/');//通告模块
+				_locationList.push('/coupons/');//随地惠模块
+				_locationList.push('/chongzhi/');//手机充值模块
+				_locationList.push('/comment/');//手机推荐模块
+				_locationList.push('/pay/');//支付
+				_locationList.push('/order/');//订单
+				_locationList.push('/norder/');//订单
+				//_locationList.push('/market/floorWare.action');//掌上专享
+				
+				var _needReplace = false;
+				//如果当前路径符合要使用的路径规则，则进行替换
+				for(var i=0;i<_locationList.length;i++){
+					if(_winLocation.indexOf(_locationList[i])!=-1){
+						_needReplace=true;
+						break;
+					}
+				}
+				//如果是首页的话，则使用zepto
+				var _tmp = _winLocation.replace(/(^http:\/\/)|(\/*$)/g,'');
+				if(_tmp.indexOf('/')<0 || (_tmp.split('/').length<=2 && _tmp.indexOf('/index')>=0)){
+					_needReplace=true;
+				}
+				//如果是商品详情页的话，则使用zepto
+                var _dlocationList=new Array();
+                _dlocationList.push(/\/product\/([0-9]+)\.html/);
+                _dlocationList.push(/\/orderComment\/([0-9]+)\.html/);
+                _dlocationList.push(/\/consultations\/([0-9]+)\.html/);
+                _dlocationList.push(/\/consultations\/([0-9]+)-([0-9]+)\.html/);
+                _dlocationList.push(/\/comments\/([0-9]+)\.html/);
+                for(var i=0,len=_dlocationList.length;i<len;i++){
+                	if(_dlocationList[i].test(_winLocation)){
+                		_needReplace=true;
+               			 break;
+               		 }
+                }
+				if(_needReplace){
+					document.write('<script src="http://st.360buyimg.com/order/js/zepto.min.js?v=20151027"><\/script>');
+					document.write('<script type="text/javascript">window.jQuery=window.Zepto;<\/script>');
+				}else{
+					document.write('<script src="http://st.360buyimg.com/order/js/jquery-1.6.2.min.js?v=20151027"><\/script>');
+				}
+			}else{//如果是非webkit内核直接使用jquery
+				document.write('<script src="http://st.360buyimg.com/order/js/jquery-1.6.2.min.js?v=20151027"><\/script>');
+			}
+		</script>
+		<script type="text/javascript" src="http://st.360buyimg.com/order/js/html5/common.js?v=20151027">			 		</script>
+		<script type="text/javascript" src="http://st.360buyimg.com/order/js/html5/spin.min.js?v=20151027">		 		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/header.css" charset="gbk"/>
+		<script src="http://st.360buyimg.com/common/commonH_B/js/m_common_header_bottom.src.js?t=55555" type="text/javascript"></script>
+	</head>
+
+<body id="body">
+	<a name="top"></a>
+<header>
+			    				
+              <div id="m_common_header"></div>
+
+        
+		<div class="new-jd-tab" style="display:none" id="jdkey">
+        	<div class="new-tbl-type">
+                <a href="http://m.jd.com/index.html?sid=2de286b2b9a47142d691089a2b7a3cbb" class="new-tbl-cell">
+                	<span class="icon">首页</span>
+					<p style="color:#6e6e6e;">首页</p>
+                </a>
+                <a href="http://m.jd.com/category/all.html?sid=2de286b2b9a47142d691089a2b7a3cbb" class="new-tbl-cell">
+                	<span class="icon2">分类搜索</span>
+					<p style="color:#6e6e6e;">分类搜索</p>
+                </a>
+                <a href="javascript:void(0)" id="html5_cart" class="new-tbl-cell">
+                	<span class="icon3">购物车</span>
+					<p style="color:#6e6e6e;">购物车</p>
+                </a>
+                <a href="/user/home.action?sid=2de286b2b9a47142d691089a2b7a3cbb" class="new-tbl-cell">
+                	<span class="icon4">我的京东</span>
+					<p style="color:#6e6e6e;">我的京东</p>
+                </a>
+            </div>
+        </div>
+	</header>
+<link rel="stylesheet" href="css/pay.css"/>
+<script src="js/
+zepto.min.js"></script>
+
+<div style="height:100%;width:100%;z-index:1001;position:absolute;overflow:hidden;background:rgba(145, 145, 145, .1);display:none" id="background" >
+</div>
+
+<input type="hidden" id="couponsId" value="" />
+<form method="post" action='/norder/submit.action?sid=2de286b2b9a47142d691089a2b7a3cbb' id="orderForm">
+
+<div class="common-wrapper">
+    <div class="w checkout" style="padding:0px;">
+    	<div class=""></div>
+		<div class="step1 border-1px change-co">
+			<div class="m step1-in ">
+				<a href='set_shouhuodizhi.html' class="s-href">
+					<div class="mt_new">			
+                    	<div class="s1-name">
+							<i></i><span>申冉</span>
+						</div>
+						<div class="s1-phone">
+							<i></i>186****7020
+						</div>
+					</div>
+					<div class="mc step1-in-con">
+						<i class="tacitly-lable">默认</i>
+河南郑州市管城区城区商都路与站南路交叉口建正东方中心c座24楼2409
+					</div>
+				</a>
+			</div>
+            <b class="s1-borderT"></b>
+            <b class="s1-borderB"></b>
+            <span class="s-point"></span>
+		</div>
+		<div class="step3 border-1px" id="commodityInfoDivID">
+			<div class="s-item">
+                <div class="sitem-l">
+                    <div class="sl-img">
+                        <img src="http://img10.360buyimg.com/n4/g13/M0A/11/1F/rBEhUlJk8NgIAAAAAAC0yGPOZIYAAEaDADQ1BUAALTg442.jpg">
+                    </div>
+                </div>
+                <div class="sitem-m">
+                    <p class="sitem-m-txt">卫诺 香氛洁厕液（清怡罗兰）500g</p>
+  
+                    <p>×1</p>
+                </div>
+                <div class="sitem-r">
+                    ￥4.90
+                </div>
+                <span class="s-point"></span>
+          </div>
+
+		</div>
+    	<div class="step4 border-1px">
+
+                <div class="s-item bdb-1px">
+                    <div class="sitem-l">
+                        订单总价：
+                    </div>
+                    <div class="sitem-r">
+                        500
+                    </div>
+                </div>
+
+                <div class="s-item bdb-1px" >
+                    <div class="sitem-l">
+                        应付现金：
+                    </div>
+                    <div class="sitem-r">
+                        500
+                    </div>
+                </div>
+
+                <div class="s-item bdb-1px">
+                    <div class="sitem-l">
+                        应付债权金：
+                    </div>
+                    <div class="sitem-r">
+                        500
+                    </div>
+                </div>
+                <div class="s-item bdb-1px">
+                    <div class="sitem-l">
+                        运费：
+                    </div>
+                    <div class="sitem-r">
+                        500
+                    </div>
+                </div>
+                <a href="ddhb.html"><div class="s-item bdb-1px">
+                    <div class="sitem-l">
+                        可用红包：
+                    </div>
+                    <div class="sitem-rhb">
+                        <span>100</span>张<img src="img/ddhb.png">
+                    </div>
+                </div></a>
+
+			</div>
+		 </div>
+		<div class="border-1px info-noteMsg" id="floatLoc">
+            送至： 河南郑州市管城区城区商都路与站南路交叉口建正东方中心c座24楼2409
+        </div>
+    
+    <div class="pay-bar" id ="pay-bar">
+
+    
+        
+                                                             		 		<div class="payb-con" >
+			实付现金：<span id="payMoney">￥63.00</span>
+            实付债权金：<span id="payMoney">￥63.00</span>
+		</div>
+                            
+                    <a class="payb-btn" onclick="submitOrder('true')" href="zhifufangshi.html">
+                提交订单
+            </a>
+                <input type="hidden" id="sid" value="2de286b2b9a47142d691089a2b7a3cbb" />
+    </div>
+
+    <!-- 弹层 -->
+    
+    <div class="popup-w" style="display:none;"></div>
+
+    
+            <div id ="inputPwdWindow" class="confirm-w"  style="display:block;">
+        <div class="confirm">
+            <div class="confirm-txt bdb-1px">
+                <div class="m pay-password">
+                        <div class="mt_new">
+                        <h3>安全验证</h3>
+                    </div>
+                    <div class="mc"  style="margin-top:0!important;">
+                        <p>您使用了虚拟资产，为保证安全，请进行验证</p>
+                                                <p class="pp-red" id="erroTip"></p>
+                        <div class="input-w">
+                            <input type="password" id="securityPayPassword" autocomplete="off" name="order.securityPayPassword" placeholder="输入支付密码">
+                            <span class="pass-del"></span>
+                        </div>
+
+                        <a href='https://passport.m.jd.com/payPassword/validateFindPayPassword.action?urlFrom=2&sid=2de286b2b9a47142d691089a2b7a3cbb' >找回支付密码</a>
+                        <div class="clr"></div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="confirm-btn">
+                <a href="javascript:;" onclick="closeInputPwdWindow()" class="btn2 ctn01">取消</a>
+                <a href="javascript:;" onclick="virtualPaySubmit('true')" class="btn2 ctn02 pass-no pp-btn">确定使用</a>
+            </div>
+        </div>
+    </div>
+   
+
+</div>
+
+<div name="hiddenVirtualPayTipData" id="virtualPayTipData" style="display: none;"></div>
+
+<input type="hidden" id="stockStatus" value="2" />
+<input type="hidden" id="isUsedVirtualPay" value="false" />
+<input type="hidden" id="isOpenPaymentPassword" value="true" />
+<input type="hidden" id="wareId" value="1123980" />
+<input type="hidden" id="paymentId" name="paymentType" value="4" />
+<input type="hidden" id="isMixPayMentId" name="mixPayMent" value="false" />
+
+ <input type="hidden" name="stockStatusValue" value="无货" />
+
+<input type="hidden" id="flowTypeId" name="flowType" value="" />
+
+</form>
+
+<script type="text/javascript" src="http://st.360buyimg.com/order/js/2015/order/norder_new.js?v=20151027" charset="GBK"></script>
+<script src="http://st.360buyimg.com/order/js/2015/order/loc.floating.js?v=20151027" charset="GBK"></script>
+
+<script>
+
+    /**
+     * 显示顶部自提点地址更改提示浮层。
+     * 如果含有京东自提且切换了收货地址，则显示自提点地址更改提示浮层。
+     * judgeAddress:1 表示打开开关
+     */
+    
+    /**
+     * 如果商品清单页中用户点击了删除按钮，
+     * 则返回结算页要重新刷新页面，保持是最
+     * 新数据。
+     */
+    if(localStorage.getItem("deleteCommodityFlag")=="true"){
+        localStorage.removeItem("deleteCommodityFlag");
+        if(navigator.userAgent.indexOf("Chrome")>-1){ //兼容谷歌浏览器
+            window.location.reload();
+        }
+
+    }
+
+    /**
+     *   防止手机的enter键自动提交。
+     * @returns {boolean}
+     */
+    document.onkeypress =function(){
+        if(event.keyCode == 13){
+            return false;
+        }
+    };
+
+    /**
+     * 移除无货商品。
+     * 将“无货”字符串串到后台做比较，由于出现乱码，故用此办法。
+     */
+    $("#removeStock").click(function(){
+        $("#orderForm").attr("action",'/norder/removeCommodityFromOrder.action?sid=2de286b2b9a47142d691089a2b7a3cbb');
+        $("#orderForm").submit();
+    });
+
+    //进入商品清单页
+    $("#commodityInfoDivID").click(function(){
+        window.location.href="/norder/commodityInfo.action?sid=2de286b2b9a47142d691089a2b7a3cbb";
+    });
+
+
+    var flowType = '';
+    function backListener(hash,next){
+        if(flowType){
+           // $("#m_common_header_goback").attr("href","javascript:history.go(-1)");
+        }else{
+            if(next!=null){
+              //  $("#m_common_header_goback").attr("href","javascript:backListener('"+next+"')");
+            }
+            if(hash!=null){
+                var backUrl = window.location.href;
+                backUrl = backUrl.replace(window.location.hash,"");
+                window.location.href=backUrl+"#"+hash;
+            }
+            if(hash==null || hash.indexOf('parent')!=-1){
+                if($("#wareId").val()!=null&&$("#wareId").val()!=""){
+                    $("#m_common_header_goback").bind('click',function(){
+                        window.location.href = '/ware/view.action?wareId=1123980&sid=2de286b2b9a47142d691089a2b7a3cbb';
+                    });
+
+                }else{
+                    $("#m_common_header_goback").bind('click',function(){
+                        window.location.href = '/cart/cart.action?sid=2de286b2b9a47142d691089a2b7a3cbb';
+                    });
+                }
+            }
+        }
+    }
+
+    $(document).ready(function(){
+        backListener();
+
+	   /*用户名文字截取。如果用户名文字过长则截取6位。剩下部分用省略号替代*/
+        if($('.s1-name span').text().length>6){
+            $('.s1-name span').text($('.s1-name span').text().substring(0,6)+'...');
+        }
+
+        /*处理支付及配送文案。如果文案过长，则后面加省略号*/
+        var paymentMassage=$("#paymentMassageID").text().trim().replace(/\s+/g,"");
+        if(paymentMassage.length>18){
+            $("#paymentMassageID").text(paymentMassage.substring(0,15)+"...");
+        }
+
+        /*处理发票信息文案。如果文案过长，则后面加省略号*/
+        var reInfo02 = document.getElementById('reInfo02');
+        var reInfo02Str = reInfo02.innerHTML.trim().replace(/\s+/g,"");
+        if (reInfo02Str.length>15) {
+            reInfo02.innerHTML = reInfo02Str.substring(0,12)+'...';
+        }else{
+            reInfo02.innerHTML=reInfo02Str;
+        };
+    });
+	
+	//加载点击样式
+	function sorry(){
+		alert("\u5bf9\u4e0d\u8d77\uff0c\u7cfb\u7edf\u7e41\u5fd9\uff0c\u8bf7\u7a0d\u540e\u518d\u8bd5\uff01");
+		return false;
+	}
+</script>
+
+    <div style="display:none;">
+        				<img src="/ja.jsp?&amp;utmn=12457341&amp;utmr=http%3A%2F%2Fitem.m.jd.com%2Fproduct%2F1123980.html&amp;utmp=%2Fnorder%2Forder.action%3Fsid%3D2de286b2b9a47142d691089a2b7a3cbb%26enterOrder%3Dtrue%26wareNum%3D1%26wareId%3D1123980&amp;guid=ON&jav=html5&pin=txjtfDTFmRYgAc2dDQhOEFaeHcNB96sq&utmac=MO-J2011-1" />
+			    </div>
+
+        <script type="text/javascript">
+        var jap = {
+            siteId: 'MO-J2011-1',
+            topic: 'traffic-jdm',
+            account: '',
+            skuid: '',
+            shopid: '',
+            orderid: '',
+            adsCookieName: 'mt_subsite',
+            jumpAppEnable: 1,
+            __cookie_jda: '__tra',
+            __cookie_jdb: '__trb',
+            __cookie_jdc: '__trc',
+            __cookie_jdu: '__tru',
+            __cookie_jdv: '__trv'
+        };
+
+        (function () {
+            var ja = document.createElement('script');
+            ja.type = 'text/javascript';
+            ja.async = true;
+            ja.src = ('https:' == document.location.protocol ? 'https://miscssl' : 'http://misc') + '.360buyimg.com/jdf/1.0.0/unit/ja/1.0.0/ja.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ja, s);
+        })();
+    </script>
+    
+
+            <script type="text/javascript" src="http://h5.m.jd.com/active/track/mping.min.js"></script>
+        <script type="text/javascript">
+            try{
+                var pv= new MPing.inputs.PV();   //构造pv 请求
+                var mping = new MPing();        //构造上报实例
+                mping.send(pv);                //上报pv
+            } catch (e){}
+        </script>
+    
+<script src="http://st.360buyimg.com/order/js/2014/module/plugIn/downloadAppPlugIn.js?v=20151027" type="text/javascript" ></script>
+
+<script type="text/javascript">
+$("#unsupport").hide();
+if(!testLocalStorage()){ //not support html5
+    if(1!=0 && !$clearCart && !$teamId){
+		$("#html5_cart_num").text(1>0>0);
+	}
+}else{
+	updateToolBar('');
+}
+
+$("#html5_cart").click(function(){
+//	syncCart('2de286b2b9a47142d691089a2b7a3cbb',true);
+	location.href='/cart/cart.action';
+});
+
+function reSearch(){
+var depCity = window.sessionStorage.getItem("airline_depCityName");
+	if(testSessionStorage() && isNotBlank(depCity) && !/^\s*$/.test(depCity) && depCity!=""){
+    	var airStr = '<form action="/airline/list.action" method="post" id="reseach">'
+        +'<input type="hidden" name="sid"  value="2de286b2b9a47142d691089a2b7a3cbb"/>'
+        +'<input type="hidden" name="depCity" value="'+ window.sessionStorage.getItem("airline_depCityName") +'"/>'
+        +'<input type="hidden" name="arrCity" value="'+ window.sessionStorage.getItem("airline_arrCityName") +'"/>'
+        +'<input type="hidden" name="depDate" value="'+ window.sessionStorage.getItem("airline_depDate") +'"/>'
+        +'<input type="hidden" name="depTime" value="'+ window.sessionStorage.getItem("airline_depTime") +'"/>'
+        +'<input type="hidden" name="classNo" value="'+ window.sessionStorage.getItem("airline_classNo") +'"/>'
+        +'</form>';
+    	$("body").append(airStr);
+    	$("#reseach").submit();
+	}else{
+    	window.location.href='/airline/index.action?sid=2de286b2b9a47142d691089a2b7a3cbb';
+	}
+}
+ //banner 关闭点击
+    $('.div_banner_close').click(function(){
+        $('#div_banner_header').unbind('click');
+        jQuery.post('/index/addClientCookieVal.json',function(d){
+              $('#div_banner_header').slideUp(500);
+        });
+    });
+    //banner 下载点击
+    $('.div_banner_download').click(function(){
+         var downloadUrl = $(this).attr('url');
+         jQuery.post('/index/addClientCookieVal.json',function(d){
+               window.location.href=downloadUrl;
+        });
+    });
+    window._clientVersion_ = '';
+    
+	$(document).ready(function(){
+		var _loadScript = function(url, options,cb){
+			var script = document.createElement("script");
+			var def = {
+				type: "text/javascript",
+				charset:"utf-8"
+			}
+			options= options|| {
+			}
+			for(var i in options){
+				def[i] = options[i];
+			}
+			script.src = url;
+			
+			for(var i in def){
+				script.setAttribute(i,def[i]);
+			}
+			script.addEventListener("load",function(){
+				cb && cb();
+			},false)
+			document.getElementsByTagName("head")[0].appendChild(script);
+		}
+				if($(".download-con").length || $("#clientArea").length){
+			_loadScript("http://st.360buyimg.com/order/js/2013/installapp.js?v=20151027",{},function(){
+				 $("#clientArea").length && downcheck($("#clientArea"),false);
+			});
+		}
+				
+	})
+
+window.onload = function(){
+    $('#openJD').downloadAppPlugIn(null,{DOWN_IPAD :'https://itunes.apple.com/cn/app/jing-dong-du-shu/id506583396?mt=8',DOWN_APP_IOS :'https://itunes.apple.com/cn/app/jing-dong-du-shu/id506583396?mt=8',DOWN_APP_URL :'http://item.m.jd.com/download/downApp.html',INTENT_URL :'openapp.jdebook://communication?params={\'type\':\'1\'}'})
+    $('#close').downloadAppPlugInClose('down_app');
+}
+
+</script>
+
+
+<!-- 通用头 显示 -->
+<script>
+
+    function loadHB(){
+        var sid = '2de286b2b9a47142d691089a2b7a3cbb';
+        var option = {
+            useDefaultImp : false
+        };
+        var mchb = new MCommonHeaderBottom();
+
+        //通用头
+        /*
+            参数说明：
+            名称						必填项(Y,N)			描述
+            hrederId			|		Y		|	显示divId
+            title				|		N		|	显示头信息
+            sid					|		N		|	m版sid串  (可取'')
+            isShowShortCut 		| 		N		|	初始化时候是否显示快捷键，不显示
+            selectedShortCut	|		N		|	初始化时候显示选择第几个快捷键 (1:首页, 2:分类搜索, 3:购物车, 4:我的京东) 默认不选中
+            onClickGoback		|		N		|	点击返回触发事件
+            onClickJdkey		|		N		|	点击显示隐藏快捷键触发事件
+            onClickIndex		|		N		|	点击首页触发事件
+            onClickSearch		|		N		|	点击搜索触发事件
+            onClickCart			|		N		|	点击购物车触发事件
+            onClickHome			|		N		|	点击home触发事件
+
+        var headerArg = {hrederId : 'm_common_header', sid : sid, isShowShortCut : false, selectedShortCut : '3',
+            onClickGoback:function(){alert('onClickGoback')},
+            onClickJdkey:function(){alert('onClickJdkey')},
+            onClickIndex:function(){alert('onClickIndex')},
+            onClickSearch:function(){alert('onClickCart')},
+            onClickCart:function(){alert('onClickCart')},
+            onClickHome:function(){alert('onClickHome')},};
+        */
+
+        var title = "填写订单";
+        var headerArg = {hrederId : 'm_common_header', title:title, sid : sid, isShowShortCut : false, selectedShortCut : getShortCutValue()}
+        mchb.header(headerArg);
+
+        function getShortCutValue(){
+            /**
+             * 只有在购物车页面时，才显示到导航中的“购物车”为选中状态。
+             */
+            return window.location.pathname.indexOf("/cart/cart.action")>=0 ? '3':'';
+        };
+
+        //通用尾
+        /*
+            参数说明：
+            名称						必填项(Y,N)			描述
+            bottomId			|		Y		|	显示divId
+            sid					|		N		|	m版sid串  (可取'')
+            pin			 		| 		Y		|	用户pin (登录pin不为空，未登录为'')
+            toPcSkipurl			|		Y		|	跳转pc版url
+            footerPlatforms		|		Y		|	配置跳转快捷键参数插件
+                                                    默认提供4种快捷配置
+                                                    enum0 ：none 0个
+                                                    enum2 : 客户端 1个
+                                                    enum3 : 标准版 触屏版 客户端 3 个
+                                                    enum4 : 标准版 触屏版 电脑版 客户端 4个
+                                                    自定义参数说明
+                                                    id:唯一标识, name:名称(standard 标准版,touchscreen 触屏版 ,pc
+                                                    pc版,apps app版) href:跳转的url ,onClickX 点击事件
+            downloadAppPlugIn	|		N		|	配置跳转app参数 (包含：parameters,otherApp参数)
+                                                    具体详见 http://st.360buyimg.com/m/js/2014/module/plugIn/downloadAppPlugIn.src.js
+        */
+        var pin = 'jd_7ec26657ddf17';
+        var toPcSkipurl = 'http://www.jd.com/#m'; //跳转电脑版url
+        var footerPlatforms4 = mchb.platformEnum(toPcSkipurl,sid).enum3_1;//标准版 触屏版 电脑版 客户端 4个
+        var bottomArg = {bottomId : 'm_common_bottom', sid : sid, pin : pin ,footerPlatforms : footerPlatforms4};
+        mchb.bottom(bottomArg);
+
+//        var footerPlatforms5 = [ {id:1, name:'standard', href:'http://wap.jd.com/index.html?v=w&sid=' + sid, onClickX:function(){alert('自定义事件,我要去标准版')}},
+//            {id:2, name:'touchscreen', href:'', onClickX:function(){alert('自定义事件,我是触屏版');}},
+//            {id:3, name:'pc', href:'http://www.jd.com/#m', onClickX:function(){alert('goToPc');}},
+//            {id:4, name:'apps', href:'', onClickX:function(){alert('自定义点击事件,并默认执行下载app事件');}}
+//        ];//自定义
+//        var bottomArg = {bottomId : 'm_common_bottom5', sid : sid, pin : pin ,footerPlatforms : footerPlatforms5};
+//        mchb.bottom(bottomArg);
+
+        //通用提示下载京东客户端
+        /*
+            参数说明：
+            名称						必填项(Y,N)			描述
+            tipId				|		Y		|	显示divId
+            sid					|		N		|	m版sid串  (可取'')
+            isfloat 			| 		N		|	是否是悬浮窗 (true:悬浮,false:不悬浮)
+            isAlwayShow			| 		N		|	是否显示,true:并不受到 24小时 点击 关闭X 的影响。 默认：false
+            copyWrite			|		N		|	文案 富文本 支持，不建议太长可能会导致样式变形。eg:客户端首单返5元<br>更多特价商品等你抢
+            location			|		N		|	停靠位置,(取值范围：'bottom:0px;':靠近底端  ，'top:0px;':靠近顶端)
+            onClickTrynow		|		N		|	点击下载触发事件
+            onClickTipX			|		N		|	点击关闭X触发事件
+            downloadAppPlugIn	|		N		|	配置跳转app参数 (包含：parameters,otherApp参数)
+                                                    具体详见 http://st.360buyimg.com/m/js/2014/module/plugIn/downloadAppPlugIn.src.js
+        */
+        var tipArg = {tipId : 'm_common_tip', sid : sid, isfloat: true, isAlwayShow : true,
+            copyWrite:'自己自定义的文案<br>返卷100哦！',
+            onClickTrynow: function(){},
+            onClickTipX: function(){alert("自定义点击事件,并默认执行关闭app事件")}};
+        mchb.jdTip(tipArg);
+
+        var tipArg2 = {tipId : 'm_common_tip_no_float', sid : sid, isfloat: false, isAlwayShow : true,
+            onClickTrynow: function(){},
+            onClickTipX: function(){alert("自定义点击事件,并默认执行关闭app事件")}};
+
+        mchb.jdTip(tipArg2);
+
+    }
+
+    loadHB();
+</script>
+</body>
+</html>

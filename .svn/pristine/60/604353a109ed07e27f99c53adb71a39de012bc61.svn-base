@@ -1,0 +1,40 @@
+.news-list-div{
+	width: 100%;
+}
+.news-list-ul li{
+	background-color: white;
+	margin-bottom: 0.2rem;
+	padding: 0.2rem;
+}
+.news-list-ul .news_text{
+	font-size: 0.3rem;
+	color: #191919;
+}
+.news-list-ul .news_mark span{
+	color: #939393;
+}
+.news-list-ul .news_mark{
+	width: 100%;
+	overflow: hidden;
+	height: 0.36rem;
+	line-height: 0.36rem;
+}
+.news-list-ul .from{
+	font-size: 0.24rem;
+	margin-right: 0.65rem;
+}
+.news-list-ul .click{
+	font-size: 0.18rem;
+}
+.news-list-ul .click img{
+	width: 0.25rem;
+	height: 0.17rem;
+	display: inline-block;
+	margin-right: 0.1rem;
+	position: relative;
+	top: -0.02rem;
+}
+.news-list-ul .time{
+	font-size: 0.18rem;
+	float: right;
+}

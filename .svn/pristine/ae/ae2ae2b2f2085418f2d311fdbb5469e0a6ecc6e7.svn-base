@@ -1,0 +1,174 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+html{
+    background-color:#ebebeb
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.dingdan-box{
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaea;
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+    font-family:"微软雅黑";
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+.main-top img.serch{
+    position: relative;
+   /* position: absolute;*/
+    float: right;
+    width: 15px;
+    margin-top: -30px;
+    margin-right: 13px;
+
+}
+.main-top p{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+.dian-tit{
+    width: 100%;
+    padding: 8px 19px;
+    height: 90px;
+    background-color: #7ebb38;
+}
+.dian-tit img{
+    width: 69px;
+    float: left;
+}
+.dian-tit .cont{
+    padding: 5px;
+    float: left;
+    margin-left: 10px;
+}
+.dian-tit .cont p{
+   color: #000;
+   font-size: 14px;
+   letter-spacing: 1px;
+   line-height: 20px;
+}
+.dian-tit .cont p.p2{
+   color: #fff;
+   font-size: 12px;
+   line-height: 20px;
+}
+.dian-tit .cont p.juli{
+    background-color: #fff;
+    color:#7ebb38;
+    letter-spacing:0px;
+    font-size: 12px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 3px;
+}
+.yingyetime {
+    padding: 8px;
+    width: 100%;
+    height: 105px;
+    color: #000;
+    font-size: 12px;
+    background-color: #fff;
+}
+.yingyetime p{
+    line-height: 30px;
+}
+.yingyetime img{
+    width: 19px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.kucun{
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+}
+.kucun p.tit{
+    width: 100%;
+    background-color: #f0f0f2;
+    padding-left: 15px;
+    line-height: 32px;
+    font-size: 12px;
+    color: #000;
+}
+.kucun p{
+    line-height: 25px;
+    padding:3px 15px;
+}
+.kucun p img{
+    width: 19px;
+    float: left;
+    margin-right: 10px;
+}
+.kucun p span{
+    float: right;
+}
+.search-cont{
+    width: 100%;
+    padding: 8px 10px;
+    background-color: #f0f0f2;
+}
+.search-cont > p{
+    width: 100%;
+    background-color: #f0f0f2;
+    padding-left: 15px;
+    line-height: 32px;
+    font-size: 12px;
+    color: #000;
+}
+.search-cont li{
+    width: 49%;
+    float: left;
+    background-color: #fff;
+    height: 13em;
+    list-style: none;
+    margin-right: 2%;
+    margin-bottom: 8px;
+}
+.search-cont li.right{
+    margin-right: 0px;
+}
+.search-cont li img{
+    width: 6em;
+    margin:0 auto;
+    margin-top: 1em;
+}
+.search-cont li .cont{
+    height: 4.5em;
+    margin-top: 0.7em;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,98 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+	font-size: 0;
+	font-family: "微软雅黑";
+	background-color: white;
+}
+ul{
+	font-size: 0;
+}
+input{
+	outline: none;
+	border: none;
+}
+/*header*/
+.system-nav{
+	width: 100%;
+	height: 0.88rem;
+	color: white;
+	line-height: 0.88rem;
+	background-color: #d60303;
+	box-shadow:0 0.05rem 0.05rem -0.02rem #999999;
+	position: fixed;
+	min-width: 320px;
+	max-width: 750px;
+	top: 0;
+	z-index: 9;
+}
+.system-nav .title-name{
+	font-size: 0.43rem;
+	text-align: center;
+}
+.system-nav .left-return{
+	width: 0.34rem;
+	height: 0.61rem;
+	position: absolute;
+	top: 0.135rem;
+	left: 0.3rem;
+}
+.system-nav .right-add{
+	position: absolute;
+	right: 0.3rem;
+	width: 0.62rem;
+	height: 0.62rem;
+	top: 0.13rem;
+}
+.nav-right-text{
+	font-size: 0.4rem;
+	color: white;
+	position: absolute;
+	right: 0.3rem;
+	line-height: 0.88rem;
+	top: 0;
+}
+/*footer*/
+.system-btm{
+	width: 100%;
+	height: 1.08rem;
+	padding: 0 0.3rem;
+	background-color: #f4f4f4;
+	box-shadow:0 -0.01rem 0.08rem #999999;
+	position: fixed;
+	bottom: 0;
+	min-width: 320px;
+	max-width: 750px;
+}
+.system-btm ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.system-btm ul li{
+	width: 100%;
+	height: 100%;
+}
+.system-btm ul li p{
+	font-size: 0.2rem;
+	text-align: center;
+}
+.system-btm .seller_center,.system-btm .management_center{
+	width: 0.29rem;
+	height: 0.35rem;
+	margin: 0 auto;
+	margin-top: 0.21rem;
+	margin-bottom: 0.11rem;
+}
+.system-btm .management_center{
+	width: 0.35rem;
+}
+.system-btm ul li p{
+	color: #999999;
+}
+/*底部栏选中的红色文字样式*/
+.system-btm .system-btm-p{
+	color: #d60303;
+}

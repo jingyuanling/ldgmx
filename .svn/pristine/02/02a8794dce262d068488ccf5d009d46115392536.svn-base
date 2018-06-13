@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>个人资料</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_personal_data.css"/>
+	</head>
+	<body>
+		<div class="wine_header">
+			<img src="img/wine_return.png"/>
+            <div class="wine_all_class_goback">
+                <p>个人资料</p>
+            </div>
+        </div>
+        <div class="wine_personal_content">
+        	<a href="LD_wine_person_data_name.html">
+        		<div class="wine_agent wine_three_div">
+		        	<span>姓名：</span><span>&nbsp;刘君盛</span><span>&gt;</span>
+		        </div>
+        	</a>
+	        <a href="LD_wine_sex.html">
+	        	<div class="wine_members wine_three_div">
+		        	<span>性别：</span><span>&nbsp;刘君盛</span><span>&gt;</span>
+		        </div>
+	        </a>
+	        <a href="LD_wine_birthday.html">
+	        	<div class="wine_agent wine_three_div">
+		        	<span>生日：</span><span>&nbsp;刘君盛</span><span>&gt;</span>
+		        </div>
+	        </a>
+	        <a href="">
+	        	<div class="wine_members wine_three_div">
+		        	<span>电话：</span><span>&nbsp;刘君盛</span><span>&gt;</span>
+		        </div>
+	        </a>
+	        <a href="">
+	        	<div class="wine_members wine_three_div">
+		        	<span>银行卡：</span><span>&nbsp;刘君盛</span><span>&gt;</span>
+		        </div>
+	        </a>
+        </div>
+	</body>
+</html>

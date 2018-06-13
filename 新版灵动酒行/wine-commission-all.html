@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>全部佣金明细</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-agent-control.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-touchBalance.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow" onclick="javascript:history.back(-1);"><img src="imgs/left-return-arrow2.png" alt=""/></span>
+				<p class="text-center nav-tit-name">佣金明细</p>
+				<a href="wine-chat.html" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap">
+			<!--筛选头部-->
+			<table class="balance-nav-tab" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="balance_nav_active">全部明细<span class="line-red-all"></span></td>
+					<td>已入账<span class="line-red-all"></span></td>
+					<td>未入账<span class="line-red-all"></span></td>
+				</tr>
+			</table>
+			<ul class="agent-comm-manage agent-details-conm" style="padding-top: 0.81rem;">
+				<li>
+					<p class="agent-manage-tit agent-details-tit"><span class="name">订单号&nbsp;0000001</span><span class="grade"><!--1级--><!--两种状态-->订单佣金</span><span class="time">2018-05-05</span></p>
+					<div class="agent-order-comm">
+						<p class="agent-comm-p">
+							<span class="left-span1">100</span>
+							<span class="left-span2">订单数量</span>
+						</p>
+						<p class="agent-comm-p">
+							<span class="right-span1 not-get">未入账</span>
+							<span class="right-span2">(预计2018-05-16结算)</span>
+						</p>
+					</div>
+				</li>
+				<li>
+					<p class="agent-manage-tit agent-details-tit"><span class="name">订单号&nbsp;0000001</span><span class="grade"><!--1级--><!--两种状态-->创业礼包佣金</span><span class="time">2018-05-05</span></p>
+					<div class="agent-order-comm">
+						<p class="agent-comm-p">
+							<span class="left-span1">100</span>
+							<span class="left-span2">订单数量</span>
+						</p>
+						<p class="agent-comm-p">
+							<span class="right-span1 get">已入账</span>
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

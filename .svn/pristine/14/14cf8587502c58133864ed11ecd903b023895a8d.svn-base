@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>全部分类</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+		<link rel="stylesheet" type="text/css" href="css/LD_wine_header.css"/>
+	    <link href="css/LD_wine_all_class.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="wine_header">
+			<img src="img/wine_return.png"/>
+	            <div class="wine_all_class_goback">
+	                <p>全部分类</p>
+	            </div>
+	        </div>
+	    <div class="wine_all_class_help-box">
+	        <ul class="wine_class_goods_list">
+	        	<li>
+	        		<img src="img/wine_goods.png">
+	        		<div class="wine_class_name">
+	        			白酒
+	        		</div>
+	        	</li>
+	        	<li>
+	        		<img src="img/wine_goods.png">
+	        		<div class="wine_class_name">
+	        			白酒
+	        		</div>
+	        	</li>
+	        	<li>
+	        		<img src="img/wine_goods.png">
+	        		<div class="wine_class_name">
+	        			白酒
+	        		</div>
+	        	</li>
+	        	<li>
+	        		<img src="img/wine_goods.png">
+	        		<div class="wine_class_name">
+	        			白酒
+	        		</div>
+	        	</li>
+	        	<li>
+	        		<img src="img/wine_goods.png">
+	        		<div class="wine_class_name">
+	        			白酒
+	        		</div>
+	        	</li>
+	        	<li>
+	        		<img src="img/wine_goods.png">
+	        		<div class="wine_class_name">
+	        			白酒
+	        		</div>
+	        	</li>
+	        	<li>
+	        		<img src="img/wine_goods.png">
+	        		<div class="wine_class_name">
+	        			白酒
+	        		</div>
+	        	</li>
+	        	<li>
+	        		<img src="img/wine_goods.png">
+	        		<div class="wine_class_name">
+	        			白酒
+	        		</div>
+	        	</li>
+	        </ul>
+	    </div>  
+	</body>
+</html>

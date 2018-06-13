@@ -1,0 +1,25 @@
+::-webkit-scrollbar{
+	display: none;
+}
+.wine_bottom{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #d7d7d7;
+    padding: 0.08rem 0.2rem;
+}
+.wine_bottom li{
+	width: 100%;
+    float: left;
+    list-style: none;
+    box-sizing: border-box;
+}
+.wine_bottom li img{
+    height: 0.8rem;	
+    margin-top: 4px;
+}

@@ -1,0 +1,130 @@
+.wrap618{
+	width: 100%;
+	height: 45.78rem;
+	background: url(../img/wrap618-bg.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	font-family: "微软雅黑";
+	padding-top: 5.52rem;
+	font-size: 0;
+}
+.wrap618-content{
+	width: 7.39rem;
+	height: 39.80rem;
+	margin: 0 auto;
+	background: url(../img/content618-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	padding-top: 0.65rem;
+}
+.content618-module{
+	height: 3.3rem;
+	width: 6.5rem;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 0.3rem;
+	overflow: hidden;
+}
+.content618-module .left{
+	float: left;
+}
+.content618-module .right{
+	float: right;
+}
+.module-img{
+	width: 3.1rem;
+	height: 3rem;
+	padding-left: 0.1rem;
+}
+.module-img img{
+	border-radius: 0.08rem;
+	width: 3rem;
+	height: 100%;
+}
+.module-text{
+	width: 3.3rem;
+	padding-left: 0.1rem;
+}
+.logo618{
+	width: 1.34rem;
+	height: 0.57rem;
+	top: 0;
+	position: absolute;
+}
+.module-text .module-tit{
+	font-size: 0.3136rem;
+	height: 0.33rem;
+	line-height: 0.33rem;
+	color: #f3eb1a;
+}
+.module-text .module-good-details{
+	font-size: 0.2612rem;
+	height: 0.53rem;
+	line-height: 0.53rem;
+	color: #FFFFFF;
+}
+.module-btn{
+	width: 2rem;
+	height: 0.56rem;
+	background-image: linear-gradient(#ff01e1,#fd0249);
+	border-radius: 0.1rem;
+	line-height: 0.56rem;
+	text-align: center;
+}
+.module-btn a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #FFFFFF;
+}
+.content618-module-three .module-text .module-tit{
+	font-size: 0.2864rem;
+	height: 0.32rem;
+	line-height: 0.3rem;
+}
+.content618-module-three .module-text .module-good-details{
+	font-size: 0.2385rem;
+	height: 0.48rem;
+	line-height: 0.48rem;
+}
+.content618-module-three .module-img{
+	height: 2.82rem;
+}
+.content618-module-three .logo618{
+	top: 0.1rem;
+}
+.content618-module-two{
+	overflow: hidden;
+	width: 100%;
+	height: 5.3rem;
+	margin-top: 1.46rem;
+}
+.content618-module-two .content618-module{
+	width: 2.74rem;
+	height: 100%;
+	float: left;
+	padding-top: 0;
+	margin-left: 0.53rem;
+}
+.content618-module-two .module-img{
+	width: 2.74rem;
+	height: 2.6rem;
+	padding-left: 0;
+}
+.content618-module-two .module-img img{
+	width: 100%;
+	height: 100%;
+}
+.content618-module-two .module-text{
+	padding-left: 0;
+	margin-top: 0.15rem;
+}
+.content618-module-two .module-text .module-tit{
+	font-size: 0.2563rem;
+	height: 0.27rem;
+	line-height: 0.27rem;
+}
+.content618-module-two .module-good-details{
+	font-size: 0.2134rem;
+	height: 0.43rem;
+	line-height: 0.43rem;
+}

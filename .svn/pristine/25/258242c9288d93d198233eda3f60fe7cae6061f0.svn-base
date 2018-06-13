@@ -1,0 +1,48 @@
+.life_search_wrap{
+	width: 100%;
+	padding-top: 50px;
+}
+.life_hot_search{
+	width: 100%;
+	padding: 0 3%;
+}
+.life_hot_search_title{
+	font-size: 1em;
+	line-height: 2em;
+	color: #9d9d9d;
+}
+.life_hot_search_content{
+	width: 100%;
+}
+.life_hot_search span{
+	border: 1px solid #d3d3d3;
+	color: #666666;
+	font-size: 1.1em;
+	display: inline-block;
+	padding: 0.1em 0.4em;
+	border-radius: 0.2em;
+	margin-top: 0.5em;
+}
+.life_search_history{
+	width: 100%;
+	padding: 0 3%;
+	margin-top: 1em;
+}
+.life_search_history li{
+	font-size: 1.1em;
+	width: 100%;
+	line-height: 2.5em;
+	color: #222222;
+	border-bottom: 1px solid #d3d3d3;
+}
+.life_clear_his{
+	margin-top: 1.2em;
+	font-size: 1.1em;
+	width: 94%;
+	margin-left: 3%;
+	border-radius: 0.3em;
+	line-height: 2.5em;
+	text-align: center;
+	color: #222222;
+	border: 1px solid #d3d3d3;
+}

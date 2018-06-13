@@ -1,0 +1,64 @@
+.upload-order-wrap{
+	width: 100%;
+	height: 100%;
+	padding-top: 0.88rem;
+	padding-bottom: 1.1rem;
+	color: #999999;
+	overflow-y: scroll;
+}
+.upload-order-upper{
+	width: 100%;
+	padding: 0 0.3rem;
+	margin-bottom: 0.34rem;
+}
+.upload-order-upper .upload-tit{
+	font-size: 0.36rem;
+	line-height: 0.8rem;
+}
+.upload-photo-frame{
+	width: 100%;
+	height: 2.77rem;
+	border: 0.03rem dashed #ececec;
+}
+.upload-photo-frame .add-gray-img{
+	width: 0.7rem;
+	height: 0.7rem;
+	margin: 0 auto;
+	margin-top: 0.6rem;
+	margin-bottom: 0.2rem;
+}
+.upload-photo-frame p{
+	font-size: 0.22rem;
+	text-align: center;
+	font-weight: lighter;
+}
+.upload-log-inform{
+	border-top: 0.02rem solid #ececec;
+}
+.upload-log-inform p{
+	padding: 0 0.3rem;
+	line-height: 0.78rem;
+	overflow: hidden;
+	font-size: 0.32rem;
+	border-bottom: 0.02rem solid #ececec;
+}
+.upload-log-inform .log-choose-tit{
+	font-size: 0.35rem;
+}
+.upload-log-inform .log-choose-tit img{
+	width: 0.55rem;
+	height: 0.32rem;
+	float: right;
+	margin-top: 0.23rem;
+}
+/*隐藏区域*/
+/*点击上传运单号弹框*/
+.upload-photo-gray{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	min-width: 320px;
+	max-width: 750px;
+	background-color: rgba(0,0,0,0.5);
+}

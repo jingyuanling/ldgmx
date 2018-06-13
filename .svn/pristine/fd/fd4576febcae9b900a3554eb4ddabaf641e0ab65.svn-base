@@ -1,0 +1,129 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+html{
+     background-color: #f0f0f2;
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.zhifu-box{
+    width: 100%;
+    background-color:#f0f0f2
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+.main-top img.serch{
+    position: relative;
+   /* position: absolute;*/
+    float: right;
+    width: 18px;
+    margin-top: -28px;
+    margin-right: 13px;
+
+}
+.main-top p{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+.cont{
+   padding: 0 15px;
+   margin-top: 10px;
+}
+.cont p{
+    height: 32px;
+    line-height: 32px;
+    color: #000;
+    font-size: 12px;
+}
+.select{
+    padding: 0 15px;
+    width: 100%;
+    margin-top: 10px;
+   /* height: 80px;*/
+    background-color: #fff;
+    line-height: 50px;
+    font-size: 14px;
+}
+.select p{
+    width: 100%;
+    height: 50px;
+    border-bottom:1px solid #b7b6b6;
+}
+.select p.way{
+    
+}
+.select p.p2{
+    border:none;
+}
+.select p span{
+    float: left;
+}
+.select p img{
+    width: 22px;
+    vertical-align: top;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+.select p span.money{
+    color: #827c82;
+    margin-left: 20px;
+}
+.select p span.xuan{
+    /*width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border:1px solid #827c82;*/
+    float: right;
+}
+.select p span.xuan img{
+    width: 17px;
+    margin-top: -1px;
+    margin-left: -1px;
+    display: none;
+}
+.select p span.xuan img.active{
+    display: block;
+}
+/*.zhifuanniu p{
+             width: 70%;
+             margin: 0 auto;
+             height: 35px;
+             background-color: #e84e40;
+             border-radius: 5px;
+             margin-top: 15px;
+             color:#fff;
+             font-size: 12px;
+             text-align: center;line-height: 35px;
+         }
+
+
+*/

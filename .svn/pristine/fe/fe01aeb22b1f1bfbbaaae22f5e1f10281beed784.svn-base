@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/gift01.css">
+    </head>
+    <body>
+        <div class="bg">
+             <div class="header">
+                <a href="javascript:void(0);" class="back"><</a>
+                 礼盒活动
+                <a href="javascript:void(0);" class="share"></a>
+            </div>
+            <div class="gift">
+                <img src="img/bg05.png" alt="">
+            </div>
+            <div class="bottom">
+                <div class="info">
+                    <div class="info01"></div>
+                    <div class="info02"></div>
+                </div>
+                <div class="huojiang">
+                    <a href="javascript:void(0);" class="mingdan"></a>
+                    <a href="javascript:void(0);" class="guize"></a>
+                </div>
+                <p>已有<span style="color:#fff;">30</span>人参与领取礼盒</p>
+            </div>   
+        </div>
+        <script src="js/rem.js"></script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+.life_home_wrap{
+	padding-bottom: 0;
+}
+.life_map_content{
+	width: 100%;
+	height: 10em;
+}
+.life_class_title{
+	background-color: white;
+	border: 1px solid #d3d3d3;
+	overflow: hidden;
+}
+.life_class_title span{
+	display: inline-block;
+	width: 18%;
+	font-size: 1.1em;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 3%;
+	box-sizing: border-box;
+	float: left;
+	text-align: left;
+}
+.life_class_title span:nth-last-child(1){
+	width: 28%;
+	/*font-size: 1.3em;*/
+}

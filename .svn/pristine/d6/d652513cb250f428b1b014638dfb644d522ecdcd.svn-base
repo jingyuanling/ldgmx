@@ -1,0 +1,55 @@
+body{
+	background-color: white;
+}
+.set-login-pwd{
+	width: 100%;
+	padding: 46px 20px 0;
+}
+.set-login-pwd .user-photo{
+	width: 80px;
+	height: 80px;
+	margin: 20px auto 5px;
+}
+.set-login-pwd .user-photo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.set-login-pwd .username{
+	font-size: 20px;
+	text-align: center;
+	color: #333333;
+}
+.set-login-pwd .inp-login-pwd-div{
+	width: 100%;
+	position: relative;
+}
+.set-login-pwd .inp-login-pwd{
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	padding-left: 50px;
+	border-bottom: 2px solid #dfdfdf;
+	color: #000000;
+}
+.set-login-pwd .inp-login-pwd-div .lock{
+	width: 16px;
+	height: 20px;
+	position: absolute;
+	left: 15px;
+	top: 17px;
+}
+.login-sure-btn{
+	width: 100%;
+	height: 30px;
+	color: white;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 30px;
+	background-color: #f25252;
+}

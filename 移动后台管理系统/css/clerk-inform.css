@@ -1,0 +1,133 @@
+.clerk-inform-wrap{
+	width: 100%;
+	height: 100%;
+	padding-top: 0.88rem;
+	padding-bottom: 1.1rem;
+	overflow-y: scroll;
+	    font-family: "黑体";
+}
+.clerk-inform-upper{
+	padding: 0.55rem 0;
+	border-bottom: 0.01rem solid #e7e7e7;
+}
+.clerk-inform-upper .clerk-head-portrait{
+	width: 2.29rem;
+	height: 2.29rem;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 0.4rem;
+}
+.clerk-inform-upper .clerk-account{
+	text-align: center;
+	font-size: 0.44rem;
+	color: #666666;
+}
+.clerk-inform-wrap .role-class-tit,.role-class-wrap .role-class-tit{
+	width: 100%;
+	padding: 0 0.68rem 0 0.78rem;
+	overflow: hidden;
+	line-height: 0.73rem;
+	border-bottom: 0.02rem solid #e7e7e7;
+}
+.role-class-tit .clerk-role{
+	font-size: 0.43rem;
+	color: #585858;
+	float: left;
+	font-family: "黑体";
+    font-weight: bold;
+}
+.role-class-tit .more-role{
+	font-size: 0.24rem;
+	color: #ff7777;
+	float: right;
+}
+.role-class-tit .more-role img{
+	width: 0.19rem;
+	height: 0.22rem;
+	margin-left: 0.05rem;
+	position: relative;
+	top: -0.02rem;
+	display: inline-block;
+}
+.role-sel-ul{
+	overflow: hidden;
+	padding: 0.1rem 0 0.1rem 0.78rem;
+	border-bottom: 0.01rem solid #e7e7e7;
+	margin-bottom: 0.4rem;
+}
+.role-sel-ul li{
+	width: 50%;
+	float: left;
+	font-size: 0.31rem;
+	color: #666666;
+	line-height: 0.7rem;
+}
+.role-sel-ul .role-sel{
+	width: 0.32rem;
+	height: 0.32rem;
+	display: inline-block;
+	border: 0.03rem solid #FF0000;
+	position: relative;
+	top: 0.05rem;
+	border-radius: 0.07rem;
+}
+.role-sel-ul .role-sel-white{
+	width: 0.16rem;
+	height: 0.16rem;
+	display: inline-block;
+	background-color: white;
+	position: absolute;
+	top: 0.05rem;
+	left: 0.05rem;
+	border-radius: 0.05rem;
+}
+.role-sel-ul .role-sel-red{
+	background-color: #FF0000;
+}
+.role-sel-ul li:nth-child(even){
+	padding-left: 0.3rem;
+}
+.role-two-btn{
+	padding: 0 0.3rem;
+	overflow: hidden;
+}
+.role-del-btn{
+	padding: 0 0.3rem;
+}
+.role-del-btn span{
+	width: 100%;
+	display: inline-block;
+	font-size: 0.44rem;
+	text-align: center;
+	line-height: 0.92rem;
+	color: white;
+	border-radius: 0.07rem;
+	letter-spacing: 0.3rem;
+	text-indent: 0.3rem;
+	background-color: #d5d5d5;
+}
+/*隐藏区域*/
+/*所有角色*/
+.role-class-gray{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	min-width: 320px;
+	max-width: 750px;
+	display: none;
+}
+.role-class-wrap{
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 0.2rem;
+}
+.role-class-wrap .role-sel-ul{
+	height: 6rem;
+	margin-bottom: 0;
+	overflow-y: scroll;
+	border: none;
+}

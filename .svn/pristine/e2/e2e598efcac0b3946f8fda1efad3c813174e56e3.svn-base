@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-home.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav-class">
+				<div class="wine-head">
+					<ul>
+						<li class="head_li_active"><a href="###">热门<span></span></a></li>
+						<li><a href="wine-firstclass.html">酒水<span></span></a></li>
+						<li><a href="###">服饰<span></span></a></li>
+						<li><a href="###">家电<span></span></a></li>
+						<li><a href="###">家具<span></span></a></li>
+						<li><a href="###">保健<span></span></a></li>
+						<li><a href="###">医疗<span></span></a></li>
+						<li><a href="###">电子<span></span></a></li>
+						<li><a href="###">电脑<span></span></a></li>
+						<li><a href="###">手机<span></span></a></li>
+						<li><a href="###">图书<span></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="wine-wrap" id="return-top">
+			<div class="wine-home-banner">
+				<!--消息弹框-->
+				<div class="banner-barrage">
+					<span class="barrage-photo"><img alt="" src=""/></span>
+					<p class="barrage-text">XXX获得订单佣金¥2000</p>
+				</div>
+				<div class="swiper-container">
+				  <div class="swiper-wrapper">
+				    <div class="swiper-slide"><img alt="" src="img/banner.jpg"/></div>
+				    <div class="swiper-slide"><img alt="" src="img/banner.jpg"/></div>
+				    <div class="swiper-slide"><img alt="" src="img/banner.jpg"/></div>
+				  </div>
+				  <div class="swiper-pagination text-right"></div>
+				</div>
+			</div>
+			<div class="wine-home-class">
+				<ul>
+					<li>
+						<a href="javascript:void(0)">
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>限时秒杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>限时秒杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>限时秒杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>限时秒杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>限时秒杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>限时秒杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>限时秒杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>限时秒杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>限时秒杀</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<span><img src="img/banner.jpg" alt=""/></span>
+							<p>限时秒杀</p>	
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="home-content">
+				<ul class="home-recom">
+					<li>
+						<span class="home-recom-img"><img src="" alt=""/></span>
+						<p class="home-recom-desc">商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题</p>
+						<div class="home-recom-prize">
+							<p class="prize-welfare"><span class="prize">¥100</span><span class="welfare">奖励经验10点</span></p>
+							<a href="###" class="text-center to-place-btn">去下单<img src="imgs/right-arrow.png"/></a>
+						</div>
+					</li>
+					<li>
+						<span class="home-recom-img"><img src="" alt=""/></span>
+						<p class="home-recom-desc">商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题</p>
+						<div class="home-recom-prize">
+							<p class="prize-welfare"><span class="prize">¥100</span><span class="welfare">奖励经验10点</span></p>
+							<a href="###" class="text-center to-place-btn">去下单<img src="imgs/right-arrow.png"/></a>
+						</div>
+					</li>
+					<li>
+						<span class="home-recom-img"><img src="" alt=""/></span>
+						<p class="home-recom-desc">商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题</p>
+						<div class="home-recom-prize">
+							<p class="prize-welfare"><span class="prize">¥100</span><span class="welfare">奖励经验10点</span></p>
+							<a href="###" class="text-center to-place-btn">去下单<img src="imgs/right-arrow.png"/></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--回到顶部按钮-->
+		<div class="btm-none-return">
+			<a href="#return-top" class="return-top-btn">
+				<span><img src="imgs/return-top-arrow.png" alt=""/></span>
+				<p>顶部</p>
+			</a>
+		</div>
+		<div class="wine-foot">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>
+						<a href="wine-home.html">
+							<p class="img"><img src="imgs/btm-home-red.png" alt=""/></p>
+							<p class="text text-red">首页</p>
+						</a>
+					</td>
+					<td>
+						<a href="###">
+							<p class="img"><img src="imgs/btm-search-gray.png" alt=""/></p>
+							<p class="text">搜索</p>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<p class="img"><img src="imgs/btm-cart-gray.png" alt=""/></p>
+							<p class="text">购物车</p>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<p class="img"><img src="imgs/btm-promote-gray.png" alt=""/></p>
+							<p class="text">推广码</p>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<p class="img"><img src="imgs/btm-person-gray.png" alt=""/></p>
+							<p class="text">个人中心</p>
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<script type="text/javascript">
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: 2000,//可选选项，自动滑动
+				loop : true,
+				autoplayDisableOnInteraction : false,
+				pagination : '.swiper-pagination'
+			})
+			setInterval(function(){
+				$('.banner-barrage').fadeToggle();
+			},5000);
+		</script>
+	</body>
+</html>

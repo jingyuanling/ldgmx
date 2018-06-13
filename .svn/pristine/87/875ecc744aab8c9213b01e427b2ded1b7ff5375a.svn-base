@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>等级管理</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-level-manage.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow"><img src="imgs/left-return-arrow.png" alt=""/></span>
+				<p class="text-center nav-tit-name">等级管理</p>
+				<a href="javascript:void(0)" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+			</div>
+		</div>
+		<div class="wine-wrap">
+			<div class="person-upper">
+				<span class="person-gmx-logo"><img src="imgs/gmx-logo.png" alt="" /></span>
+				<div class="account-infor">
+					<span class="user-photo"></span>
+					<p class="account-infor-p">
+						<span class="userName">昵称昵称</span>
+						<i class="level">高级VIP</i>
+					</p>
+				</div>
+			</div>
+			<div class="level-center">
+				<p class="level-suffer">
+					<span class="left">高级VIP</span>
+					<span class="center">6000 经验值</span>
+					<span class="right">股东</span>
+				</p>
+				<p class="progress-bar"><span></span></p>
+				<div class="upgrade-task">
+					<p class="upgrade-task-tit">升级任务</p>
+					<p class="task">本账号要获得5000经验值<span class="over">已达成</span></p>
+					<p class="task">旗下3名一级代理成为高级VIP<span class="not-reach">未达成</span></p>
+				</div>
+				<p class="level-center-btttom">团队中任意成员消费，即可获得商品相应经验值<img src="imgs/query-logo.png" alt="" /></p>
+			</div>
+			<div class="level-bottom">
+				<p class="level-bottom-tit">等级明细及权益</p>
+				<div class="level-bottom-content">
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>素材详情</title>
+	    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/headAndfoot.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/poster-details.css"/>
+	    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="material-nav">
+			<span class="glyphicon glyphicon-menu-left"></span>
+			<p class="text-center">素材详情</p>
+		</div>
+		<div class="container-fluid">
+			<div class="poster-details-img">
+				<img class="center-block right-icon" src="img/goods-img.png"/>
+			</div>
+			<div class="details-desc">
+				<h1>我是标题</h1>
+				<p class="down-num">
+					<span class="glyphicon glyphicon-download-alt"></span><span>123</span>
+					<span class="time">3-21 14:30 上传</span>
+				</p>
+				<p class="details-label">
+					<span>重阳</span>
+					<span>登高</span>
+					<span>节日活动</span>
+				</p>
+				<p class="details-desc-p">
+					迪丽热巴迪丽热巴太好看了迪丽热巴嘀哩嘀哩到达地点都多多多多多多多多多多多多多多多……
+				</p>
+			</div>
+			<p class="text-left btm-advice-text">*建议使用电脑或手机自带浏览器进行下载</p>
+		</div>
+		<div class="text-center details-use-btm">
+			立即使用
+		</div>
+	</body>
+</html>

@@ -1,0 +1,132 @@
+.wine-wrap{
+	height: 100%;
+	padding: 1.05rem 0 0;
+	overflow-y: scroll;
+}
+.wine-team-top{
+	width: 100%;
+	height: 1.88rem;
+	background: url(../imgs/team-img.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.agent-details-content{
+    position: relative;
+    top: -0.54rem;
+    padding: 0 0.37rem;
+}
+.agent-details-top{
+    background-color: #FFFFFF;
+    border-radius: 0.1rem;
+    margin-bottom: 0.17rem;
+}
+.agent-details-top .returns-remind{
+    font-size: 0.2083rem;
+    height: 0.84rem;
+    color: #d2d2d2;
+    padding: 0 0.24rem;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.agent-details-top .returns-remind span{
+	font-size: 0.25rem;
+	color: #999999;
+}
+.agent-details-top .returns-remind img{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.15rem;
+	position: relative;
+	top: -0.03rem;
+}
+.agent-order-comm{
+    width: 100%;
+    overflow: hidden;
+    padding: 0.18rem 0 0.36rem;
+    border-bottom: 0.01rem solid #e1e1e1;
+}
+.agent-comm-p{
+    height: 1.14rem;
+    float: left;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.agent-comm-p .left-span1, .agent-comm-p .right-span1{
+    font-size: 0.4583rem;
+    color: #3888ff;
+}
+.agent-comm-p span {
+    width: 100%;
+}
+.agent-comm-p .left-span2, .agent-comm-p .right-span2{
+    font-size: 0.25rem;
+    color: #999999;
+}
+.agent-comm-p .right-span1{
+    color: #ff7b33;
+}
+.agent-order-comm .agent-comm-p:nth-child(2n+1){
+    border-right: 0.01rem solid #dfdfdf;
+}
+.wine-home-class{
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	padding: 0.19rem 0 0.07rem;
+}
+.wine-home-class li{
+	text-align: center;
+	width: 20%;
+	float: left;
+	margin-bottom: 0.29rem;
+}
+.wine-home-class li span{
+	display: inline-block;
+	width: 0.81rem;
+	height: 0.81rem;
+	border-radius: 50%;
+	background-color: #d4d4d4;
+}
+.wine-home-class li span img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.wine-home-class li p{
+	font-size: 0.25rem;
+	margin-top: 0.12rem;
+	color: #666666;
+}
+.wine-time-class-tit{
+	height: 1.05rem;
+	line-height: 1.04rem;
+	font-size: 0.2916rem;
+	color: #666666;
+	padding: 0 0.3rem;
+	border-bottom: 0.01rem solid #eaeaea;
+}
+.team-btm-note{
+	text-align: center;
+	font-size: 0.2083rem;
+	color: #999999;
+	height: 1.3rem;
+	line-height: 1.3rem;
+}
+.wine-home-class ul{
+	overflow: hidden;
+}
+/*更改首页样式*/
+.wine-home-class li span {
+    width: 0.88rem;
+    height: 0.88rem;
+}
+.wine-home-class{
+	padding: 0;
+	border-radius: 0.1rem;
+}
+.wine-home-class li{
+	height: 1.9rem;
+	margin-bottom: 0;
+	padding-top: 0.36rem;
+}

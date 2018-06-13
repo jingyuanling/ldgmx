@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+.shanghupage{
+	width:1200px;
+	margin:20px auto;
+	overflow:hidden;
+}
+.shanghubanner{
+	width:100%;
+}
+.shanghubanner ul{
+	overflow:hidden;
+}
+.shanghubanner li{
+	float:left;
+	height:270px;
+	width:100%;
+}
+.shanghubanner li a{
+	display:block;
+	width:100%;
+}
+.shanghubanner li img{
+	height:270px;
+	width:100%;
+	background:#000;
+}
+.shanghupage .shanghucebian{
+	width:200px;
+	float:left;
+	height:500px;
+}
+.shleftnav{
+	border:1px solid #dcdcdc;
+}
+.shleftnav h3{
+	font-size:18px;
+	overflow:hidden;
+	background:#fff;
+	-webkit-box-shadow:0 -9px 15px #f5f5f5 inset;
+	-moz-box-shadow:0 -9px 15px #f5f5f5 inset;
+	box-shadow:0 -9px 15px #f5f5f5 inset;
+	height:40px;
+	line-height:40px;
+}
+.shleftnav h3 i{
+	display:block;
+	width:4px;
+	height:18px;
+	background:#ff4500;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	float:left;
+	margin:11px 5px 0 10px;
+}
+.shleftnav dl dt{
+	background:#fff;
+	-webkit-box-shadow:0 -9px 15px #f5f5f5 inset;
+	-moz-box-shadow:0 -9px 15px #f5f5f5 inset;
+	box-shadow:0 -9px 15px #f5f5f5 inset;
+	border-top:#dcdcdc 1px solid;
+	border-bottom:1px solid #fff;
+	font-size:12px;
+	font-weight:600;
+	position:relative;
+	height:30px;
+	line-height:30px;
+	padding-left:30px;
+}
+.shleftnav dl dt.thisdt{
+	border-bottom:#dcdcdc 1px solid;
+}
+.shleftnav dl dt.thisdt b{
+	background-position:-126px -220px;
+}
+.shleftnav dl dt i{
+	display:block;
+	width:6px;
+	height:6px;
+	background:#6d6d6d;
+	position:absolute;
+	top:11px;
+	left:20px;
+}
+.shleftnav dl dt b{
+	display:block;
+	position:absolute;
+	width:7px;
+	height:9px;
+	background:url(../img/tubiao.png) no-repeat -126px -206px;
+	top:11px;
+	right:10px;
+}
+.shleftnav dl dd li{
+	font-size:12px;
+	line-height:24px;
+	padding-left:20px;
+}
+.shleftnav dl dd li:hover i{
+	border-color:transparent transparent transparent #ff4500;
+}
+.shleftnav dl dd li i{
+	display:inline-block;
+	border-style:solid;
+	border-color:transparent transparent transparent #ccc;
+	border-width:5px 0 5px 5px;
+	margin-right:5px;
+}
+
+.shanghupage .w{
+	width:982px;
+	float:right;
+	margin-top:0;
+}
+.shanghupage .gl-warp{
+	width:980px;
+}
+.shanghupage .gl-warp .gl-item{
+	width:196px;
+}
+.shanghupage .gl-warp{
+	border:1px solid #e5e5e5;
+}
+.shanghupage .filter .f-line.top{
+	background:#fff;
+	margin-bottom:20px;
+	height:31px;
+}
+.shanghupage .filter{
+	border-top:none;
+}
+.shanghupage .filter .f-line{
+	padding:0;
+	border-bottom:1px solid #ccc
+}
+.shanghupage .filter .f-sort a{
+	margin-right:10px;
+	line-height:30px;
+	height:30px;
+	-webkit-border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+	border-radius:5px 5px 0 0;
+	padding:0 15px;
+	-webkit-box-shadow:0 -9px 15px #f5f5f5 inset;
+	-moz-box-shadow:0 -9px 15px #f5f5f5 inset;
+	box-shadow:0 -9px 15px #f5f5f5 inset;
+}
+.shanghupage .filter .f-sort{
+}
+.shguanzhubox{
+	width:1200px;
+	margin:auto;
+	height:270px;
+	position:relative;
+}
+.shguanzhubox .dandandian{
+	position:absolute;
+	bottom:30px;
+	right:50px;
+	padding:8px 10px;
+	background:rgba(255,255,255,0.7);
+	font-size:12px;
+}
+.dandandian span{
+	color:#333;
+}
+.dandandian a{
+	margin-left:10px;
+}
+.dandandian a.yjgz{
+	color:#ff4500;
+}
+.dandandian a.yjgz:hover{
+	color:#F00;
+	text-decoration:underline;
+}
+.dandandian a.lxmj{
+	padding:3px 5px;
+	background:#ff4500;
+	color:#fff;
+	border-radius:3px;
+}
+.shanghupage .c-p-picbox {
+    margin: auto;
+    width: 170px;
+}

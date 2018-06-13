@@ -1,0 +1,307 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+	font-family: "微软雅黑";
+}
+.ten-draw-wrap{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding-top: 0.88rem;
+	background-color: #ff6a28;
+	position: relative;
+}
+.ten-draw-tit{
+	width: 100%;
+	height: 0.88rem;
+	position: fixed;
+	max-width: 750px;
+	min-width: 320px;
+	background-color: #d9333f;
+	z-index: 9;
+}
+.ten-draw-tit .draw_back{
+	width: 0.19rem;
+	height: 0.34rem;
+	position: absolute;
+	left: 0.2rem;
+	top: 0.27rem;
+}
+.ten-draw-tit p{
+	font-size: 0.36rem;
+	color: white;
+	text-align: center;
+	line-height: 0.88rem;
+}
+.ten-draw-wrap .upper-bg-content{
+	width: 100%;
+	height: 7.97rem;
+	background: url(../img/wrap-bg-1.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0rem;
+	left: 0;
+}
+.ten-draw-wrap .down-bg-content{
+	height: 4.17rem;
+	width: 100%;
+	background: url(../img/wrap-bg-2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 9.17rem;
+	left: 0;
+}
+.upper-content-tit{
+	width: 100%;
+	position: relative;
+}
+.upper-content-tit .big-logo{
+	width: 7.48rem;
+	height: 4.39rem;
+}
+.upper-content-tit .ruls-btn{
+	width: 1.57rem;
+	height: 0.74rem;
+	position: absolute;
+	right: 0;
+	top: 0.08rem;
+}
+/*抽奖转盘*/
+.even_draw{
+	width: 7.09rem;
+	height: 4.5rem;
+	background: url(../img/slot-machines-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	padding: 0.35rem;
+	margin: 0 auto;
+	position: relative;
+}
+.even_draw_content{
+	width: 100%;
+	height: 100%;
+}
+.even_draw_content .draw_content_ul li{
+	/*border: 0.02rem solid #ff0000;*/
+	border: 0.02rem solid transparent;
+}
+.draw_content_ul .draw_img img{
+    width: 1.18rem;
+    height: 1.13rem;
+	border: 3px solid black;
+}
+.draw_content_ul li{
+	width: 1.22rem;
+	height: 1.17rem;
+    margin-left: 0.05rem;
+    margin-top: 0.08rem;
+	display: inline-block;
+}
+.draw_content_ul li .white{
+	border: 0.02rem solid rgba(255,255,255,0.8);
+}
+.draw_content_ul li .gray{
+	border: 0.02rem solid rgba(0,0,0,0.3);
+}
+.draw_content_ul .draw_two_btn{
+	width: 3.76rem;
+	height: 1.17rem;
+	border-color: rgba(255,255,255,0.8);
+    border-radius: 0.05rem;
+    position: relative;
+    top: -0.03rem;
+}
+.draw_content_ul .draw_two_btn .draw_img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+    border: 2px solid transparent;
+}
+.draw_content_ul .draw_two_btn .draw_img img{
+	float: left;
+    width: 3.48rem;
+    height: 0.93rem;
+	border: none;
+	margin-left: 0.11rem;
+    margin-top: 0.18rem;
+}
+#mapCanvas{
+	width: 3.72rem;
+	height: 1.13rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+	border-radius: 0.05rem;
+}
+/*弹框*/
+.draw-alert-gray{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	max-width: 750px;
+	min-width: 320px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+.prize-alert-content{
+	width: 7.18rem;
+	height: 5.46rem;
+	background-color: #de3336;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -2.73rem;
+	margin-left: -3.59rem;
+}
+.prize-alert-content .content_bg{
+	width: 100%;
+	height: 2.67rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.alert-prize-zone{
+	width: 100%;
+	height: 4.3rem;
+	border: 0.04rem solid #de3336;
+	border-bottom-color: white;
+	background-color: #f7c507;
+	position: relative;
+}
+.award-btn{
+	width: 2.43rem;
+	height: 0.88rem;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+	background: url(../img/award-bg.png) 0 0 no-repeat;
+	position: relative;
+	font-size: 0.4208rem;
+	color: #a31e31;
+	text-align: center;
+	line-height: 0.8rem;
+	background-size: 100% 100%;
+}
+.alert-prize-zone-ul{
+	text-align: center;
+	width: 5.75rem;
+	margin: 0.40rem auto 0;
+}
+.alert-prize-zone-ul li{
+	display: inline-block;
+}
+.alert-prize-zone-ul li:nth-child(n+6){
+	margin-top: 0.1rem;
+}
+.alert-prize-zone-ul li .get-prize-img{
+	width: 1.15rem;
+	height: 1rem;
+	margin-bottom: 0.08rem;
+}
+.alert-prize-zone-ul .get-prize-img img{
+	margin: 0 auto;
+	height: 100%;
+}
+.alert-prize-zone .prize_name{
+	font-size: 0.2rem;
+	color: #f63d45;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	width: 100%;
+	height: 0.57rem;
+	overflow: hidden;
+}
+.delete-alert-btn{
+	width: 0.53rem;
+	height: 0.53rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.alert-prize-zone-ul .one-prize .get-prize-img{
+    width: 2.41rem;
+    height: 2.10rem;
+}
+.alert-prize-zone .one-prize .prize_name{
+	font-size: 0.27rem;
+}
+/*ruls*/
+.ruls-alert-gray{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.ruls-alert{
+	width: 5.8rem;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: white;
+	position: absolute;
+	right: -5.8rem;
+	top: 0.88rem;
+	padding: 0.4rem 0.3rem 0.4rem 0.6rem;
+}
+.ruls-alert p{
+	font-size: 0.25rem;
+	color: #666666;
+	line-height: 0.44rem;
+}
+.ruls-alert p span{
+	color: #222222;
+}
+.ruls-alert .double-arrow{
+	width: 0.3rem;
+	height: 0.35rem;
+	position: absolute;
+	left: 0.1rem;
+	top: 3.8rem;
+}
+/*弹幕*/
+.draw-barrage{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.draw-barrage p{
+	height: 0.38rem;
+	display: inline-block;
+	line-height: 0.38rem;
+	border-radius: 0.19rem;
+	background-color: rgba(255,255,255,0.7);
+	font-size: 0.2rem;
+	color: #333333;
+	padding: 0 0.1rem;
+	position: absolute;
+	overflow: hidden;
+}
+.draw-barrage p img{
+	display: inline-block;
+	width: 0.39rem;
+	height: 0.29rem;
+	margin-right: 0.1rem;
+}
+
+.draw_content_ul .draw_two_btn .draw_img .drat_btn {
+    float: left;
+    width: 1.7rem;
+    height: 0.75rem;
+    border: none;
+    margin-top: 0.18rem;
+    background: url(../img/one-drat-btn.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0.1rem;
+}
+.draw_content_ul .draw_two_btn .draw_img .ten_drat_btn{
+	 background: url(../img/ten-draw-btn.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+} 

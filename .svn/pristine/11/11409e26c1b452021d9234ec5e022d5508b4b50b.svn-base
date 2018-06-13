@@ -1,0 +1,103 @@
+/* pages/writeEva/writeEva.wxss */
+.write_eva_wrap{
+	width: 100%;
+	height: 100%;
+	background-color: #efefef;
+    padding: 113rpx 13rpx 0;
+    overflow-y: scroll;
+}
+.write_eva_content{
+	width: 100%;
+	background-color: white;
+	padding: 0 5%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-bottom: 120rpx;
+}
+.eva_store_info{
+	width: 100%;
+	padding: 30rpx 0;
+	overflow: hidden;
+	border-bottom: 1rpx solid #f0f0f0;
+}
+.eva_store_info .eva_store_logo,.eva_store_info .eva_store_name{
+	float: left;
+	display: inline-block;
+}
+.eva_store_info .eva_store_logo image{
+    width: 87rpx;
+    height: 87rpx;
+    border-radius: 50%;
+}
+.eva_store_info .eva_store_name{
+    height: 87rpx;
+    line-height: 87rpx;
+    margin-left: 20rpx;
+    font-size: 34rpx;
+    color: #252525;
+}
+.eva_five_star{
+	padding: 30rpx 0;
+	width: 70%;
+	margin-left: 15%;
+	display: flex;
+	justify-content: space-around;
+}
+.eva_five_star image{
+    width: 67rpx;
+    height: 64rpx;
+}
+.textarea_div{
+	width: 100%;
+	position: relative;
+	padding-bottom: 25rpx;
+	border: 3rpx solid #888a87;
+    background-color: #fafafa;
+}
+.textarea_div textarea{
+	width: 100%;
+  height: 265rpx;
+  font-size: 33rpx;
+	line-height: 50rpx;
+	resize : none;
+	padding: 25rpx 20rpx;
+	border: none;
+	outline: none;
+  box-sizing:border-box;
+	background-color: #fafafa;
+}
+.textarea_div p{
+	font-size: 25rpx;
+	color: #cccccc;
+	position: absolute;
+	bottom: 20rpx;
+	right: 3%;
+}
+.eva_add_photos{
+	width: 100%;
+	font-size: 0;
+}
+.eva_add_photos image{
+    width: 171rpx;
+    height: 171rpx;
+    display: inline-block;
+    margin-left: 35rpx;
+    margin-top: 30rpx;
+}
+.eva_submit{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 39rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    color: white;
+    background-color: #d9333f;
+    position: fixed;
+    bottom: 0;
+    max-width: 750px;
+    min-width: 320px;
+}
+.eva_submit:active{
+	color: white;
+}

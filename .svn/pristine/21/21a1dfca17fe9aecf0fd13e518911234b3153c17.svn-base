@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>订单详情</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-home.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-person-center.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow"><img src="imgs/left-return-arrow.png" alt=""/></span>
+				<p class="text-center nav-tit-name">订单详情</p>
+				<p class="right-text">完成</p>
+			</div>
+		</div>
+		<div class="wine-wrap" style="padding-top: 1.05rem;">
+			<div class="complete-eval-upper">
+				<img src="imgs/right-logo-red.png" alt="" />
+				<p>评价成功!</p>
+			</div>
+			<div class="person-guess-like">
+				<p class="person-order-tit" style="border-bottom: 0.01rem solid #dbdbdb;">
+					<span class="vertical-line"></span>
+					<span class="left">猜你喜欢</span>
+				</p>
+				<!--二级分类商品列表-->
+				<div class="wine-firstclass-list">
+					<ul>
+						<li>
+							<a href="javascript:void(0)">
+								<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+								<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+								<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+								<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+								<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+								<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+								<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+								<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+								<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+								<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+								<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+								<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

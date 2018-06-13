@@ -1,0 +1,87 @@
+.refund-wrap{
+	width: 100%;
+	height: 100%;
+	padding-top: 0.88rem;
+	padding-bottom: 1.1rem;
+	color: #999999;
+	overflow-y: scroll;
+}
+.refund-upper{
+	padding: 0 0.3rem;
+	background-color: #f8f8f8;
+}
+.refund-upper p{
+	font-size: 0.35rem;
+	color: #666666;
+}
+
+
+
+/*隐藏区域*/
+/*确认拒绝退款*/
+.refund-fuse-gray{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	min-width: 320px;
+	max-width: 750px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+.refund-fuse-alert{
+	width: 5.9rem;
+	height: 2.95rem;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -1.48rem;
+	margin-left: -2.95rem;
+	border-radius: 0.07rem;
+}
+.refund-fuse-alert .refund-alert-tit{
+	font-size: 0.3rem;
+	overflow: hidden;
+	line-height: 0.5rem;
+	padding: 0 0.3rem;
+	background-color: #f2f1f1;
+}
+.refund-fuse-alert .refund-alert-tit .refund-fuse-delect{
+	width: 0.28rem;
+	height: 0.28rem;
+	float: right;
+	margin-top: 0.11rem;
+}
+.refund-fuse-alert .refund-fuse-text{
+	font-size: 0.36rem;
+	color: #666666;
+	text-align: center;
+	line-height: 1.3rem;
+}
+.refund-fuse-alert .refund-fuse-text img{
+	width: 0.57rem;
+	height: 0.56rem;
+	display: inline-block;
+	margin-right: 0.15rem;
+}
+.refund-fuse-alert .alert-two-btn{
+	display: flex;
+	justify-content: space-around;
+}
+.refund-fuse-alert span{
+	width: 2.4rem;
+	height: 0.7rem;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.7rem;
+	color: white;
+	display: inline-block;
+	border-radius: 0.07rem;
+}
+.refund-fuse-alert .cancel-fuse{
+	background-color: #d5d5d5;
+}
+.refund-fuse-alert .sure-fuse{
+	background-color: #bf0303;
+}

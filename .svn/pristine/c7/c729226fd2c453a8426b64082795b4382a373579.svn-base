@@ -1,0 +1,73 @@
+.life_shop_details_content{
+	padding: 0 3%;
+	background-color: #FFFFFF;
+}
+.life_shop_name{
+	font-size: 1.2em;
+	color: #222222;
+	line-height: 2em;
+}
+.life_shop_type{
+	font-size: 1em;
+	color: #9d9d9d;
+	line-height: 2em;
+}
+.life_shop_details_content img{
+	display: inline-block;
+	height: 1em;
+}
+.life_shop_address,.life_shop_phone,.life_shop_time{
+	font-size: 1em;
+	line-height: 3em;
+}
+.life_shop_address,.life_shop_phone{
+	border-top: 1px solid #d3d3d3;
+}
+.life_shop_time{
+	margin-top: 0.8em;
+	background-color: #FFFFFF;
+	padding-left: 3%;
+}
+.life_shop_time img{
+	display: inline-block;
+}
+.life_shop_goods_introduce{
+	padding: 0.8em 3% 0;
+	margin-top: 0.8em;
+	background-color: #FFFFFF;
+}
+.life_shop_goods_ul{
+	margin-top: 0.8em;
+}
+.life_shop_goods_ul2{
+	height: 11em;
+	overflow: hidden;
+}
+.life_shop_goods_ul li{
+	font-size: 1.1em;
+	letter-spacing: 2px;
+	line-height: 2em;
+}
+.life_look_more{
+	font-size: 1em;
+	text-align: center;
+	line-height: 2.5em;
+	border: 1px solid #d3d3d3;
+	background-color: #FFFFFF;
+	color: #222222;
+	margin-bottom: 0.8em;
+}
+.life_shop_goods_bottom{
+	padding: 0.2em 3% 0.5em;
+	font-size: 1em;
+	line-height: 1.5em;
+	background-color: #FFFFFF;
+}
+.life_shop_goods_bottom_btn{
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 3em;
+	background-color: #ff5858;
+}

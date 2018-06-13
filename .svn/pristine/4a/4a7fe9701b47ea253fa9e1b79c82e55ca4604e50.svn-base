@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/j-xinzengjiagedan.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+<body>
+   <div class="newsdetails-box">
+        <div class="main-top">
+            <div class="goback">
+                <a href=""><img src="img/main-goback.png"></a>
+                <p>新增价格单</p>
+                <span>完成</span>
+            </div>
+        </div>
+        <div class="mingcheng">
+            <p>价格单名称<input placeholder="   请为该价格单取一个名称"></p>
+        </div>
+        <div class="jiage">
+            <span>商品价格</span>
+            <div class="list1">
+                <img src="img/yangpin.png">
+                <p>季旦鲜虫草蛋(盒装)&nbsp;&nbsp;&nbsp;&nbsp;45枚</p>
+                <p class="right"><span>￥200  ></span></p>
+            </div>
+            <div class="list1">
+                <img src="img/yangpin.png">
+                <p>季旦鲜虫草蛋(盒装)&nbsp;&nbsp;&nbsp;&nbsp;45枚</p>
+                <p class="right"><span>￥200  ></span></p>
+            </div>
+            <div class="list1">
+                <img src="img/yangpin.png">
+                <p>季旦鲜虫草蛋(盒装)&nbsp;&nbsp;&nbsp;&nbsp;45枚</p>
+                <p class="right"><span>￥200  ></span></p>
+            </div>
+            <div class="list1 list2">
+                <img src="img/yangpin.png">
+                <p>季旦鲜虫草蛋(盒装)&nbsp;&nbsp;&nbsp;&nbsp;45枚</p>
+                <p class="right"><span>￥200  ></span></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的代理人</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	    <link rel="stylesheet" type="text/css" href="css/reset.css">
+	    <link rel="stylesheet" type="text/css" href="css/ceshi.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/LD_wine_header.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/LD_wine_commission.css"/>
+	</head>
+	<body>
+		<div class="wine_header">
+			<img src="img/wine_return.png"/>
+			<a href="LD_wine_personal_data.html"></a>
+		    <div class="wine_all_class_goback">
+		        <p>我的代理人</p>
+		    </div>
+		</div>
+		<div class="wine_commission_wrap">
+			<div class="wine_commission_title">
+				<select name="">
+					<option value="">默认排序</option>
+				</select>
+				<span class="wine_commission_title_span">
+					<img src="img/wine_calendar.jpg"/>时间筛选
+				</span>
+			</div>
+			<div class="wine_commission_details">
+				<p>
+					<span class="commission_details_name">刘君盛</span>
+					<span class="commission_details_num">FA4615</span>
+					<span class="commission_details_time">2017-4-5</span>
+				</p>
+				<div class="wine_commission_money">
+					<p>10000</p>
+					<span>订单取消</span>
+				</div>
+				<div class="wine_commission_money">
+					<p>30%</p>
+					<span>佣金比</span>
+				</div>
+				<div class="wine_commission_money">
+					<p>3000</p>
+					<span>获得佣金</span>
+				</div>
+			</div>
+			<div class="wine_commission_details">
+				<p>
+					<span class="commission_details_name">刘君盛</span>
+					<span class="commission_details_num">FA4615</span>
+					<span class="commission_details_time">2017-4-5</span>
+				</p>
+				<div class="wine_commission_money">
+					<p>10000</p>
+					<span>订单取消</span>
+				</div>
+				<div class="wine_commission_money">
+					<p>30%</p>
+					<span>佣金比</span>
+				</div>
+				<div class="wine_commission_money">
+					<p>3000</p>
+					<span>获得佣金</span>
+				</div>
+			</div>
+			<div class="wine_commission_details">
+				<p>
+					<span class="commission_details_name">刘君盛</span>
+					<span class="commission_details_num">FA4615</span>
+					<span class="commission_details_time">2017-4-5</span>
+				</p>
+				<div class="wine_commission_money">
+					<p>10000</p>
+					<span>订单取消</span>
+				</div>
+				<div class="wine_commission_money">
+					<p>30%</p>
+					<span>佣金比</span>
+				</div>
+				<div class="wine_commission_money">
+					<p>3000</p>
+					<span>获得佣金</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

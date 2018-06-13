@@ -1,0 +1,199 @@
+.refund-wrap{
+	width: 100%;
+	height: 100%;
+	padding-top: 0.88rem;
+	padding-bottom: 1.3rem;
+	color: #999999;
+	overflow-y: scroll;
+}
+.refund-upper{
+	padding: 0.1rem 0.3rem;
+	background-color: #f8f8f8;
+}
+.refund-upper p{
+	font-size: 0.35rem;
+	color: #666666;
+	line-height: 0.5rem;
+}
+.refund-upper p span{
+	color: #d9333f;
+}
+.refund-goods-list{
+	border-top: 0.01rem solid #d7d7d7;
+	border-bottom: 0.01rem solid #d7d7d7;
+	background-color: #f8f8f8;
+	padding: 0.2rem 0.2rem 0.15rem;
+}
+.refund-goods-list .goods_img,.refund-goods-list .goods_img img{
+	width: 1.24rem;
+	height: 1.24rem;
+}
+.refund-goods-list .goods_img{
+	float: left;
+	margin-right: 0.2rem;
+}
+.refund-goods-list li{
+	width: 100%;
+	height: 1.24rem;
+	margin-bottom: 0.2rem;
+}
+.refund_goods_desc{
+	font-size: 0.3051rem;
+}
+.refund_goods_desc span{
+	font-weight: lighter;
+}
+.refund_goods_desc .name{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	font-size: 0.3rem;
+	color: #161616;
+}
+.refund_goods_desc .num{
+	display: block;
+	color: #999999;
+	margin-top: 0.05rem;
+}
+.refund_goods_details{
+	padding: 0.2rem;
+    margin-top: 0.2rem;
+    background-color: #f8f8f8;
+    border-top: 0.01rem solid #d7d7d7;
+    border-bottom: 0.01rem solid #d7d7d7;
+}
+.refund_goods_details div{
+	overflow: hidden;
+}
+.refund_goods_details span{
+	float: left;
+	height: 0.52rem;
+	width: 1.8rem;
+	text-align-last:justify;
+}
+.refund_goods_details span,.refund_goods_details p{
+	font-size: 0.352rem;
+	color: #666666;
+}
+.refund_goods_details p.price{
+	color: #d90a21;
+}
+.refund-two-btn{
+	padding:  0 0.2rem;
+	margin-top: 0.25rem;
+	display: flex;
+	justify-content: space-around;
+}
+.refund_agree,.refund_refuse,.refund_sure_closed,.refund_order_complete{
+	width: 3.34rem;
+	height: 0.92rem;
+	font-size: 0.4439rem;
+	text-align: center;
+	color: white;
+	line-height: 0.92rem;
+	border-radius: 0.07rem;
+}
+.refund_agree,.refund_order_complete{
+	background-color: #d5d5d5;
+}
+.refund_refuse,.refund_sure_closed{
+	background-color: #d60303;
+}
+.refund_sure_closed,.refund_order_complete{
+	width: 100%;
+}
+.refund-upper p .key_copy{
+	height: 0.31rem;
+	width: 1.23rem;
+	line-height: 0.31rem;
+	text-align: center;
+	display: inline-block;
+	color: white;
+	background-color: #d60303;
+	font-size: 0.18rem;
+	float: right;
+	margin-top: 0.1rem;
+}
+
+
+/*隐藏区域*/
+/*确认拒绝退款*/
+.refund-fuse-gray,.refund-confirm-gray{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	min-width: 320px;
+	max-width: 750px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+.refund-fuse-alert{
+	width: 5.9rem;
+	height: 2.95rem;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -1.48rem;
+	margin-left: -2.95rem;
+	border-radius: 0.07rem;
+}
+.refund-fuse-alert .refund-alert-tit{
+	font-size: 0.3rem;
+	overflow: hidden;
+	line-height: 0.5rem;
+	padding: 0 0.3rem;
+	background-color: #f2f1f1;
+}
+.refund-fuse-alert .refund-alert-tit .refund-fuse-delect{
+	width: 0.28rem;
+	height: 0.28rem;
+	float: right;
+	margin-top: 0.11rem;
+}
+.refund-fuse-alert .refund-fuse-text{
+	font-size: 0.36rem;
+	color: #666666;
+	text-align: center;
+	line-height: 1.3rem;
+}
+.refund-fuse-alert .refund-fuse-text img{
+	width: 0.57rem;
+	height: 0.56rem;
+	display: inline-block;
+	margin-right: 0.15rem;
+}
+.refund-fuse-alert .alert-two-btn{
+	display: flex;
+	justify-content: space-around;
+}
+.refund-fuse-alert span{
+	width: 2.4rem;
+	height: 0.7rem;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.7rem;
+	color: white;
+	display: inline-block;
+	border-radius: 0.07rem;
+}
+.refund-fuse-alert .cancel-fuse{
+	background-color: #d5d5d5;
+}
+.refund-fuse-alert .sure-fuse{
+	background-color: #bf0303;
+}
+.refund-confirm-gray .refund-fuse-alert{
+	height: 3.46rem;
+}
+.confirm-img{
+	width: 4.42rem;
+	height: 2.17rem;
+	margin: 0.1rem auto;
+}
+.confirm-img img{
+	width: 100%;
+	height: 100%;
+}

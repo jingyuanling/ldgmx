@@ -1,0 +1,176 @@
+.wine-wrap{
+	height: 100%;
+	padding: 1.05rem 0;
+	overflow-y: scroll;
+}
+.drawal-upper,.drawal-down{
+	padding: 0 0.37rem;
+	width: 100%;
+	background-color: #ffffff;
+	margin-bottom: 0.17rem;
+	color: #666666;
+}
+.drawal-upper .address-content{
+	height: 1.66rem;
+	padding: 0.4rem 0;
+	width: 100%;
+	overflow: hidden;
+}
+.drawal-upper .address-content .left-logo{
+	float: left;
+	width: 1.2rem;
+	height: 100%;
+}
+.drawal-upper .address-content .left-logo img{
+	width: 0.53rem;
+	height: 0.44rem;
+	display: block;
+	margin: 0.21rem auto 0;
+}
+.address-content .center-address{
+	height: 100%;
+	padding-left: 0.4rem;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.address-content .center-address .phone-num{
+	font-size: 0.3332rem;
+	width: 100%;
+}
+.address-content .center-address .address-details{
+	font-size: 0.2499rem;
+	color: #999999;
+	width: 100%;
+}
+.address-content .center-address .address-details a,.all-amount .right-all-drawal{
+	font-size: 0.2499rem;
+	color: #3479d6;
+	float: right;
+}
+.drawal-down-tit{
+	font-size: 0.2916rem;
+	color: #333333;
+	height: 1.05rem;
+	line-height: 1.05rem;
+}
+.amount-inp-div{
+	width: 100%;
+	height: 1.05rem;
+	line-height: 1.05rem;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #ededed;
+}
+.amount-inp-div .RMB-logo{
+	width: 0.37rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 0.275rem;
+	left: 0.45rem;
+}
+.amount-inp-div .amount-inp{
+	height: 100%;
+	width: 100%;
+	float: left;
+	padding-left: 1.27rem;
+	font-size: 0.4192rem;
+	color: #333333;
+}
+.all-amount{
+	height: 1.05rem;
+	width: 100%;
+	padding-top: 0.2rem;
+}
+.all-amount .left{
+	font-size: 0.2499rem;
+	color: #d2d2d2;
+}
+.identity-sure-div {
+    width: 100%;
+    padding: 0 0.37rem;
+    margin-top: 0.35rem;
+}
+.identity-sure-div .identity-sure{
+	width: 100%;
+    height: 0.94rem;
+    line-height: 0.94rem;
+    background-color: #d10000;
+    color: #FFFFFF;
+    font-size: 0.3124rem;
+    border-radius: 0.07rem;
+}
+.address-details .selected{
+	width: 0.34rem;
+    height: 0.34rem;
+    margin-right: 0.13rem;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    background-color: #d10000;
+    display: none;
+}
+.address-details .selected img{
+	width: 0.24rem;
+    height: 0.16rem;
+    position: absolute;
+    top: 0.09rem;
+    left: 0.05rem;
+}
+.address-details .selected-active{
+	display: block;
+}
+.address-content-parent li{
+	border-top: 0.01rem solid #e1e1e1;
+}
+.address-content-parent li:nth-child(1){
+	border: none;
+}
+/*提现详情*/
+.drawal-center-wrap{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.drawal-center{
+	height: 2.14rem;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: -1.07rem;
+}
+.loading-gif{
+	height: 1.23rem;
+	width: 1.23rem;
+	border-radius: 50%;
+	border: 0.06rem solid #d90404;
+	margin: 0 auto;
+	text-align: center;
+}
+.drawal-center-text{
+	font-size: 0.2916rem;
+	color: #333333;
+	margin-top: 0.6rem;
+	line-height: 0.2916rem;
+}
+.loading-gif span{
+	border-radius: 50%;
+	background-color: #d90404;
+}
+.loading-gif .span1{
+	width: 0.1rem;
+	height: 0.1rem;
+	margin-top: 0.505rem;
+}
+.loading-gif .span2{
+	width: 0.15rem;
+	height: 0.15rem;
+	margin: 0 0.12rem;
+	margin-top: 0.48rem;
+}
+.loading-gif .span3{
+	width: 0.2rem;
+	height: 0.2rem;
+	margin-top: 0.46rem;
+}

@@ -1,0 +1,66 @@
+.life_order_record_wrap{
+	width: 100%;
+	background-color: #efefef;
+	padding-top: 50px;
+}
+.order_record_title{
+	font-size: 1.1em;
+	padding-left: 3%;
+	box-sizing: border-box;
+	line-height: 2em;
+}
+.order_record_details_ul,.order_record_details_ul li{
+	width: 100%;
+}
+.order_record_details_ul{
+	border: 1px solid #d3d3d3;
+}
+.order_record_details{
+	height: 4em;
+	background-color: #ffffff;
+	overflow: hidden;
+	padding: 0.2em 3%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d3d3d3;
+}
+.order_record_details_ul li .order_record_details:nth-last-child(1){
+	border: 0;
+}
+.order_record_details>div{
+	height: 100%;
+}
+.order_record_details .order_merchant_logo{
+	float: left;
+}
+.order_record_details .order_merchant_message{
+	width: 100%;
+	padding-left: 4.2em;
+	padding-right: 3.2em;
+	box-sizing: border-box;
+}
+.order_record_details .order_consumption_amount{
+	float: right;
+    width: 3.2em;
+    text-align: center;
+    height: 100%;
+    line-height: 4em;
+    font-size: 1em;
+    color: #222222;
+}
+.order_merchant_logo img{
+	height: 100%;
+}
+.order_merchant_message p{
+	display: inline-block;
+	width: 100%;
+	height: 1.6em;
+	line-height: 2em;
+	overflow: hidden;
+	font-size: 1em;
+}
+.order_merchant_message p:nth-child(2){
+	color: #aaaaaa;
+}
+.order_merchant_message p:nth-child(1){
+	color: #222222;
+}

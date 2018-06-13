@@ -1,0 +1,21 @@
+/*
+<a class="sqr-checkbox checked"></a>
+*/
+.sqr-checkbox {
+    -webkit-border-radius: 4px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fefefe), to(#eaeaea));
+    border: 1px solid #999999;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+}
+.sqr-checkbox.checked:after {
+    -webkit-transform: rotate(135deg);
+    border: solid #c00000;
+    border-width: 3px 3px 0px 0px;
+    content: "";
+    display: block;
+    height: 5px;
+    margin: 3px auto;
+    width: 12px;
+}

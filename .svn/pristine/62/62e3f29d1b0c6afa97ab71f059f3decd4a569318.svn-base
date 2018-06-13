@@ -1,0 +1,69 @@
+
+.click{
+    display: block;
+}
+.saoma{
+    text-align: center;
+}
+.saoma img{
+    width: 40%;
+}
+.introduce{
+    padding: 0rem 0.5rem;
+}
+.introduce p{
+    font-size: 0.26rem;
+    line-height: 0.45rem;
+    text-indent:2em;
+}
+.intro{
+    padding: 0rem 0.5rem;
+    background-color: #ecefef;
+}
+.intro p{
+    font-size: 0.26rem;
+    line-height: 0.45rem;
+    text-indent:2em;
+}
+.rongyu{
+    background-color: #ecefef;
+    padding: 0rem 0.2rem;
+}
+.rongyu ul{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.rongyu ul li {
+    width: 45%;
+    height: 2.4rem;;
+    float: left;
+    padding: 0.1rem;
+}
+.rongyu ul li img{
+    width: 100%;
+    height: 100%;
+}
+.hezuo{
+    padding: 0rem 0.2rem;
+    height: 6rem;
+}
+.hezuo ul{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    min-height: 5rem;
+    box-sizing: border-box;
+}
+.hezuo ul li {
+    width: 30%;
+    height: 1.4rem;
+    float: left;
+    padding: 0.1rem;
+}
+.hezuo ul li img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #1a1315;
+}

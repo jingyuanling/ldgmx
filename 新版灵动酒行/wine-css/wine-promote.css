@@ -1,0 +1,134 @@
+.wine-wrap{
+	width: 100%;
+	height: 100%;
+	min-height: 12.96rem;
+	position: relative;
+	padding-top: 1.05rem;
+}
+.wrap-promote-bg{
+	width: 100%;
+	height: 100%;
+}
+.promote-content{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	padding: 1.57rem 0.5rem 1.85rem;
+}
+.promote-center{
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+.promote-center-upper{
+	width: 100%;
+	padding-top: 0.09rem;
+	position: relative;
+	border-bottom: 0.01rem dashed #eeeeee;
+}
+.promote-tit{
+	height: 0.67rem;
+	line-height: 0.67rem;
+	font-size: 0.2916rem;
+	color: #666666;
+	text-align: center;
+}
+.invite-code {
+	width: 100%;
+	text-align: center;
+}
+.invite-code .num-bg{
+	display: inline-block;
+	margin-right: 0.08rem;
+	background-color: #eeeeee;
+}
+.invite-code .num-bg span{
+	width: 0.57rem;
+	height: 0.71rem;
+	text-align: center;
+	line-height: 0.71rem;
+	font-size: 0.6414rem;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#ee3d3d), to(#d10000));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.promote-copy{
+	width: 1.46rem;
+	height: 0.58rem;
+	line-height: 0.52rem;
+	margin: 0.13rem auto 0.27rem;
+	font-size: 0.2916rem;
+	color: #d10000;
+	border-radius: 0.06rem;
+	border: 0.03rem solid #d10000;
+}
+.semicircle{
+	width: 0.38rem;
+	height: 0.38rem;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -0.19rem;
+}
+.semicircle1{
+	left: -0.19rem;
+	background-color: #ff0000;
+}
+.semicircle2{
+	right: -0.19rem;
+	background-color: #ff3e32;
+}
+.promote-center-down{
+	width: 100%;
+}
+.promote-center-down .center-down-tit{
+	font-size: 0.2708rem;
+	color: #333333;
+	height: 1.28rem;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.promote-center-down .show-code{
+	width: 4.48rem;
+	height: 4.58rem;
+	display: block;
+	background-color: #bfbfbf;
+	border-radius: 0.08rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.promote-center-down .show-code img{
+	width: 100%;
+	height: 100%;
+}
+.promote-two-btn{
+	width: 4.48rem;
+	margin: 0 auto;
+	padding-top: 0.25rem;
+	overflow: hidden;
+}
+.promote-two-btn .share{
+	width: 1.87rem;
+	height: 0.58rem;
+	line-height: 0.52rem;
+	text-align: center;
+	border-radius: 0.05rem;
+	color: #D10000;
+	font-size: 0.2916rem;
+	border: 0.03rem solid #d10000;
+}
+.promote-two-btn .share-code{
+	float: left;
+}
+.promote-two-btn .share-link{
+	float: right;
+}
+.promote-btm-text{
+	font-size: 0.2916rem;
+	color: #FFFFFF;
+	text-align: center;
+	height: 0.8rem;
+	line-height: 0.8rem;
+}

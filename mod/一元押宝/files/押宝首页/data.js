@@ -1,0 +1,2075 @@
+﻿$axure.loadCurrentPage({
+  "url":"押宝首页.html",
+  "generationDate":new Date(1449815486064.2),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"5bfcd2d21f974724a24d50182c45a359",
+    "type":"Axure:Page",
+    "name":"押宝首页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"center",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"center",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"微软雅黑",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"09e0a3c73ba4497d95d37703e8ecb992",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "size":{
+              "width":1200,
+              "height":27}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c13f704c71b04173afafe5ceefe88a79",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "size":{
+                  "width":1200,
+                  "height":27}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u0.png"}},
+{
+          "id":"0d47308949dd4d66ae8301cea17e90f6",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":95,
+              "y":37},
+            "size":{
+              "width":235,
+              "height":47}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d5670be927a64b0f9bb5f4eafb28fa01",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":95,
+                  "y":37},
+                "size":{
+                  "width":235,
+                  "height":47}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 押宝首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"押宝首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/押宝首页/u2.png"}},
+{
+          "id":"0c1256855e3a4e29a2fa469ac85874d5",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontSize":"18px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":380,
+              "y":49.5},
+            "size":{
+              "width":73,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4465563f9ac34fec805455dd82feb20e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontSize":"18px",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":380,
+                  "y":49.5},
+                "size":{
+                  "width":73,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"34f870180b8140558ed0ae928534e4e5",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontSize":"18px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":477,
+              "y":50},
+            "size":{
+              "width":91,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"888b1119f8d8462aaacc649a97e53ec7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontSize":"18px",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":477,
+                  "y":50},
+                "size":{
+                  "width":91,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"25d4d43e1d0e42ca940b9c15442db6c6",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontSize":"18px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":599,
+              "y":50},
+            "size":{
+              "width":37,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bb24cc7ac77248bf9644456b360a8a00",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontSize":"18px",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":599,
+                  "y":50},
+                "size":{
+                  "width":37,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"4df419d351e14ad8b7551f01769cfedb",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":970,
+              "y":42.5},
+            "size":{
+              "width":127,
+              "height":37}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9994bae5c2824e6fa4cdb910e986ccc6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":970,
+                  "y":42.5},
+                "size":{
+                  "width":127,
+                  "height":37}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 我的清单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"我的清单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/押宝首页/u10.png"}},
+{
+          "id":"12d95ecf738f4ae5b4d52a26b4de61eb",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":0,
+              "y":89},
+            "size":{
+              "width":1200,
+              "height":414},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9bb57e77fb8e4e6a8caf44ad673a4710",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":0,
+                  "y":89},
+                "size":{
+                  "width":1200,
+                  "height":414},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u12.png"}},
+{
+          "id":"d2f5da67e9c4472485cddeb88ac84469",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Bold', '微软雅黑'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "fontStyle":"normal",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":100,
+              "y":513},
+            "size":{
+              "width":78,
+              "height":19}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bf5a592d3683403aaac4d78ea9e9a205",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Bold', '微软雅黑'",
+                "fontSize":"16px",
+                "fontWeight":"700",
+                "fontStyle":"normal",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":100,
+                  "y":513},
+                "size":{
+                  "width":78,
+                  "height":19}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"db317c8d3292488082ec153a092aabde",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":95,
+              "y":542},
+            "size":{
+              "width":190,
+              "height":288}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"66da9aa07d1c417193d722686da56b2f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":95,
+                  "y":542},
+                "size":{
+                  "width":190,
+                  "height":288}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"ac6adb1cd88b4f8ba01fa30d13978676",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":285,
+              "y":542},
+            "size":{
+              "width":190,
+              "height":288}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e4e9de713aac43c7875135c050dc6578",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":285,
+                  "y":542},
+                "size":{
+                  "width":190,
+                  "height":288}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"f9fbe1b58ca144e0bbb4c5a7c4b50666",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":475,
+              "y":542},
+            "size":{
+              "width":190,
+              "height":288}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"17a6fe2de491487e88d509d8580fb602",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":475,
+                  "y":542},
+                "size":{
+                  "width":190,
+                  "height":288}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"86abd434289f4a61b8244dac4cae6ecf",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":665,
+              "y":542},
+            "size":{
+              "width":190,
+              "height":288}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1ca695a97877492aad68d3c7278786be",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":665,
+                  "y":542},
+                "size":{
+                  "width":190,
+                  "height":288}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"fb12abeaf0c7493bac3cf9de876260fe",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":865,
+              "y":615},
+            "size":{
+              "width":233,
+              "height":503}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0dcdbd2e98124de6b3d987ba11482c82",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":865,
+                  "y":615},
+                "size":{
+                  "width":233,
+                  "height":503}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u24.png"}},
+{
+          "id":"a5c0c7351c5545ac84b71a074edded97",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":865,
+              "y":581},
+            "size":{
+              "width":231,
+              "height":34}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"326780056260499898d7c8376eeef2f8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":865,
+                  "y":581},
+                "size":{
+                  "width":231,
+                  "height":34}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u26.png"}},
+{
+          "id":"0ecb7bad72604ed6a8ca6b64f3f50ba8",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":95,
+              "y":830},
+            "size":{
+              "width":190,
+              "height":288}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"fb2287948cbd4c57b0c62f3654aaf510",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":95,
+                  "y":830},
+                "size":{
+                  "width":190,
+                  "height":288}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"7926431a22384aaf902e4fa0e85e7ed8",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":285,
+              "y":830},
+            "size":{
+              "width":190,
+              "height":288}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"65493cd89167431ab8f4a84337648ae7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":285,
+                  "y":830},
+                "size":{
+                  "width":190,
+                  "height":288}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"fb9912c753b94846b54a6d3c1e782e35",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":475,
+              "y":830},
+            "size":{
+              "width":190,
+              "height":288}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0448d71dc50742638f0487df2c40682d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":475,
+                  "y":830},
+                "size":{
+                  "width":190,
+                  "height":288}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"4027eebbba7b4cf3b0e76e2f77aa41a4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":665,
+              "y":830},
+            "size":{
+              "width":190,
+              "height":288}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"09a807a7972546b0aba397fd2ba285f1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":665,
+                  "y":830},
+                "size":{
+                  "width":190,
+                  "height":288}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"e248fdfec423496d811f72c21f2aff81",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontSize":"16px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":865,
+              "y":509},
+            "size":{
+              "width":228,
+              "height":72},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFD7D7D7}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9778385d134245efae1657fed5efe547",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontSize":"16px",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":865,
+                  "y":509},
+                "size":{
+                  "width":228,
+                  "height":72},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFD7D7D7}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u36.png"}},
+{
+          "id":"a17d572b948f492bbe7d204243fcdc4f",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Bold', '微软雅黑'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "fontStyle":"normal",
+            "location":{
+              "x":95,
+              "y":1131},
+            "size":{
+              "width":200,
+              "height":19}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e2648aaaa10b496da7faf2e2492169e7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Bold', '微软雅黑'",
+                "fontSize":"16px",
+                "fontWeight":"700",
+                "fontStyle":"normal",
+                "location":{
+                  "x":95,
+                  "y":1131},
+                "size":{
+                  "width":200,
+                  "height":19}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"8946ce715ba04268942e0323abf7552e",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":95,
+              "y":1166},
+            "size":{
+              "width":200,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0f1047a9c35741e097ae8cd099df6781",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":95,
+                  "y":1166},
+                "size":{
+                  "width":200,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u40.png"}},
+{
+          "id":"7012806ddced4986b22750b66cd07fcf",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":295,
+              "y":1166},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2b4e598ec6d443ff938ab5e2f4ed543d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":295,
+                  "y":1166},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"abef748dcf4a4b50a72c2fad9c1af487",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":495,
+              "y":1166},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5875d4ad67c2416996d9fd26e52f5dbf",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":495,
+                  "y":1166},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"d7ca145512354bdeab33f1df31e36b76",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":696,
+              "y":1166},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"46d16afbb60b484ebc819f00eec08511",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":696,
+                  "y":1166},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"d9aa81c7d79b48588691425b90088075",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":896,
+              "y":1166},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"683dcc9ec1bf4f7e91349f64f4746383",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":896,
+                  "y":1166},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"910f3387a3dd4a0da1414365af334307",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Bold', '微软雅黑'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "fontStyle":"normal",
+            "location":{
+              "x":95,
+              "y":1490},
+            "size":{
+              "width":200,
+              "height":19}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b8ca7710e3b046d9a132f8147c158a5a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Bold', '微软雅黑'",
+                "fontSize":"16px",
+                "fontWeight":"700",
+                "fontStyle":"normal",
+                "location":{
+                  "x":95,
+                  "y":1490},
+                "size":{
+                  "width":200,
+                  "height":19}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"eb61b57496ba48309977ec2e767abbf2",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":95,
+              "y":1525},
+            "size":{
+              "width":200,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"df01a17a37774d5e86f01a94eed40ab5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":95,
+                  "y":1525},
+                "size":{
+                  "width":200,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u40.png"}},
+{
+          "id":"df6f60b4864c4155bfb8a7541943cb30",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":295,
+              "y":1525},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"904a359c3c314a44bc161a61fd213d73",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":295,
+                  "y":1525},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"df214ff39b10410d8483524a36c31a16",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":495,
+              "y":1525},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ae2ecf863bce41d5a67614b8a42ccbd0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":495,
+                  "y":1525},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"8ae443741fd041fda05817530cab7d0b",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":696,
+              "y":1525},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3f2aaa9e035d44b8bcc5b8154eb96c44",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":696,
+                  "y":1525},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"9d2cd8a7c7c748938c6681b845f094a7",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":896,
+              "y":1525},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a9e5332b076d439fbb48f1fbb757b48d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":896,
+                  "y":1525},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"52ce0aa52074461aa71482aef12aabdd",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":105,
+              "y":1535},
+            "size":{
+              "width":200,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2b4f589ff1cf42d0aa61b7c07b247a71",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":105,
+                  "y":1535},
+                "size":{
+                  "width":200,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u40.png"}},
+{
+          "id":"820a4d215b0247e0ae144731a074e53d",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":305,
+              "y":1535},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4265822ee44649eda8f7ede7706c2ab5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":305,
+                  "y":1535},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"ce71caaf47f1428695cfda88d610ac76",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":505,
+              "y":1535},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6e36eb8f6a8d4d139a62bfbdf72035cd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":505,
+                  "y":1535},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"9ca7d29a6dad4661a1d2531b8f7fc0eb",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":706,
+              "y":1535},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"00236c33b5184bf0acca24fcc3adc684",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":706,
+                  "y":1535},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"9b29e9a2dbd142b49dd18a3b33912c59",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":906,
+              "y":1535},
+            "size":{
+              "width":201,
+              "height":304}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e00284fb30444edb9cd94bbb3e0846d1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":906,
+                  "y":1535},
+                "size":{
+                  "width":201,
+                  "height":304}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u16.png"}},
+{
+          "id":"6596a6fbaa7d4c59b016bb85188d23b6",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":95,
+              "y":1890},
+            "size":{
+              "width":1012,
+              "height":224}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9efe0bbf0d5045afab1010288bf16742",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":95,
+                  "y":1890},
+                "size":{
+                  "width":1012,
+                  "height":224}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u72.png"}},
+{
+          "id":"bd542dc07cfb4b16989a6cf318ee3abf",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":967,
+              "y":1140},
+            "size":{
+              "width":140,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"025e69f03b024fc6a831e53cb2095b63",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":967,
+                  "y":1140},
+                "size":{
+                  "width":140,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 押宝列表页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"押宝列表页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"b596075d900f4d11b3b2b4a016723ffb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":967,
+              "y":1493},
+            "size":{
+              "width":140,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"80b8298f7dc04058979b983e4d878245",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":967,
+                  "y":1493},
+                "size":{
+                  "width":140,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 押宝列表页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"押宝列表页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"5f8a2870fefe44a5ac08aa9470ddc5c6",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Bold', '微软雅黑'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "fontStyle":"normal",
+            "location":{
+              "x":95,
+              "y":1853},
+            "size":{
+              "width":200,
+              "height":19}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7297112510514f9ab9a8be96467f7b15",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Bold', '微软雅黑'",
+                "fontSize":"16px",
+                "fontWeight":"700",
+                "fontStyle":"normal",
+                "location":{
+                  "x":95,
+                  "y":1853},
+                "size":{
+                  "width":200,
+                  "height":19}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"7f36d4e547714ed2bee69072914ccd5e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":967,
+              "y":1855},
+            "size":{
+              "width":140,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"73072e27647241ea94d967c94b58f976",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":967,
+                  "y":1855},
+                "size":{
+                  "width":140,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 全部晒单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"全部晒单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"2082bee2028b41d68c34abcdce1817ba",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'微软雅黑 Regular', '微软雅黑'",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "location":{
+              "x":0,
+              "y":2141},
+            "size":{
+              "width":1200,
+              "height":405}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8b098e4a6fdb49d7a3e0025225b62044",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'微软雅黑 Regular', '微软雅黑'",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "location":{
+                  "x":0,
+                  "y":2141},
+                "size":{
+                  "width":1200,
+                  "height":405}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/押宝首页/u82.png"}},
+{
+          "id":"cd2d36ef0fbb46cf8e599869e5451165",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":90,
+              "y":94},
+            "size":{
+              "width":195,
+              "height":286}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 押宝详情页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"押宝详情页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"1f4b61e8d4454bef81a7f27c14df9deb",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":95,
+              "y":400},
+            "size":{
+              "width":185,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 我的清单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"我的清单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"9913c0d1eebe41deb87b45e4aa87b49a",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":95,
+              "y":544},
+            "size":{
+              "width":760,
+              "height":286}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 押宝详情页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"押宝详情页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"a20d99491b444782a9de2aabc7998ad6",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":906,
+              "y":615},
+            "size":{
+              "width":54,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户信息",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户信息.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "09e0a3c73ba4497d95d37703e8ecb992":{
+      "scriptId":"u0"},
+    "c13f704c71b04173afafe5ceefe88a79":{
+      "scriptId":"u1"},
+    "0d47308949dd4d66ae8301cea17e90f6":{
+      "scriptId":"u2"},
+    "d5670be927a64b0f9bb5f4eafb28fa01":{
+      "scriptId":"u3"},
+    "0c1256855e3a4e29a2fa469ac85874d5":{
+      "scriptId":"u4"},
+    "4465563f9ac34fec805455dd82feb20e":{
+      "scriptId":"u5"},
+    "34f870180b8140558ed0ae928534e4e5":{
+      "scriptId":"u6"},
+    "888b1119f8d8462aaacc649a97e53ec7":{
+      "scriptId":"u7"},
+    "25d4d43e1d0e42ca940b9c15442db6c6":{
+      "scriptId":"u8"},
+    "bb24cc7ac77248bf9644456b360a8a00":{
+      "scriptId":"u9"},
+    "4df419d351e14ad8b7551f01769cfedb":{
+      "scriptId":"u10"},
+    "9994bae5c2824e6fa4cdb910e986ccc6":{
+      "scriptId":"u11"},
+    "12d95ecf738f4ae5b4d52a26b4de61eb":{
+      "scriptId":"u12"},
+    "9bb57e77fb8e4e6a8caf44ad673a4710":{
+      "scriptId":"u13"},
+    "d2f5da67e9c4472485cddeb88ac84469":{
+      "scriptId":"u14"},
+    "bf5a592d3683403aaac4d78ea9e9a205":{
+      "scriptId":"u15"},
+    "db317c8d3292488082ec153a092aabde":{
+      "scriptId":"u16"},
+    "66da9aa07d1c417193d722686da56b2f":{
+      "scriptId":"u17"},
+    "ac6adb1cd88b4f8ba01fa30d13978676":{
+      "scriptId":"u18"},
+    "e4e9de713aac43c7875135c050dc6578":{
+      "scriptId":"u19"},
+    "f9fbe1b58ca144e0bbb4c5a7c4b50666":{
+      "scriptId":"u20"},
+    "17a6fe2de491487e88d509d8580fb602":{
+      "scriptId":"u21"},
+    "86abd434289f4a61b8244dac4cae6ecf":{
+      "scriptId":"u22"},
+    "1ca695a97877492aad68d3c7278786be":{
+      "scriptId":"u23"},
+    "fb12abeaf0c7493bac3cf9de876260fe":{
+      "scriptId":"u24"},
+    "0dcdbd2e98124de6b3d987ba11482c82":{
+      "scriptId":"u25"},
+    "a5c0c7351c5545ac84b71a074edded97":{
+      "scriptId":"u26"},
+    "326780056260499898d7c8376eeef2f8":{
+      "scriptId":"u27"},
+    "0ecb7bad72604ed6a8ca6b64f3f50ba8":{
+      "scriptId":"u28"},
+    "fb2287948cbd4c57b0c62f3654aaf510":{
+      "scriptId":"u29"},
+    "7926431a22384aaf902e4fa0e85e7ed8":{
+      "scriptId":"u30"},
+    "65493cd89167431ab8f4a84337648ae7":{
+      "scriptId":"u31"},
+    "fb9912c753b94846b54a6d3c1e782e35":{
+      "scriptId":"u32"},
+    "0448d71dc50742638f0487df2c40682d":{
+      "scriptId":"u33"},
+    "4027eebbba7b4cf3b0e76e2f77aa41a4":{
+      "scriptId":"u34"},
+    "09a807a7972546b0aba397fd2ba285f1":{
+      "scriptId":"u35"},
+    "e248fdfec423496d811f72c21f2aff81":{
+      "scriptId":"u36"},
+    "9778385d134245efae1657fed5efe547":{
+      "scriptId":"u37"},
+    "a17d572b948f492bbe7d204243fcdc4f":{
+      "scriptId":"u38"},
+    "e2648aaaa10b496da7faf2e2492169e7":{
+      "scriptId":"u39"},
+    "8946ce715ba04268942e0323abf7552e":{
+      "scriptId":"u40"},
+    "0f1047a9c35741e097ae8cd099df6781":{
+      "scriptId":"u41"},
+    "7012806ddced4986b22750b66cd07fcf":{
+      "scriptId":"u42"},
+    "2b4e598ec6d443ff938ab5e2f4ed543d":{
+      "scriptId":"u43"},
+    "abef748dcf4a4b50a72c2fad9c1af487":{
+      "scriptId":"u44"},
+    "5875d4ad67c2416996d9fd26e52f5dbf":{
+      "scriptId":"u45"},
+    "d7ca145512354bdeab33f1df31e36b76":{
+      "scriptId":"u46"},
+    "46d16afbb60b484ebc819f00eec08511":{
+      "scriptId":"u47"},
+    "d9aa81c7d79b48588691425b90088075":{
+      "scriptId":"u48"},
+    "683dcc9ec1bf4f7e91349f64f4746383":{
+      "scriptId":"u49"},
+    "910f3387a3dd4a0da1414365af334307":{
+      "scriptId":"u50"},
+    "b8ca7710e3b046d9a132f8147c158a5a":{
+      "scriptId":"u51"},
+    "eb61b57496ba48309977ec2e767abbf2":{
+      "scriptId":"u52"},
+    "df01a17a37774d5e86f01a94eed40ab5":{
+      "scriptId":"u53"},
+    "df6f60b4864c4155bfb8a7541943cb30":{
+      "scriptId":"u54"},
+    "904a359c3c314a44bc161a61fd213d73":{
+      "scriptId":"u55"},
+    "df214ff39b10410d8483524a36c31a16":{
+      "scriptId":"u56"},
+    "ae2ecf863bce41d5a67614b8a42ccbd0":{
+      "scriptId":"u57"},
+    "8ae443741fd041fda05817530cab7d0b":{
+      "scriptId":"u58"},
+    "3f2aaa9e035d44b8bcc5b8154eb96c44":{
+      "scriptId":"u59"},
+    "9d2cd8a7c7c748938c6681b845f094a7":{
+      "scriptId":"u60"},
+    "a9e5332b076d439fbb48f1fbb757b48d":{
+      "scriptId":"u61"},
+    "52ce0aa52074461aa71482aef12aabdd":{
+      "scriptId":"u62"},
+    "2b4f589ff1cf42d0aa61b7c07b247a71":{
+      "scriptId":"u63"},
+    "820a4d215b0247e0ae144731a074e53d":{
+      "scriptId":"u64"},
+    "4265822ee44649eda8f7ede7706c2ab5":{
+      "scriptId":"u65"},
+    "ce71caaf47f1428695cfda88d610ac76":{
+      "scriptId":"u66"},
+    "6e36eb8f6a8d4d139a62bfbdf72035cd":{
+      "scriptId":"u67"},
+    "9ca7d29a6dad4661a1d2531b8f7fc0eb":{
+      "scriptId":"u68"},
+    "00236c33b5184bf0acca24fcc3adc684":{
+      "scriptId":"u69"},
+    "9b29e9a2dbd142b49dd18a3b33912c59":{
+      "scriptId":"u70"},
+    "e00284fb30444edb9cd94bbb3e0846d1":{
+      "scriptId":"u71"},
+    "6596a6fbaa7d4c59b016bb85188d23b6":{
+      "scriptId":"u72"},
+    "9efe0bbf0d5045afab1010288bf16742":{
+      "scriptId":"u73"},
+    "bd542dc07cfb4b16989a6cf318ee3abf":{
+      "scriptId":"u74"},
+    "025e69f03b024fc6a831e53cb2095b63":{
+      "scriptId":"u75"},
+    "b596075d900f4d11b3b2b4a016723ffb":{
+      "scriptId":"u76"},
+    "80b8298f7dc04058979b983e4d878245":{
+      "scriptId":"u77"},
+    "5f8a2870fefe44a5ac08aa9470ddc5c6":{
+      "scriptId":"u78"},
+    "7297112510514f9ab9a8be96467f7b15":{
+      "scriptId":"u79"},
+    "7f36d4e547714ed2bee69072914ccd5e":{
+      "scriptId":"u80"},
+    "73072e27647241ea94d967c94b58f976":{
+      "scriptId":"u81"},
+    "2082bee2028b41d68c34abcdce1817ba":{
+      "scriptId":"u82"},
+    "8b098e4a6fdb49d7a3e0025225b62044":{
+      "scriptId":"u83"},
+    "cd2d36ef0fbb46cf8e599869e5451165":{
+      "scriptId":"u84"},
+    "1f4b61e8d4454bef81a7f27c14df9deb":{
+      "scriptId":"u85"},
+    "9913c0d1eebe41deb87b45e4aa87b49a":{
+      "scriptId":"u86"},
+    "a20d99491b444782a9de2aabc7998ad6":{
+      "scriptId":"u87"}}});

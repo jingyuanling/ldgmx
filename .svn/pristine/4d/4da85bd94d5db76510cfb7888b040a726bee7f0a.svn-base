@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scale=1.0">
+		<title>店铺详情</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life-head-foot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/life_shop_details.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="life_home_nav">
+			<div class="life_nav_left">
+				<img class="img1" src="img/return_img.png"/>
+			</div>
+			<div class="life_home_nav_center">
+				店铺详情
+			</div>
+			<div class="life_home_nav_right">
+				<a href="###">
+					<img src="img/home_white.png"/>
+				</a>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="life_shop_btm">
+			<div class="shop_btm_left">
+				<div class="shop_btm_share">
+					<a href="###">
+						<img src="img/share_logo.png"/>
+						<p>分享</p>
+					</a>
+				</div>
+				<div class="shop_btm_coloect">
+					<img src="img/collected_logo.png"/>
+					<!--<img src="img/collect.png"/>-->
+					<p>已收藏</p>
+				</div>
+			</div>
+			<div class="shop_btm_right">
+				扫码付款
+			</div>
+		</div>
+		<div class="life_details_wrap">
+			<!--轮播图-->
+			<div class="swiper-container life_home_banner swiper-container1">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+			        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+			        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			    <!-- 如果需要导航按钮 -->
+			    <div class="swiper-button-prev"></div>
+	    		<div class="swiper-button-next"></div>
+			</div>
+			<div class="life_shop_details_content">
+				<p class="life_shop_name"><span>星巴克咖啡 (千玺广场店)</span><span class="chang">500m</span></p>
+				<p class="life_shop_type">
+					<img src="img/yellow_star.png"/>
+					<img src="img/yellow_star.png"/>
+					<img src="img/yellow_star.png"/>
+					<img src="img/yellow_star.png"/>
+					<img src="img/yellow_star.png"/>
+				</p>
+				<p class="life_shop_address">
+					<img src="img/address_yellow_logo.png"/>
+					河南省郑州市郑东新区CBD千玺广场河南省郑州市郑东新区CBD千玺广场
+					<span class="phone_btn"><img src="img/store_phone.png"/></span>
+				</p>
+			</div>
+			<div class="life_shop_goods_introduce">
+				<p class="home_good_recommend_title"><img src="img/jiamu_logo.png"/><strong>价格详情</strong></p>
+				<div class="home_good_recommend_list">
+					<ul>
+						<a href="###">
+							<li>
+								<div class="good_list_left_img">
+									<img class="electr_left_img2" src="img/merchant_2.jpg"/>
+								</div>
+								<div class="good_list_right_text">
+									<div class="right_text_goods_name">
+										<p>星巴克咖啡</p>
+									</div>
+									<div class="good_list_right_address">
+										<p><span class="black_text">现金：</span><span class="red_text">¥70</span><span class="black_text">债权金：</span><span class="red_text">30</span></p>
+									</div>
+									<div class="good_list_right_deduction">
+										债权金冲抵
+										<span class="red_text">80%</span>
+										<span class="gray_text">门市价：¥100</span>
+									</div>
+								</div>
+							</li>
+						</a>
+					</ul>
+				</div>
+			</div>
+			<p class="life_look_more">查看更多&nbsp;<img src="img/jiantou_under.png"/></p>
+			<div class="life_shop_goods_bottom">
+				<p class="home_good_recommend_title"><img src="img/jiamu_logo.png"/><strong>价格详情</strong><span class="business_hours">营业时间&nbsp;早上8:00 - 晚上12:00</span></p>
+				<p class="introduce">
+					巴奴，专注毛肚火锅15年，国内首家采用“木瓜蛋白酶嫩
+					化”技术取代“火碱发制”，提升毛肚制作的新标准。一
+					反火锅行业“以服务取悦顾客”的经营模式，“用真材实
+					料的菜品”赢得顾客的口碑。坚信“产品主义”一定会超
+					越“服务主义”，所以提出了“服务不是巴奴的特色，毛
+					肚和菌汤才是”。
+				</p>
+				<!--轮播图-->
+				<div class="shop_LB_wrap">
+					<!--轮播图-->
+					<div class="swiper-container life_home_banner swiper-container2">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+					        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+					        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+					        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+					        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+					        <div class="swiper-slide slide1"><img src="img/meishibanner.jpg"/></div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div class="full_eva_content">
+				<a href="life_full_eva.html"><p class="details_eva_title"><span class="span1">用户评价</span><span class="span2">(155)</span><img src="img/blod_arrow.png"/></p></a>
+				<!--评价内容-->
+				<div class="full_eva_center">
+					<ul class="full_eva_ul">
+						<li>
+							<div class="eva_left_photo">
+								<img src="img/all_logo.png"/>
+							</div>
+							<div class="eva_right_details">
+								<p class="full_eva_user">
+									<span class="span_name">kl1234567</span>
+									<span class="span_time">2017-10-19</span>
+								</p>
+								<p class="full_eva_star">
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+								</p>
+								<p class="full_eva_remark">好评好评好好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评</p>
+								<p class="full_eva_img">
+									<img src="img/merchant_2.jpg"/>
+									<img src="img/merchant_2.jpg"/>
+									<img src="img/merchant_2.jpg"/>
+								</p>
+								<p class="spend_time">消费时间：2017-10-19</p>
+							</div>
+						</li>
+						<li>
+							<div class="eva_left_photo">
+								<img src="img/all_logo.png"/>
+							</div>
+							<div class="eva_right_details">
+								<p class="full_eva_user">
+									<span class="span_name">kl1234567</span>
+									<span class="span_time">2017-10-19</span>
+								</p>
+								<p class="full_eva_star">
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+								</p>
+								<p class="full_eva_remark">好评好评好好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评</p>
+								<p class="full_eva_img">
+									<img src="img/merchant_2.jpg"/>
+									<img src="img/merchant_2.jpg"/>
+									<img src="img/merchant_2.jpg"/>
+								</p>
+								<p class="spend_time">消费时间：2017-10-19</p>
+							</div>
+						</li>
+						<li>
+							<div class="eva_left_photo">
+								<img src="img/all_logo.png"/>
+							</div>
+							<div class="eva_right_details">
+								<p class="full_eva_user">
+									<span class="span_name">kl1234567</span>
+									<span class="span_time">2017-10-19</span>
+								</p>
+								<p class="full_eva_star">
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+								</p>
+								<p class="full_eva_remark">好评好评好好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评</p>
+								<p class="full_eva_img">
+									<img src="img/merchant_2.jpg"/>
+									<img src="img/merchant_2.jpg"/>
+									<img src="img/merchant_2.jpg"/>
+								</p>
+								<p class="spend_time">消费时间：2017-10-19</p>
+							</div>
+						</li>
+						<li>
+							<div class="eva_left_photo">
+								<img src="img/all_logo.png"/>
+							</div>
+							<div class="eva_right_details">
+								<p class="full_eva_user">
+									<span class="span_name">kl1234567</span>
+									<span class="span_time">2017-10-19</span>
+								</p>
+								<p class="full_eva_star">
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+									<img src="img/small_yellow_star.png"/>
+								</p>
+								<p class="full_eva_remark">好评好评好好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评好评</p>
+								<p class="full_eva_img">
+									<img src="img/merchant_2.jpg"/>
+									<img src="img/merchant_2.jpg"/>
+									<img src="img/merchant_2.jpg"/>
+								</p>
+								<p class="spend_time">消费时间：2017-10-19</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="phone_alert_gray">
+			<div class="phone_alert_gray2">
+				
+			</div>
+			<div class="phone_alert">
+				<div class="phone_num">
+					15515563419
+				</div>
+				<div class="phone_btn">
+					<span class="phone_cancel">取消</span>
+					<span class="phone_sure"><a href="###">确定</a></span>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/life_home_index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('.phone_btn').click(function(){
+				$('.phone_alert_gray').show();
+			});
+			$('.phone_cancel,.phone_alert_gray2').click(function(){
+				$('.phone_alert_gray').hide();
+			});
+		</script>
+	</body>
+</html>

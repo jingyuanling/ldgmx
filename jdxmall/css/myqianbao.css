@@ -1,0 +1,146 @@
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+html{
+     background-color: #eaeaea;
+}
+img{
+  border:0;
+  display: block;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.myqianbao-box{
+    width: 100%;
+    height: 100%;
+}
+.main-top{
+    width: 100%;
+    height: 39px;
+    background-color: #548e11;
+}
+.main-top img{
+    position: absolute;
+    float: left;
+    width: 10px;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+.main-top p{
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height:39px;
+}
+.yumoney{
+    width: 100%;
+    height:60px;
+    background-color: #67ad4f;
+    position: relative;
+    padding-top: 10px;
+   
+}
+.yumoney p{
+    float: left;
+    font-size: 12px;
+    margin-left: 20px;
+    color: #fff;
+}
+.yumoney p.money{
+    font-weight: lighter;
+}
+.yumoney span{
+    width: 54px;
+    height: 20px;
+    border:1px solid #fff;
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 7px;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+.shouru{
+    background-color: #eaeaea;
+    width: 100%;
+    height: 60px;
+}
+.shouru li{
+    width: 49.6%;
+     float: left;
+     border-right:2px solid #bfbfbf;
+     list-style: none;
+     margin-top: 5px;
+}
+.shouru li.right{
+    border:none;
+}
+.shouru li p{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 13px;
+    color: #000;
+    text-align: center;
+}
+.mingxi-list{
+    width: 100%;
+   
+}
+.mingxi-list .list1{
+    width: 100%;
+    height: 35px;
+    background-color:#fff;
+    border-top: 2px solid #bfbfbf;
+}
+.mingxi-list .list1 img{
+    float: left;
+    width: 21px;
+    margin-left: 13px;
+    margin-top: 8px;
+}
+.mingxi-list .list1 p{
+    font-size: 12px;
+    float: left;
+    line-height: 33px;
+    margin-left: 15px;
+}
+.mingxi-list .list1 p.right {
+    float: right;
+    margin-right: 25px;
+}
+.mingxi-list .list2{
+    border-bottom: 2px solid #bfbfbf;
+}
+.bottom{
+    position: absolute;
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    height:47px;
+    background-color: #fff;
+    bottom: 0px;
+}
+.bottom li{
+    width: 33.3%;
+    float: left;
+    list-style: none;
+}
+.bottom li img{
+    margin:0 auto;
+    width: 27px;
+    margin-top: 6px;
+}

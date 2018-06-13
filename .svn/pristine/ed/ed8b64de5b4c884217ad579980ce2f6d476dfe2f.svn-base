@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+.put-in-for{
+	width:1200px;
+	margin:20px auto;
+}
+.application-form{
+	width:1198px;
+	margin-top:20px;
+	border:1px solid #dcdcdc;
+	background:#fcfcfc;
+}
+.alcwk{
+	width:800px;
+	margin:auto;
+	color:#666;
+}
+.putinfor-bgimg{
+	width:100%;
+}
+.putinfor-bgimg img{
+	width:100%;
+}
+.step{
+	width:810px;
+	height:76px;
+	margin:auto;
+}
+.step-transverseLine{
+	height:2px;
+	width:730px;
+	background:#8b8b8b;
+	top:22px;
+	left:40px;
+	position:relative;
+}
+.step-transverseLine dl{
+	position:absolute;
+	top:-22px;
+	width:80px;
+}
+.step-transverseLine .ioc1{
+	left:-40px;
+}
+.step-transverseLine .ioc2{
+	left:106px;
+}
+.step-transverseLine .ioc3
+{
+	left:252px;
+}
+.step-transverseLine .ioc4
+{
+	left:398px;
+}
+.step-transverseLine .ioc5{
+	left:544px;
+}
+.step-transverseLine .ioc6{
+	left:690px;
+}
+.step-transverseLine dl dt{
+	background:url(../img/tubiao.png) no-repeat -6px -278px;
+	width:44px;
+	height:44px;
+	text-align:center;
+	line-height:44px;
+	color:#fff;
+	margin:auto;
+}
+.step-transverseLine dl dt.iocthis{
+	background:url(../img/tubiao.png) no-repeat -6px -326px;
+}
+.step-transverseLine dl dd{
+	font-size:18px;
+	color:#8b8b8b;
+	line-height:32px;
+	text-align:center;
+}
+.step-transverseLine dl dd.txtthis{
+	color:#ff911b;
+}

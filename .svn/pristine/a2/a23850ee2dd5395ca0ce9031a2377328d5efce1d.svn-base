@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>问卷调查</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/question.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/new_file.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="quest-wrap">
+			<p class="big-tit">2018灵动光明行客户商品需求问卷</p>
+			<p class="tit-p1">
+				您好，为了给债权客户提供更优质的资产和服务，希望您能在百忙中抽出几分钟时间回答我们的问卷，让我们了解您的意见和建议。我们会给您随机送出10~100元的现金或债权金红包，并您在问卷中提供的信息保密，期待您的参与！
+			</p>
+			<div class="question">
+				<div class="list">
+					<p class="quest-tit-p">1.您从什么时候开始知道灵动·光明行的？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>3年前</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>2年前</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>1年前</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>最近</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p">2.您是通过什么方式知道灵动·光明行的？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>网络渠道（微信平台、微博、百度等）</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>广告宣传（宣传单、广告牌等）</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>业务员联系（电话、微信等）</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>朋友介绍</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p">3.您通过灵动光明行一共置换了多少债权？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>10万以内</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>10~50万</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>50~100万</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>100万以上</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p">4.您当前还有多少债权金未消费？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>10万以内</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>10~50万</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>50~100万</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>100万以上</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p">5.您剩余债权金未消费的原因是？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>目前没有想要的商品或资产</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>目前商品或资产的现金部分超出承受范围</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>没有合适的渠道消化商品或资产</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>暂时没有消费需求</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p">6.您对目前光明行商城运营情况是否满意？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>满意</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>比较满意</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>一般</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>不满意</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p">7.对光明行商城目前的界面优化（体验感）是否感到满意？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>满意</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>比较满意</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>一般</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>不满意</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p">8.在灵动光明行商城上进行过几次消费？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li class="eight-jump"><div class="role-sel"><span class="role-sel-white"></span></div>没有消费过</a></li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>10次以下</a></li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>20次以下</a></li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>20次以上</a></li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#nine">9.您在商城所购买的商品中哪种品类最多？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>酒水</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>居家百货（电器、日用品、锅碗瓢盆等）</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>食品（粮油、零食、生鲜等）</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>美妆护肤</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p">10.您在商城购买商品最主要的用途是什么？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>个人消费</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>我有渠道出售该商品</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>抵债</li>
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>其他</li>
+						<textarea rows="" cols="" placeholder="请填入您的用途"></textarea>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p">11.您购买的商品是否达到您预期的用途？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>完全达到</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>基本达到</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>没达到</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#twelve">12.除商城的现有商品外，您更希望商城的商品往哪方面拓展？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>快消品（酒水、食品、饮料、个人护理、家庭护理等）</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>家具家电百货 </li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>电子产品（手机、电脑等）</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#thirteen-1">13-1.您最希望快消品的哪些种类能够进行置换？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>酒水商品</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>饮料食品类</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>美妆护肤类</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>家庭消耗类如卫生纸、个人洗护等）</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box hidden-box-qt"><div class="role-sel"><span class="role-sel-white"></span></div>其他</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的类型和品牌"></textarea>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#thirteen-2">13-2.最希望家具家电百货的哪些种类能够进行置换？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>各类家具产品（床、沙发、衣柜等）</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>各类家电产品（电视、洗衣机、空调灯）</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>各类装饰产品（灯具、窗帘、地毯等）</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>各类珠宝饰品（黄金、珍珠等）</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box hidden-box-qt"><div class="role-sel"><span class="role-sel-white"></span></div>其他</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的类型和品牌"></textarea>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#thirteen-3">13-3.您最希望电子产品的哪些种类能够进行置换?<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>手机</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>电脑及周边配件 </li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>手表</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的品牌"></textarea>
+						<li class="hidden-box hidden-box-qt"><div class="role-sel"><span class="role-sel-white"></span></div>其他</li>
+						<textarea name="" rows="" cols="" placeholder="请输入您想置换的类型和品牌"></textarea>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#nine">14.近期商城举行的活动您是否有参与?<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>有</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>没有</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#nine">15.您一般是通过什么途径获取灵动商城活动消息的？<span>*</span></p>
+					<ul class="role-sel-ul role-sel-ul-dx">
+						<li><div class="role-seldx"><span class="role-seldx-white"></span></div>网站广告图</li>
+						<li><div class="role-seldx"><span class="role-seldx-white"></span></div>微信公众平台推广</li>
+						<li><div class="role-seldx"><span class="role-seldx-white"></span></div>短信通知</li>
+						<li><div class="role-seldx"><span class="role-seldx-white"></span></div>业务员告知</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#nine">16.您近期内有打算在灵动商城购买什么商品？<span>*</span></p>
+					<ul class="role-sel-ul  role-sel-ul-dx">
+						<li><div class="role-seldx"><span class="role-seldx-white"></span></div>家电</li>
+						<li><div class="role-seldx"><span class="role-seldx-white"></span></div>酒水</li>
+						<li><div class="role-seldx"><span class="role-seldx-white"></span></div>食品百货</li>
+						<li class="hidden-boxdx"><div class="role-seldx"><span class="role-seldx-white"></span></div>其他</li>
+						<textarea name="" rows="" cols="" placeholder="请输入商品类型"></textarea>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#nine">17.除了灵动光明行之外，您还知道哪些债权置换平台或网站？</p>
+					<ul class="role-sel-ul">
+						<textarea class="alone-textarea" name="" rows="" cols="" placeholder="请填入名称或网址"></textarea>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#nine">18.您还有什么其他的建议或意见，请写下来告诉我们.</p>
+					<ul class="role-sel-ul">
+						<textarea class="alone-textarea" name="" rows="" cols="" placeholder="请填入建议或意见"></textarea>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#nine">19.您的职业是？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>私营企业主</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>机关和事业单位工作人员</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>公司职员</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>专业人士（如教师/医生/律师等）</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>个体工商户</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>自由职业者（如作家/艺术家/摄影师/导游等）</li>
+						<li class="hidden-box"><div class="role-sel"><span class="role-sel-white"></span></div>其他</li>
+						<textarea name="" rows="" cols="" placeholder="请填入您的职业"></textarea>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#nine">20.您的性别？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>男</li>
+						<li><div class="role-sel"><span class="role-sel-white"></span></div>女</li>
+					</ul>
+				</div>
+				<div class="list">
+					<p class="quest-tit-p" id="#nine">20.您的联系方式？<span>*</span></p>
+					<ul class="role-sel-ul">
+						<li class="inp-li">姓名<input type="" name="" id="" value="" placeholder="请输入您的姓名" /></li>
+						<li class="inp-li">电话<input type="" name="" id="" value="" placeholder="请输入您的电话" /></li>
+					</ul>
+				</div>
+			</div>
+			<div class="btm-btn-div">
+				<input class="inp-btn" type="button" id="" value="提交" />
+			</div>
+		</div>
+	</body>
+</html>

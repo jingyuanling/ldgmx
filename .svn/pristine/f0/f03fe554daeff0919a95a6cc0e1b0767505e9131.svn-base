@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/j-shangjiaguanli.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/ceshi.css">
+</head>
+<body>
+   <div class="zhifuok-box">
+        <div class="main-top">
+            <div class="goback">
+                <img src="img/ditulogo.png">
+                <p>商家管理</p>
+            </div>
+            <p class="ok"><img src="img/jiahao.png"></p>
+        </div>
+        <div class="mendian">
+            <span class="tupian"><img src="img/j-logo.png"></span>
+            <div class="cont">
+                <p class="tit">季旦鲜一号店</p>
+                <p>季旦鲜一号店</p>
+                <p>电话：15237150152</p>
+                <p>一号价格单</p>
+                <span class="right">></span>
+            </div>
+        </div>
+        <div class="mendian">
+            <span class="tupian"><img src="img/j-logo.png"></span>
+            <div class="cont">
+                <p class="tit">季旦鲜一号店</p>
+                <p>季旦鲜一号店</p>
+                <p>电话：15237150152</p>
+                <p>一号价格单</p>
+                <span class="right">></span>
+            </div>
+        </div>
+        <div class="mendian">
+            <span class="tupian"><img src="img/j-logo.png"></span>
+            <div class="cont">
+                <p class="tit">季旦鲜一号店</p>
+                <p>季旦鲜一号店</p>
+                <p>电话：15237150152</p>
+                <p>一号价格单</p>
+                <span class="right">></span>
+            </div>
+        </div>
+        <div class="bottom">
+            <a href="j-peisongdan.html"><li><img style="width:41px;" src="img/peisong.png"></li></a>
+            <a href="j-shangjiaguanli.html"><li><img style="width:27px;" src="img/shangjia2.png"></li></a>
+            <a href="j-my.html"><li><img src="img/my.png"></li></a>
+        </div>
+    </div> 
+</body>
+</html>

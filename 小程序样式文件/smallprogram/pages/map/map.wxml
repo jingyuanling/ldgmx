@@ -1,0 +1,103 @@
+<!--pages/map/map.wxml-->
+<page>
+  <!--导航栏-->
+		<view class="life_home_nav life_home_nav2">
+			<navigator url="###">
+				<view class="life_nav_left">
+					返回
+				</view>
+			</navigator>
+			<view class="life_home_nav_inp life_home_nav_inp2">
+				<input type="text" name="" id="" value="" placeholder="搜索你想要的" />
+				<image src="../../res/images/search_deep.png"/>
+				<view class="life_home_nav_inp_right">
+					x
+				</view>
+			</view>
+		</view>
+		<view class="life_map_wrap">
+			<view class="life_map_content">
+				
+			</view>
+			<view class="life_class_title">
+				<span>全部</span>
+				<span>美食</span>
+				<span>酒店</span>
+				<span>KTV</span>
+				<span>休闲娱乐</span>
+			</view>
+			<view class="home_good_recommend">
+				<view class="home_good_recommend_list">
+					<navigator url="###">
+						<ul>
+							<li>
+								<view class="good_list_left_img">
+									<image class="electr_left_img2" src="../../res/images/merchant_2.jpg"/>
+								</view>
+								<view class="good_list_right_text">
+									<view class="right_text_goods_name">
+										<p>星巴克咖啡</p>
+										<span>休闲娱乐</span>
+									</view>
+									<view class="good_list_right_address">
+										<p>郑州CBD绿地千玺广场</p>
+										<span>500m</span>
+									</view>
+									<view class="good_list_right_deduction">
+										债权金冲抵
+										<span>80%</span>
+									</view>
+								</view>
+							</li>
+						</ul>
+					</navigator>
+					<navigator url="###">
+						<ul>
+							<li>
+								<view class="good_list_left_img">
+									<image class="electr_left_img2" src="../../res/images/merchant_2.jpg"/>
+								</view>
+								<view class="good_list_right_text">
+									<view class="right_text_goods_name">
+										<p>星巴克咖啡</p>
+										<span>休闲娱乐</span>
+									</view>
+									<view class="good_list_right_address">
+										<p>郑州CBD绿地千玺广场</p>
+										<span>500m</span>
+									</view>
+									<view class="good_list_right_deduction">
+										债权金冲抵
+										<span>80%</span>
+									</view>
+								</view>
+							</li>
+						</ul>
+					</navigator>
+					<navigator url="###">
+						<ul>
+							<li>
+								<view class="good_list_left_img">
+									<image class="electr_left_img2" src="../../res/images/merchant_2.jpg"/>
+								</view>
+								<view class="good_list_right_text">
+									<view class="right_text_goods_name">
+										<p>星巴克咖啡</p>
+										<span>休闲娱乐</span>
+									</view>
+									<view class="good_list_right_address">
+										<p>郑州CBD绿地千玺广场</p>
+										<span>500m</span>
+									</view>
+									<view class="good_list_right_deduction">
+										债权金冲抵
+										<span>80%</span>
+									</view>
+								</view>
+							</li>
+						</ul>
+					</navigator>
+				</view>
+			</view>
+		</view>
+</page>
