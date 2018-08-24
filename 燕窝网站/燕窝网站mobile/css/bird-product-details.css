@@ -1,0 +1,38 @@
+.bird-content{
+	padding-top: 0.88rem;
+}
+.bird-details-nav{
+	height: 0.88rem;
+	width: 100%;
+	background-color: #c9c7c0;
+	position: fixed;
+	max-width: 750px;
+	min-width: 320px;
+	top: 0;
+	line-height: 0.88rem;
+}
+.bird-details-nav .bird-left-return{
+	display: block;
+	width: 0.26rem;
+	height: 0.48rem;
+	position: absolute;
+	left: 0.35rem;
+	top: 0.2rem;
+}
+.bird-details-nav-tit{
+	font-size: 0.4rem;
+	color: #FFFFFF;
+	text-align: center;
+}
+.birder-content-details{
+	width: 100%;
+	color: #202020;
+	font-size: 0.25rem;
+	text-indent: 0.5rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.038rem;
+}
+.birder-content-details img{
+	width: 100%;
+	padding: 0.18rem 0;
+}

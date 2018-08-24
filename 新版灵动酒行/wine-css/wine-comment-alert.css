@@ -1,0 +1,98 @@
+/*提醒成功弹框*/
+.identity-alert {
+    width: 3.22rem;
+    height: 2.25rem;
+    padding-top: 0.49rem;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -1.125rem;
+    margin-left: -1.61rem;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 0.12rem;
+    /*opacity: 1; */
+    /*-webkit-animation-name: identity-fade-toggle; *//*动画名称*/
+	/*-webkit-animation-duration: 3s;*/ /*动画持续时间*/
+	/*-webkit-animation-iteration-count: 1;*/ /*动画次数*/
+	/*-webkit-animation-delay: 0s;*/ /*延迟时间*/
+}
+.identity-alert .right-logo {
+    width: 0.69rem;
+    height: 0.68rem;
+}
+.identity-alert .right-logo img {
+    width: 100%;
+    height: 100%;
+}
+.identity-alert .text {
+    font-size: 0.2916rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+}
+@-webkit-keyframes identity-fade-toggle{
+	0% {
+		opacity: 0; /*初始状态 透明度为0*/
+	}
+	50% {
+		opacity: 1; /*中间状态 透明度为0*/
+	}
+	100% {
+		opacity: 0; /*结尾状态 透明度为1*/
+	}
+}
+/*确认和取消弹框*/
+.confirm-bounced-gray,.confirm-single-gray{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	max-width: 750px;
+	min-width: 320px;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 9;
+	display: none;
+}
+.confirm-bounced-alert,.confirm-single-alert{
+	width: 5.8rem;
+	height: 2.9rem;
+	background-color: #FFFFFF;
+	position: absolute;
+	/*top: 50%;*/
+	left: 50%;
+	/*margin-top: -1.45rem;*/
+	margin-left: -2.9rem;
+	border-radius: 0.08rem;
+	top: 0;
+}
+.confirm-bounced-gray .confirm-text,.confirm-single-gray .confirm-text{
+	/*height: 2rem;*/
+	font-size: 0.3333rem;
+	color: #666666;
+	padding: 0.5rem 0.6rem 0;
+	text-align: center;
+	/*border-bottom: 0.01rem solid #eaeaea;*/
+}
+.confirm-bounced-alert .two-btn,.confirm-single-alert .single-btn{
+	width: 100%;
+	height: 0.9rem;
+	overflow: hidden;
+	font-size: 0.3333rem;
+	color: #d10000;
+	line-height: 0.9rem;
+	text-align: center;
+}
+.confirm-bounced-alert .give-up,.confirm-bounced-alert .think-again{
+	width: 50%;
+	height: 100%;
+	float: left;
+	font-size: 0.3333rem;
+	color: #666666;
+	line-height: 0.9rem;
+	text-align: center;
+}
+.confirm-bounced-alert .think-again{
+	color: #d10000;
+	border-left: 0.01rem solid #eaeaea;
+}

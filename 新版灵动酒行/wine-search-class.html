@@ -12,6 +12,40 @@
 		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="wine-js/wine-search.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			// font: 字体名称，ele: 要使用此字体的元素
+			function loadFont(font, ele) {
+			    var span = document.createElement("span");
+			    // 这几个字母和符号宽度比较容易变化
+			    span.innerHTML = "gW@i#Q!T";
+			    // 设置为不可见，但可以测量宽度
+			    span.style.visibility = "hidden";
+			    // 字体大小为 500px，如果宽度变化比较容易区分
+			    span.style.fontSize = "500px";
+			    // 设置字体
+			    span.style.fontFamily = font;
+			    // 添加到页面
+			    document.body.appendChild(span);
+			    // 获取宽度
+			    var width_now = span.offsetWidth;
+			    // 每 0.05 秒检查一次是否加载
+			    var interval_check = setInterval(function() {
+			        // 宽度变化，说明字体被加载
+			        if(span.offsetWidth != width_now) {
+			            clearInterval(interval_check);
+			            // 设置字体为
+			            ele.style.fontFamily = font;
+			            // 移除 span
+			            document.body.removeChild(span);
+			            span = null;
+			        }
+			        console.log(width_now);
+			    }, 50);
+			}
+			$(function(){
+				loadFont("SourceHanSansR", document.getElementsByTagName("body")[0]);
+			});
+		</script>
 	</head>
 	<body>
 		<div class="wine-head-wrap">
@@ -35,195 +69,27 @@
 				</ul>
 			</div>
 			<div class="search-right-class">
-				<table class="search-right-tab" border="0" cellspacing="0" cellpadding="0">
+				<ul class="search-right-tab">
 					<a href="wine-reclass.html" class="search-right-class-tit"><span id="jiushui" class="first-class">酒水</span><span class="search-look-more">查看更多<img src="imgs/right-arrow-red.png" alt=""/></span></a>
-					<tr>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-					</tr>
-				</table>
-				<table class="search-right-tab" border="0" cellspacing="0" cellpadding="0">
-					<a href="wine-reclass.html" class="search-right-class-tit"><span id="fushi" class="first-class">服饰</span><span class="search-look-more">查看更多<img src="imgs/right-arrow-red.png" alt=""/></span></a>
-					<tr>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-					</tr>
-				</table>
-				<table class="search-right-tab" border="0" cellspacing="0" cellpadding="0">
-					<a href="wine-reclass.html" class="search-right-class-tit"><span id="jiadian" class="first-class">家电</span><span class="search-look-more">查看更多<img src="imgs/right-arrow-red.png" alt=""/></span></a>
-					<tr>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-						<td>
-							<div class="class-img-div">
-								<span class="class-img"></span>
-							</div>
-							<p class="class-name">分类</p>
-						</td>
-					</tr>
-				</table>
+					<li>
+						<div class="class-img-div">
+							<span class="class-img"></span>
+						</div>
+						<p class="class-name">分类</p>
+					</li>
+					<li>
+						<div class="class-img-div">
+							<span class="class-img"></span>
+						</div>
+						<p class="class-name">分类</p>
+					</li>
+					<li>
+						<div class="class-img-div">
+							<span class="class-img"></span>
+						</div>
+						<p class="class-name">分类</p>
+					</li>
+				</ul>
 			</div>
 		</div>
 		<!--底部-->

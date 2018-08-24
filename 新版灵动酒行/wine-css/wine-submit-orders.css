@@ -10,25 +10,32 @@
 }
 .wine-submit-upper .show-address,.hava-address{
 	width: 100%;
-	height: 1.05rem;
 	background-color: #ffffff;
-	padding: 0 0.50rem 0 0.37rem;
-	line-height: 1.05rem;
-}
-.show-address,.hava-address{
+	padding: 0.3rem 0.50rem 0.3rem 0.37rem;
+	position: relative;
+	overflow: hidden;
 	border-bottom: 0.01rem solid #e6e6e6;
+}
+.hava-address .get-users-name,.hava-address .get-users-name i,.hava-address .get-users-tel{
+	font-size: 0.2708rem;
+	color: #666666;
+	font-style: inherit;
+}
+.hava-address .get-users-name{
+	padding-left: 0.4rem;
+}
+.hava-address .get-users-tel{
+	float: right;
+}
+.hava-address-details{
+	display: table;
+	overflow: hidden;
+	margin-top: 0.1rem;
 }
 .show-address .text img{
 	width: 0.38rem;
 	height: 0.37rem;
 	margin-right: 0.14rem;
-}
-.hava-address .text img{
-	width: 0.28rem;
-	height: 0.33rem;
-	margin-right: 0.18rem;
-	position: relative;
-    top: -0.04rem;
 }
 .show-address .text{
 	font-size: 0.2708rem;
@@ -38,6 +45,18 @@
 	width: 0.14rem;
 	height: 100%;
 	float: right;
+}
+.hava-address .left-arrow{
+	width: 0.28rem;
+	height: 100%;
+}
+.hava-address .left-arrow-div,.hava-address .right-arrow-div{
+	display: table-cell;
+	vertical-align: middle;
+}
+.hava-address .left-arrow img{
+	width: 100%;
+	height: 0.33rem;
 }
 .show-address .right-arrow img,.hava-address .right-arrow img{
 	width: 100%;
@@ -54,8 +73,14 @@
 	color: #666666;
 	font-size: 0.2708rem;
 	width: 6.2rem;
-    overflow: hidden;
-    white-space: nowrap;
+	float: left;
+	padding: 0 0.1rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+.hava-address .text .text_span,.hava-address .text .text_span i{
+	font-size: 0.2708rem;
+	font-style: inherit;
 }
 .submit-order-list-tit{
 	padding: 0 0.37rem;
@@ -124,6 +149,7 @@
     margin-top: 0.345rem;
     float: right;
     position: relative;
+    background-color: #FFFFFF;
 }
 .wine-submit-down .pay-right-sel img,.choose-use-sel img,.address-two-btn .pay-right-sel img{
 	width: 0.24rem;
@@ -511,10 +537,12 @@
 	width: 100%;
 	overflow: hidden;
 	border-bottom: 0.01rem solid #dedede;
+	position: relative;
 }
 .get-address-ul li{
 	margin-bottom: 0.17rem;
 	color: #666666;
+	position: relative;
 }
 .get-address-ul .address-two-btn{
 	height: 1.05rem;
@@ -622,7 +650,27 @@
 .cascade_scroll_selects .scs_container .scs_dialog .scs_item{
 	font-size: 0.2918rem;
 }
-
+.wine-submit-wrap .get-address-ul li:nth-child(2n){
+	background-color: #fdf5f2;
+}
+.wine-submit-wrap .get-address-ul li:nth-child(2n) .address-two-btn{
+	background-color: #fdf5f2;
+}
+/*地址的选中状态*/
+.get-address-ul li .rainbow-line{
+	width: 100%;
+	height: 0.04rem;
+	background: url(../imgs/rainbow-line-bg.png) 0 0 repeat-x;
+	background-size: auto 100%;
+	position: absolute;
+	left: 0;
+}
+.get-address-ul li .rainbow-line1{
+	top: 0;
+}
+.get-address-ul li .rainbow-line2{
+	bottom: 0;
+}
 /*页面加载动画*/
 .loading-wrap{
 	width: 0.36rem;
@@ -659,3 +707,4 @@
  .m-load2 .line div:nth-child(4):after{-webkit-animation:load 1.2s linear 0.9s infinite;}
  .m-load2 .line div:nth-child(5):after{-webkit-animation:load 1.2s linear 1s infinite;}
  .m-load2 .line div:nth-child(6):after{-webkit-animation:load 1.2s linear 1.1s infinite;}
+

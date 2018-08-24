@@ -1,0 +1,54 @@
+.wine-card-gray{
+	width: 100%;
+	height: 100%;
+	max-width: 750px;
+	min-width: 320px;
+	position: fixed;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+.wine-card-wrap{
+	width: 5rem;
+	height: 5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -2.5rem;
+	margin-left: -2.5rem;
+}
+.wine-card-img{
+	width: 4.56rem;
+	height: 4.88rem;
+	margin: 0.12rem auto 0;
+	position: relative;
+}
+.wine-card-img img{
+	width: 100%;
+	height: 100%;
+}
+.wine-card-delete{
+	position: absolute;
+	top: 0;
+	right: 0.35rem;
+	width: 0.39rem;
+	height: 0.38rem;
+}
+.wine-card-text{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding: 0.7rem 0.7rem 0 0.6rem;
+}
+.wine-card-text .text{
+	color: #333333;
+	font-size: 0.25rem;
+	display: inline-block;
+	width: 100%;
+	float: left;
+}
+.wine-card-text .text2{
+	width: 2.2rem;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>818活动</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/active-818.css"/>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="august-wrap">
+			<div class="august-banner">
+				<img src="img/august-banner.jpg" alt="" />
+			</div>
+			<div class="august-content">
+				<div class="august-center">
+					<ul class="august-ul">
+						<li class="model">
+							<div class="header"><img src="img/august-tit1.png" alt="" /></div>
+							<div class="model-text">
+								<div class="model-text-content">
+									<div class="model-text-center">
+										<p class="tit1">活动主题：8·18，我与酒卡有约会</p>
+										<p class="tit2">活动时间：<span>2018年8月15日~2018年8月30日</span></p>
+										<p class="tit3">活动规则：</p>
+										<p class="ruls"><span>1.</span>活动期间，凡在商城购买任意商品完成支付或签到的客户，可有机会随机获得酒卡一张。</p>
+										<p class="ruls"><span>2.</span>活动期间，酒水卡可用于随机抵扣若干箱酒类酒水商品的债权部分。</p>
+										<p class="ruls"><span>3.</span>在购买酒水支付时，勾选酒水卡抵扣即可，酒水卡仅限活动期间内使用，过期自动作废。</p>
+										<p class="ruls"><span>4.</span>本活动最终解释权归灵动·光明行所有。</p>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="model">
+							<div class="header"><img src="img/august-tit2.png" alt="" /></div>
+							<div class="model-text model-text2">
+								<div class="model-text-content model-text-content2">
+									<div class="model-text-center">
+										<p class="tit1">活动主题：债权加油站，助力尽享8·18</p>
+										<p class="tit2">活动时间：<span>2018年8月15日~2018年8月30日</span></p>
+										<p class="tit3">活动规则：</p>
+										<p class="ruls"><span>1.</span>活动期间，在活动页面点击“8·18加油助力”按钮，即可随机获得一个债权金红包，用于8·18活动期间商城购物使用。</p>
+										<p class="ruls"><span>2.</span>助力红包仅限活动期间使用，过期将自动作废。</p>
+										<p class="ruls"><span>3.</span>本活动最终解释权归灵动·光明行所有。</p>
+										<div class="august-btn"><img src="img/august-btn.png" alt="" /></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="model">
+							<div class="header"><img src="img/august-tit3.png" alt="" /></div>
+							<div class="model-text model-text2">
+								<div class="model-text-content model-text-content2 model-text-content3">
+									<div class="model-text-center">
+										<p class="tit1">活动主题：微信公众号打卡，领超值给力奖品</p>
+										<p class="tit2">活动时间：<span>2018年8月15日~2018年8月30日</span></p>
+										<p class="tit3">活动规则：</p>
+										<p class="ruls"><span>1.</span>凡关注灵动·光明行官方微信公众号“灵动光明行债权置换平台”都可参与本活动。</p>
+										<p class="ruls"><span>2.</span>活动期间，在公众号对话框发送“打卡”两字即为参与活动。</p>
+										<p class="ruls"><span>3.</span>连续发送“打卡”超过5天者，在活动结束后有机会获得名牌颈椎枕一个。</p>
+										<p class="ruls"><span>4.</span>参与该活动者，必须先关注“灵动光明行债权置换平台”公众号,打卡天数越长，获得颈椎枕几率越高。</p>
+										<p class="ruls"><span>5.</span> 本活动最终解释权归灵动·光明行所有。</p>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="fly-red-box-wrap fly-red-box-wrap-active">
+				<div class="fly-red-box fly_red_box_active">
+					<img class="fly_red_img fly_red_img_active" src="img/fly-red-envel.png"/>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$('.august-btn').click(function(){
+					$('.fly-red-box-wrap').addClass('fly_red_box_wrap_active');
+					setTimeout(function(){
+						$('.fly-red-box-wrap').removeClass('fly_red_box_wrap_active');
+					},5000)
+				});
+				$('.august-ul .august-btn').mouseover(function(){
+					$(this).animate({
+						"width":"300px",
+						"height":"83px"
+					},1000).mouseout(function(){
+						$(this).animate({
+							"width":"233px",
+							"height":"65px"
+						},500);
+					})
+				})
+			})
+		</script>
+	</body>
+</html>

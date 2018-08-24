@@ -101,7 +101,12 @@
 }
 .search-right-tab{
 	width: 100%;
-	table-layout: fixed;
+	/*table-layout: fixed;*/
+	overflow: hidden;
+}
+.search-right-tab li{
+	width: 33.3%;
+    float: left;
 }
 .search-right-tab .class-img-div{
 	height: 1.10rem;

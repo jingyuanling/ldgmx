@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>得到酒水卡弹框提示</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.get-card-gray{
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				background-color: rgba(0,0,0,0.5);
+			}
+			.get-card-content{
+				width: 512px;
+				height: 500px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-top: -250px;
+				margin-left: -256px;
+			}
+			.get-card-content-img{
+				width: 100%;
+				height: 351px;
+			}
+			.get-card-content-img img{
+				width: 100%;
+				height: 100%;
+			}
+			.get-card-content-p{
+				font-size: 18px;
+				color: #fcc707;
+				text-align: center;
+				line-height: 34px;
+			}
+			.use-card-btn{
+				width: 223px;
+				height: 66px;
+				position: absolute;
+				bottom: 0;
+				left: 144.5px;
+			}
+			.use-card-btn img{
+				width: 100%;
+				height: 100%;
+			}
+			.get-card-delete{
+				position: absolute;
+				width: 34px;
+				height: 33px;
+				top: 0;
+				right: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="get-card-gray">
+			<div class="get-card-content">
+				<div class="get-card-content-img">
+					<img src="img/get-card-alert.png" alt="" />
+				</div>
+				<p class="get-card-content-p">亲可以在“我的灵动光明行－我的酒水卡”<br />中找到酒水卡哦！</p>
+				<div class="use-card-btn">
+					<a href="###"><img src="img/card-start-btn.png" alt="" /></a>
+				</div>
+				<img class="get-card-delete" src="img/get-card-delete.png" alt="" />
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.get-card-delete').click(function(){
+				$('.get-card-gray').fadeOut();
+			});
+		</script>
+	</body>
+</html>

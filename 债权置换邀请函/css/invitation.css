@@ -1,0 +1,245 @@
+.swiper-container{
+	width: 100%;
+    height: 100%;
+	background:#FFFFFF;
+	text-align: center;
+	background: url(../img/invitation-big-bg.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+} 
+.invitation-wrap .swiper-slide{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+.invitation-wrap .ani{
+	position: absolute;
+}
+.invitation-wrap .inside-box{
+	position: static;
+}
+.swiper-slide .invitation-wrap-bg{
+	width: 100%;
+	height: 100%;
+}
+.inside-big-box{
+	width: 92%;
+	height: 96%;
+	left: 4%;
+	top: 2%;
+}
+.ld-logo{
+	width: 2.04rem;
+	height: 0.36rem;
+	top: 4%;
+	left: 6%;
+}
+.gold-leaf{
+	width: 95.4%;
+	height: 77%;
+	top: 11.5%;
+	left: 2.3%;
+}
+.bottom-little-people{
+	width: 1.34rem;
+	height: 2.40rem;
+	right: 0.6rem;
+	bottom: 0;
+}
+.bottom-light{
+	width: 6.4rem;
+	height: 1.38rem;
+	right: 0;
+	bottom: 0;
+}
+.bottom-flip-arrow{
+	width: 0.66rem;
+	height: 0.38rem;
+	bottom: 0.25rem;
+	left: 50%;
+	margin-left: -0.33rem;
+	-webkit-animation: zoomIn 2s infinite ease-in-out;
+	animation: zoomIn 2s infinite ease-in-out;
+}
+#pageOne-content{
+	height: 44.2%;
+	width: 100%;
+	top: 13%;
+}
+#pageOne-content .inside-box-span{
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#pageOne-content .inside-box,#pageOne-content .sands{
+	height: 100%;
+}
+#pageOne-content .sands{
+	height: 100%;
+	width: 100%;
+	top: 0;
+}
+#pageOne-content .invitation-logo{
+	width: 62.7%;
+	top: 4%;
+	left: 18.65%;
+}
+#pageOne-content .build{
+	width: 94.5%;
+	bottom: 1.7%;
+	left: 2.75%;
+}
+#pageOne-text{
+	color: #ffde85;
+	width: 100%;
+}
+#pageOne-text .text1{
+	font-size: 0.367rem;
+	font-weight: bold;
+	line-height: 0.75rem;
+}
+#pageOne-text .text2{
+	font-size: 0.325rem;
+	line-height: 0.57rem;
+}
+#pageOne-text .text3{
+	font-size: 0.45rem;
+	line-height: 0.62rem;
+}
+#pageOne-text .text4{
+	line-height: 0.62rem;
+	font-size: 0.325rem;
+}
+/*page2*/
+.invitation-wrap .page2-tit{
+	position: static;
+	height: 6%;
+	margin: 30% auto 0;
+}
+.invitation-wrap .page2-tit2{
+	text-align: center;
+	color: #ffde85;
+	font-size: 0.49rem;
+	width: 100%;
+	line-height: 0.68rem;
+	margin: 0.4rem 0;
+	position: static;
+}
+#page2-text{
+	width: 4.8rem;
+	height: 3.9rem;
+	border: 0.02rem solid #ffde85;
+	left: 50%;
+	margin-left: -2.4rem;
+}
+.page2-text-tit{
+	height: 0.78rem;
+	background-color: #ffde85;
+	font-size: 0.45rem;
+	color: #351e16;
+	text-align: center;
+	line-height: 0.78rem;
+}
+#page2-text ul{
+	line-height: 0.56rem;
+	padding: 0.3rem 0.2rem 0 0;
+}
+#page2-text ul li{
+	font-size: 0.32rem;
+	color: #FFDE85;
+	font-weight: lighter;
+	position: relative;
+	padding-left: 0.49rem;
+	text-align: left;
+}
+#page2-text ul li span{
+	width: 0.08rem;
+	height: 0.08rem;
+	display: block;
+	border-radius: 100%;
+	background-color: #FFDE85;
+	position: absolute;
+	left: 0.3rem;
+	top: 0.24rem;
+}
+/*page3*/
+.invitation-wrap .page3-tit1{
+	margin: 30% auto 0;
+	font-size: 0.82rem;
+	position: relative;
+	color: #ffde85;
+}
+.invitation-wrap .page3-ul{
+	padding: 0.4rem 1.1rem 0;
+	text-align: left;
+}
+.invitation-wrap .page3-ul li{
+	font-size: 0.31rem;
+	color: #ffde85;
+	line-height: 0.47rem;
+	padding-left: 0.4rem;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.invitation-wrap .page3-ul li span{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.invitation-wrap .page4-content{
+	height: 47%;
+    position: relative;
+    margin: 0 auto;
+    top: 10%;
+}
+.invitation-wrap .page5-text-wrap{
+	color: #ffde85;
+	width: 100%;
+	text-align: center;
+	top: 15%;
+}
+.invitation-wrap .page5-text-wrap .page5-text1{
+	font-size: 0.37rem;
+}
+.invitation-wrap .page5-text-wrap .page5-text2{
+	font-size: 0.4rem;
+	margin: 0.2rem 0;
+	font-weight: bold;
+}
+.invitation-wrap .page5-code{
+	position: relative;
+	margin: 0.2rem auto 0;
+	width: 2.67rem;
+	height: 2.67rem;
+}
+.invitation-wrap .page5-text3{
+	font-size: 0.32rem;
+	width: 100%;
+	line-height: 0.71rem;
+}
+.invitation-wrap .page5-text3 .page5-text4{
+	font-size: 0.25rem;
+	line-height: 0.43rem;
+	display: block;
+	width: 100%;
+}
+
+@font-face {
+ 	font-family:'SourceHanSansR';
+    src: url('../font/SourceHanSansR_invitation.eot');
+    src: 
+        url('../font/SourceHanSansR_invitation.eot?#font-spider') format('embedded-opentype'),
+	 	url('../font/SourceHanSansR_invitation.woff') format('woff'),
+	    url('../font/SourceHanSansR_invitation.ttf') format('truetype'),
+	    url('../font/SourceHanSansR_invitation.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.invitation-wrap{
+	font-family: 'SourceHanSansR';
+}
+@media only screen and (max-width: 1050px) {
+	.invitation-wrap .page3-tit1{
+		margin: 20% auto 0;
+	}
+}
