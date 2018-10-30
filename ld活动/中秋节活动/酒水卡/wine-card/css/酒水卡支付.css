@@ -1,0 +1,51 @@
+.wine-card-contentzf{
+	width: 222px;
+	height: 101px;
+	background: url(../img/wine-card-bgzq.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+	color: #FFFFFF;
+	font-family: "黑体";
+}
+.wine-card-contentzf .wine-card-left{
+	float: left;
+	width: 100px;
+	height: 100%;
+	padding-left: 2px;
+	padding-top: 7.5px;
+}
+.wine-card-contentzf .wine-card-left img{
+	width: 100%;
+	height: 86px;
+}
+.wine-card-contentzf .wine-card-right{
+	width: 122px;
+	height: 100%;
+	float: right;
+	padding: 10px 0 0;
+}
+.wine-card-contentzf .p1{
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.wine-card-contentzf .p2{
+	font-size: 17px;
+	line-height: 19px;
+}
+.wine-card-contentzf .p3{
+	font-size: 13px;
+	line-height: 15px;
+}
+.wine-card-contentzf .p4{
+	font-size: 12px;
+	line-height: 14px;
+	position: relative;
+	display: inline-block;
+    width: 180px;
+    left: -55px;
+    letter-spacing: -0.5px;
+}
+.wine-card-contentzf p{
+	text-align: center;
+}

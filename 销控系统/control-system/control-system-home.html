@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/control-system-header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/control-system-home.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/control-system-swiper.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="control-system-header">
+			<span class="header-left"><img src="img/user-icon-gray.png" alt="" /></span>
+			<span class="header-right"><img src="img/horn-icon-gray.png" alt="" /></span>
+			<p class="header-tit">首页</p>
+		</div>
+		<div class="control-home-wrap">
+			<div class="control-home-banner">
+				<div class="swiper-container swiper-container-banner">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img alt="" src="img/goods-img-banner.jpg"/></div>
+					    <div class="swiper-slide"><img alt="" src="img/goods-img-banner.jpg"/></div>
+					    <div class="swiper-slide"><img alt="" src="img/goods-img-banner.jpg"/></div>
+					</div>
+				    <div class="swiper-pagination text-right"></div>
+				</div>
+			</div>
+			<div class="control-home-notice">
+				<img class="horn-icon" src="img/horn-icon.png" alt="" />
+				公告<span class="line"></span>有购房意愿的客户对楼盘项目最初想
+			</div>
+			<div class="control-home-list">
+				<ul>
+					<li>
+						<span class="control-home-list-img"><img src="img/goods-img.jpg" alt="" /></span>
+						<span class="control-home-list-text">恒大御海天下</span>
+					</li>
+					<li>
+						<span class="control-home-list-img"><img src="img/goods-img.jpg" alt="" /></span>
+						<span class="control-home-list-text">恒大御海天下</span>
+					</li>
+					<li>
+						<span class="control-home-list-img"><img src="img/goods-img.jpg" alt="" /></span>
+						<span class="control-home-list-text">恒大御海天下恒大御海天下</span>
+					</li>
+					<li>
+						<span class="control-home-list-img"><img src="img/goods-img.jpg" alt="" /></span>
+						<span class="control-home-list-text">恒大御海天下</span>
+					</li>
+					<li>
+						<span class="control-home-list-img"><img src="img/goods-img.jpg" alt="" /></span>
+						<span class="control-home-list-text">恒大御海天下</span>
+					</li>
+					<li>
+						<span class="control-home-list-img"><img src="img/goods-img.jpg" alt="" /></span>
+						<span class="control-home-list-text">恒大御海天下</span>
+					</li>
+					<li>
+						<span class="control-home-list-img"><img src="img/goods-img.jpg" alt="" /></span>
+						<span class="control-home-list-text">恒大御海天下</span>
+					</li>
+					<li>
+						<span class="control-home-list-img"><img src="img/goods-img.jpg" alt="" /></span>
+						<span class="control-home-list-text">恒大御海天下</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="control-sidebar-gray">
+			<div class="control-sidebar">
+				<p class="sidebar-user-num"><img src="img/user-icon-gray.png" alt="" />135*****524</p>
+				<a href="###" class="sidebar-change-pwd"><img src="img/lock-icon-gray.png" alt="" />修改密码</a>
+				<a href="###" class="sidebar-log-out"><img src="img/exit-icon.png" alt="" />退出登陆</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				var sidebar_bool = true;
+				$('.header-left').click(function(){
+					if (sidebar_bool) {
+						$('.control-sidebar-gray').fadeIn();
+						$('.control-sidebar').animate({"left":"0"});
+						sidebar_bool = false;
+					} else{
+						$('.control-sidebar').animate({"left":"-5.12rem"});
+						$('.control-sidebar-gray').fadeOut();
+						sidebar_bool = true;
+					}
+					
+				});
+			})
+		</script>
+	</body>
+</html>

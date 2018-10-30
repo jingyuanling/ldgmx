@@ -1,0 +1,779 @@
+.koi-wrap{
+	width: 100%;
+	padding: 40px 0;
+	background-color: #eaeaea;
+	overflow-x: hidden;
+}
+.koi-wrap img{
+	display: block;
+}
+.koi-banner{
+	width: 100%;
+	height: 10.37rem;
+	background-color: #0157c4;
+	background-size: 100% 100%;
+	position: relative;
+}
+.strategy-btn{
+	width: 0.74rem;
+	height: 0.87rem;
+	position: absolute;
+	left: 0.4rem;
+	top: 0.55rem;
+}
+.strategy-btn img{
+	width: 100%;
+	height: 100%;
+}
+.koi-wallet{
+	width: 2.72rem;
+	height: 0.76rem;
+	position: absolute;
+	right: 0;
+	top: 0.55rem;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 0.38rem 0 0 0.38rem;
+}
+.koi-wallet img{
+	width: 0.54rem;
+	height: 0.54rem;
+	margin: 0.11rem;
+	display: block;
+}
+.koi-wallet-money{
+	font-size: 0.29rem;
+	line-height: 0.76rem;
+	font-weight: bold;
+	letter-spacing: -0.03rem;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #e43902;
+	padding: 0 0.68rem 0 0.76rem;
+}
+.koi-wallet .extract-btn{
+	width: 0.6rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 0.23rem;
+	right: 0.1rem;
+	font-size: 0.22rem;
+	text-align: center;
+	background-color: #5184c4;
+	border-radius: 0.05rem;
+	color: #fff;
+}
+.koi-banner .banner-center-wrap{
+	width: 100%;
+	height: 6.08rem;
+	position: absolute;
+	background: url(../img/big-bubbles-bg.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	bottom: 0;
+	left: 0;
+}
+.koi-banner .banner-center-wrap .koiImg{
+	width: 2.04rem;
+	height: 1.60rem;
+	position: absolute;
+    top: 1.2rem;
+    left: 2.6rem;
+    opacity: 0.8;
+}
+.koi-banner .banner-center-wrap .koiId{
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 2.9rem;
+	opacity: 0.8;
+}
+.koi-banner .banner-center-wrap .koiId span{
+	display: inline-block;
+	width: 100%;
+	font-size: 0.2rem;
+	color: #feec76;
+	text-align: center;
+	float: left;
+}
+.koi-banner .banner-center-wrap .koiId span:nth-child(2){
+	font-size: 0.22rem;
+	color: #fff;
+	font-weight: bold;
+}
+.koi-banner .banner-center-wrap .more-koi-btn{
+	width: 2.05rem;
+	height: 0.7rem;
+	position: absolute;
+	top: 3.65rem;
+    left: 2.72rem;
+}
+.koi-banner-bottom{
+	height: 0.55rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.koi-banner-bottom img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.koi-middle{
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.koi-middle-tit{
+	overflow: hidden;
+	height: 0.67rem;
+	box-sizing: border-box;
+	padding: 0 0.4rem;
+	line-height: 0.5rem;
+	border-bottom: 0.02rem solid #eaeaea;
+}
+.koi-middle-tit span:nth-child(1){
+	float: left;
+	color: #666666;
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.koi-middle-tit span:nth-child(2){
+	float: right;
+	color: #999999;
+	font-size: 0.2rem;
+}
+.koi-middle-content{
+	text-align: center;
+	width: 100%;
+	height: 2.67rem;
+    padding-top: 0.4rem;
+}
+.koi-time-desc{
+	font-size: 0.25rem;
+	color: #666666;
+}
+.koi-time{
+	font-size: 0.47rem;
+	color: #e43902;
+	line-height: 1.1rem;
+}
+.koi-time span{
+	font-weight: bold;
+}
+.koi-middle .look-prize-btn a{
+	font-size: 0.25rem;
+	color: #666666;
+	display: block;
+	width: 1.8rem;
+	margin: 0 auto;
+	border-bottom: 0.02rem solid #666666;
+}
+.koi-rank-wrap{
+	color: #333333;
+	background-color: #fff;
+}
+.koi-rank-tit{
+	font-size: 0.3rem;
+	padding-left: 0.4rem;
+	height: 0.8rem;
+	line-height: 0.9rem;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #eaeaea;
+}
+.koi-rank{
+	display: block;
+	width: 100%;
+	padding: 0 0 0 0.4rem;
+}
+.koi-rank li{
+	height: 1.06rem;
+	display: flex;
+	position: relative;
+}
+.koi-rank li .sort{
+	width: 0.4rem;
+	padding-top: 0.33rem;
+	display: block;
+	height: 100%;
+	text-align: center;
+	margin-right: 0.1rem;
+	font-size: 0.25rem;
+}
+.koi-rank li .sort img{
+	width: 0.28rem;
+	height: 0.4rem;
+	margin: 0 auto;
+}
+.koi-factor-datails{
+	flex: 1;
+	line-height: 1.06rem;
+	overflow: hidden;
+	padding-right: 0.4rem;
+	border-bottom: 0.02rem solid #eaeaea;
+}
+.koi-factor-datails span{
+	display: block;
+	float: left;
+}
+.koi-factor-datails .user-photo{
+	height: 0.58rem;
+	width: 0.58rem;
+	margin-top: 0.24rem;
+    margin-right: 0.3rem;
+}
+.koi-factor-datails .user-photo img{
+	width: 100%;
+	height: 100%;
+}
+.koi-factor-datails .userName{
+	font-size: 0.26rem;
+}
+.koi-factor-datails .num{
+	font-size: 0.3rem;
+	float: right;
+}
+.rank-more-btn{
+	display: block;
+	width: 100%;
+	color: #666666;
+	font-size: 0.25rem;
+	text-align: center;
+	height: 1.06rem;
+	line-height: 1.06rem;
+}
+/*锦鲤因子样式*/
+.koi-factor{
+	width: 1.16rem;
+	height: 1.16rem;
+	background: url(../img/bubble-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	font-size: 0.23rem;
+	text-align: center;
+	color: #fff;
+	box-sizing: border-box;
+	display: table;
+}
+.koi-factor-content{
+	display: table-cell;
+	vertical-align: middle;
+}
+.koi-factor-content img{
+	height: 0.7rem;
+	width: auto;
+	margin: 0 auto;
+}
+.koi-factor span{
+	font-size: 0.23rem;
+}
+.koi-factor p{
+	font-weight: bold;
+}
+.koi-factor-content .desc{
+	position: absolute;
+	font-size: 0.2rem;
+	top: 100%;
+	width: 100%;
+	text-align: center;
+	line-height: 0.4rem;
+}
+/*倒计时样式*/
+.countdown{
+	width: 1.02rem;
+	height: 1.02rem;
+	background: url(../img/bubble-bg1.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.koi-factor{
+	top: 1.1rem;
+	left: 3.1rem;
+}
+#koi-factor1{
+	top: -0.5rem;
+    left: 3rem;
+    transform: scale(1);
+}
+.koi-factor1{
+    animation: animate1 2s 1 alternate forwards;
+	-webkit-animation:animate1 2s 1 alternate forwards;
+}
+.koi-factorAll{
+    animation: animateAll 2s infinite!important;
+	-webkit-animation:animateAll 2s infinite!important;
+}
+#koi-factor2{
+	top: -1rem;
+	left: 1.2rem;
+	transform: scale(1);
+}
+.koi-factor2{
+	animation: animate2 2s 1 alternate forwards;
+	-webkit-animation:animate2 2s 1 alternate forwards;
+}
+#koi-factor3{
+	top: -0.8rem;
+	left: 4.5rem;
+	transform: scale(1);
+}
+.koi-factor3{
+	animation: animate3 2s 1 alternate forwards;
+	-webkit-animation:animate3 2s 1 alternate forwards;
+}
+#koi-factor4{
+	top: -2.6rem;
+	left: 3.2rem;
+	transform: scale(1);
+}
+.koi-factor4{
+	animation: animate4 2s 1 alternate forwards;
+	-webkit-animation:animate4 2s 1 alternate forwards;
+}
+#koi-factor5{
+	top: 0.5rem;
+	left: 0.8rem;
+	transform: scale(1);
+}
+.koi-factor5{
+	animation: animate5 2s 1 alternate forwards;
+	-webkit-animation:animate5 2s 1 alternate forwards;
+}
+#koi-factor6{
+	top: 0.5rem;
+	left: 5.5rem;
+	transform: scale(1);
+}
+.koi-factor6{
+	animation: animate6 2s 1 alternate forwards;
+	-webkit-animation:animate6 2s 1 alternate forwards;
+}
+#koi-factor7{
+	top: -2rem;
+	left: 5rem;
+	transform: scale(1);
+}
+.koi-factor7{
+	animation: animate7 2s 1 alternate forwards;
+	-webkit-animation:animate7 2s 1 alternate forwards;
+}
+#koi-factor8{
+	top: -2.3rem;
+    left: 1.5rem;
+    transform: scale(1);
+}
+.koi-factor8{
+	animation: animate8 2s 1 alternate forwards;
+	-webkit-animation:animate8 2s 1 alternate forwards;
+}
+.banner-center-wrap .koiImg{
+	animation: koi 2s 5s alternate forwards;
+	-webkit-animation:koi 2s 5s alternate forwards;
+}
+.banner-center-wrap .getkoi{
+	animation: getkoi 1s 1 alternate forwards;
+	-webkit-animation:getkoi 1s 1 alternate forwards;
+}
+@keyframes animate1{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -0.5rem;
+		left: 3rem;
+	}
+}
+@-webkit-keyframes animate1{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -0.5rem;
+		left: 3rem;
+	}
+}
+@keyframes animate2{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -1rem;
+	    left: 1.2rem;
+	}
+}
+@-webkit-keyframes animate2{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -1rem;
+		left: 1.2rem;
+	}
+}
+@keyframes animate3{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -0.8rem;
+		left: 4.5rem;
+	}
+}
+@-webkit-keyframes animate3{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -0.8rem;
+		left: 4.5rem;
+	}
+}
+@keyframes animate4{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -2.6rem;
+		left: 3.2rem;
+	}
+}
+@-webkit-keyframes animate4{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -2.6rem;
+		left: 3.2rem;
+	}
+}
+@keyframes animate5{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: 0.5rem;
+		left: 0.8rem;
+	}
+}
+@-webkit-keyframes animate5{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: 0.5rem;
+		left: 0.8rem;
+	}
+}
+@keyframes animate6{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: 0.5rem;
+		left: 5.5rem;
+	}
+}
+@-webkit-keyframes animate6{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: 0.5rem;
+		left: 5.5rem;
+	}
+}
+@keyframes animate7{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -2rem;
+		left: 5rem;
+	}
+}
+@-webkit-keyframes animate7{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -2rem;
+		left: 5rem;
+	}
+}
+@keyframes animate8{
+	from{
+		transform: scale(0);
+		top: 1.1rem;
+		left: 3.1rem;
+	}
+	to{
+		transform: scale(1);
+		top: -2.3rem;
+		left: 1.5rem;
+	}
+}
+@-webkit-keyframes animate8{
+	to{
+		transform: scale(1);
+		top: -2.3rem;
+		left: 1.5rem;
+	}
+}
+@keyframes animateAll{
+	0%{
+		margin-top: 0;
+	}
+	50%{
+		margin-top: -0.3rem;
+	}
+	100%{
+		margin-top: 0;
+	}
+}
+@-webkit-keyframes animateAll{
+	0%{
+		margin-top: 0;
+	}
+	50%{
+		margin-top: -0.3rem;
+	}
+	100%{
+		margin-top: 0;
+	}
+}
+/*鱼的动画*/
+@keyframes koi{
+	0%{
+		transform: rotateX(0);
+	}
+	50%{
+		transform: rotateX(50deg);
+	}
+	100%{
+		transform: rotateX(0);
+	}
+}
+@-webkit-keyframes koi{
+	0%{
+		transform: rotateX(0);
+	}
+	50%{
+		transform: rotateX(50deg);
+	}
+	100%{
+		transform: rotateX(0);
+	}
+}
+/*收取锦鲤因子动画*/
+@keyframes getkoi{
+	to{
+		top: -4rem;
+		left: 5rem;
+		transform: scale(0);
+	}
+}
+@-webkit-keyframes getkoi{
+	to{
+		top: -4rem;
+		left: 5rem;
+		transform: scale(0);
+	}
+}
+/*底部弹框*/
+.koi-bottom-alert{
+	width: 100%;
+	height: 2.5rem;
+	background-color: rgba(0,0,0,0.6);
+	position: fixed;
+	bottom: -2.5rem
+	max-width: 750px;
+	overflow: hidden;
+}
+.bottom-alert-module{
+	width: 25%;
+	float: left;
+	padding-top: 0.4rem;
+	box-sizing: border-box;
+}
+.koi-bottom-alert .vessel{
+	width: 1.09rem;
+	height: 1.09rem;
+	display: block;
+	margin: 0 auto;
+	padding-top: 0.29rem;
+	border-radius: 50%;
+	background-color: #4387e8;
+}
+.koi-bottom-alert .vessel img{
+	height: 0.51rem;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+}
+.koi-bottom-alert .bottom-alert-module:nth-child(2) .vessel{
+	background-color: #b04f26;
+}
+.koi-bottom-alert .bottom-alert-module:nth-child(3) .vessel{
+	background-color: #0157c4;
+}
+.koi-bottom-alert .bottom-alert-module:nth-child(4) .vessel{
+	background-color: #b04f26;
+}
+.bottom-alert-module p{
+	color: #fff;
+	font-size: 0.2rem;
+	text-align: center;
+	margin-top: 0.35rem;
+}
+/*提示弹框*/
+.koi-alert-gray{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	max-width: 750px;
+	top: 0;
+	background-color: rgba(0,0,0,0.7);
+	display: none;
+	z-index: 5;
+}
+.koi-alert-content{
+	height: 6rem;
+	width: 4.35rem;
+	border-radius: 0.15rem;
+	background-color: rgba(255,255,255,0.7);
+	position: absolute;
+	left: 1.575rem;
+	top: -6rem;
+	padding-top: 0.3rem;
+}
+.koi-alert-gray .away-alert{
+	padding-top: 0.69rem;
+}
+.koi-alert-gray .share-alert,.koi-alert-gray .sign-alert,.koi-alert-gray .shopping-alert{
+	padding-top: 0.24rem;
+}
+.koi-alert-content img{
+	display: block;
+	margin: 0 auto;
+}
+.koi-alert-gray .away-alert img{
+	width: 3.03rem;
+	height: 2.35rem;
+	margin-bottom: 0.4rem;
+}
+.koi-alert-gray .share-alert img,.koi-alert-gray .sign-alert img,.koi-alert-gray .shopping-alert img{
+	width: 3.16rem;
+	height: 3.07rem;
+	margin-bottom: 0.1rem;
+}
+.koi-alert-gray .koi-alert-content p{
+	font-size: 0.41rem;
+	color: #0157c4;
+	line-height: 0.62rem;
+	padding: 0 0.45rem;
+	text-align: center;
+}
+.koi-alert-gray .koi-alert-content p span{
+	font-weight: bold;
+}
+.alert-again-btn{
+	display: block;
+	color: #fff;
+	text-align: center;
+	height: 0.57rem;
+	width: 2.28rem;
+	font-size: 0.34rem;
+	margin: 0.35rem auto 0;
+	line-height: 0.57rem;
+	border-radius: 0.1rem;
+	background-color: #E43902;
+}
+.koi-alert-gray .koi-invite-alert{
+	width: 6.08rem;
+	height: 6.46rem;
+	position: absolute;
+	right: 0.3rem;
+	top: 1.48rem;
+	display: none;
+}
+.koi-alert-gray .koi-invite-alert img{
+	width: 100%;
+	height: 100%;
+}
+/*弹幕*/
+.koi-banner .draw-barrage{
+	width: 100%;
+	height: 2rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0;
+	overflow: hidden;
+	z-index: 2;
+}
+.koi-banner .draw-barrage img{
+	width: 0.34rem;
+	height: 0.34rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 0.16rem;
+	top: 0.06rem;
+	margin-right: 0.1rem;
+}
+.draw-barrage .barrage-content{
+	line-height: 0.46rem;
+	height: 0.46rem;
+	padding: 0 0.16rem 0 0.6rem;
+	display: inline-block;
+	border-radius: 0.1rem;
+	font-size: 0.24rem;
+	color: #333333;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 0.19rem;
+	position: absolute;
+	overflow: hidden;
+}

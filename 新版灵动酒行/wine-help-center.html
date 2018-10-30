@@ -17,7 +17,29 @@
 			<div class="wine-head-nav">
 				<span class="left-return-arrow" onclick="javascript:history.back(-1);"><img src="imgs/left-return-arrow2.png" alt=""/></span>
 				<p class="text-center nav-tit-name">帮助中心</p>
-				<a href="wine-chat.html" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>
+				<!--<a href="wine-chat.html" class="right-logo"><img src="imgs/head-service-logo.png" alt=""/></a>-->
+				<div class="wine-header-right">
+					<span class="point"></span>
+					<span class="point"></span>
+					<span class="point"></span>
+					<span class="message-num">10</span>
+					<div class="wine-header-alert">
+						<div class="header-alert-triangle"></div>
+						<div class="header-alert-triangle2"></div>
+						<div class="header-alert-left">
+							<span><img src="imgs/message-icon.png" alt="" /></span>
+							<span><img src="imgs/home-icon.png" alt="" /></span>
+							<span><img src="imgs/share-icon.png" alt="" /></span>
+						</div>
+						<div class="header-alert-right">
+							<ul>
+								<li><a href="###">消息<span class="message-num">10</span></a></li>
+								<li><a href="###">首页</a></li>
+								<li><a href="###">分享</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="wine-wrap">
@@ -32,5 +54,10 @@
 				</ul>
 			</div>
 		</div>
+		<script type="text/javascript">
+			$(".wine-header-right").click(function(){
+				$('.wine-header-alert').toggle(1000);
+			});
+		</script>
 	</body>
 </html>

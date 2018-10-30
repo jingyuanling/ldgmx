@@ -1,0 +1,199 @@
+.control-room-wrap{
+	padding-top: .76rem;
+	height: 100%;
+}
+.control-room-content{
+	width: 100%;
+	height: 100%;
+	min-width: 320px;
+	max-width: 750px;
+	position: absolute;
+    top: 0;
+    padding-top: 4.39rem;
+	background-color: #ececec;
+}
+.control-floor-header::-webkit-scrollbar,
+.control-floor-details::-webkit-scrollbar{
+	display: none;
+}
+.control-floor-header{
+	padding-left: .4rem;
+	width: 100%;
+	height: .75rem;
+	overflow-x: scroll;
+	background-color: #f5f5f5;
+	border-bottom: .01rem solid #c1c1c1;
+    position: absolute;
+    z-index: 9;
+}
+.control-floor-header .control-floor-ul{
+	height: 100%;
+}
+.control-floor-header .control-floor-ul li{
+	font-size: .29rem;
+	float: left;
+	margin-right: .35rem;
+	height: 100%;
+	line-height: .75rem;
+	color: #aeaeae;
+	font-weight: 600;
+}
+.control-floor-details-wrap{
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    top: 0;
+    padding-top: 5.34rem;
+}
+.control-floor-details{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: #f5f5f5;
+	border-top: .01rem solid #c1c1c1;
+	padding: .15rem .4rem .9rem;
+	background-color: #fff;
+}
+.control-inform-header{
+	text-align: center;
+}
+.control-inform-header .header-up{
+	font-size: .35rem;
+	color: #333;
+}
+.control-inform-header .header-down i{
+	font-style: inherit;
+	margin: 0 .1rem;
+}
+.control-inform-header .header-down{
+	font-size: .18rem;
+	color: #666666;
+	height: .23rem;
+	line-height: .23rem;
+}
+.control-inform-header .header-down span{
+	display: inline-block;
+	width: 1.27rem;
+	height: .01rem;
+	position: relative;
+	top: -.05rem;
+}
+.control-inform-header .header-down span.left{
+	background: -webkit-linear-gradient(left,#fff,#9a9a9a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#fff,#9a9a9a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#fff,#9a9a9a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,#fff,#9a9a9a); /* Standard syntax */
+}
+.control-inform-header .header-down span.right{
+	background: -webkit-linear-gradient(left,#9a9a9a,#fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#9a9a9a,#fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#9a9a9a,#fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,#9a9a9a,#fff); /* Standard syntax */
+}
+.control-floor-details ol{
+	padding-top: .4rem;
+	padding-bottom: .2rem;
+	overflow: hidden;
+}
+.control-floor-details ol li{
+	width: 2.04rem;
+	height: 1.37rem;
+	background-color: #e9856f;
+	float: left;
+	margin-bottom: .26rem;
+	border-radius: .06rem;
+	position: relative;
+	overflow: hidden;
+	font-size: .52rem;
+	color: #FFF;
+	line-height: 1.37rem;
+	text-align: center;
+}
+.control-floor-details ol li:nth-child(3n+2){
+	margin: 0 .29rem;
+}
+.inform_ol_active .ash_layer{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+.control-floor-header .control-floor-ul .control_floor_active{
+	color: #e94a26;
+}
+/*不可选中状态*/
+.control-floor-details ol .inform_not_choose{
+	background-color: #b9b9b9;
+}
+/*弹框*/
+.control-room-alert-gray{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	min-width: 3.2rem;
+	max-width: 7.5rem;
+	z-index: 9;
+	display: none;
+}
+.control-room-alert{
+	width: 100%;
+	height: 8.2rem;
+	background-color: #FFF;
+	position: absolute;
+	bottom: -8.2rem;
+	left: 0;
+}
+.control-room-alert-content{
+	height: 100%;
+	width: 100%;
+	padding: .36rem 0 1.1rem .4rem;
+	overflow-y: scroll;
+}
+.control-room-delete{
+	width: .38rem;
+	height: .38rem;
+	position: absolute;
+	top: .15rem;
+	right: .20rem;
+}
+.control-room-alert p{
+	font-size: .3rem;
+	height: .62rem;
+	line-height: .62rem;
+	color: #666666;
+	font-weight: 600;
+}
+.control-room-alert .span_left{
+	width: 1.3rem;
+	display: inline-block;
+	text-align-last: justify;
+}
+.control-room-alert .span_right{
+	color: #333;
+	font-weight: normal;
+	padding-left: .1rem;
+}
+.control-room-designate{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .44rem;
+	background-color: #e94a26;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/control-system-header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/control-system-home.css"/>
+		<link rel="stylesheet" type="text/css" href="css/control-system-pwd.css"/>
+		<link rel="stylesheet" type="text/css" href="css/control-system-alert.css"/>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/control-system-header.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="control-header">
+			<div class="control-header-center">
+				<div class="header-user-photo">
+					<img src="img/user-photo.png" alt="" />
+				</div>
+				<div class="header-user-name">
+					<span>135*****927</span><img class="header-triangle" src="img/triangle.png" alt="" />
+				</div>
+				<div class="header-alert">
+					<div class="header-alert-triangle"></div>
+					<div class="header-user-num">
+						<img class="user-icon-red" src="img/user-icon-red.png" alt="" /><span>135*****927</span>
+					</div>
+					<a href="control-system-pwd.html">
+						<div class="header-user-pwd">
+							<img src="img/lock-icon-red.png" alt="" /><span>修改密码</span>
+						</div>
+					</a>
+					<a href="control-system-login.html">
+						<div class="header-return-login">
+							退出登录
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="control-home-wrap">
+			<div class="control-home-left">
+				<div class="home-left-tit">
+					<div class="home-left-tit-center">
+						<img src="img/home-logo-white.png"/>楼盘名
+					</div>
+				</div>
+				<p class="home-left-black"></p>
+				<ul class="home-left-ul">
+					<span class="select-sign"></span>
+					<span class="home-left-triangl"><img src="img/left-triangle.png" alt="" /></span>
+					<li class="select-active">修改密码</li>
+				</ul>
+			</div>
+			<div class="control-home-right">
+				<p class="home-right-tit">
+					<span><img src="img/home-logo.png" alt="" /></span>
+					<span><i></i>修改密码</span>
+				</p>
+				<div class="home-room-wrap">
+					<p class="bulletin-board">
+						<span class="bulletin-board-spanImg"><img src="img/horn-icon.png" alt="" /></span>
+						<span class="bulletin-board-spanRed">公告</span>
+						<i class="vertical-bar"></i>
+						<span class="bulletin-board-spanRight">有购房意愿的客户对楼盘项目最初想</span>
+					</p>
+					<div class="control-pwd-content">
+						<div class="pwd-change-inp-list">
+							<div class="pwd-change-inp">
+								<span>原密码:</span><input type="password" name="" id="" value="" />
+							</div>
+						</div>
+						<div class="pwd-change-inp-list">
+							<div class="pwd-change-inp">
+								<span>新密码:</span><input type="password" name="" id="" value="" />
+							</div>
+						</div>
+						<div class="pwd-change-inp-list">
+							<div class="pwd-change-inp">
+								<span>确认新密码:</span><input type="password" name="" id="" value="" />
+							</div>
+						</div>
+						<div class="pwd-change-inp-list">
+							<div class="pwd-change-inp">
+								<input class="pwd-sure-btn" type="button" name="" id="" value="确 定" />
+								<input class="pwd-cancle-btn" type="button" name="" id="" value="取 消" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pwd-success-alert-gray">
+			<div class="pwd-success-alert">
+				<img class="control-alert-delete" src="img/delete-icon.png" alt="" />
+				<img class="pwd-success-icon" src="img/right-icon.png" alt="" />
+				<p class="pwd-success-text">密码修改成功</p>
+				<a class="return-home-link" href="control-system-home.html">
+					首页
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

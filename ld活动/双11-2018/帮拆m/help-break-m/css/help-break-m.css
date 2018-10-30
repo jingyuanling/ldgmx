@@ -1,0 +1,137 @@
+.help-wrap{
+	width: 100%;
+	padding: 40px 0;
+	background-color: #feeed4;
+	overflow-x: hidden;
+}
+.help-wrap img{
+	display: block;
+}
+.help-banner{
+	height: 9.51rem;
+	position: relative;
+}
+.help-banner-img{
+	height: 100%;
+	width: 100%;
+}
+.look-strategy{
+	display: block;
+	position: absolute;
+	top: 0.3rem;
+	right: 0;
+	width: 1.68rem;
+	height: 0.78rem;
+	z-index: 3;
+}
+.look-strategy img{
+	width: 100%;
+	height: 100%;
+}
+/*弹幕*/
+.help-banner .draw-barrage{
+	width: 100%;
+	height: 2rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0;
+	overflow: hidden;
+	z-index: 2;
+}
+.help-banner .draw-barrage img{
+	width: 0.34rem;
+	height: 0.34rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 0.16rem;
+	top: 0.06rem;
+	margin-right: 0.1rem;
+}
+.draw-barrage .barrage-content{
+	line-height: 0.46rem;
+	height: 0.46rem;
+	padding: 0 0.16rem 0 0.6rem;
+	display: inline-block;
+	border-radius: 0.1rem;
+	font-size: 0.24rem;
+	color: #333333;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 0.19rem;
+	position: absolute;
+	overflow: hidden;
+}
+.help-content{
+	border-radius: 0.1rem;
+	background-color: #fff7eb;
+	padding: 0.4rem 0;
+}
+.three-photo{
+	width: 100%;
+	overflow: hidden;
+	padding: 0 0.75rem 0.4rem;
+	box-sizing: border-box;
+}
+.three-photo .photo{
+	width: 1.08rem;
+	height: 1.08rem;
+	background: url(../img/photo-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+	border-radius: 100%;
+	float: left;
+	margin-left: 0.7rem;
+}
+.three-photo .photo img{
+	width: 100%;
+	height: 100%;
+}
+.help-content .redP{
+	font-size: 0.28rem;
+	color: #ff5633;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.help-content .grayP{
+	font-size: 0.31rem;
+	color: #9c9b9b;
+	text-align: center;
+	line-height: 0.45rem;
+}
+.help-invite-btn{
+	margin: 0 auto;
+	width: 3.66rem;
+	height: 0.85rem;
+	margin-top: 0.3rem;
+}
+.help-invite-gray{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	max-width: 750px;
+	z-index: 9;
+	background-color: rgba(0,0,0,0.6);
+	display: none;
+}
+.help-invite-gray .help-invite-alert{
+	width: 6.08rem;
+	height: 6.45rem;
+	position: absolute;
+	right: 0.3rem;
+	top: 1.48rem;
+}
+.help-invite-gray .help-invite-alert img{
+	width: 100%;
+	height: 100%;
+}
+.envelope-content{
+	position: absolute;
+	top: 6rem;
+	left: 2.9rem;
+	color: #ce2504;
+	font-size: 0.4rem;
+	text-align: center;
+}
+.envelope-content span{
+	font-size: 0.69rem;
+}

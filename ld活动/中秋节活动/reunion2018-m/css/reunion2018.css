@@ -1,0 +1,129 @@
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.reunion-wrap{
+	width: 100%;
+	font-family: "黑体";
+}
+.reunion-banner{
+	width: 100%;
+	height: 6.4rem;
+}
+.reunion-banner img{
+	width: 100%;
+	height: 100%;
+}
+.reunion-content-wrap{
+	width: 100%;
+	height: 19.43rem;
+	background: url(../img/rank-wrap-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	margin-top: -1rem;
+}
+.reunion-content-wrap2{
+	width: 100%;
+	position: absolute;
+	top: .88rem;
+}
+.reunion-content-wrap2 img{
+	width: 100%;
+	height: auto;
+}
+.reunion-content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-top: 1.1rem;
+}
+.reunion-module{
+	margin-bottom: .52rem;
+}
+.reunion-module-header{
+	text-align: center;
+	margin-bottom: .41rem;
+}
+.reunion-module-header img{
+	display: inline-block;
+	width: 5.51rem;
+}
+.reunion-module-center{
+	width: 6.82rem;
+	height: auto;
+	border-radius: .2rem;
+	background-color: #fedd6b;
+	margin: 0 auto;
+}
+.reunion-module-table{
+	width: 100%;
+	font-size: .23rem;
+	background-color: #2d2b36;
+	table-layout:fixed;
+	color: #fedd6b;
+	border-radius: .2rem;
+}
+.reunion-module-table tr{
+	height: .44rem;
+	border-bottom: 1px solid #fedd6b;
+}
+.reunion-module-table tr:nth-last-child(1){
+	border-bottom: none;
+}
+.reunion-module-table td{
+	text-align: center;
+	height: .44rem;
+}
+.module-prize-ul{
+	overflow: hidden;
+}
+.module-prize-ul li{
+	width: 1.56rem;
+	float: left;
+	border-radius: .15rem;
+	background-color: #2d2b36;
+	margin-right: .11rem;
+}
+.module-prize-ul li:nth-last-child(1){
+	margin-right: 0;
+}
+.module-prize-tit{
+	height: .49rem;
+	line-height: .49rem;
+	font-size: .22rem;
+	color: #fedd6b;
+	text-align: center;
+}
+.module-prize-content{
+	width: 100%;
+	height: 1.84rem;
+	position: relative;
+	border-top: .01rem solid #fedd6b;
+}
+.module-prize-content img{
+	display: block;
+}
+.module-prize-btm{
+	position: absolute;
+	width: 100%;
+	bottom: .12rem;
+	text-align: center;
+	font-size: .2rem;
+	color: #fedd6b;
+}
+.module-rules-center{
+	width: 100%;
+	border-radius: .2rem;
+	background-color: #2d2b36;
+	padding: .3rem;
+}
+.module-rules-center p{
+	font-size: .2rem;
+	color: #fedd6b;
+	height: .34rem;
+	line-height: .34rem;
+}
+.module-rules-tit{
+	font-size: .22rem;
+}

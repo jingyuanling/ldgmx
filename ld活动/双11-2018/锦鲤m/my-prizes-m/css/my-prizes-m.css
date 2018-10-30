@@ -1,0 +1,30 @@
+.koi-ranking-wrap .my-rank .p2{
+	font-weight: bold;
+}
+.koi-ranking-wrap .my-rank .p2 span{
+	font-size: 0.3rem;
+	color: #999999;
+	font-weight: lighter;
+}
+.koi-prizes-wrap{
+	background-color: #fff;
+}
+.koi-rank-tit {
+    font-size: 0.3rem;
+    padding-left: 0.4rem;
+    height: 0.8rem;
+    color: #666666;
+    line-height: 0.9rem;
+    box-sizing: border-box;
+    border-bottom: 0.02rem solid #eaeaea;
+}
+.prizes-list{
+	display: block;
+	width: 100%;
+	padding: 0.34rem 0.4rem;
+}
+.prizes-list li{
+	color: #999999;
+	font-size: 0.28rem;
+	margin-bottom: 0.25rem;
+}

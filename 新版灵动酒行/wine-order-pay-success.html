@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<title>订单详情</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-home.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-person-center.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.complete-pay-succ-upper{
+				height: 4.95rem;
+			}
+			.complete-pay-succ-upper .wine-pay-success-icon{
+				width: 1.07rem;
+				height: 1.07rem;
+			}
+			.wine-pay-success-btn{
+				overflow: hidden;
+				padding-left: 1.15rem;
+			}
+			.wine-pay-success-btn a{
+				display: inline-block;
+				float: left;
+				width: 2.38rem;
+				height: 0.68rem;
+				line-height: 0.68rem;
+				text-align: center;
+				border-radius: 0.06rem;
+				font-size: 0.33rem;
+				color: #fff;
+			}
+			.wine-pay-success-btn .wine-look-order{
+				background-color: #FF4141;
+				margin-right: 0.45rem;
+			}
+			.wine-pay-success-btn .wine-return-home{
+				background-color: #d10000;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wine-head-wrap">
+			<div class="wine-head-nav">
+				<span class="left-return-arrow" onclick="javascript:history.back(-1);"><img src="imgs/left-return-arrow2.png" alt=""/></span>
+				<p class="text-center nav-tit-name">订单详情</p>
+				<a href="wine-order-manage.html" class="right-text">完成</a>
+			</div>
+		</div>
+		<div class="wine-wrap" style="padding-top: 1.05rem;">
+			<div class="complete-eval-upper complete-pay-succ-upper">
+				<img class="wine-pay-success-icon" src="imgs/right-logo-red.png" alt="" />
+				<p>评价成功!</p>
+				<div class="wine-pay-success-btn">
+					<a href="#" class="wine-look-order">查看订单</a>
+					<a href="wine-home.html" class="wine-return-home">返回首页</a>
+				</div>
+			</div>
+			<div class="person-guess-like">
+				<p class="person-order-tit" style="border-bottom: 0.01rem solid #dbdbdb;">
+					<span class="vertical-line"></span>
+					<span class="left">猜你喜欢</span>
+				</p>
+				<!--二级分类商品列表-->
+				<div class="wine-firstclass-list">
+					<ul>
+						<li>
+							<a href="javascript:void(0)">
+								<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+								<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+								<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+								<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+								<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+								<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+								<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+								<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+								<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+								<span class="firstclass-goodsImg"><img src="img/banner.jpg" alt=""/></span>
+								<p class="goods-name">商品标题商品标题商品标 题商品标题商品标题商品</p>
+								<p class="goods-prize"><span class="prize">¥100</span><span class="reward">奖励经验10点</span></p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

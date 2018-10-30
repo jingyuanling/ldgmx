@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title>邀请好友帮拆</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/help-break-m.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../锦鲤m/koi-m/js/barrage.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="help-wrap">
+			<div class="help-banner">
+				<!--弹幕-->
+				<div class="draw-barrage mask">
+					<!--内容显示再这里-->
+					<!--<div class="barrage-content">
+						<img src="img/user-photo.png"/>
+						<p>文字文字</p>
+					</div>-->
+				</div>
+				<a href="../../锦鲤m/strategy-m/strategy-m.html" class="look-strategy"><img src="img/look-strategy.png"/></a>
+				<img class="help-banner-img" src="img/help-banner.jpg"/>
+				<div class="envelope-content">
+					<!--<span>10元</span>-->
+					<!--帮拆状态-->
+					快来帮我<br />拆红包
+				</div>
+			</div>
+			<div class="help-content">
+				<div class="three-photo">
+					<div class="photo"></div>
+					<div class="photo"></div>
+					<div class="photo"></div>
+				</div>
+				<p class="redP">
+					<!--邀请好友帮拆，满3人可领取，快邀好友来拆-->
+					<!--帮拆状态-->
+					还差3人我就可以领取10元大红包
+				</p>
+				<p class="grayP">23:59:50后结束</p>
+				<!--<img class="help-invite-btn" src="img/invite-btn.png"/>-->
+				<!--帮拆状态-->
+				<img class="help-invite-btn" src="img/help-btn.png"/>
+			</div>
+			<!--邀请好友帮拆弹框-->
+			<div class="help-invite-gray">
+				<div class="help-invite-alert">
+					<img src="img/invite-guide.png"/>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.help-invite-btn').click(function() {
+				$(".help-invite-gray").fadeIn();
+			})
+		</script>
+	</body>
+</html>

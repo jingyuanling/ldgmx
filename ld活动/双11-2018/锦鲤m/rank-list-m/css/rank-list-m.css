@@ -1,0 +1,80 @@
+.koi-ranking-wrap{
+	width: 100%;
+	padding: 40px 0;
+	background-color: #eaeaea;
+	overflow-x: hidden;
+}
+.koi-ranking-wrap img{
+	display: block;
+}
+.rank-banner{
+	width: 100%;
+	height: 4.35rem;
+	position: relative;
+}
+.rank-banner-img{
+	width: 100%;
+	height: 100%;
+}
+.koi-banner-bottom {
+    height: 0.55rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.koi-banner-bottom img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.rank-middle{
+	height: 1.9rem;
+	border-bottom: 0.025rem solid #eaeaea;
+	background-color: #fff;
+	padding-top: 0.32rem;
+}
+.rank-middle img{
+	margin: 0 auto;
+	width: 4.16rem;
+	height: 0.67rem;
+}
+.rank-middle p{
+	font-size: 0.23rem;
+	text-align: center;
+	color: #999999;
+	margin-top: 0.25rem;
+	font-weight: bold;
+}
+.rank-middle p span{
+	color: #666666;
+}
+.my-rank{
+	height: 1.94rem;
+	font-size: 0.3rem;
+	text-align: center;
+	padding-top: 0.3rem;
+	background-color: #fff;
+	color: #666666;
+	border-bottom: 0.2rem solid #eaeaea;
+	box-sizing: content-box;
+}
+.my-rank .p2{
+	font-size: 0.54rem;
+	line-height: 1.2rem;
+}
+.koi-rank-wrap{
+	color: #666;
+}
+.koi-banner-bottom{
+    height: 0.55rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.koi-banner-bottom img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}

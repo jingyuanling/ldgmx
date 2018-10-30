@@ -3,9 +3,10 @@
 }
 .wine-head-wrap{
 	width: 7.5rem;
+	height: 1.05rem;
 	position: fixed;
 	top: 0;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	border-bottom: 0.01rem solid #e1dfda;
 	background-color: #ffffff;
 	z-index: 9;
@@ -116,6 +117,107 @@
 	.wine-head li{
 		line-height: 0.82rem;
 	}
+}
+/*头部右侧改成三个点*/
+.wine-header-right{
+	height: 100%;
+	position: absolute;
+	right: 0.37rem;
+	top: 0;
+	padding-top: 0.48rem;
+	display: inline-block;
+}
+.wine-header-right .point{
+	width: .08rem;
+	height: .08rem;
+	float: right;
+	background-color: #b5b5b5;
+	border-radius: 50%;
+	margin-left: .04rem;
+}
+.wine-header-alert{
+	width: 3rem;
+	height: 2.4rem;
+	position: absolute;
+	top: 0.9rem;
+	background-color: #fff;
+	right: -0.2rem;
+	border-radius: 0.08rem;
+	border: 0.01rem solid #cfcfcf;
+    background-color: #fff;
+}
+.wine-header-alert .header-alert-triangle,.wine-header-alert .header-alert-triangle2{
+    height: 0px;
+    width: 0px;
+    border-left: 0.1rem solid transparent;
+    border-right: 0.1rem solid transparent;
+    border-bottom: 0.13rem solid #cfcfcf;
+    position: absolute;
+    right: 0.25rem;
+    top: -0.13rem;
+}
+.wine-header-alert .header-alert-triangle2{
+	top: -0.11rem;
+	border-bottom: 0.13rem solid #fff;
+}
+.wine-header-alert .header-alert-left{
+	height: 100%;
+	width: 0.8rem;
+	float: left;
+}
+.wine-header-alert .header-alert-left span{
+	display: block;
+	height: 0.8rem;
+	width: 100%;
+	padding-top: 0.2rem;
+	background-color: transparent;
+}
+.wine-header-alert .header-alert-left span img{
+	display: block;
+	height: 0.4rem;
+	margin: 0 auto;
+}
+.wine-header-alert .header-alert-right{
+	float: right;
+	width: 2.1rem;
+}
+.wine-header-alert .header-alert-right ul{
+}
+.wine-header-alert .header-alert-right li{
+	height: 0.8rem;
+	border-bottom: 0.01rem solid #e1dfda;
+	font-size: 0.3rem;
+	color: #333;
+	line-height: 0.8rem;
+}
+.wine-header-alert .header-alert-right li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.3rem;
+	color: #333;
+}
+.wine-header-alert .header-alert-right li:nth-last-child(1){
+	border: none;
+}
+.header-alert-right .message-num,.wine-header-right .message-num{
+	width: 0.3rem;
+	height: 0.3rem;
+	font-size: 0.25rem;
+	color: #fff;
+	line-height: 0.3rem;
+	text-align: center;
+	margin-top: 0.25rem;
+	border-radius: 50%;
+	margin-right: 0.1rem;
+	display: block;
+	float: right;
+	background-color: #d10000;
+}
+.wine-header-right>.message-num{
+	position: absolute;
+	top: -0.1rem;
+    right: -0.2rem;
 }
 /*底部*/
 .wine-foot{

@@ -1,0 +1,27 @@
+.control-pwd-wrap{
+	padding: 1.5rem .75rem 1rem;
+}
+.control-pwd-wrap input{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .3rem;
+	padding: 0 .25rem;
+	outline: none;
+	border: none;
+	border-radius: .08rem;
+	display: block;
+}
+.control-inp-pwd{
+	color: #333;
+	margin-bottom: .42rem;
+	text-align: left;
+	background-color: #f0f0f0;
+}
+.control-pwd-btn{
+	text-align: center;
+	color: #fff;
+	letter-spacing: .05rem;
+	text-indent: .05rem;
+	background-color: #bababa;
+}
