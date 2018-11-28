@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>提现</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-alert.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-headFoot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-withdrawal.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="cash-home-wrap">
+			<div class="cash-header">
+				<span class="cash-header-return"><img src="img/cash-head-return.png"/></span>
+				<p>提现</p>
+			</div>
+			<div class="withdrawal-content">
+				<p class="withdrawal-content-tit">账户余额将提现到微信</p>
+				<p class="withdrawal-amount">¥<span>563.23</span></p>
+				<p class="withdrawal-balance">账户余额：￥<span>8563.23</span><a href="debt-cash-touchbalance.html">余额明细</a></p>
+			</div>
+			<div class="member-invita-btn-wrap">
+				<p class="member-invita-btn">提现到微信</p>
+			</div>
+			<!--弹框-->
+			<div class="cash-alert-gray">
+				<div class="cash-alert-table">
+					<div class="cash-alert-cell">
+						<div class="cash-alert">
+							<!--提现(成功/失败)弹框-->
+							<div class="withdrawal-notice-alert">
+								<div class="withdrawal-notice-icon">
+									<img src="img/cash-withdrawal-success.png"/>
+									<!--<img src="img/cash-withdrawal-fail.png"/>-->
+								</div>
+								<p class="withdrawal-notice">提现成功<!--提现失败--></p>
+								<p class="withdrawal-time-notice">提现金额将在24小时内提至您绑定的微信账户</p>
+								<div class="withdrawal-alert-btn">
+									我知道了
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				$('.member-invita-btn').click(function() {
+					//如果提现成功，则是以下状态
+					//$('.cash-alert-gray,.withdrawal-notice-alert').fadeIn();
+					//如果提现失败,则是下面第二种状态
+					$('.cash-alert-gray,.withdrawal-notice-alert').fadeIn();
+					$('.withdrawal-notice-icon img').attr('src','img/cash-withdrawal-fail.png');
+					$('.withdrawal-time-notice').hide();
+				});
+				$('.withdrawal-alert-btn').click(function() {
+					$('.cash-alert-gray,.withdrawal-notice-alert').fadeOut();
+				});
+			});
+		</script>
+	</body>
+</html>

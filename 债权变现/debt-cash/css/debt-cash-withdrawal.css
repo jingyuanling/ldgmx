@@ -1,0 +1,67 @@
+body{
+	background-color: #f4f5f7;
+}
+.cash-home-wrap{
+	width: 100%;
+	overflow-x: hidden;
+	padding-top: 0.88rem;
+	box-sizing: border-box;
+	background-color: #f4f5f7;
+}
+.withdrawal-content{
+	width: 6.9rem;
+	height: 3.85rem;
+	padding: 0.35rem;
+	box-sizing: border-box;
+	background-color: #fff;
+	margin: 0.34rem auto auto;
+	border-radius: 0.2rem;
+	box-shadow: rgba(233,234,236,1) 0 0 0.3rem 0.2rem;
+}
+.withdrawal-content-tit{
+	font-size: 0.28rem;
+	color: #7c838d;
+}
+.withdrawal-amount{
+	font-size: 0.72rem;
+	color: #121922;
+	line-height: 1.28rem;
+	margin: 0.4rem auto 0.7rem;
+	border-bottom: 0.01rem solid #e6e6e6;
+}
+.withdrawal-amount span{
+	margin-left: 0.3rem;
+}
+.withdrawal-balance{
+	font-size: 0.28rem;
+	color: #7c838d;
+	overflow: hidden;
+}
+.withdrawal-balance a{
+	color: #680eb7;
+	float: right;
+}
+.member-invita-btn-wrap {
+    height: 0.88rem;
+    margin-top: 0.55rem;
+    box-sizing: border-box;
+}
+.member-invita-btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.32rem;
+    text-align: center;
+    width: 6.9rem;
+    height: 100%;
+    color: #fff;
+    border-radius: 0.44rem;
+    line-height: 0.88rem;
+    letter-spacing: 0.03rem;
+    text-indent: 0.03rem;
+    background: -moz-linear-gradient(top, #e4bd33 0%, #eaad15 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4bd33), color-stop(100%,#eaad15));
+    background: -webkit-linear-gradient(top, #e4bd33 0%,#eaad15 100%);
+    background: -o-linear-gradient(top, #e4bd33 0%,#eaad15 100%);
+    background: -ms-linear-gradient(top, #e4bd33 0%,#eaad15 100%);
+    font-weight: bold;
+}

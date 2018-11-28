@@ -140,3 +140,42 @@
 .module-wrap-ul li .p2{
 	color: #666666;
 }
+/*添加样式*/
+.strategy-module3 p{
+	text-align: center;
+}
+.strategy-module3 .time{
+	font-size: 0.28rem;
+	color: #e46c46;
+}
+.strategy-module3 .text span{
+	font-size: 0.42rem;
+}
+.strategy-first-prize{
+	height: 3rem;
+	box-sizing: border-box;
+    padding-top: 0.7rem;
+    color: #e46c46;
+	background-color: #f0efed;
+}
+.strategy-first-prize img{
+	margin: 0 auto 0.2rem;
+	width: 0.95rem;
+	height: 0.95rem;
+}
+.strategy-first-prize p{
+	text-align: center;
+	font-size: 0.22rem;
+}
+.strategy-first-prize p span{
+	font-weight: lighter;
+}
+.strategy-small-header{
+	font-size: 0.2rem;
+	color: #9b9b9b;
+	text-align: center;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	border-bottom: 0.02rem solid #e4e4e4;
+	background-color: #fff;
+}

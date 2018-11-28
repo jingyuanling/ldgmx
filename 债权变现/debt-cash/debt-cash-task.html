@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>我的任务</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-headFoot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-person-center.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-task.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="cash-home-wrap">
+			<div class="cash-header">
+				<span class="cash-header-return"><img src="img/cash-head-return.png"/></span>
+				<p>我的任务</p>
+			</div>
+			<div class="task-header">
+				<ul class="task-header-ul">
+					<li class="task-header-active">进行中<span></span></li>
+					<li>未完成<span></span></li>
+					<li>已提现<span></span></li>
+				</ul>
+			</div>
+			<div class="per-my-task">
+				<ul class="per-task-list">
+					<li class="per-task-list-li">
+						<div class="per-task-list-content">
+							<span class="leftImg"><img src="img/cash-gold-icon.png"/></span>
+							<div class="per-task-text">
+								<div class="per-task-text-table">
+									<p class="p1">古法黄金7折团 古法黄金7折团</p>
+									<p class="p2">可变现金额500元  </p>
+								</div>
+							</div>
+							<span class="right-state">进行中</span>
+						</div>
+					</li>
+					<li class="per-task-list-li">
+						<div class="per-task-list-content">
+							<span class="leftImg"><img src="img/cash-gold-icon.png"/></span>
+							<div class="per-task-text">
+								<div class="per-task-text-table">
+									<p class="p1">古法黄金7折团 古法黄金7折团</p>
+									<p class="p2">可变现金额500元  </p>
+								</div>
+							</div>
+							<span class="right-state">进行中</span>
+						</div>
+					</li><li class="per-task-list-li">
+						<div class="per-task-list-content">
+							<span class="leftImg"><img src="img/cash-gold-icon.png"/></span>
+							<div class="per-task-text">
+								<div class="per-task-text-table">
+									<p class="p1">古法黄金7折团 古法黄金7折团</p>
+									<p class="p2">可变现金额500元 </p>
+								</div>
+							</div>
+							<span class="right-state">进行中</span>
+						</div>
+					</li>
+					<li class="per-task-list-li">
+						<div class="per-task-list-content">
+							<span class="leftImg"><img src="img/cash-gold-icon.png"/></span>
+							<div class="per-task-text">
+								<div class="per-task-text-table">
+									<p class="p1">古法黄金7折团 古法黄金7折团</p>
+									<p class="p2">可变现金额500元 </p>
+								</div>
+							</div>
+							<span class="right-state">进行中</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				$('.task-header-ul li').click(function() {
+					$('.task-header-ul li').removeClass('task-header-active')
+					$(this).addClass('task-header-active');
+				});
+			});
+		</script>
+	</body>
+</html>

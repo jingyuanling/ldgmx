@@ -1,0 +1,91 @@
+.debt-cash-wrap{
+	background-color: #f3f3f3;
+}
+.debt-cash-header{
+	width: 1200px;
+	height: 138px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.debt-cash-logo{
+	width: 242px;
+	height: 56px;
+	display: block;
+	float: left;
+	margin-top: 28px;
+}
+.debt-cash-logo img,.debt-cash-list li img{
+	width: 100%;
+	height: 100%;
+}
+.debt-cash-right{
+	width: 897px;
+	height: 122px;
+	float: right;
+}
+.debt-cash-banner,.debt-cash-banner img{
+	width: 100%;
+	height: auto;
+}
+.debt-cash-content{
+	width: 1200px;
+	padding-bottom: 120px;
+	margin: 0 auto;
+}
+.debt-cash-content-tit{
+	height: 65px;
+	font-size: 17px;
+	text-align: left;
+	color: #333333;
+	line-height: 80px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #999999;
+}
+.debt-cash-list{
+	overflow: hidden;
+	margin-top: 32px;
+}
+.debt-cash-list li{
+	float: left;
+	height: 219px;
+	width: 581px;
+	padding: 18px 16px;
+	box-sizing: border-box;
+	position: relative;
+	background-color: #fff;
+	margin-right: 38px;
+	margin-bottom: 28px;
+	overflow: hidden;
+}
+.debt-cash-list li:nth-child(2n){
+	margin-right: 0;
+}
+.debt-mask-layer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.7);
+	padding: 16px 25px;
+}
+.debt-cash-list li .debt-mask-layer img{
+	width: 191px;
+	height: 191px;
+	float: left;
+}
+.debt-cash-list li .debt-mask-layer p{
+	color: #fff;
+	text-align: center;
+}
+.debt-cash-list li .debt-mask-layer .p1{
+	font-size: 50px;
+	margin-top: 10px;
+}
+.debt-cash-list li .debt-mask-layer .p2{
+	font-size: 29px;
+}
+.debt-cash-list li .debt-mask-layer .p3{
+	font-size: 20px;
+}

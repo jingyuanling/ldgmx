@@ -1,0 +1,56 @@
+.cash-home-wrap{
+	width: 100%;
+	overflow-x: hidden;
+	padding-top: 0.88rem;
+	box-sizing: border-box;
+	background-color: #f4f5f7;
+}
+.touch-content{
+	background-color: #fff;
+}
+.touch-content-list li{
+	height: 1.68rem;
+	width: 100%;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-bottom: 0.02rem solid #e6e6e6;
+}
+.touch-content-list li:nth-last-child(1){
+	border: none;
+}
+.touch-content-list .list-left,.touch-content-list .list-right{
+	width: 5rem;
+	height: 100%;
+	float: left;
+	display: table;
+}
+.touch-content-list .list-left-table{
+	display: table-cell;
+	vertical-align: middle;
+}
+.touch-content-list .list-left .p1{
+	font-size: 0.3rem;
+	color: #333333;
+	margin-bottom: 0.15rem;
+}
+.touch-content-list .list-left .p2{
+	font-size: 0.25rem;
+	color: #999999;
+}
+.touch-content-list .list-right{
+	width: 1.9rem;
+	padding-right: 0.1rem;
+	box-sizing: border-box;
+	text-align: right;
+	float: right;
+}
+.touch-content-list .list-right p{
+	font-size: 0.31rem;
+}
+.touch-content-list .list-right .state{
+	color: #680eb7;
+}
+.touch-content-list .list-right .get-amount{
+	color: #d10000;
+}
