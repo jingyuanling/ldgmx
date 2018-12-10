@@ -193,13 +193,13 @@
 	padding: 0 0.62rem;
 	box-sizing: border-box;
 	overflow: hidden;
-	height: 1.1rem;
+	height: 1.55rem;
 	padding-bottom: 0.1rem;
 	margin-top: 0.4rem;
 }
 .cash-invite-photo .round,.cash-invite-upper-bottom .photo{
 	width: 1rem;
-	height: 1rem;
+	height: 1.45rem;
 	border-radius: 100%;
 	font-size: 0.2rem;
 	color: #cecece;
@@ -209,17 +209,40 @@
 }
 .cash-invite-photo .photo,.cash-invite-upper-bottom .photo{
 	margin-left: 0.7rem;
-	background: url(../img/photo-bg.png) 0 0 no-repeat;
-	background-size: 100% 100%;
 	position: relative;
 	margin-bottom: 0.25rem;
 }
+.cash-invite-photo .photo .user-photo-div{
+	width: 100%;
+	height: 1rem;
+	background: url(../img/photo-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.cash-invite-photo .photo .userName{
+	height: 0.35rem;
+	width: 100%;
+	line-height: 0.35rem;
+	margin-top: 0.1rem;
+	font-size: 0.2rem;
+	color: #999999;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .cash-invite-photo .more-btn{
-	background-color: #f0eeee;
 	margin-left: 0.86rem;
+	margin-bottom: 0.25rem;
+}
+.cash-invite-photo .more-btn .user-photo-div{
+	width: 100%;
+	height: 1rem;
+	background-color: #f0eeee;
 	box-sizing: border-box;
 	padding: 0.2rem 0;
-	margin-bottom: 0.25rem;
+	border-radius: 50%;
 }
 .cash-invite-photo li:nth-child(4n+1),.cash-invite-upper-bottom .photo{
 	margin-left: 0;
@@ -240,13 +263,22 @@
 	border-radius: 0.15rem;
 	padding: 0 0.06rem;
 }
+.cash-invite-photo .photo .label{
+	letter-spacing: 0.01rem;
+    text-indent: 0.01rem;
+}
 .cash-invite-upper-bottom .photo .headName{
 	font-size: 0.25rem;
 	color: #333333;
 	position: absolute;
-	display: table;
+	display: block;
 	left: 1.2rem;
     top: 0.2rem;
+    max-width: 2.2rem;    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
 }
 .cash-invite-photo .photo .head,.cash-invite-upper-bottom .photo .head{
 	background-color: #fdaa27;
@@ -298,7 +330,8 @@
 	height: 0.65rem;
 }
 .cash-invite-upper-bottom .photo .head{
-	left: 0.38rem;	
+	left: 0.38rem;
+	min-width: 0.7rem;	
 }
 .cash-invite-upper-bottom .time{
 	font-size: 0.22rem;
