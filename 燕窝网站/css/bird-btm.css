@@ -1,0 +1,128 @@
+/*底部样式*/
+.bird-bottom{
+	width: 100%;
+	height: 400px;
+	background-color: #e36c60;
+}
+.bird-bottom-tit{
+	font-size: 29px;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	letter-spacing: 2.8px;
+}
+.bird-nav-logo{
+	width: 170px;
+	height: 92px;
+	float: left;
+	margin-top: 29px;
+}
+.bird-nav-logo img{
+	width: 100%;
+	height: 100%;
+}
+.unknown-icon{
+	display: block;
+	width: 226px;
+	height: 20px;
+	margin: 15px auto;
+}
+.unknown-icon img{
+	width: 100%;
+	height: 100%;
+}
+.bird-bottom-tit2{
+	font-size: 13.8px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 2.8px;
+}
+.bird-bottom-content{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.bird-bottom-content .part{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 32px;
+}
+.home-inp-text,.home-btn-wrap{
+	width: 369px;
+	height: 40px;
+	border: 2px solid #facfc7;
+	background-color: #f08f87;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-left: 10px;
+}
+.home-inp-text-left{
+	float: left;
+}
+.home-inp-text-right{
+	float: right;
+}
+.home-btn-wrap{
+	float: right;
+	padding-left: 0;
+	border: none;
+	background-color: transparent;
+	position: relative;
+}
+.home-inp-text::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+ 	/* WebKit browsers */ 
+	color: #FFFFFF; 
+} 
+.home-inp-text:-moz-placeholder, textarea:-moz-placeholder { 
+	/* Mozilla Firefox 4 to 18 */ 
+	color: #FFFFFF; 
+} 
+.home-inp-text::-moz-placeholder, textarea::-moz-placeholder { 
+ 	/* Mozilla Firefox 19+ */ 
+	color: #FFFFFF; 
+} 
+.home-inp-text:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+ 	/* Internet Explorer 10+ */ 
+	color: #FFFFFF; 
+} 
+.home-inp-btn{
+	width: 120px;
+	height: 40px;
+	font-size: 19px;
+	line-height: 36px;
+	text-align: center;
+	background-color: #ad4e44;
+	outline: none;
+	border: 2px solid #dc756a;
+}
+.home-btn-wrap .instruce{
+	display: inline-block;
+	font-size: 12px;
+	position: absolute;
+	color: #FFFFFF;
+	height: 21px;
+	line-height: 20px;
+	left: 145px;
+	letter-spacing: 2.8px;
+}
+.home-btm-three{
+	width: 100%;
+	height: 36px;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.home-btm-three span{
+	display: block;
+	height: 100%;
+	position: relative;
+	padding-left: 60px;
+	line-height: 50px;
+	color: #FFFFFF;
+	letter-spacing: 2.8px;
+}
+.home-btm-three span img{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}

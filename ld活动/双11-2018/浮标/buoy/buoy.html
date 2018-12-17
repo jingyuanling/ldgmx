@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.buoy-wrap{
+				width: 139px;
+				position: fixed;
+				right: 0;
+				bottom: 20%;
+			}
+			.buoy-wrap img{
+				width: 100%;
+				height: 100%;
+				display: block;
+			}
+			.buoy-phone{
+				width: 56px;
+				height: 71px;
+				margin: 0 auto;
+				-webkit-animation: buoyPhone 3s both infinite;
+				-moz-animation: buoyPhone 3s both infinite;
+				-ms-animation: buoyPhone 3s both infinite;
+				animation: buoyPhone 3s both infinite;
+			}
+			.buoy-content{
+				width: 139px;
+				height: 155px;
+			}
+			.buoy-delete{
+				width: 20px;
+				height: 30px;
+				margin: 0 auto;
+			}
+			@keyframes buoyPhone{
+				0% {
+			        transform: scale(1);
+			        transform: scale(1)
+			    }
+			
+			    70%,73%{
+			        transform: scale(0.9) rotate(-3deg);
+			        transform: scale(0.9) rotate(-3deg)
+			    }
+			
+			    77%,83%,90%,97%  {
+			        transform: scale(1.1) rotate(3deg);
+			        transform: scale(1.1) rotate(3deg)
+			    }
+			
+			    80%,87%,93%{
+			        transform: scale(1.1) rotate(-3deg);
+			        transform: scale(1.1) rotate(-3deg)
+			    }
+			
+			    100% {
+			        transform: scale(1) rotate(0);
+			        transform: scale(1) rotate(0)
+			    }
+			}
+		</style>
+	</head>
+	<body>
+		<div class="buoy-wrap">
+			<div class="buoy-phone">
+				<img src="img/buoy-phone.png"/>
+			</div>
+			<div class="buoy-content">
+				<img src="img/buoy-content.png"/>
+			</div>
+			<div class="buoy-delete">
+				<img src="img/buoy-delete.png"/>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.buoy-delete').click(function() {
+				$('.buoy-wrap').fadeOut();
+			})
+		</script>
+	</body>
+</html>

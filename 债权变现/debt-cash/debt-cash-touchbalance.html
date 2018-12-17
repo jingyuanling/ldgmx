@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>余额明细</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-headFoot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-task.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-touchbalance.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	</head>
+	<body>
+		<div class="cash-home-wrap">
+			<div class="cash-header">
+				<span class="cash-header-return"><img src="img/cash-head-return.png"/></span>
+				<p>余额明细</p>
+			</div>
+			<div class="task-header">
+				<ul class="task-header-ul">
+					<li class="task-header-active">全部<span></span></li>
+					<li>收入<span></span></li>
+					<li>支出<span></span></li>
+				</ul>
+			</div>
+			<div class="touch-content">
+				<ul class="touch-content-list">
+					<li>
+						<div class="list-left">
+							<div class="list-left-table">
+								<p class="p1">古法黄金7折团</p>
+								<p class="p2">2018-05-03   17:58</p>
+							</div>
+						</div>
+						<div class="list-right">
+							<div class="list-left-table">
+								<p class="p1 state">进行中</p>
+								<p class="p2 amount">- 500.00</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="list-left">
+							<div class="list-left-table">
+								<p class="p1">古法黄金7折团</p>
+								<p class="p2">2018-05-03   17:58</p>
+							</div>
+						</div>
+						<div class="list-right">
+							<div class="list-left-table">
+								<p class="p2 get-amount">- 500.00</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				$('.task-header-ul li').click(function() {
+					$('.task-header-ul li').removeClass('task-header-active')
+					$(this).addClass('task-header-active');
+				});
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/control-system-header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/control-system-home.css"/>
+		<link rel="stylesheet" type="text/css" href="css/control-system-room.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/control-system-swiper.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="control-system-header">
+			<span class="header-left-return"><img src="img/left-return-arrow.png" alt="" /></span>
+			<span class="header-right"><img src="img/horn-icon-gray.png" alt="" /></span>
+			<p class="header-tit">恒大御海天下</p>
+		</div>
+		<div class="control-room-wrap">
+			<div class="control-home-banner">
+				<div class="swiper-container swiper-container-banner">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img alt="" src="img/goods-img-banner.jpg"/></div>
+					    <div class="swiper-slide"><img alt="" src="img/goods-img-banner.jpg"/></div>
+					    <div class="swiper-slide"><img alt="" src="img/goods-img-banner.jpg"/></div>
+					</div>
+				    <div class="swiper-pagination text-right"></div>
+				</div>
+			</div>
+			<div class="control-room-content">
+				<div class="control-floor-header">
+					<ul class="control-floor-ul">
+						<li class="control_floor_active">一号楼</li>
+						<li>二号楼</li>
+						<li>三号楼</li>
+						<li>四号楼</li>
+						<li>五号楼</li>
+						<li>六号楼</li>
+						<li>七号楼</li>
+						<li>八号楼</li>
+						<li>九号楼</li>
+						<li>十号楼</li>
+						<li>十一号楼</li>
+					</ul>
+				</div>
+				<div class="control-floor-details-wrap">
+					<div class="control-floor-details">
+						<ul>
+							<li>
+								<div class="control-inform-header">
+									<p class="header-up">一楼房号</p>
+									<p class="header-down"><span class="left"></span><i class="text">ON THE FIRST FLOOR ROOM</i></spam><span class="right"></span></p>
+								</div>
+								<ol class="control-inform-ol">
+									<!--选中状态-->
+									<li class="inform_ol_active">101室<span class="ash_layer"></span></li>
+									<!--不可选中状态-->
+									<li class="inform_not_choose">102室<span></span></li>
+									<!--正常状态-->
+									<li>103室<span></span></li>
+									<li>104室<span></span></li>
+									<li>105室<span></span></li>
+								</ol>
+							</li>
+							<li>
+								<div class="control-inform-header">
+									<p class="header-up">二楼房号</p>
+									<p class="header-down"><span class="left"></span><i class="text">ON THE FIRST FLOOR ROOM</i></spam><span class="right"></span></p>
+								</div>
+								<ol>
+									<!--选中状态-->
+									<li class="inform_ol_active">101室<span class="ash_layer"></span></li>
+									<!--不可选中状态-->
+									<li class="inform_not_choose">102室<span></span></li>
+									<!--正常状态-->
+									<li>103室<span></span></li>
+									<li>104室<span></span></li>
+								</ol>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--弹框-->
+		<div class="control-room-alert-gray">
+			<div class="control-room-alert">
+				<img class="control-room-delete" src="img/delete-icon.png"/>
+				<div class="control-room-alert-content">
+					<p><span class="span_left">房间号</span>：<span class="span_right">恒大御龙城5号楼3楼808室</span></p>
+					<p><span class="span_left">房屋总价</span>：<span class="span_right">4000000</span></p>
+					<p><span class="span_left">总单价</span>：<span class="span_right">3000</span></p>
+					<p><span class="span_left">总面积</span>：<span class="span_right">500m²</span></p>
+					<p><span class="span_left">签约单价</span>：<span class="span_right">2000</span></p>
+					<p><span class="span_left">贷款部分</span>：<span class="span_right">400000</span></p>
+					<p><span class="span_left">现金首付</span>：<span class="span_right">200000</span></p>
+					<p><span class="span_left">债权部分</span>：<span class="span_right">400000</span></p>
+					<p><span class="span_left">应缴定金</span>：<span class="span_right">10000</span></p>
+					<p><span class="span_left">服务费</span>：<span class="span_right">4000</span></p>
+					<p><span class="span_left">债权比例</span>：<span class="span_right">50%</span></p>
+				</div>
+				<a href="control-system-fill-inform.html" class="control-room-designate">
+					选 定
+				</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$('.control-room-delete').click(function(){
+						$('.control-room-alert').animate({"bottom":"-8.2rem"});
+						$('.control-room-alert-gray').fadeOut();
+				});
+				//滑动头部ul的宽度
+				var ul_width = 0;
+				$(".control-floor-ul li").each(function(){
+					ul_width += $(this).outerWidth(true);
+				});
+				$(".control-floor-ul").width(ul_width+5);
+				//房间号点击状态
+				$('.control-inform-ol li').click(function(){
+					$('.control-room-alert-gray').fadeIn();
+					$('.control-room-alert').animate({"bottom":"0"});
+				});
+			});
+		</script>
+	</body>
+</html>

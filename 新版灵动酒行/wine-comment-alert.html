@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>公用弹框</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/wine-comment-alert.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="wine-js/wine-comment-alert.js" type="text/javascript" charset="utf-8"></script>-->
+		<style type="text/css">
+			.identity-alert,.confirm-bounced-gray,.confirm-single-gray{
+				display: none;
+			}
+			.confirm-bounced-alert .confirm-text-parent1,.confirm-single-alert .confirm-text-parent1{
+				height: 2rem;
+				display: table;
+				width: 100%;
+				border-bottom: 0.01rem solid #eaeaea;
+			}
+			.confirm-bounced-alert .confirm-text-parent2,.confirm-single-alert .confirm-text-parent2{
+				display: table-cell;
+				vertical-align: middle;
+			}
+			.confirm-bounced-alert .confirm-text,.confirm-single-alert .confirm-text{
+				padding: 0 0.2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<!--提醒成功弹框-->
+		<div class="identity-alert">
+			<span class="right-logo"><img src="imgs/right-logo.png" alt="" /></span>
+			<p class="text">添加成功</p>
+		</div>
+		<!--确认和取消弹框-->
+		<div class="confirm-bounced-gray">
+			<div class="confirm-bounced-alert">
+				<div class="confirm-text-parent1">
+					<div class="confirm-text-parent2">
+						<p class="confirm-text">确认要解绑当前微信吗确认要解绑当前微信吗？</p>
+					</div>
+				</div>
+				<div class="two-btn">
+					<div class="give-up">取消</div>
+					<div class="think-again">确认</div>
+				</div>
+			</div>
+		</div>
+		<!--警告弹框-->
+		<div class="confirm-single-gray">
+			<div class="confirm-single-alert">
+				<div class="confirm-text-parent1">
+					<div class="confirm-text-parent2">
+						<p class="confirm-text">确认要解绑当前微信吗？</p>
+					</div>
+				</div>
+				<div class="single-btn">
+					我知道了
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				function Identity_alert(a){
+					$('.identity-alert .text').html(a);
+					$('.identity-alert').fadeIn(2000);
+					$('.identity-alert').fadeOut(2000);
+				}
+				//弹框显示
+				function Confirm_bounced_gray(a,b){
+					$(a).show();
+					Animate_alert(b);
+					
+				}
+//				Confirm_bounced_gray(".confirm-single-gray",".confirm-single-alert");
+				Confirm_bounced_gray(".confirm-single-gray",".confirm-single-alert");
+				//弹框动画
+				function Animate_alert(a){
+					var alert_height = $(a).height();
+					var alert_top_margin = -alert_height/2;
+					$(a).animate({
+						"top":"50%",
+						"margin-top":Number(alert_top_margin) + "px"
+					},1000);
+				}
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,323 @@
+/*弹框样式*/
+img{
+	display: block;
+}
+html,body{
+	height: 100%;
+}
+.cash-alert-gray,.guide-alert-gray{
+	width: 100%;
+	height: 100%;
+	max-width: 750px;
+	position: fixed;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	z-index: 9;
+}
+.cash-alert-table,.guide-alert-table{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.cash-alert-cell,.guide-alert-cell{
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.cash-alert{
+	display: table;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: rgba(252,177,27,0.5) 0 0 0.3rem 0.02rem;
+}
+/*攻略弹框*/
+.strategy-alert{
+	width: 5.28rem;
+	height: 7.4rem;
+	box-sizing: border-box;
+	margin: 0 auto;
+	border-radius: 0.15rem;
+	background-color: #fff;
+	display: none;
+}
+.strategy-alert-head{
+	width: 100%;
+	height: 2.21rem;
+	background: url(../img/strategy-header-bg.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	border-radius: 0.15rem 0.15rem 0 0;
+	font-size: 0.57rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.2rem;
+	letter-spacing: 0.05rem;
+	text-indent: 0.05rem;
+}
+.strategy-alert-content{
+	height: 4.7rem;
+	width: 100%;
+	overflow-y: auto;
+	padding: 0.3rem 0.4rem 0;
+	box-sizing: border-box;
+}
+.strategy-alert-content p{
+	font-size: 0.23rem;
+	color: #6f6e6e;
+	line-height: 0.37rem;
+	padding-left: 0.3rem;
+	box-sizing: border-box;
+	position: relative;
+	margin-bottom: 0.1rem;
+}
+.strategy-alert-content p span{
+	display: block;
+	position: absolute;
+	width: 0.3rem;
+	height: 0.37rem;
+	left: 0;
+	top: 0;
+	text-align: center;
+}
+.strategy-alert-delete{
+	width: 0.57rem;
+	height: 0.57rem;
+	position: absolute;
+	left: 50%;
+	bottom: -0.97rem;
+	margin-left: -0.285rem;
+	
+}
+.strategy-alert-delete img{
+	width: 100%;
+	height: 100%;
+}
+.withdrawal-notice-alert{
+	width: 5.2rem;
+	height: 3.9rem;
+	background-color: #fff;
+	border-radius: 0.15rem;
+}
+.withdrawal-notice-icon{
+	padding: 0.2rem 0 0.35rem;
+}
+.withdrawal-notice-icon img{
+	width: 2.07rem;
+	height: 1.08rem;
+	margin: 0 auto;
+}
+.withdrawal-notice{
+	text-align: center;
+	font-size: 0.33rem;
+	color: #666666;
+}
+.withdrawal-time-notice{
+	text-align: center;
+	font-size: 0.2rem;
+	color: #666666;
+	margin-top: 0.15rem;
+}
+.withdrawal-alert-btn{
+	width: 3.1rem;
+	height: 0.84rem;
+	font-size: 0.41rem;
+	text-align: center;
+	line-height: 0.84rem;
+	border-radius: 0.42rem;
+	color: #fff;
+	margin: 0.3rem auto auto;
+	background: -moz-linear-gradient(top, #e4bd33 0%, #eaad15 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4bd33), color-stop(100%,#eaad15));
+    background: -webkit-linear-gradient(top, #e4bd33 0%,#eaad15 100%);
+    background: -o-linear-gradient(top, #e4bd33 0%,#eaad15 100%);
+    background: -ms-linear-gradient(top, #e4bd33 0%,#eaad15 100%);
+}
+/*引导*/
+.guide-alert-gray{
+	z-index: 4;
+	display: none;
+}
+.guide-alert{
+	width: 5.24rem;
+	height: 7.75rem;
+	margin: 0 auto;
+	position: relative;
+}
+.guide-alert img{
+	width: 100%;
+	height: 100%;
+}
+.home-next-div{
+	width: 100%;
+	height: 1.03rem;
+	font-size: 0.62rem;
+	color: #fff400;
+	text-align: center;
+	position: absolute;
+	bottom: 0.12rem;
+}
+.home-next-div .home-next-btn{
+	display: block;
+	width: 3.3rem;
+	height: 100%;
+	outline: none;
+	border: none;
+	margin: 0 auto;
+	background-color: transparent;
+}
+/*引导第二步*/
+.guide-second-step{
+	width: 6.88rem;
+	height: 4.08rem;
+	position: absolute;
+	left: 0.31rem;
+	top: 4rem;
+}
+.guide-second-step img,.guide-three-step img,.guide-last-step img{
+	width: 100%;
+	height: 100%;
+}
+/*引导第三步*/
+.guide-three-step{
+	width: 4.86rem;
+	height: 3.30rem;
+	position: absolute;
+	left: 1.32rem;
+	top: 8.16rem;
+}
+/*引导第四步*/
+.guide-last-step{
+	width: 5.44rem;
+	height: 3.67rem;
+	position: absolute;
+	left: 1.03rem;
+	top: 4.4rem;
+	display: none;
+}
+/*添加收货地址弹框*/
+.add-address-alert{
+	width: 6.76rem;
+    box-sizing: border-box;
+	margin: 0 auto;
+	border-radius: 0.15rem;
+	background-color: #fff;
+	padding: 0 0.4rem;
+}
+.add-address-alert input{
+	outline: none;
+	border: none;
+}
+.add-address-close{
+    width: 0.9rem;
+    height: 0.9rem;
+    position: absolute;
+    top: -1.2rem;
+    left: 50%;
+    margin-left: -0.45rem;
+}
+.add-address-close img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.add-address-tit{
+    height: 1.13rem;
+    line-height: 1.13rem;
+    font-size: 0.3333rem;
+    text-align: center;
+}
+.add-address-alert li{
+    height: 1.05rem;
+    border-bottom: 0.01rem solid #e1e1e1;
+    position: relative;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+.add-address-alert li span{
+	display: inline-block;
+    font-size: 0.2916rem;
+    height: 1.05rem;
+    line-height: 1.05rem;
+    position: absolute;
+    float: left;
+}
+.add-address-alert li input{
+    height: 100%;
+    width: 100%;
+    font-size: 0.2916rem;
+    padding-left: 1.20rem;
+    float: right;
+}
+.add-address-alert li span.left{
+    position: static;
+}
+.add-address-alert li span.right{
+    position: static;
+    float: right;
+}
+.add-address-alert li span.right img{
+    width: 0.16rem;
+    height: 0.33rem;
+    margin-left: 0.2rem;
+    position: relative;
+    top: -0.03rem;
+    display: inline-block;
+}
+.detail-address{
+    width: 100%;
+    height: 1.3rem;
+    font-size: 0.2916rem;
+    padding-top: 0.2rem;
+    resize: none;
+    outline: none;
+    border: none;
+    overflow-y: auto;
+}
+.add-address-alert .save-btn{
+    width: 100%;
+    height: 0.95rem;
+    line-height: 0.95rem;
+    font-size: 0.3124rem;
+    color: #FFFFFF;
+    margin-bottom: 0.28rem;
+    background-color: #d10000;
+    border-radius: 0.08rem;
+    letter-spacing: 0.2rem;
+    text-indent: 0.2rem;
+}
+/*提交订单页面确认是否付取消款弹框*/
+.confirm-bounced-alert{
+	width: 5.8rem;
+    height: 2.9rem;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 0.08rem;
+}
+.confirm-bounced-alert .confirm-text{
+    height: 2rem;
+    line-height: 0.6rem;
+    font-size: 0.3333rem;
+    color: #666666;
+    padding: 0.5rem 0.6rem 0;
+    text-align: center;
+    border-bottom: 0.01rem solid #eaeaea;
+}
+.confirm-bounced-alert .two-btn{
+    width: 100%;
+    height: 0.9rem;
+    overflow: hidden;
+}
+.confirm-bounced-alert .give-up, .confirm-bounced-alert .think-again{
+    width: 50%;
+    height: 100%;
+    float: left;
+    font-size: 0.3333rem;
+    color: #666666;
+    line-height: 0.9rem;
+    text-align: center;
+}
+.confirm-bounced-alert .think-again{
+    color: #d10000;
+    border-left: 0.01rem solid #eaeaea;
+}

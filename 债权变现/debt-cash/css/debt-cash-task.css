@@ -1,0 +1,74 @@
+body{
+	background-color: #f4f5f7;
+}
+.task-header{
+	height: 0.81rem;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-bottom: 0.01rem solid #e6e6e6;
+}
+.task-header-ul{
+	display: box;              /* OLD - Android 4.4- */
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;
+}
+.task-header-ul li{
+	font-size: 0.33rem;
+	color: #666666;
+	height: 0.8rem;
+	text-align: center;
+	line-height: 0.8rem;
+	-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1;         /* OLD - Firefox 19- */
+    width: 20%;               /* For old syntax, otherwise collapses. */
+    -webkit-flex: 1;          /* Chrome */
+    -ms-flex: 1;              /* IE 10 */
+    flex: 1;  
+}
+.task-header-ul .task-header-active{
+	color: #d10000;
+}
+.task-header-active span{
+	width: 1.05rem;
+	height: 0.05rem;
+	display: block;
+	background-color: #d10000;
+	border-radius: 0.2rem;
+	margin: -0.04rem auto auto;
+}
+/*更改任务列表样式*/
+.per-task-list-content{
+	height: 1.69rem;
+	border-top: none;
+	padding-left: 0.5rem;
+}
+.per-task-text .p1{
+	font-size: 0.36rem;
+}
+.per-my-task{
+	padding-top: 0;
+}
+.per-task-list{
+	box-shadow: 0 -0.2rem 0.1rem 0rem #fff;
+}
+.per-task-list-li{
+	padding-top: 0;	
+	margin-bottom: 0;
+	border-bottom: 0.02rem solid #e6e6e6;
+}
+.per-task-list-content .leftImg{
+	width: 1.18rem;
+	height: 1.31rem;
+	margin-top: 0.19rem;
+}
+.per-task-text{
+	left: 1.9rem;
+}
+.per-task-list-content .right-state{
+	font-size: 0.27rem;
+	line-height: 0.8rem;
+}

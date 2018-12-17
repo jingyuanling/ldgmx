@@ -1,0 +1,133 @@
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.reunion-wrap{
+	width: 100%;
+	font-family: "黑体";
+	min-width: 1130px;
+}
+.reunion-banner{
+	width: 100%;
+	height: 0;
+	padding-bottom: 64.3%;
+}
+.reunion-banner img{
+	width: 100%;
+}
+.reunion-content-wrap{
+	width: 100%;
+	height: 3365px;
+	background: url(../img/rank-wrap-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	margin-top: -200px;
+}
+.reunion-content-wrap2{
+	width: 100%;
+	position: absolute;
+	top: 270px;
+}
+.reunion-content-wrap2 img{
+	width: 100%;
+	height: auto;
+}
+.reunion-content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-top: 270px;
+}
+.reunion-module{
+	margin-bottom: 50px;
+}
+.reunion-module-header{
+	text-align: center;
+	margin-bottom: 68px;
+}
+.reunion-module-header img{
+	display: inline-block;
+}
+.reunion-module-center{
+	width: 1130px;
+	height: auto;
+	padding: 25px 0;
+	border-radius: 20px;
+	background-color: #fedd6b;
+	margin: 0 auto;
+}
+.reunion-module-table{
+	width: 100%;
+	background-color: #2d2b36;
+	table-layout:fixed;
+	color: #fedd6b;
+	border-radius: 20px;
+}
+.reunion-module-table tr{
+	height: 74px;
+	border-bottom: 1px solid #fedd6b;
+}
+.reunion-module-table tr th{
+	font-size: 33px;
+}
+.reunion-module-table tr:nth-last-child(1){
+	border-bottom: none;
+}
+.reunion-module-table td{
+	text-align: center;
+	height: 74px;
+	font-size: 30px;
+}
+.module-prize-ul{
+	overflow: hidden;
+}
+.module-prize-ul li{
+	width: 260px;
+	float: left;
+	border-radius: 15px;
+	background-color: #2d2b36;
+	margin-right: 18px;
+}
+.module-prize-ul li:nth-last-child(1){
+	margin-right: 0;
+}
+.module-prize-tit{
+	height: 80px;
+	line-height: 80px;
+	font-size: 37px;
+	color: #fedd6b;
+	text-align: center;
+}
+.module-prize-content{
+	width: 100%;
+	height: 305px;
+	position: relative;
+	border-top: 1px solid #fedd6b;
+}
+.module-prize-content img{
+	display: block;
+}
+.module-prize-btm{
+	position: absolute;
+	width: 100%;
+	bottom: 21px;
+	text-align: center;
+	font-size: 22px;
+	color: #fedd6b;
+}
+.module-rules-center{
+	width: 100%;
+	border-radius: 20px;
+	background-color: #2d2b36;
+	padding: 50px;
+}
+.module-rules-center p{
+	font-size: 25px;
+	color: #fedd6b;
+	height: 57px;
+	line-height: 57px;
+}
+.module-rules-tit{
+	font-size: 30px;
+}

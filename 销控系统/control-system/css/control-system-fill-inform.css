@@ -1,0 +1,79 @@
+.control-inform-wrap{
+	width: 100%;
+	padding-top: .76rem;
+	background-color: #ececec;
+}
+.control-inform-tit{
+	width: 100%;
+	height: .75rem;
+	line-height: .75rem;
+	text-align: center;
+	font-size: .4rem;
+	background-color: #f5f5f5;
+	color: #666666;
+	letter-spacing: .03rem;
+	text-indent: .03rem;
+	border-bottom: .01rem solid #c1c1c1;
+}
+.control-user-inform{
+	width: 100%;
+	padding: .35rem 1.25rem 1rem;
+	margin-top: .2rem;
+	background-color: #fff;
+	border-top: .01rem solid #c1c1c1;
+}
+.control-inform-header{
+	text-align: center;
+}
+.control-inform-header .header-up{
+	font-size: .35rem;
+	color: #333;
+}
+.control-inform-header .header-down i{
+	font-style: inherit;
+	margin: 0 .1rem;
+}
+.control-inform-header .header-down{
+	font-size: .18rem;
+	color: #666666;
+	height: .21rem;
+	line-height: .21rem;
+}
+.control-inform-header .header-down span{
+	display: inline-block;
+	width: 1.27rem;
+	height: .01rem;
+	position: relative;
+	top: -.05rem;
+}
+.control-inform-header .header-down span.left{
+	background: -webkit-linear-gradient(left,#fff,#9a9a9a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#fff,#9a9a9a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#fff,#9a9a9a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,#fff,#9a9a9a); /* Standard syntax */
+}
+.control-inform-header .header-down span.right{
+	background: -webkit-linear-gradient(left,#9a9a9a,#fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#9a9a9a,#fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#9a9a9a,#fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,#9a9a9a,#fff); /* Standard syntax */
+}
+.control-inform-inp input{
+	padding: 0 .3rem;
+	display: block;
+	width: 100%;
+	height: .7rem;
+	line-height: .7rem;
+	font-size: .3rem;
+	color: #333;
+	outline: none;
+	border: none;
+	margin-top: .32rem;
+	background-color: #efefef;
+	border-radius: .06rem;
+}
+.control-inform-inp .control-inform-btn{
+	margin-top: .5rem;
+	background-color: #b9b9b9;
+	color: #fff;
+}

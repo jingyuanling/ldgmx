@@ -1,0 +1,106 @@
+body{
+	font-family: '黑体';
+	min-width: 1200px;
+}
+.control-header{
+	height: 62px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #e94a26;
+	z-index: 9;
+}
+.control-header-center{
+	height: 100%;
+	width: 200px;
+	margin-left: 55px;
+}
+.header-user-photo{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	left: 17px;
+	top: 17px;
+}
+.header-user-photo img{
+	width: 100%;
+	height: 100%;
+}
+.header-user-name{
+	width: 200px;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 17px;
+	font-size: 16px;
+	color: #fff;
+	position: relative;
+}
+.header-user-name img{
+	width: 8px;
+	height: 6px;
+	display: inline-block;
+	margin-left: 5px;
+}
+.control-header-center:hover .header-triangle{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 
+	position: relative;
+	top: -3px;
+}
+.header-alert{
+	width: 211px;
+	border: 2px solid #cacaca;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	border-radius: 0 0 8px 0;
+	background-color: #fff;
+	border-left: none;
+	display: none;
+}
+.header-user-num,.header-user-pwd,.header-return-login{
+	border-top: 1px solid #cacaca;
+	border-bottom: 1px solid #cacaca;
+	height: 50px;
+	line-height: 48px;
+	padding-left: 30px;
+}
+.header-user-num img,.header-user-pwd img{
+	width: 23px;
+	height: 23px;
+	margin-right: 15px;
+	display: inline-block;
+	position: relative;
+	top: -3px;
+}
+.header-user-pwd img{
+	width: 21px;
+	height: 22px;
+}
+.header-return-login{
+	border-bottom: none;
+	background-color: #e94a26;
+	color: #fff;
+	border-radius: 0 0 8px 0;
+}
+.header-alert-triangle{
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border-left: 2px solid #cacaca;
+	border-top: 2px solid #cacaca;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); 	/* IE 9 */
+	-moz-transform:rotate(45deg); 	/* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(45deg); 
+	position: absolute;
+	top: -9px;
+	left: 100px;
+}

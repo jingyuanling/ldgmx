@@ -154,3 +154,7 @@
 	height: 4.2rem;
 	overflow-y: scroll;
 }
+.cart-list{
+	height: auto;
+	margin-bottom: 0.17rem;
+}

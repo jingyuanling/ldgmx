@@ -1,0 +1,50 @@
+.koi-ranking-wrap .my-rank .p2{
+	font-weight: bold;
+}
+.koi-ranking-wrap .my-rank .p2 span{
+	font-size: 0.3rem;
+	color: #999999;
+	font-weight: lighter;
+}
+.koi-prizes-wrap{
+	background-color: #fff;
+}
+.koi-rank-tit {
+    font-size: 0.3rem;
+    padding-left: 0.4rem;
+    height: 0.8rem;
+    color: #666666;
+    line-height: 0.9rem;
+    box-sizing: border-box;
+    border-bottom: 0.02rem solid #eaeaea;
+}
+.prizes-list{
+	display: block;
+	width: 100%;
+	padding: 0.34rem 0.4rem;
+}
+.prizes-list li{
+	color: #999999;
+	font-size: 0.28rem;
+	margin-bottom: 0.25rem;
+}
+/*添加样式*/
+.my-rank{
+	height: 3.4rem;
+}
+.rank-withdrawal{
+	margin: 0 auto;
+	width: 4.58rem;
+	height: 0.76rem;
+	font-size: 0.43rem;
+	color: #fff;
+	line-height: 0.76rem;
+	text-align: center;
+	background-color: #acacac;
+	border-radius: 0.1rem;
+}
+.my-rank .p3{
+	font-size: 0.2rem;
+	color: #999999;
+	line-height: 0.71rem;
+}

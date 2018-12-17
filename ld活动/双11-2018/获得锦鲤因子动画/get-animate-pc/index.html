@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<style type="text/css">
+			.get-animate-wrap{
+				display: table;
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: -50%;
+				transform: scale(0);
+				animation: getAnimate 3s;
+    			-webkit-animation: getAnimate 3s;
+    			animation-timing-function: ease-in;
+    			-webkit-animation-timing-function: ease-in;
+    			animation-delay:1s;
+				-webkit-animation-delay:1s;
+				animation-iteration-count:1;
+				-webkit-animation-iteration-count:1;
+			}
+			.get-animate{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+			.get-animate-center{
+				display: inline-block;
+			}
+			.get-animate p{
+				font-size: 35px;
+				color: #867a76;
+				display: inline-block;
+			}
+			.get-animate p img{
+				margin-right: 20px;
+				position: relative;
+				top: -5px;
+			}
+			.get-animate p span{
+				font-size: 48px;
+			}
+			@keyframes getAnimate{
+				from{
+					top: 0;
+					transform: scale(1)
+				}
+				to{
+					top: -50%;
+					transform: scale(0);
+				}
+			}
+			@-webkit-keyframes getAnimate{
+				from{
+					top: 0;
+					transform: scale(1)
+				}
+				to{
+					top: -50%;
+					transform: scale(0);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="get-animate-wrap">
+			<div class="get-animate">
+				<div class="get-animate-center">
+					<p><img src="img/buoy-koi.png"/></p> 
+					<p>锦鲤因子<span>+100</span>点</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

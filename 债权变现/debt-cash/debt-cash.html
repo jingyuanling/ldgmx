@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>债权变现首页</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-alert.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-headFoot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/debt-cash-alert.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="cash-home-wrap">
+			<div class="cash-header">
+				<p>古法黄金变现团</p>
+				<span class="cash-header-right"><img src="img/header-right-people.png"/></span>
+			</div>
+			<div class="cash-banner">
+				<p class="cash-banner-text">已帮助<span>500</span>人变现<span>5000</span>债权金</p>
+				<div class="cash-banner-descount">
+					<p><span>500</span>元</p>
+				</div>
+				<div class="cash-banner-debt">
+					<p><span>50000</span></p>
+				</div>
+				<div class="cash-strategy-btn">
+					<img src="img/cash-strategy-btn.png"/>
+				</div>
+				<!--弹幕-->
+				<div class="cash-barrage">
+					<!--内容显示再这里-->
+					<div class="barrage-content">
+						<div class="barrage-content-detail">
+							<!--<img class="cash-barrage-icon1" src="img/barrage-icon.png"/>-->
+							<img class="cash-barrage-icon2" src="img/barrage-icon2.png"/>
+							<p>文字文字</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cash-content">
+				<div class="cash-content-detail">
+					<!--上下轮播-->
+					<div class="cash-swiper-wrap">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+						        <div class="swiper-slide slide1"><p>债权客户可通过变现团发起变现任务<br />完成指定条件即可变现相应债权金，可随时提现 </p></div>
+						        <div class="swiper-slide slide2"><p>债权客户可通过变现团发起变现任务<br />完成指定条件即可变现相应债权金，可随时提现 </p></div>
+						        <div class="swiper-slide slide3"><p>债权客户可通过变现团发起变现任务<br />完成指定条件即可变现相应债权金，可随时提现 </p></div>
+						    </div>	
+						</div>				
+					</div>
+					<ul class="cash-goodImg-list">
+						<li><img src="img/cash-goodsImg.png"/></li>
+						<li><img src="img/cash-goodsImg.png"/></li>
+						<li><img src="img/cash-goodsImg.png"/></li>
+						<li><img src="img/cash-goodsImg.png"/></li>
+					</ul>
+				</div>
+			</div>
+			<!--首页首次登陆引导弹出框-->
+			<div class="guide-alert-gray">
+				<div class="guide-alert-table">
+					<div class="guide-alert-cell">
+						<div class="guide-alert">
+							<img src="img/cash-guide.png"/>
+							<div class="home-next-div"><input class="home-next-btn" type="button" name="" id="" value="5" onclick="javascrtpt:window.location.href='debt-cash-person-center.html'" disabled="disabled" /></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--弹框-->
+			<div class="cash-alert-gray cash-alert-gray1">
+				<div class="cash-alert-table">
+					<div class="cash-alert-cell">
+						<div class="cash-alert">
+							<!--攻略弹框-->
+							<div class="strategy-alert">
+								<div class="strategy-alert-head">
+									变现攻略
+								</div>
+								<div class="strategy-alert-content">
+									<p><span>1.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+									<p><span>2.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+									<p><span>3.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+									<p><span>4.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+									<p><span>5.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+									<p><span>6.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+								</div>
+								<div class="strategy-alert-delete">
+									<img src="img/cash-delete.png"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				var mySwiper = new Swiper('.swiper-container', {
+					direction: 'vertical',
+					loop: true,
+					autoplay: 2000//可选选项，自动滑动
+				});
+				countDown();
+				function countDown(){
+					//设置总时长
+					var time = 5;
+					//创建定时器,每隔一秒减少剩余时间
+					var timeTimer = setInterval(function() {
+						time--;
+						$('.home-next-btn').val(time)
+						//重置剩余时间
+						if(time == 0) {
+							//清除定时器
+							$('.home-next-btn').val('立即开通');
+							$('.home-next-btn').removeAttr("disabled");
+							clearInterval(timeTimer);
+							$('.home-next-btn').css('font-size','0.44rem')
+						}
+					},1000);
+				}
+				$('.home-next-btn').click(function() {
+					$('.cash-alert-gray1').hide();
+				});
+			})
+		</script>
+	</body>
+</html>

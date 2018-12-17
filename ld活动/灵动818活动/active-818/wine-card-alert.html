@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wine-card-alert.css"/>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+	    <title>弹窗</title>
+	</head>
+	<body>
+		<div class="wine-card-gray">
+			<div class="wine-card-wrap">
+				<div class="wine-card-img">
+					<img src="img/wine-card-alertbg.png" alt="" />
+					<div class="wine-card-text">
+						<p class="text">您还未满足此酒水卡 使用条件，此酒水卡购 买3箱酒水方</p>
+						<p class="text text2">可您还未满足此酒水卡 使用条件，此酒水卡购 买3箱酒水方可 使用 箱酒水的债权 金部分。 </p>
+					</div>
+				</div>
+				<!--右上角删除按钮-->
+				<img class="wine-card-delete" src="img/wine-card-delete.png" alt="" />
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.wine-card-delete').click(function(){
+				$('.wine-card-gray').fadeOut();
+			});
+		</script>
+	</body>
+</html>

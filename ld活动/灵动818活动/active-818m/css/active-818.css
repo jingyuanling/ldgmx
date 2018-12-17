@@ -1,0 +1,215 @@
+::-webkit-scrollbar{
+	display: none;
+}
+.august-wrap{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: #94d790;
+	position: relative;
+}
+.august-banner,.august-banner img{
+	width: 100%;
+	height: 3.67rem;
+}
+.august-content{
+	width: 100%;
+	background: url(../img/august-bg.png) 0 0 no-repeat;
+	background-size: 100% auto;
+	position: relative;
+	top: -1rem;
+	z-index: 9;
+}
+.august-center{
+	width: 7.27rem;
+	margin: 0 auto;
+	padding-top: 1.2rem;
+}
+.august-tit{
+	width: 2.40rem;
+	height: 0.7rem;
+	margin: 0 auto 0.06rem;
+}
+.august-tit img{
+	width: 100%;
+	height: 100%;
+}
+.august-model{
+	width: 100%;
+	height: 5.6rem;
+	background: url(../img/august-text-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	color: #FFFFFF;
+	padding: 0.4rem 0.35rem 0 0.4rem;
+	margin-bottom: 0.5rem;
+}
+.august-model p{
+	line-height: 0.46rem;
+}
+.august-model .tit1{
+	font-size: 0.29rem;
+}
+.august-model .tit2,.august-model .tit3{
+	font-size: 0.25rem;
+}
+.august-model .tit2 span{
+	font-size: 0.22rem;
+}
+.august-model .ruls{
+	font-size: 0.25rem;
+	padding-left: 0.25rem;
+	position: relative;
+}
+.august-model .ruls span{
+	display: inline-block;
+	width: 0.25rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.august-model .august-btn{
+	width: 3.15rem;
+	height: 0.77rem;
+	margin: 0.3rem auto 0;
+}
+.august-model .august-btn img{
+	width: 100%;
+	height: 100%;
+}
+.august-model3{
+	height: 6.3rem;
+}
+.august-bottom{
+	position: absolute;
+	bottom: -2rem;
+	width: 100%;
+	height: 1.99rem;
+}
+.august-bottom img{
+	width: 100%;
+	height: 100%;
+}
+.animate_enve_wrap{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(255,255,255,0.5);
+	display: none;
+	z-index: 10;
+	max-width: 750px;
+	min-width: 320px;
+}
+.animate_enve{
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.animate_enve_active{
+	animation:mymove 5s;
+	-webkit-animation:mymove 5s; /*Safari and Chrome*/
+}
+@keyframes mymove
+{
+	0%{
+		width: 0;
+		height: 0;
+	}
+	40%{
+		width: 5.42rem;
+		height: 3.98rem;
+		left: 50%;
+		top: 50%;
+		margin-left: -2.71rem;
+		margin-top: -1.99rem;
+		-webkit-transform: rotatez(0);
+		-moz-transform: rotatez(0);
+		-ms-transform: rotatez(0);
+		-o-transform: rotatez(0);
+		transform: rotatez(0);
+	}
+	100%{
+		width: 0;
+		height: 0;
+		left: 90%;
+		top: 0.44rem;
+		-webkit-transform: rotatez(80deg);
+		-moz-transform: rotatez(80deg);
+		-ms-transform: rotatez(80deg);
+		-o-transform: rotatez(80deg);
+		transform: rotatez(80deg);
+	}
+}
+/*Safari and Chrome*/
+@-webkit-keyframes mymove 
+{
+	0%{
+		width: 0;
+		height: 0;
+	}
+	40%{
+		width: 5.42rem;
+		height: 3.98rem;
+		left: 50%;
+		top: 50%;
+		margin-left: -2.71rem;
+		margin-top: -1.99rem;
+		-webkit-transform: rotatez(0);
+		-moz-transform: rotatez(0);
+		-ms-transform: rotatez(0);
+		-o-transform: rotatez(0);
+		transform: rotatez(0);
+	}
+	100%{
+		width: 0;
+		height: 0;
+		left: 7.095rem;
+		top: 0.44rem;
+		-webkit-transform: rotatez(80deg);
+		-moz-transform: rotatez(80deg);
+		-ms-transform: rotatez(80deg);
+		-o-transform: rotatez(80deg);
+		transform: rotatez(80deg);
+	}
+}
+@keyframes mymove2{
+	0%{
+		border: 0.04rem solid transparent;
+	}
+	50%{
+    	border: 0.04rem solid #ff1f53;
+	}
+	100%{
+		border: 0.04rem solid transparent;
+	}
+}
+/*Safari and Chrome*/
+@-webkit-keyframes mymove2{
+	0%{
+		border: 0.04rem solid transparent;
+	}
+	50%{
+    	border: 0.04rem solid #ff1f53;
+	}
+	100%{
+		border: 0.04rem solid transparent;
+	}
+}
+
+@font-face {
+ 	font-family:'SourceHanSansR';
+    src: url('../font/SourceHanSansR818.eot');
+    src: 
+        url('../font/SourceHanSansR818.eot?#font-spider') format('embedded-opentype'),
+	 	url('../font/SourceHanSansR818.woff') format('woff'),
+	    url('../font/SourceHanSansR818.ttf') format('truetype'),
+	    url('../font/SourceHanSansR818.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.august-wrap{
+	font-family: 'SourceHanSansR';
+}

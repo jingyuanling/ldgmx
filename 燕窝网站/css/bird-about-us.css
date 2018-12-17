@@ -1,0 +1,56 @@
+.bird-company-profile{
+	width: 100%;
+	color: #202020;
+	font-size: 16px;
+	margin-top: 40px;
+}
+.bird-company-profile .paragraph{
+	text-indent: 32px;
+	line-height: 30px;
+}
+.bird-swiper-container-wrap{
+	width: 100%;
+	padding-bottom: 50px;
+	margin-top: 40px;
+}
+.bird-swiper-container-wrap .swiper-container{
+	padding: 0 100px;
+}
+.bird-swiper-container-wrap .hidden-div{
+	width: 100px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background-color: white;
+	z-index: 2;
+}
+.hidden-div-left{
+	left: 0;
+}
+.hidden-div-right{
+	right: 0;
+}
+.bird-center .swiper-slide{
+	width: 223px;
+	height: 365px;
+}
+.bird-center .swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.bird-swiper-container-wrap .swiper-button-prev
+,.bird-swiper-container-wrap .swiper-button-next{
+	height: 118px;
+	width: 39px;
+	background-color: #dfdfdf;
+	position: absolute;
+	top: 123px;
+	z-index: 2;
+	background-size: 25px 46px;
+}
+.bird-swiper-container-wrap .swiper-button-prev{
+	left: 30px;
+}
+.bird-swiper-container-wrap .swiper-button-next{
+	right: 30px;
+}

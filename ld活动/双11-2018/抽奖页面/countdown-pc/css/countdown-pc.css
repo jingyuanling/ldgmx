@@ -1,0 +1,80 @@
+.countdown-gray{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+.countdown{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	padding-bottom: 35.99%;
+	background: url(../img/countdown-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	display: none;
+}
+.countdown-num{
+	font-size: 230px;
+	text-align: center;
+	color: #be060c;
+	position: absolute;
+	width: 100%;
+	top: 18%;
+	height: 170px;
+    line-height: 170px;
+	font-weight: bold;
+}
+.countdown-tit{
+	font-size: 44px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	bottom: 100%;
+	display: block;
+	width: 100%;
+	line-height: 68px;
+}
+/*抽奖*/
+.lucky-draw{
+	width: 506px;
+	height: 704px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -253px;
+	top: 50%;
+	margin-top: -352px;
+	background: url(../img/lucky-draw-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	/*display: none;*/
+}
+.lucky-list{
+	font-size: 18px;
+	color: #c36204;
+	width: 314px;
+	margin: 61% auto 76px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+.lucky-btn{
+	font-size: 31px;
+	color: #fff;
+    letter-spacing: 5px;
+    margin-left: 150px;
+}
+.lucky-winners{
+	width: 330px;
+	margin-top: 114px;
+    margin-left: 85px;
+}
+.lucky-winners p{
+	font-size: 18px;
+	color: #c36204;
+	margin-bottom: 7px;
+	line-height: 25px;
+}

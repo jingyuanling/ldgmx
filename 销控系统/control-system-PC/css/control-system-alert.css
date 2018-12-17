@@ -1,0 +1,230 @@
+.pwd-success-alert-gray,.floor-alert-gray{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	display: none;
+}
+.pwd-success-alert,.home-floor-alert,.user-inform-alert,.inform-success-alert{
+	width: 650px;
+	height: 650px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -325px;
+	margin-left: -325px;
+	background-color: #fff;
+	box-shadow: 0 1px 13px rgba(0,0,0,.6);
+}
+.control-alert-delete{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 13px;
+	right: 14px;
+}
+.pwd-success-icon{
+	width: 132px;
+	height: 132px;
+	margin: 136px auto 0;
+}
+.pwd-success-text{
+	font-size: 33px;
+	color: #666666;
+	text-align: center;
+	margin: 34px 0 110px;
+}
+.pwd-success-alert .return-home-link,.inform-success-alert .return-home-link{
+	width: 312px;
+	height: 69px;
+	display: block;
+	background-color: #e94a26;
+	margin: 0 auto;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 38px;
+	line-height: 69px;
+	color: #fff;
+}
+/*点击房间号弹出样式*/
+.home-floor-alert{
+	padding: 40px;
+}
+.floor-alert-tit{
+	font-size: 26px;
+	height: 63px;
+	line-height: 63px;
+	color: #666666;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+.floor-alert-left{
+	width: 305px;
+	float: left;
+}
+.floor-alert-right{
+	width: 265px;
+	float: left;
+}
+.floor-alert-left p,.floor-alert-right p{
+	color: #666666;
+	font-size: 26px;
+	height: 63px;
+	line-height: 63px;
+}
+.floor-alert-tit span,.floor-alert-left p span,.floor-alert-right p span{
+	color: #333333;
+}
+.floor-select-btn{
+	display: inline-block;
+	width: 528px;
+	height: 63px;
+	line-height: 63px;
+	background-color: #e94a26;
+	color: #fff;
+	text-align: center;
+	font-size: 35px;
+	border-radius: 8px;
+	margin-top: 80px;
+}
+/*谈些信息弹框*/
+.user-inform-alert{
+	display: none;
+	padding: 38px 99px;
+}
+.inform-big-tit{
+	font-size: 31px;
+	color: #333333;
+	text-align: center;
+}
+.inform-small-tit{
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+}
+.inform-small-tit span{
+    display: inline-block;
+    width: 115px;
+    height: 1px;
+    position: relative;
+    top: -5px;
+}
+.inform-small-tit span.left{
+	left: -5px;
+	background: -webkit-linear-gradient(left,#fff,#9a9a9a);
+    background: -o-linear-gradient(left,#fff,#9a9a9a);
+    background: -moz-linear-gradient(left,#fff,#9a9a9a);
+    background: linear-gradient(left,#fff,#9a9a9a);
+}
+.inform-small-tit span.right {
+	right: -5px;
+    background: -webkit-linear-gradient(left,#9a9a9a,#fff);
+    background: -o-linear-gradient(left,#9a9a9a,#fff);
+    background: -moz-linear-gradient(left,#9a9a9a,#fff);
+    background: linear-gradient(left,#9a9a9a,#fff);
+}
+.inform-small-tit i{
+    font-style: inherit;
+    margin: 0 .1rem;
+}
+.user-inform-alert input{
+	width: 100%;
+	outline: none;
+	margin-top: 27px;
+	height: 64px;
+	padding-left: 29px;
+	background-color: #efefef;
+	font-size: 26px;
+	color: #333333;
+	border: none;
+	border-radius: 8px;
+}
+.user-inform-alert .submit-inform-btn{
+	padding-left: 0;
+	text-align: center;
+	background-color: #b9b9b9;
+	color: #fff;
+}
+.user-inform-alert .submit_active{
+	background-color: #e94a26;
+}
+/*提醒确认弹框*/
+.control-sure-alert{
+	width: 500px;
+	height: 214px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -107px;
+	margin-left: -250px;
+	border-radius: 6px;
+	background-color: #fff;
+	border: 2px solid #8ca7c6;
+	display: none;
+}
+.control-sure-alert .remind,.control-sure-btn{
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+.control-sure-alert .remind{
+	top: 0;
+	font-size: 23px;
+	color: #284b8c;
+	text-align: center;
+	height: 48px;
+	line-height: 46px;
+	background-color: #dae6f5;
+	border-radius: 6px 6px 0 0;
+	border-bottom: 2px solid #8ca7c6;
+}
+.control-sure-content{
+	width: 100%;
+	height: 100%;
+	font-size: 24px;
+	line-height: 190px;
+	text-align: center;
+	color: #333;
+}
+.control-sure-btn{
+	bottom: 0;
+	height: 67px;
+	border-radius: 0 0 6px 6px;
+	border-top: 2px solid #8ca7c6;
+}
+.control-sure-btn input{
+	font-size: 21px;
+	float: left;
+	width: 135px;
+	height: 40px;
+	margin: 13px 0 0 73px;
+	border-radius: 6px;
+	outline: none;
+	border: none;
+	color: #333;
+	border: 1px solid #8ca7c6;
+	background: -webkit-linear-gradient(top,#fff,#d6d6d7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top,#fff,#d6d6d7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top,#fff,#d6d6d7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(top,#fff,#d6d6d7); /* Standard syntax */
+}
+/*个人信息提交成功弹框样式*/
+.inform-success-alert{
+	display: none;
+}
+.inform-remind-gray{
+	font-size: 23px;
+	color: #999999;
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 80px;
+}
+.inform-success-alert .pwd-success-text{
+	margin: 34px 0 30px;
+}

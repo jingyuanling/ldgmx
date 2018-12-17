@@ -13,23 +13,57 @@
 		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			// font: 字体名称，ele: 要使用此字体的元素
+			function loadFont(font, ele) {
+			    var span = document.createElement("span");
+			    // 这几个字母和符号宽度比较容易变化
+			    span.innerHTML = "gW@i#Q!T";
+			    // 设置为不可见，但可以测量宽度
+			    span.style.visibility = "hidden";
+			    // 字体大小为 500px，如果宽度变化比较容易区分
+			    span.style.fontSize = "500px";
+			    // 设置字体
+			    span.style.fontFamily = font;
+			    // 添加到页面
+			    document.body.appendChild(span);
+			    // 获取宽度
+			    var width_now = span.offsetWidth;
+			    // 每 0.05 秒检查一次是否加载
+			    var interval_check = setInterval(function() {
+			        // 宽度变化，说明字体被加载
+			        if(span.offsetWidth != width_now) {
+			            clearInterval(interval_check);
+			            // 设置字体为
+			            ele.style.fontFamily = font;
+			            // 移除 span
+			            document.body.removeChild(span);
+			            span = null;
+			        }
+			        console.log(width_now);
+			    }, 50);
+			}
+			$(function(){
+				loadFont("SourceHanSansR", document.getElementsByTagName("body")[0]);
+			});
+		</script>
 	</head>
 	<body>
 		<div class="wine-head-wrap">
 			<div class="wine-head-nav-class">
 				<div class="wine-head">
-					<ul>
-						<li class="head_li_active"><a href="###">热门<span></span></a></li>
-						<li><a href="wine-firstclass.html">酒水<span></span></a></li>
-						<li><a href="###">服饰<span></span></a></li>
-						<li><a href="###">家电<span></span></a></li>
-						<li><a href="###">家具<span></span></a></li>
-						<li><a href="###">保健<span></span></a></li>
-						<li><a href="###">医疗<span></span></a></li>
-						<li><a href="###">电子<span></span></a></li>
-						<li><a href="###">电脑<span></span></a></li>
-						<li><a href="###">手机<span></span></a></li>
-						<li><a href="###">图书<span></span></a></li>
+					<ul class="wine-head-ul">
+						<li><a href="###">热门服饰</a><span></span></li>
+						<li class="head_li_active"><a href="wine-firstclass.html">酒水服饰</a><span></span></li>
+						<li><a href="###">服饰</a><span></span></li>
+						<li><a href="###">家电</a><span></span></li>
+						<li><a href="###">家具</a><span></span></li>
+						<li><a href="###">医疗</a><span></span></li>
+						<li><a href="###">电子</a><span></span></li>
+						<li><a href="###">保健</a><span></span></li>
+						<li><a href="###">电脑</a><span></span></li>
+						<li><a href="###">手机</a><span></span></li>
+						<li><a href="###">图书</a><span></span></li>
 					</ul>
 				</div>
 			</div>
@@ -41,7 +75,7 @@
 					<span class="barrage-photo"><img alt="" src=""/></span>
 					<p class="barrage-text">XXX获得订单佣金¥2000</p>
 				</div>
-				<div class="swiper-container">
+				<div class="swiper-container swiper-container-banner">
 				  <div class="swiper-wrapper">
 				    <div class="swiper-slide"><img alt="" src="img/banner.jpg"/></div>
 				    <div class="swiper-slide"><img alt="" src="img/banner.jpg"/></div>
@@ -187,15 +221,23 @@
 			</table>
 		</div>
 		<script type="text/javascript">
-			var mySwiper = new Swiper('.swiper-container', {
-				autoplay: 2000,//可选选项，自动滑动
-				loop : true,
-				autoplayDisableOnInteraction : false,
-				pagination : '.swiper-pagination'
-			})
-			setInterval(function(){
-				$('.banner-barrage').fadeToggle();
-			},5000);
+			$(function(){
+				var mySwiper = new Swiper('.swiper-container-banner', {
+					autoplay: 2000,//可选选项，自动滑动
+					loop : true,
+					autoplayDisableOnInteraction : false,
+					pagination : '.swiper-pagination'
+				})
+				setInterval(function(){
+					$('.banner-barrage').fadeToggle();
+				},5000);
+				//滑动头部ul的宽度
+				var ul_width = 0;
+				$(".wine-head-ul li").each(function(){
+					ul_width += $(this).outerWidth(true)+1;
+				});
+				$(".wine-head-ul").width(ul_width);
+			});
 		</script>
 	</body>
 </html>

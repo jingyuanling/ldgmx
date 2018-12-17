@@ -1,0 +1,141 @@
+.control-home-wrap{
+	padding-top: .76rem;
+}
+.control-home-banner{
+	width: 100%;
+	height: 3.63rem;
+}
+.control-home-banner .swiper-container{
+	height: 100%;
+}
+.control-home-banner .swiper-slide img{
+	height: 100%;
+}
+.swiper-pagination-bullet-active{
+	background-color: #e94a26;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	width: .15rem;
+	height: .15rem;
+}
+.control-home-notice{
+	width: 100%;
+	height: .66rem;
+	line-height: .66rem;
+	background-color: #fff;
+	box-shadow: 0 0.01rem 0.13rem rgba(0,0,0,0.5);
+	padding-left: .83rem;
+	font-size: .3rem;
+	color: #e94a26;
+	position: relative;
+}
+.control-home-notice .line{
+	height: .4rem;
+	width: .02rem;
+	display: inline-block;
+	background-color: #e94a26;	
+	position: relative;
+	top: .11rem;
+	margin: 0 .1rem;
+}
+.control-home-notice .horn-icon{
+	width: .28rem;
+	height: .28rem;
+	position: absolute;
+	left: .4rem;
+	top: .19rem;
+}
+.control-home-list ul{
+	width: 100%;
+	padding: .25rem 0 .25rem .03rem;
+	overflow: hidden;
+}
+.control-home-list li{
+	width: 2.2rem;
+	float: left;
+	margin-left: .21rem;
+}
+.control-home-list-img,.control-home-list-text{
+	display: block;
+	width: 100%;
+}
+.control-home-list-img{
+	width: 2.2rem;
+	height: 2.2rem;
+}
+.control-home-list-img img{
+	width: 100%;
+	height: 100%;
+}
+.control-home-list-text{
+	font-size: .29rem;
+	height: .76rem;
+	line-height: .76rem;
+	text-align: center;
+	color: #333;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+/*侧边弹框*/
+.control-sidebar-gray{
+	width: 100%;
+	height: 100%;
+	min-width: 3.2rem;
+	max-width: 7.5rem;
+	position: fixed;
+	top: 0;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 8;
+	display: none;
+}
+.control-sidebar{
+	width: 5.12rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: -5.12rem;
+	padding-top: .76rem;
+	padding-left: .4rem;
+	background-color: #fff;
+}
+.sidebar-user-num{
+	height: .25rem;
+	line-height: .25rem;
+	position: relative;
+	padding-left: .9rem;
+	font-size: .298rem;
+	color: #999999;
+	margin: .4rem 0 .68rem;
+}
+.sidebar-user-num img{
+	width: .23rem;
+	height: .23rem;
+	position: absolute;
+	left: .4rem;
+	bottom: 0;
+}
+.sidebar-change-pwd,.sidebar-log-out{
+	font-size: .3rem;
+	height: .32rem;
+	line-height: .32rem;
+	display: block;
+	position: relative;
+	padding-left: .6rem;
+	margin-bottom: .45rem;
+	color: #666666;
+}
+.sidebar-change-pwd img,.sidebar-log-out img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.sidebar-change-pwd img{
+	width: .23rem;
+	height: .32rem;
+}
+.sidebar-log-out img{
+	width: .27rem;
+	height: .28rem;
+}

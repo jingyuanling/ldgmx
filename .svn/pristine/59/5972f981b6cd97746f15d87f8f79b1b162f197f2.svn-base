@@ -1,9 +1,0 @@
-.change-current-num{
-	font-size: 0.3rem;
-	color: #191919;
-	margin-bottom: 0.3rem;
-}
-.generate_alert .text-center{
-	font-size: 0.34rem;
-	margin-bottom: 0.6rem;
-}

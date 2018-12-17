@@ -1,6 +1,0 @@
-.hall-list-ul .down-num .glyphicon{
-	font-size: 0.2rem;
-}
-.hall-list-ul .down-num span{
-	margin-right: 0.05rem;
-}

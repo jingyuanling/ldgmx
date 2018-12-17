@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>成员管理</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-headFoot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-alert.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-team-manage.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="cash-home-wrap">
+			<div class="cash-header">
+				<span class="cash-header-return"><img src="img/cash-head-return.png"/></span>
+				<p>成员管理</p>
+			</div>
+			<div class="team-manage-wrap">
+				<div class="team-manage-content">
+					<div class="total-manage">
+						<div class="total-manage-center">
+							<div class="total-manage-table">
+								<div class="total-manage-table-cell">
+									<p class="p1">100000</p>
+									<p class="p2">变现债权金</p>
+								</div>
+							</div>
+						</div>
+						<div class="total-manage-center">
+							<div class="total-manage-table">
+								<div class="total-manage-table-cell">
+									<p class="p1 help-num">500000</p>
+									<p class="p2">帮助变现（元）</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="member-intr">
+						<div class="member-intr-tit">
+							我的组员（123人）
+						</div>
+						<ul>
+							<li class="member-intr-content">
+								<a href="debt-cash-member-detail.html">
+									<div class="intr-content-tit">
+										<span class="member-intr-photo"></span>
+										<p class="member-intr-name">组员昵称</p>
+										<div class="intr-content-tit-right">
+											<span class="time">2018-05-05</span>
+											<span class="arrow"><img src="img/cash-right-arrow2.png"/></span>
+										</div>
+									</div>
+								</a>
+								<div class="member-content-detail">
+									<div class="content-detail-modul">
+										<p class="p1">10000</p>
+										<p class="p2">开团数量</p>
+									</div>
+									<div class="content-detail-modul content-detail-modul2">
+										<p class="p1">10000</p>
+										<p class="p2">花费债权金</p>
+									</div>
+									<div class="content-detail-modul content-detail-modul3">
+										<p class="p1">10000</p>
+										<p class="p2">帮助变现（元）</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="member-invita-btn-wrap">
+							<p class="member-invita-btn">邀请好友成为我的组员</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--首次引导弹框-->
+			<div class="guide-alert-gray cash-alert-gray3">
+				<div class="guide-three-step">
+					<img src="img/cash-guide3.png"/>
+				</div>
+				<div class="guide-last-step">
+					<a href="debt-cash-invite.html">
+						<img src="img/cash-guide4.png"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				$('.guide-three-step').click(function() {
+					$('.member-intr-content').eq(0).css({'z-index':'1'});
+					$(this).hide();
+					$('.guide-last-step').show();
+					$('.member-invita-btn-wrap').css({'z-index': '5'})
+				});
+			});
+		</script>
+	</body>
+</html>

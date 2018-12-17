@@ -1,0 +1,115 @@
+.discounts3-wrap{
+	font-family: "黑体";
+	min-width: 1100px;
+}
+.discounts3-banner{
+	width: 100%;
+	height: 0;
+	padding-bottom: 50.1%;
+}
+.discounts3-banner img{
+	width: 100%;
+	height: auto;
+}
+.discounts3-content{
+	width: 100%;
+	background: url(../img/discounts3-content-bg.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.discounts3-leaves{
+	width: 100%;
+	position: absolute;
+	top: -300px;
+}
+.discounts3-center{
+	width: 1089px;
+	margin: 0 auto;
+	padding-top: 42px;
+	box-sizing: border-box;
+}
+.discounts3-module1,.discounts3-module2{
+	width: 100%;
+	height: 400px;
+	padding: 17px;
+	background-color: #7a29ca;
+	border-radius: 6px;
+}
+.discounts3-header{
+	height: 159px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.discounts3-header img{
+	width: 519px;
+	height: 100%;
+	display: inline-block;
+}
+.discounts3-center .module-center{
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	background-color: #fff;
+	padding: 25px 40px;
+	box-sizing: border-box;
+}
+.discounts3-introduce{
+	font-size: 25px;
+	color: #7a29ca;
+	height: 55px;
+	line-height: 55px;
+}
+.discounts3-introduce span{
+	font-size: 30px;
+	font-weight: bold;
+}
+.module-center-down{
+	width: 100%;
+	overflow: hidden;
+}
+.module-center-down>div{
+	float: left;
+}
+.left-card-img{
+	width: 383px;
+	height: 114px;
+}
+.left-arrow-img{
+	width: 69px;
+	height: 41px;
+	margin: 35px 26px auto;
+}
+.left-login-img{
+	width: 151px;
+	height: 166px;
+	margin-right: 36px;
+}
+.discounts3-statement{
+	text-align: right;
+	font-size: 12px;
+	color: #7a29ca;
+	margin-top: 15px;
+}
+.discounts3-module2{
+	height: 354px;
+	margin-top: 30px;
+}
+.left-coupons-img{
+	width: 416px;
+	height: 114px;
+}
+.left-return-img{
+	width: 149px;
+	height: 114px;
+}
+.left-card-img img,.left-arrow-img img,.left-login-img img,.left-coupons-img img,.left-return-img img{
+	width: 100%;
+	height: 100%;
+}
+.discounts3-rabbit{
+	width: 100%;
+}
+.discounts3-rabbit img{
+	width: 100%;
+	height: auto;
+}

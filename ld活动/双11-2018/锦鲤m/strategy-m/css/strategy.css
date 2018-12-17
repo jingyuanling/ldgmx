@@ -1,0 +1,181 @@
+.strategy-middle-header{
+	display: flex;
+}
+.strategy-middle-header span{
+	flex: 1;
+	display: block;
+	font-size: 0.3rem;
+	color: #666666;
+	background-color: #f0efed;
+	height: 0.97rem;
+	line-height: 0.95rem;
+	text-align: center;
+	border-bottom: 0.02rem solid #e4e4e4;
+}
+.strategy-middle-header span:nth-child(2){
+	border-left: 0.02rem solid #fff;
+	border-right: 0.02rem solid #fff;
+}
+.strategy-middle-header .span_active{
+	background-color: #e46c46;
+	color: #fff;
+}
+.strategy-module1{
+	width: 100%;
+	height: 2.18rem;
+	background-color: #fff;
+	text-align: center;
+	padding-top: 0.45rem;
+	box-sizing: border-box;
+}
+.strategy-module2,.strategy-module4{
+	width: 100%;
+	padding-top: 0.45rem;
+	background-color: #fff;
+	border-top: 0.02rem solid #e4e4e4;
+	padding: 0.45rem 0.4rem 0.1rem;
+	box-sizing: border-box;
+}
+.strategy-module1 .title,.strategy-module2 .title,.strategy-module4 .title{
+	font-size: 0.3rem;
+	color: #666666;
+	line-height: 0.31rem;
+	margin-bottom: 0.1rem;
+	text-align: center;
+}
+.strategy-module1 .desc,.strategy-module2 .desc{
+	font-size: 0.25rem;
+	color: #999999;
+	line-height: 0.44rem;
+	font-weight: lighter;
+}
+.strategy-module2 .desc{
+	padding: 0.3rem auto 0.2rem;
+}
+.strategy-module2 .desc span{
+	display: block;
+	font-weight: normal;
+}
+.strategy-module2 .prizes{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	margin-top: 0.2rem;
+	height: 1.8rem;
+    padding-top: 0.2rem;
+}
+.strategy-module2 .prizes span{
+	display: block;
+	float: left;
+	flex: 1;
+}
+.strategy-module2 .prizes img{
+	margin: 0 auto;
+}
+.strategy-module3{
+	border: none;
+}
+.methods-wrap{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	margin-top: 0.4rem;
+}
+.methods-wrap .methods{
+	flex: 1;
+	padding: 0 0.1rem;
+	font-weight: lighter;
+}
+.strategy-module4 .methods p{
+	color: #E43902;
+	font-size: 0.2rem;
+	font-weight: normal;
+	margin-top: 0.25rem;
+	margin-bottom: 0.1rem;
+}
+.strategy-module4 .methods img{
+	margin: 0 auto;
+	width: 0.85rem;
+	height: 0.85rem;
+}
+.strategy-module4 .methods span{
+	font-size: 0.2rem;
+	color: #999999;
+	display: block;
+}
+.module-wrap{
+	display: block;
+	width: 100%;
+	padding: 1rem 0.4rem 0;
+}
+.strategy-module-wrap{
+	background-color: #fff;
+	padding-bottom: 0.5rem;
+}
+.module-wrap-ul{
+	overflow: hidden;
+}
+.module-wrap-ul li{
+	width: 50%;
+	float: left;
+	display: flex;
+	height: 0.95rem;
+	margin-bottom: 0.6rem;
+}
+.module-wrap-ul li img{
+	width: 0.95rem;
+	height: 0.95rem;
+}
+.module-wrap-ul li .li-desc{
+	flex: 1;
+	padding-top: 0.15rem;
+	padding-left: 0.15rem;
+}
+.module-wrap-ul li p{
+	font-size: 0.22rem;
+}
+.module-wrap-ul li .p1{
+	color: #333333;
+}
+.module-wrap-ul li .p2{
+	color: #666666;
+}
+/*添加样式*/
+.strategy-module3 p{
+	text-align: center;
+}
+.strategy-module3 .time{
+	font-size: 0.28rem;
+	color: #e46c46;
+}
+.strategy-module3 .text span{
+	font-size: 0.42rem;
+}
+.strategy-first-prize{
+	height: 3rem;
+	box-sizing: border-box;
+    padding-top: 0.7rem;
+    color: #e46c46;
+	background-color: #f0efed;
+}
+.strategy-first-prize img{
+	margin: 0 auto 0.2rem;
+	width: 0.95rem;
+	height: 0.95rem;
+}
+.strategy-first-prize p{
+	text-align: center;
+	font-size: 0.22rem;
+}
+.strategy-first-prize p span{
+	font-weight: lighter;
+}
+.strategy-small-header{
+	font-size: 0.2rem;
+	color: #9b9b9b;
+	text-align: center;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	border-bottom: 0.02rem solid #e4e4e4;
+	background-color: #fff;
+}

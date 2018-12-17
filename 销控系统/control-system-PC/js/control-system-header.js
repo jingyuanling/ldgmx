@@ -1,0 +1,41 @@
+$(function(){
+    //头部移入事件
+	$('.control-header-center').mouseenter(function(){
+		$('.header-alert').fadeIn();
+	});
+	$('.control-header-center').mouseleave(function(){
+		$('.header-alert').fadeOut();
+	});
+	//修改密码弹框点击事件
+	$('.pwd-sure-btn').click(function(){
+		$('.pwd-success-alert-gray').fadeIn();
+	});
+	//选择房间号弹框
+	$('.floor-details-ol li').click(function(){
+		$('.floor-alert-gray').fadeIn();
+	});
+	//弹框上的叉号点击事件
+	$('.control-alert-delete').click(function(){
+		$('.pwd-success-alert-gray,.floor-alert-gray').fadeOut();
+	});
+	//房间号详细信息的选定按钮点击事件
+	$('.floor-select-btn').click(function(){
+		$('.home-floor-alert').hide();
+		$('.user-inform-alert').fadeIn();
+	});
+	//确定提交个人信息点击事件
+	$('.user-inform-alert .submit_active').click(function(){
+		$('.user-inform-alert').hide();
+		$('.control-sure-alert').fadeIn();
+	});
+	//取消按钮点击事件
+	$('.control-btn-cancel').click(function(){
+		$('.control-sure-alert').hide();
+		$('.user-inform-alert').fadeIn();
+	});
+	//确认按钮点击事件
+	$('.control-btn-sure').click(function(){
+		$('.control-sure-alert').hide();
+		$('.inform-success-alert').fadeIn();
+	});
+});

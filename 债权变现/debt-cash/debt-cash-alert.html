@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>债权变现所有弹框</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/debt-cash-alert.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/debt-cash-alert.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="cash-alert-gray">
+			<div class="cash-alert-table">
+				<div class="cash-alert-cell">
+					<div class="cash-alert">
+						<!--攻略弹框-->
+						<div class="strategy-alert">
+							<div class="strategy-alert-head">
+								变现攻略
+							</div>
+							<div class="strategy-alert-content">
+								<p><span>1.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+								<p><span>2.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+								<p><span>3.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+								<p><span>4.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+								<p><span>5.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+								<p><span>6.</span>债权客户可通过变现团发起变现任务完成     指定条件即可变现相应债权金.</p>
+							</div>
+						</div>
+						<!--提现(成功/失败)弹框-->
+						<div class="withdrawal-notice-alert">
+							<div class="withdrawal-notice-icon">
+								<img src="img/cash-withdrawal-success.png"/>
+								<!--<img src="img/cash-withdrawal-fail.png"/>-->
+							</div>
+							<p class="withdrawal-notice">提现成功<!--提现失败--></p>
+							<p class="withdrawal-time-notice">提现金额将在24小时内提至您绑定的微信账户</p>
+							<div class="withdrawal-alert-btn">
+								我知道了
+							</div>
+						</div>
+						<!--添加收货地址弹框-->
+						<div class="add-address-alert">
+							<div class="add-address-close"><img src="img/close-btn-round.png" alt=""/></div>
+							<p class="text-center add-address-tit">添加收货地址</p>
+							<ul>
+								<li>
+									<span>收货人：</span>
+									<input type="text" name="" id="" value="" />
+								</li>
+								<li>
+									<span>电话：</span>
+									<input type="text" name="" id="" value="" />
+								</li>
+								<li>
+									<input type="text" style="position: absolute;width:100%;height: 100%;left: 0;top: 0;background-color: transparent;text-align: right;padding-right: 0.3rem;" readonly placeholder="请选择" id="picker" name="addr" data-key="4-84-1298" value="山西省 太原市 万柏林区" />
+									<span class="left">选择地址</span>
+									<span class="right"><img src="img/cash-right-arrow.png" alt="" /></span>
+								</li>
+								<textarea class="detail-address" name="" rows="" cols="" placeholder="详细地址"></textarea>
+							</ul>
+							<input class="text-center save-btn" type="button" name="" id="" value="保存" />
+						</div>
+						<!--确认是否放弃付款弹框-->
+						<div class="confirm-bounced-alert">
+							<p class="confirm-text">订单已生效，放弃付款商品可能 会被抢空哦！</p>
+							<div class="two-btn">
+								<div class="give-up">暂时放弃</div>
+								<div class="think-again">再想想</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--首页首次登陆引导弹出框1-->
+		<div class="guide-alert-gray cash-alert-gray1">
+			<div class="guide-alert-table">
+				<div class="guide-alert-cell">
+					<div class="guide-alert">
+						<img src="img/cash-guide.png"/>
+						<div class="home-next-div"><input class="home-next-btn" type="button" name="" id="" value="5" onclick="javascrtpt:window.location.href='debt-cash-person-center.html'" disabled="disabled" /></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--首次引导弹框2-->
+		<div class="guide-alert-gray cash-alert-gray2">
+			<div class="guide-second-step">
+				<a href="debt-cash-team-manage.html">
+					<img src="img/cash-guide2.png"/>
+				</a>
+			</div>
+		</div>
+		<!--首次引导弹框3-->
+			<div class="guide-alert-gray cash-alert-gray3">
+				<div class="guide-three-step">
+					<img src="img/cash-guide3.png"/>
+				</div>
+				<div class="guide-last-step">
+					<a href="debt-cash-invite.html">
+						<img src="img/cash-guide4.png"/>
+					</a>
+				</div>
+			</div>
+	</body>
+</html>

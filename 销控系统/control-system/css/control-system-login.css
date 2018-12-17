@@ -1,0 +1,74 @@
+.control-login-wrap{
+	width: 100%;
+	height: 100%;
+	background: url(../img/login-bg.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.login-table,.control-center-td{
+	width: 100%;
+	height: 100%;
+}
+.control-center{
+	width: 5.6rem;
+	margin: 0 auto;
+}
+.login-logo{
+	width: 2rem;
+	margin: 0 auto;
+	height: 2.09rem;
+}
+.double-input{
+	margin-top: 1.2rem;
+	width: 100%;
+	margin-bottom: .3rem;
+}
+.double-input .username-input,.double-input .pwd-input{
+	width: 100%;
+	position: relative;
+	height: 0.74rem;
+	border-bottom: .03rem solid #fff;
+}
+.double-input input{
+	width: 100%;
+	height: .47rem;
+	line-height: .47rem;
+	padding-left: .8rem;
+	font-size: .38rem;
+	color: #FFF;
+	position: absolute;
+	left: 0;
+	top: 0;
+	outline: none;
+	border: none;
+	background-color: transparent;
+}
+.double-input .inp-left-img{
+	height: 0.47rem;
+	position: absolute;
+	top: 0;
+	left: .05rem;
+}
+.double-input .username-input{
+	margin-bottom: .57rem;
+}
+ .login-change-pwd{
+ 	width: 100%;
+ 	font-size: .2rem;
+	color: #fff;
+	text-align: right;
+	height: .73rem;
+	line-height: .73rem;
+	text-align: right;
+}
+.login-btn{
+	width: 100%;
+	font-size: .4rem;
+	height: .7rem;
+	line-height: .7rem;
+	background-color: #e94a26;
+	text-align: center;
+	letter-spacing: .3rem;
+	text-indent: .3rem;
+	color: #FFF;
+	border-radius: .06rem;
+}
