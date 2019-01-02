@@ -1,0 +1,451 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+        <script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+        <style>
+        	html,body{
+        		width: 100%;
+        		height: 100%;
+        	}
+        	.weal-machine-gray{
+        		width: 100%;
+        		height: 100%;
+        		position: fixed;
+        		top: 0;
+        		left: 0;
+        		background-color: rgba(0,0,0,0.5);
+        	}
+            .weal-machine-table{
+	          	display: table;
+	          	width: 100%;
+	          	height: 100%;
+	        }
+            .weal-machine-cell,.left-cell{
+	          	display: table-cell;
+	          	vertical-align: middle;
+            }
+            .weal-machine{
+	          	width: 439px;
+	          	height: 657px;
+	          	background: url(img/weal-machine_bg.png) 0 0 no-repeat;
+	          	background-size: 100% 100%;
+	          	margin: 0 auto;
+	          	padding-top: 182px;
+	          	box-sizing: border-box;
+            }
+	        .weal-machine ul{
+	            width:290px;
+	            height:114px;
+	            overflow: hidden;
+	            text-align: center;
+	            display: block;
+	            color: black;
+	            margin: 0 auto;
+	            position: relative;
+	            padding-top: 28.5px;
+	            border-radius: 20px;
+	        }
+	        .weal-machine li{
+	          	width: 274px;
+	          	height: 58px;
+	          	margin: 0 auto;
+	          	position: relative;
+	        }
+            .weal-machine dl{
+	            position: absolute;
+	            top: -66px;
+	            left:0;
+	            width:100%;
+	            height:100%;
+            }
+            .left-table{
+            	width: 100%;
+            	height: 100%;
+            	display: table;
+            }
+            .weal-machine .left{
+          		width: 208px;
+          		height: 100%;
+          		float: left;
+            }
+            .weal-machine .left-free{
+            	width: 100%;
+            }
+            .weal-machine .left p{
+            	font-size: 19px;
+            	color: #e17933;
+            	letter-spacing: 1px;
+            	text-indent: 1px;
+            }
+            .weal-machine .left .p1 span{
+            	font-weight: bold;
+            }
+            .weal-machine .left .time{
+            	font-size: 12px;
+            }
+            .weal-machine .right{
+            	float: right;
+            	width: 66px;
+            	height: 100%;
+            	padding-top: 7px;
+            	box-sizing: border-box;
+            	border-left: 1px dashed #ede5cf;
+            }
+            .weal-machine .right p{
+            	display: block;
+            	width: 44px;
+            	height: 44px;
+            	font-size: 12px;
+            	line-height: 44px;
+            	vertical-align: bottom;
+            	margin: 0 auto;
+            	border-radius: 50%;
+            	color: #fff;
+            	background: -moz-linear-gradient(315deg, #f5cc8a, #fe750b);
+				background: -webkit-gradient(linear,100% 100%,0 0,from(#f5cc8a),to(#fe750b));
+				background: -webkit-linear-gradient(315deg, #f5cc8a, #fe750b);
+				background: -o-linear-gradient(315deg, #f5cc8a, #fe750b);
+            }
+            .weal-machine .right p span{
+            	font-size: 30px;
+            }
+            .weal-machine dd{
+	            display: block;
+	            width:100%;
+	            height:100%;
+	            margin-bottom: 8px;
+	            background-color: #fff9e8;
+	            border-radius: 15px;
+	            box-shadow: 0 0 5px rgba(138,19,19,0.5);
+            }
+            .weal-btn{
+            	width: 274px;
+            	height: 68px;
+            	margin: 25px auto 0;
+            	position: relative;
+            }
+            .weal-btn-none{
+            	position: absolute;
+            	top: 0;
+            	left: 0;
+            	right: 0;
+            	bottom: 0;
+            	display: none;
+            	background-color: transparent;
+            }
+            .weal-btn .btn{
+            	width: 100%;
+            	height: 100%;
+	            background: url(img/weal-machine_btn.png) 0 0 no-repeat;
+	            background-size: 100% 100%;
+	            text-align: center;
+	            color: #fff;
+	            display: block;
+	            border: none;
+	            outline: none;
+	            font-size: 22px;
+	            padding-bottom: 13px;
+	            box-sizing: border-box;
+	            letter-spacing:3px;
+            	text-indent: 3px;
+            }
+            .flash{
+            	-webkit-animation:flash 1s .2s ease both;
+            }
+            .weal-machine .weal-machine-start{
+	        	width: 274px;
+	        	height: 58px;
+	        	position: absolute;
+	        	top: 28.5px;
+	        	left: 8px;
+	        	border-radius: 15px;
+	        	background-color: #fff9e8;
+	        	z-index: 2;
+	        }
+            @-webkit-keyframes flip{
+	            0%{-webkit-transform:perspective(400px) rotateY(0);
+	            -webkit-animation-timing-function:ease-out}
+	            40%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(170deg);
+	            -webkit-animation-timing-function:ease-out}
+	            50%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+	            -webkit-animation-timing-function:ease-in}
+	            80%{-webkit-transform:perspective(400px) rotateY(360deg) scale(.95);
+	            -webkit-animation-timing-function:ease-in}
+	            100%{-webkit-transform:perspective(400px) scale(1);
+	            -webkit-animation-timing-function:ease-in}
+            }
+            @-webkit-keyframes flash{
+	            0%,50%,100%{opacity: 1;}
+	            25%,75%{opacity: 0;}
+            }      
+        </style>
+    </head>
+    <body>
+        <div class="weal-machine-gray">
+        	<div class="weal-machine-table">
+	        	<div class="weal-machine-cell">
+	        		<div class="weal-machine">
+			        	<ul>
+			        		<div class="left left-free weal-machine-start">
+	                    		<div class="left-table">
+		                    		<div class="left-cell">
+		                    			<p class="p1"><span>赶快来抽取您今天的专属福利</span></p>
+		                    		</div>
+		                    	</div>
+	                    	</div>
+				            <li>
+				               <dl class="dl">
+				               		<!--债权金-->
+				               		<dd>
+				                    	<div class="left left-free">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1"><span>今日全场债权金全免</span></p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    </dd>
+				                    <dd>
+				                    	<div class="left">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1">今日全场<span>债权金</span>部分</p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    	<div class="right">
+				                    		<p><span>1</span>折</p>
+				                    	</div>
+				                    </dd>
+				                    <dd>
+				                    	<div class="left">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1">今日全场<span>债权金</span>部分</p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    	<div class="right">
+				                    		<p><span>2</span>折</p>
+				                    	</div>
+				                    </dd>
+				                    <dd>
+				                    	<div class="left">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1">今日全场<span>债权金</span>部分</p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    	<div class="right">
+				                    		<p><span>3</span>折</p>
+				                    	</div>
+				                    </dd>
+				                    <dd>
+				                    	<div class="left">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1">今日全场<span>债权金</span>部分</p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    	<div class="right">
+				                    		<p><span>4</span>折</p>
+				                    	</div>
+				                    </dd>
+				                    <dd>
+				                    	<div class="left">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1">今日全场<span>债权金</span>部分</p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    	<div class="right">
+				                    		<p><span>5</span>折</p>
+				                    	</div>
+				                    </dd>
+				                    <dd>
+				                    	<div class="left left-free">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1"><span>今日全场现金全免</span></p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    </dd>
+				                    <!--现金奖品-->
+				                    <dd>
+				                    	<div class="left">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1">今日全场<span>现金</span>部分</p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    	<div class="right">
+				                    		<p><span>1</span>折</p>
+				                    	</div>
+				                    </dd>
+				                    <dd>
+				                    	<div class="left">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1">今日全场<span>现金</span>部分</p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    	<div class="right">
+				                    		<p><span>2</span>折</p>
+				                    	</div>
+				                    </dd>
+				                    <dd>
+				                    	<div class="left">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1">今日全场<span>现金</span>部分</p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    	<div class="right">
+				                    		<p><span>3</span>折</p>
+				                    	</div>
+				                    </dd>
+				                    <dd>
+				                    	<div class="left">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1">今日全场<span>现金</span>部分</p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    	<div class="right">
+				                    		<p><span>4</span>折</p>
+				                    	</div>
+				                    </dd>
+				                    <dd>
+				                    	<div class="left">
+				                    		<div class="left-table">
+					                    		<div class="left-cell">
+					                    			<p class="p1">今日全场<span>现金</span>部分</p>
+					                    			<p class="time">2018.12.14-2018.12.14</p>
+					                    		</div>
+					                    	</div>
+				                    	</div>
+				                    	<div class="right">
+				                    		<p><span>5</span>折</p>
+				                    	</div>
+				                    </dd>
+				               </dl>
+				            </li>
+				        </ul>
+				        <div class="weal-btn">
+				        	<button class="btn">抽取我的专属福利</button>
+				        	<div class="weal-btn-none"></div>
+				        </div>
+			        </div>
+	        	</div>
+	        </div>
+        </div>
+    </body>
+    <script> 
+     var oli=document.getElementsByTagName("li"),
+         btn=document.querySelector(".btn"),
+         odl=document.querySelectorAll(".dl"),
+         Let=12,H=20,first=3,second=5,
+         third=8,cf=cs=ct=0,timer=null,str="";
+        for (var i = 0; i < odl.length; i++) {
+            var html=odl[i].innerHTML;
+                odl[i].innerHTML="";
+                ck=stradd(html,2);
+                odl[i].innerHTML=ck;
+         }; 
+        function stradd(str,size){
+            if(Object.prototype.toString.call(str)
+                =="[object String]"){
+                for (var i = 0; i < size; i++) {
+                    str+=str;
+                }; 
+            }else{
+                return "数据类型错误";
+            }
+             return str;
+        }
+        function getStyle(obj,name){
+           return obj.currentStyle?obj.currentStyle[name]:getComputedStyle(obj,false)[name];
+        }
+        function starmove(obj,json,funEnd){
+            clearInterval(obj.timer);
+            var Bstop=true;
+            obj.timer=setInterval(function(){
+                for(var attr in json){
+                   var speed=0;
+                   if(attr=="opacity"){
+                       var cur=Math.round(parseFloat(getStyle(obj,attr)*100));
+                   }else{
+                       var cur=parseInt(getStyle(obj,attr));
+                   }
+                   speed=(json[attr]-cur)/20;
+                   speed=speed>0?Math.ceil(speed):Math.floor(speed); 
+                   if(cur!=json[attr]){
+                        Bstop=false;
+                   }else{
+                        Bstop=true;
+                   }
+ 
+                   if(attr=="opacity"){
+                       obj.style.opacity=(cur+speed)/100;
+                   }else{
+                       obj.style[attr]=cur+speed+"px";
+                   }
+                }
+              
+                if(Bstop){
+                      clearInterval(obj.timer);
+                      if(funEnd)funEnd();
+                }
+            },30)
+         }
+         function run(){
+         		$('.weal-btn-none').show();
+         		$('.weal-machine-start').remove();
+            //for (var i = 0; i < oli.length; i++) {
+                //oli[i].value=Math.floor(Math.random()*10);
+				var Num=2, //parseInt(oli[i].value),
+                odl=oli[0].getElementsByTagName("dl")[0],
+                odd=odl.getElementsByTagName("dd"),
+                size=odd.length,
+                height=odl.offsetHeight,
+                tops=odd[Num+(size-Let)].offsetTop;
+                odl.style.top=0;
+                str+=Num; 
+                starmove(odl,{"top":-(tops)},function(){
+                    btn.className="btn";
+                    $('.btn').text('领取我的专属福利');
+                    $('.weal-btn-none').click(function() {
+                    	$('.weal-machine-gray').fadeOut();
+                    })
+                }); 
+           //};
+            
+         }
+         btn.onclick=function(){
+            str="";
+            run()
+            console.log()
+         }
+    </script>
+</html>
