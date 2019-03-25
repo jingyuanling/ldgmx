@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+		<title>登陆</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/nav-top.css"/>
+		<link rel="stylesheet" type="text/css" href="css/float-window.css"/>
+		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="home_wrap">
+			<!--<iframe src="nav-top.html" width="100%" height= "136px" name="leftFrame" scrolling="No"  noresize="noresize" style="border: none;"></iframe>-->
+			<div class="m-site-top">
+				<div class="container">
+					<div class="nav-left">
+						<span class="welcome">欢迎来到灵动酒行！</span>
+						<!--未登录-->
+						<!--<a class="nav-login" href="login.html">请登录</a>-->
+						<!--***-->
+						<!--已登录-->
+						<div class="nav-login present-user">
+							<a href="person-center.html" class="nav-userName">
+								<span class="userPhoto"><img src="img/home-clock.png"/></span>
+								<span class="iconfont userName"><i>name</i></span>
+							</a>
+							<ul class="nav-user-list">
+								<li><a href="###">我的订单</a></li>
+								<li><a href="###">我的账户</a></li>
+								<li><a href="###">我的代理</a></li>
+								<li><a href="###">团队管理</a></li>
+								<li><a href="###">我的服务</a></li>
+								<li><a href="###">个人资料</a></li>
+							</ul>
+						</div>
+						<!--***-->
+						<a class="nav-register" href="register.html">免费注册</a>
+					</div>
+					<div class="nav-right">
+						<ul class="nav-right-ul">
+							<li>
+								<a href="home.html" class="iconfont home-link">首页</a>
+							</li>
+							<li>
+								<a href="order.html">我的订单 </a>
+							</li>
+							<li>
+								<a href="">备案中心</a>
+							</li>
+							<li>
+								<span>关注微信</span>
+							</li>
+							<li>
+								<span>网站导航</span>
+							</li>
+							<li>
+								<a href="/help">帮助中心</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="home_nav">
+				<div class="home_nav_content">
+					<a href="home.html" class="home-logo"><img src="img/home-logo.png"/></a>
+					<div class="iconfont nav-part">分类</div>
+					<ul class="home_nav_center">
+						<li><a href="###">酒水年货节</a></li>
+						<li><a href="###">创业礼包</a></li>
+						<li><a href="###">限时抢购</a></li>
+					</ul>
+					<div class="home_nav_right">
+						<div class="iconfont home_nav_inp">
+							<input type="text" name="" id="" value="" placeholder="年货节喝好酒 满299减50" />
+						</div>
+						<a href="cart.html" class="iconfont home-cart">&#xe61b;<span class="num">10</span></a>
+					</div>
+				</div>
+			</div>
+			<!--以上为公用头部导航栏-->
+			<!--以下是右侧悬浮窗-->
+			<div class="float-wrap">
+				<ul class="float-ul">
+					<li class="info_service">
+						<a href="###">
+							<span class="iconfont">&#xe600;</span>
+							<p>联系客服</p>
+						</a>
+						<div class="float-hidden">
+							<p class="info-tit">灵动酒行平台问题，建议反馈，商户和物流问题投诉等请拨打灵动酒行客服热线</p>
+							<p class="info-phone">400-622-9191</p>
+							<p class="info-day">(周一至周日 9：00-17：30)</p>
+							<div class="triangle_border_right"><span></span></div>
+						</div>
+					</li>
+					<li>
+						<a href="###">
+							<span class="iconfont">&#xe787;</span>
+							<p>创业礼包</p>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<span class="iconfont">&#xe7e1;</span>
+							<p>关注微信</p>
+						</a>
+						<div class="float-hidden">
+							<div class="triangle_border_right"><span></span></div>
+							<img class="codeImg" src="img/home-goodImg.jpg"/>
+						</div>
+					</li>
+					<li>
+						<a href="javaScript:void(0)">
+							<span class="iconfont">&#xe62c;</span>
+							<p>回到顶部</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--以上是右侧悬浮窗-->
+			<div class="home_content_wrap">
+				<div class="home_content">
+					<div class="banner-nav">
+						<div class="nav-container">
+							<ul class="nav-list">
+								<li class="nav-item ">
+									<span>
+										<a href="###" class="recom">灵动推荐</a>
+									</span>
+								</li>
+								<li class="nav-item ">
+									<span><a href="###">家居家纺</a></span>
+									<span><a href="###">家用电器</a></span>
+								</li>
+								<li class="nav-item ">
+									<span><a href="###">家居家纺</a></span>
+									<span><a href="###">家用电器</a></span>
+								</li>
+								<li class="nav-item ">
+									<span><a href="###">家居家纺</a></span>
+									<span><a href="###">家用电器</a></span>
+								</li>
+								<li class="nav-item ">
+									<span><a href="###">家居家纺</a></span>
+									<span><a href="###">家用电器</a></span>
+								</li>
+								<li class="nav-item ">
+									<span><a href="###">家居家纺</a></span>
+									<span><a href="###">家用电器</a></span>
+								</li>
+								<li class="nav-item ">
+									<span><a href="###">家居家纺</a></span>
+									<span><a href="###">家用电器</a></span>
+								</li>
+								<li class="nav-item ">
+									<span><a href="###">家居家纺</a></span>
+									<span><a href="###">家用电器</a></span>
+								</li>
+								<li class="nav-item ">
+									<span><a href="###">家居家纺</a></span>
+									<span><a href="###">家用电器</a></span>
+								</li>
+							</ul>
+							<!--<div class="nav-detail show">
+								<div class="cate-detail-group">
+									<p class="title">日用百货</p>
+									<ul class="cate-detail-list">
+										<li class="m-tag-a">
+											<img src="img/home-clock.png"/>
+											<span>新品</span>
+										</li>
+									</ul>
+								</div>
+							</div>-->
+						</div>
+						<!--轮播-->
+						<div class="home_banner">
+							<div class="swiper-container">
+							  	<div class="swiper-wrapper">
+								    <div class="swiper-slide"><img src="img/home-banner.jpg"/></div>
+								    <div class="swiper-slide"><img src="img/home-banner.jpg"/></div>
+								    <div class="swiper-slide"><img src="img/home-banner.jpg"/></div>
+							  	</div>
+							  	<div class="swiper-pagination"></div>
+							  	<div class="swiper-button-prev swiper-button-white "></div>
+	    						<div class="swiper-button-next swiper-button-white"></div>
+							</div>
+						</div>
+					</div>
+					<!--中间分类栏-->
+					<ul class="home_recom_class">
+						<li>
+							<a href="###">
+								<span><img src="img/home-zone-class.png"/></span>
+								<p>每日新品</p>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<span><img src="img/home-zone-class.png"/></span>
+								<p>创业礼包</p>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<span><img src="img/home-zone-class.png"/></span>
+								<p>限时抢购</p>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<span><img src="img/home-zone-class.png"/></span>
+								<p>热销榜单</p>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<span><img src="img/home-zone-class.png"/></span>
+								<p>随便逛逛</p>
+							</a>
+						</li>
+					</ul>
+					<!--限时购-->
+					<div class="time_buy">
+						<div class="home_modul_header">
+							<div class="modul_header_left">
+								<span class="modul_head">限时购</span>
+								<!--倒计时-->
+								<div class="home_countdown">
+									<span class="time_remin"><img src="img/home-clock.png"/>距离结束还有</span>
+									<ul class="home_clock">
+										<li>24</li>
+										<li>24</li>
+										<li>24</li>
+									</ul>
+								</div>
+							</div>
+							<a href="###" class="iconfont more">更多</a>
+						</div>
+						<!--商品列表-->
+						<ul class="home_goods_list">
+							<li>
+								<a href="###">
+									<div class="home_goods_cont">
+										<span class="home_goodImg"><img src="img/home-goodImg.jpg"/></span>
+										<div class="home_goods_text">
+											<p class="desc">皇凤贡酒16 浓香型白酒52° 500ml*6瓶整箱装瓶整箱装瓶整箱装</p>
+											<p class="iconfont price">1299<small>会员价</small></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="###">
+									<div class="home_goods_cont">
+										<span class="home_goodImg"><img src="img/home-goodImg.jpg"/></span>
+										<div class="home_goods_text">
+											<p class="desc">皇凤贡酒16 浓香型白酒52° 500ml*6瓶整箱装瓶整箱装瓶整箱装</p>
+											<p class="iconfont price">1299<small>会员价</small></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="###">
+									<div class="home_goods_cont">
+										<span class="home_goodImg"><img src="img/home-goodImg.jpg"/></span>
+										<div class="home_goods_text">
+											<p class="desc">皇凤贡酒16 浓香型白酒52° 500ml*6瓶整箱装瓶整箱装瓶整箱装</p>
+											<p class="iconfont price">1299<small>会员价</small></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="###">
+									<div class="home_goods_cont">
+										<span class="home_goodImg"><img src="img/home-goodImg.jpg"/></span>
+										<div class="home_goods_text">
+											<p class="desc">皇凤贡酒16 浓香型白酒52° 500ml*6瓶整箱装瓶整箱装瓶整箱装</p>
+											<p class="iconfont price">1299<small>会员价</small></p>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!--热门-->
+					<div class="time_buy">
+						<div class="home_modul_header">
+							<div class="modul_header_left">
+								<span class="modul_head">热门</span>
+								<span class="small_desc">感动人心 价格厚道</span>
+							</div>
+							<a href="###" class="iconfont more">更多</a>
+						</div>
+						<!--商品列表-->
+						<ul class="home_goods_list">
+							<li>
+								<a href="###">
+									<div class="home_goods_cont">
+										<span class="home_goodImg"><img src="img/home-goodImg.jpg"/></span>
+										<div class="home_goods_text">
+											<p class="desc">皇凤贡酒16 浓香型白酒52° 500ml*6瓶整箱装瓶整箱装瓶整箱装</p>
+											<p class="iconfont price">1299<small>返利1000元</small></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="###">
+									<div class="home_goods_cont">
+										<span class="home_goodImg"><img src="img/home-goodImg.jpg"/></span>
+										<div class="home_goods_text">
+											<p class="desc">皇凤贡酒16 浓香型白酒52° 500ml*6瓶整箱装瓶整箱装瓶整箱装</p>
+											<p class="iconfont price">1299<small>返利1000元</small></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="###">
+									<div class="home_goods_cont">
+										<span class="home_goodImg"><img src="img/home-goodImg.jpg"/></span>
+										<div class="home_goods_text">
+											<p class="desc">皇凤贡酒16 浓香型白酒52° 500ml*6瓶整箱装瓶整箱装瓶整箱装</p>
+											<p class="iconfont price">1299<small>返利1000元</small></p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="###">
+									<div class="home_goods_cont">
+										<span class="home_goodImg"><img src="img/home-goodImg.jpg"/></span>
+										<div class="home_goods_text">
+											<p class="desc">皇凤贡酒16 浓香型白酒52° 500ml*6瓶整箱装瓶整箱装瓶整箱装</p>
+											<p class="iconfont price">1299<small>返利1000元</small></p>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var mySwiper = new Swiper('.swiper-container',{
+				autoplay: false,
+				pagination : '.swiper-pagination',
+				prevButton:'.swiper-button-prev',
+				nextButton:'.swiper-button-next',
+			});
+			//top监听
+			var suspend_height = $('.banner-nav').height();
+			$(window).scroll(function() {
+				var suspend_top = $('.banner-nav').offset().top - $(window).scrollTop();
+				if (suspend_top<=(-suspend_height)) {
+					$('.nav-part').show();
+					$('.home_nav').css({
+						'position':'fixed',
+						'borderBottom': '1px solid #eee'
+					});
+				}else{
+					$('.nav-part').hide();
+					$('.home_nav').css({
+						'position':'static',
+						'borderBottom': 'none'
+					});
+				}
+			});
+			//右侧悬浮框回到顶部
+			$('.get-top').click(function() {
+				$('html , body').animate({scrollTop: 0});
+			});
+		</script>
+	</body>
+</html>
