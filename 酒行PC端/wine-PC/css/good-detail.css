@@ -97,23 +97,6 @@
 .samllImg_active{
 	border: 1px solid #845f3f;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .good_up_right{
 	float: right;
 	width: 485px;
@@ -190,6 +173,10 @@
 	border: 1px solid #845f3f;
 }
 .speci_datail li:hover{
+	color: #fff;
+	background-color: #845f3f;
+}
+.speci_datail li.speci-active{
 	color: #fff;
 	background-color: #845f3f;
 }
