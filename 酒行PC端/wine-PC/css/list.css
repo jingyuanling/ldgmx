@@ -2,6 +2,7 @@
 	width: 100%;
 	background-color: #f2f2f2;
 	padding-bottom: 100px;
+	border-bottom: 1px solid #e3e4e5;
 }
 .list_content{
 	width: 1200px;
@@ -60,4 +61,62 @@
 }
 .home_goods_text{
 	background-color: transparent;
+}
+/*成功加入购物车提醒页面*/
+.add_prompt_top{
+	height: 141px;
+	border-bottom: 1px solid #e3e4e5;
+	padding: 38px 0 0 42px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.add_prompt_top .prompt_text{
+    font-size: 22px;
+    color: #333333;
+    height: 52px;
+    line-height: 52px;
+    display: inline-block;
+    position: relative;
+    padding-left: 60px;
+}
+.add_prompt_top .prompt_text:before{
+	content: '\e601';
+    color: #83c44e;
+    font-size: 48px;
+    position: absolute;
+    left: 0;
+}
+.prompt_recom_head{
+	font-size: 30px;
+	color: #666666;
+	margin-bottom: 25px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 5px;
+	text-align: center;
+}
+.prompt_two_btn{
+	float: right;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.prompt_two_btn .btn{
+	width: 150px;
+	height: 40px;
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.prompt_two_btn .return_btn{
+	border: 1px solid #cccccc;
+	color: #666666;
+}
+.prompt_two_btn .go_cart_btn{
+	background-color: #865c30;
+	color: #fff;
+	margin-left: 60px;
 }
