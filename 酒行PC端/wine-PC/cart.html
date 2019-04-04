@@ -7,6 +7,7 @@
 		<title>列表页</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/nav-top.css"/>
 		<link rel="stylesheet" type="text/css" href="css/home.css"/>
 		<link rel="stylesheet" type="text/css" href="css/list.css"/>
 		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
@@ -22,8 +23,10 @@
 						<li class="iconfont"><a href="home.html">首页</a></li>
 						<li class="iconfont"><a href="list.html">店家热卖</a></li>
 					</ul>
+					<!--购物车没有商品时候的状态-->
+					<!--<div class="cart_nothing"><a href="###"><img src="img/cart-nothing.png"/></a></div>-->
 					<div class="cart_head">
-						<div class="all_txt"><span class="iconfont cart_selectAll">&#xe601;</span>全选</div>
+						<div class="all_txt"><span class="iconfont select cart_selectAll">&#xe601;</span><span class="selectAll_text">全选</span></div>
 						<div class="product">商品信息</div>
 						<div class="price">单价</div>
 						<div class="num">数量</div>
@@ -32,29 +35,51 @@
 					</div>
 					<div class="same_shop_goods">
 						<div class="same_shop_goods_tit">
-							<p class="cart_shop_name"><span class="iconfont cart_selectAll">&#xe601;</span><span>家电</span></p>
+							<p class="cart_shop_name"><span class="iconfont select cart_selectStore">&#xe601;</span><span>家电</span></p>
 							<span class="freight">免运费</span>
 						</div>
-						<div class="cart_goods_list">
-							<div class="all_txt">
-								<span class="iconfont cart_selectAll">&#xe601;</span>
-								<span class="cart_goodsImg"><img src="img/home-banner.jpg"/></span>
-							</div>
-							<div class="product"><p class="text">云米互联网浴霸 风暖版 白色</p></div>
-							<div class="iconfont price">499</div>
-							<div class="num">
-								<div class="buy_num">
-									<span class="reduce">--</span>
-									<input class="inp_num" type="text" onkeyup = "value=value.replace(/[^\d]/g,'')" name="" id="" value="2" />
-									<span class="increase clickable">+</span>
+						<ul class="cart_goods_list">
+							<li>
+								<div class="all_txt">
+									<span class="iconfont select cart_selectOne">&#xe601;</span>
+									<span class="cart_goodsImg"><img src="img/home-banner.jpg"/></span>
 								</div>
-							</div>
-							<div class="total">
-								
-							</div>
-							<div class="edit">
-								
-							</div>
+								<div class="product"><p class="text">云米互联网浴霸 风暖版 白色</p></div>
+								<div class="iconfont price">499</div>
+								<div class="num">
+									<div class="buy_num">
+										<span class="reduce">--</span>
+										<input class="inp_num" type="text" onkeyup = "value=value.replace(/[^\d]/g,'')" name="" id="" value="1" />
+										<span class="increase clickable">+</span>
+									</div>
+								</div>
+								<div class="iconfont total">499</div>
+								<div class="iconfont edit">&#xe608;</div>
+							</li>
+							<li>
+								<div class="all_txt">
+									<span class="iconfont select cart_selectOne">&#xe601;</span>
+									<span class="cart_goodsImg"><img src="img/home-banner.jpg"/></span>
+								</div>
+								<div class="product"><p class="text">云米互联网浴霸 风暖版 白色</p></div>
+								<div class="iconfont price">499</div>
+								<div class="num">
+									<div class="buy_num">
+										<span class="reduce">--</span>
+										<input class="inp_num" type="text" onkeyup = "value=value.replace(/[^\d]/g,'')" name="" id="" value="1" />
+										<span class="increase clickable">+</span>
+									</div>
+								</div>
+								<div class="iconfont total">499</div>
+								<div class="iconfont edit">&#xe608;</div>
+							</li>
+						</ul>
+					</div>
+					<div class="cart_tical">
+						<div class="all_txt"><span class="iconfont select cart_selectAll">&#xe601;</span><span class="selectAll_text">全选</span><div class="total_num">已选<span>2</span>件</div></div>
+						<div class="cart_tical_right">
+							合计：<span class="iconfont set_amount">499</span>
+							<div class="cart_settlement disable">去结算</div>
 						</div>
 					</div>
 				</div>
@@ -89,18 +114,22 @@
 			</div>
 		</div>
 		<script type="text/javascript">
-//			var num = document.getElementById("num");
-//  		num.value = parseInt(num.value) + 1;
-//			alert(Number($('.inp_num').val()));
+			//商品数量
 			var cartGoodNum = Number($('.inp_num').val());
-			$('.buy_num .increase').click(function() {
-				var cartGoodNum = parseInt($('.inp_num').val()) + 1;
-			});
 			if (cartGoodNum <= 1) {
 				$('.buy_num .reduce').removeClass('clickable');
 			} else{
 				$('.buy_num .reduce').addClass('clickable');
 			}
+			//删除商品
+			$('.cart_goods_list .edit').click(function() {
+				$(this).parent('.cart_goods_list').remove();
+			});
+			//商品全选、反选
+			$('.cart_selectAll').click(function() {
+				$('.cart_wrap .select').addClass('cart-select-active');
+				$('.cart_selectAll').next('.selectAll_text').text('全不选');
+			});
 		</script>
 	</body>
 </html>

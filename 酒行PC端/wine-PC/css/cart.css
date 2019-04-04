@@ -58,8 +58,9 @@
 }
 .cart_content .edit{
 	width: 45px;
+	text-align: center;
 }
-.cart_selectAll{
+.cart_selectAll,.cart_selectOne,.cart_selectStore{
 	width: 20px;
 	height: 20px;
 	display: inline-block;
@@ -73,9 +74,11 @@
 	line-height: 20px;
     font-size: 20px;
     color: transparent;
+    cursor: pointer;
 }
 .same_shop_goods{
 	color: #333333;
+	border-bottom: 1px solid #e3e4e5;
 }
 .same_shop_goods_tit{
 	padding-top: 37px;
@@ -96,12 +99,17 @@
 	color: #999;
 }
 .cart_goods_list{
-	height: 160px;
 	width: 100%;
+}
+.cart_goods_list li{
+	height: 160px;
+	overflow: hidden;
 	padding-left: 9px;
 	box-sizing: border-box;
-	overflow: hidden;
 	border-bottom: 1px dashed #e3e4e5;
+}
+.cart_goods_list li:nth-last-child(1){
+	border-bottom: none;
 }
 .cart_goods_list .all_txt{
 	padding-left: 50px;
@@ -131,12 +139,14 @@
 	line-height: 160px;
 	color: #333;
 }
-.cart_goods_list .price:before{
+.cart_goods_list .price:before,.cart_goods_list .total:before,.cart_tical_right .set_amount:before{
 	content: '\e60b';
+	font-weight: normal;
 }
 .cart_goods_list .buy_num{
 	width: 100%;
 	margin-top: 62px;
+	overflow: hidden;
 }
 .cart_goods_list .buy_num .reduce,
 .cart_goods_list .buy_num .increase{
@@ -162,8 +172,75 @@
 .cart_goods_list .buy_num .clickable{
 	color: #845f3f;
 }
+.cart_goods_list .total{
+	color: #c00000;
+	line-height: 160px;
+	font-weight: bold;
+}
+.cart_goods_list .edit{
+	font-size: 20px;
+	line-height: 160px;
+	cursor: pointer;
+	transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg)
+}
+.cart_tical{
+	height: 90px;
+	width: 100%;
+	line-height: 90px;
+	margin-top: 70px;
+	padding-left: 9px;
+	box-sizing: border-box;
+	background-color: #f5f5f5;
+	font-size: 20px;
+}
+.cart_tical .all_txt{
+	color: #333;
+	font-size: 20px;
+	width: 200px;
+}
+.cart_tical .all_txt .total_num{
+	display: inline-block;
+	margin-left: 25px;
+}
+.cart_tical_right{
+	float: right;
+}
+.cart_settlement{
+	width: 220px;
+	height: 100%;
+	background-color: #c00000;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 24px;
+}
+.disable{
+	background-color: #e7e7e7;
+}
+.cart_tical_right{
+	font-size: 24px;
+}
+.cart_tical_right .set_amount{
+	color: #c00000;
+	font-weight: bold;
+	margin-right: 30px;
+	font-size: 24px;
+}
 /*select框商品选中状态*/
 .cart-select-active{
 	color: #d54843;
 	border: none;
+}
+.cart_nothing{
+	width: 153px;
+	margin: 120px auto 0;
+}
+.cart_nothing img{
+	width: 100%;
+	height: 239px;
 }
