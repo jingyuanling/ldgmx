@@ -70,7 +70,65 @@
 			<div class="home_nav">
 				<div class="home_nav_content">
 					<a href="home.html" class="home-logo"><img src="img/home-logo.png"/></a>
-					<div class="iconfont nav-part">分类</div>
+					<div class="nav-part">
+						<div class="iconfont nav-arrow-container">
+							分类
+						</div>
+						<div class="nav-container-box">
+							<div class="nav-container">
+								<ul class="nav-list">
+									<li class="nav-item ">
+										<span>
+											<a href="###" class="recom">灵动推荐</a>
+										</span>
+									</li>
+									<li class="nav-item ">
+										<span><a href="###">家居家纺</a></span>
+										<span><a href="###">家用电器</a></span>
+									</li>
+									<li class="nav-item ">
+										<span><a href="###">家居家纺</a></span>
+										<span><a href="###">家用电器</a></span>
+									</li>
+									<li class="nav-item ">
+										<span><a href="###">家居家纺</a></span>
+										<span><a href="###">家用电器</a></span>
+									</li>
+									<li class="nav-item ">
+										<span><a href="###">家居家纺</a></span>
+										<span><a href="###">家用电器</a></span>
+									</li>
+									<li class="nav-item ">
+										<span><a href="###">家居家纺</a></span>
+										<span><a href="###">家用电器</a></span>
+									</li>
+									<li class="nav-item ">
+										<span><a href="###">家居家纺</a></span>
+										<span><a href="###">家用电器</a></span>
+									</li>
+									<li class="nav-item ">
+										<span><a href="###">家居家纺</a></span>
+										<span><a href="###">家用电器</a></span>
+									</li>
+									<li class="nav-item ">
+										<span><a href="###">家居家纺</a></span>
+										<span><a href="###">家用电器</a></span>
+									</li>
+								</ul>
+								<div class="nav-detail">
+									<div class="cate-detail-group">
+										<p class="title">日用百货</p>
+										<ul class="cate-detail-list">
+											<li class="m-tag-a">
+												<img src="img/home-clock.png"/>
+												<span>新品</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<ul class="home_nav_center">
 						<li><a href="###">酒水年货节</a></li>
 						<li><a href="###">创业礼包</a></li>
@@ -116,7 +174,7 @@
 							<img class="codeImg" src="img/home-goodImg.jpg"/>
 						</div>
 					</li>
-					<li>
+					<li class="get-top">
 						<a href="javaScript:void(0)">
 							<span class="iconfont">&#xe62c;</span>
 							<p>回到顶部</p>
@@ -168,7 +226,7 @@
 									<span><a href="###">家用电器</a></span>
 								</li>
 							</ul>
-							<!--<div class="nav-detail show">
+							<div class="nav-detail">
 								<div class="cate-detail-group">
 									<p class="title">日用百货</p>
 									<ul class="cate-detail-list">
@@ -178,7 +236,7 @@
 										</li>
 									</ul>
 								</div>
-							</div>-->
+							</div>
 						</div>
 						<!--轮播-->
 						<div class="home_banner">
@@ -354,7 +412,8 @@
 		</div>
 		<script type="text/javascript">
 			var mySwiper = new Swiper('.swiper-container',{
-				autoplay: false,
+				autoplay: 2000,
+				loop: true,
 				pagination : '.swiper-pagination',
 				prevButton:'.swiper-button-prev',
 				nextButton:'.swiper-button-next',
@@ -381,6 +440,12 @@
 			$('.get-top').click(function() {
 				$('html , body').animate({scrollTop: 0});
 			});
+			//首页分类鼠标移入事件
+			$(".nav-item").hover(function (){  
+	            $(".nav-container .nav-detail").addClass('show');
+	        },function (){  
+	            $(".nav-container .nav-detail").removeClass('show');
+	        });  
 		</script>
 	</body>
 </html>

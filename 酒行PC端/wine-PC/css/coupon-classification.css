@@ -188,20 +188,39 @@
 .coupon_class_page .last{
 	color: #999999;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .list_content{
 	padding-top: 38px;
+}
+.coupon_sort .sortJ{
+	padding-right: 30px;
+	position: relative;	
+}
+.coupon_sort em.up,.coupon_sort em.down{
+	position: absolute;
+	height: 21px;
+	width: 15px;
+	display: block;
+	right: 15px;
+}
+.coupon_sort em.up{
+	top: 0;
+}
+.coupon_sort em.down{
+	bottom: 0;
+}
+.coupon_sort em.up:before,.coupon_sort em.down:before{
+	position: absolute;	
+	top: 0;
+	font-size: 22px;
+	display: block;
+	width: 15px;
+	height: 21px;
+}
+.coupon_sort em.up:before{
+	content: '\e603';
+	line-height: 38px;
+}
+.coupon_sort em.down:before{
+	content: '\e602';
+	line-height: 10px;
 }

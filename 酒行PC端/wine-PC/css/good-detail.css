@@ -260,6 +260,7 @@
 .good_down{
 	margin-top: 95px;
 	overflow: hidden;
+	min-height: 1020px;
 }
 .good_down_left{
 	float: left;
@@ -312,6 +313,7 @@
 .good_eval_module{
 	padding-left: 20px;
 	box-sizing: border-box;
+	display: none;
 }
 .eval_head_class{
 	overflow: hidden;
@@ -397,24 +399,6 @@
 	height: auto;
 	display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .good_down_right{
 	float: right;
 	width: 310px;
