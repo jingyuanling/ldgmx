@@ -1,9 +1,9 @@
 .list_content_wrap{
 	background-color: #fbfbfb;
+	border-top: 1px solid #e3e4e5;
 }
 .apply_coupon{
 	padding-top: 14px;
-	border-top: 1px solid #e3e4e5;
 }
 .current_coupon{
 	width: 1192px;

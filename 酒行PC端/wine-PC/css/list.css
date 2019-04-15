@@ -121,3 +121,10 @@
 	color: #fff;
 	margin-left: 60px;
 }
+.prompt_two_btn .return_btn:hover{
+	color: #FFF;
+	background-color: #865c30;
+}
+.prompt_two_btn .go_cart_btn:hover{
+	opacity: 0.6;
+}
