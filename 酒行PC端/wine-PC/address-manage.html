@@ -82,8 +82,8 @@
 								<div class="modal-data ">
 									<div class="title">
 										<div class="mark">添加收货地址</div>
-										<div class="closeIcon">
-											<a class="m-icons m-icons-close-hover " data-src="" href="javascript:;"></a>
+										<div class="closeIcon adderss_alert_del">
+											<a class="m-icons m-icons-close-hover" data-src="" href="javascript:;"></a>
 										</div>
 									</div>
 									<div class="lines"></div>
@@ -99,7 +99,7 @@
 									</div>
 									<div class="input-box2">
 										<div class="input-u">
-											<input type="text" placeholder="选择省／市／区／街道" class="m-input default" value="" readonly="">
+											<input type="text" placeholder="选择省／市／区／街道" id="select_area" class="m-input default" value="" readonly="">
 											<div class="hint default"> </div>
 										</div>
 									</div>
@@ -124,7 +124,7 @@
 									</div>
 									<!--调取地址数据内容*****-->
 									<div class="selectAddress notHidden">
-										<div class="closeIcon">
+										<div class="closeIcon selectAddress_del">
 											<a class="m-icons m-icons-close-hover " data-src="" href="javascript:;"></a>
 										</div>
 										<div class="selectTitle">
@@ -151,8 +151,51 @@
 			</div>
 		</div>
 		<script type="text/javascript">
-			$('.closeIcon').click(function() {
+			$('.adderss_alert_del').click(function() {
 				$('.adderss_alert_gray').fadeOut();
+			});
+			$('#select_area').click(function() {
+				$('.selectAddress').show();
+			})
+			$('.selectAddress_del').click(function() {
+				$('.selectAddress').hide();
+			});
+			//选择地址的事件
+			var num = 1;
+			var val = $('.selectTitle span');
+			$('.address-content span').click(function() {
+				var _this = $(this).html();
+				var _thatActive = $('.selectTitle .ts-span');
+				if (num == 1) {
+					_thatActive.html(_this);
+					_thatActive.next().addClass('ts-span');
+					_thatActive.next().html('选择城市/地区');
+					_thatActive.addClass('sd-span');
+					_thatActive.removeClass('ts-span');
+					num++;
+				}else if(num == 2) {
+					_thatActive.html(_this);
+					_thatActive.next().addClass('ts-span');
+					_thatActive.next().html('选择区县');
+					_thatActive.addClass('sd-span');
+					_thatActive.removeClass('ts-span');
+					num++;
+				}else if(num == 3){
+					_thatActive.html(_this);
+					_thatActive.next().addClass('ts-span');
+					_thatActive.next().html('选择配送区域');
+					_thatActive.addClass('sd-span');
+					_thatActive.removeClass('ts-span');
+					num++;
+				}else {
+					_thatActive.html(_this);
+					_thatActive.addClass('sd-span');
+					_thatActive.removeClass('ts-span');
+					num = 1;
+					$('.selectAddress').hide();
+					$('.selectTitle').text()
+					$('#select_area').attr('value',val.eq(0).html()+'/'+val.eq(1).html()+'/'+val.eq(2).html()+'/'+val.eq(3).html())
+				}
 			});
 		</script>
 	</body>
