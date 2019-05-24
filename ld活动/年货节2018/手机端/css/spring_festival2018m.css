@@ -1,0 +1,178 @@
+.snow {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: 9999;
+}
+.snow canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.body{
+	max-width: 750px;
+}
+.spring2018_wrap{
+	width: 100%;
+}
+.spring2018_banner{
+	width: 100%;
+}
+.spring2018_banner{
+	width: 100%;
+	height: 6.32rem;
+	background-color: #c20006;
+}
+.spring2018_banner img{
+	width: 100%;
+	height: 100%;
+}
+.spring2018_content{
+	width: 100%;
+	min-height: 18.60rem;
+	background-color: #ffeccc;
+	position: relative;
+}
+.spring2018_content_bg{
+	width: 100%;
+    height: 18.60rem;
+    background-color: #c20006;
+    position: absolute;
+    z-index: 1;
+}
+.spring2018_content_bg img{
+    width: 100%;
+    height: 1.97rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.spring2018_center{
+	width: 7.18rem;
+	margin: 0 auto;
+	position: relative;
+	top: -0.65rem;
+	z-index: 2;
+}
+.spring2018_center .center_rules{
+	width: 100%;
+	height: 4.54rem;
+	font-size: 0.25rem;
+	color: #ec192c;
+	padding-top: 1.1rem;
+	background: url(../img/spring-rules.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.spring2018_center .rules_text {
+    margin: 0 0 auto 2.3rem;
+    width: 4.5rem;
+}
+.spring2018_center .rules_tit{
+    font-weight: bold;
+}
+.spring2018_center .rules_detail{
+    position: relative;
+    line-height: 0.35rem;
+    padding-left: 0.3rem;
+    display: block;
+    width: 100%;
+}
+.spring2018_center .rules_detail span{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.spring2018_zone_welfare{
+	width: 100%;
+	position: relative;
+}
+.spring2018_zone_welfare img{
+	width: 100%;
+	height: 7.18rem;
+}
+.spring2018_zone_welfare .spring_goods_detail{
+	display: block;
+	width: 100%;
+	height: 3.2rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.spring2018_zone_sift{
+	width: 100%;
+}
+.spring2018_zone_header{
+	width: 100%;
+	height: 0.71rem;
+	margin-bottom: 0.28rem;
+}
+.spring2018_zone_header img,.spring2018_zone_sift li .goodsImg img,.spring2018_zone_sift .sift_buy_btn img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.spring2018_zone_sift ul{
+	overflow: hidden;
+}
+.spring2018_zone_sift li{
+	width: 3.47rem;
+	height: auto;
+	background: url(../img/spring_sift-goodsbg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	padding: 0.07rem 0.03rem 0;
+	box-sizing: border-box;
+	margin-bottom: 0.4rem;
+}
+.spring2018_zone_sift li:nth-child(2n+1){
+	float: left;
+}
+.spring2018_zone_sift li:nth-child(2n){
+	float: right;
+}
+.spring2018_zone_sift li .goodsImg{
+	width: 3.37rem;
+	height: 3.37rem;
+	margin: 0 auto;
+}
+.spring2018_zone_sift li .sift_goodsName{
+	box-sizing: border-box;
+	padding: 0 0.08rem;
+	background-color: #ffedcd;
+}
+.spring2018_zone_sift li .goodsName{
+	font-size: 0.24rem;
+	color: #666666;
+	display: block;
+	height: 0.7rem;
+	line-height: 0.35rem;
+	margin: 0.05rem 0;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.spring2018_zone_sift li s{
+	font-size: 0.22rem;
+	display: block;
+	color: #333333;
+}
+.spring2018_zone_sift .sift_price_wrap{
+	color: #e3251d;
+	font-size: 0.23rem;
+	background-color: #ffedcd;
+	box-sizing: border-box;
+    padding: 0 0.08rem;
+}
+.spring2018_zone_sift .sift_price_wrap .price{
+	font-size: 0.44rem;
+}
+.spring2018_zone_sift .sift_price_wrap .price small{
+	font-size: 50%;
+}
+.spring2018_zone_sift .sift_buy_btn{
+	width: 100%;
+	height: 0.82rem;
+}

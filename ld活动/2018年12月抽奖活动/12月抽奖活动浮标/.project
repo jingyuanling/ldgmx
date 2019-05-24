@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>webindex</name>
+	<name>12月抽奖活动浮标</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,16 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1491904001764</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1547610109624</id>
+			<id>1544861925060</id>
 			<name></name>
 			<type>26</type>
 			<matcher>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>债务托管清收查询</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/collection-system.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="collect-wrap">
+			<div class="schedule-header">
+				<table class="schedule-header-table" border="0" cellspacing="0" cellpadding="0">
+					<tr class="line1">
+						<th>客户姓名</th>
+						<th>申请日期</th>
+						<th>合同金额</th>
+						<th>对接人</th>
+					</tr>
+					<tr class="line2">
+						<td>张三</td>
+						<td>20180124</td>
+						<td>¥123456</td>
+						<td>张三</td>
+					</tr>
+				</table>
+			</div>
+			<p class="schedule-contract">合同编号：<span class="contract">123456789987</span></p>
+			<div class="schedule-content">
+				<ul class="schedule-content-ul">
+					<li class="schedule-content-li">
+						<!--灰层-->
+						<div class="progress-bar">
+							<span class="round round-gray"></span>
+							<div class="strip strip-gray"></div>
+						</div>
+						<!--亮层-->
+						<div class="progress-bar">
+							<span class="round"></span>
+							<div class="strip"></div>
+						</div>
+						<!--状态描述-->
+						<p class="progress-desc">申请已受理</p>
+						<span class="progress-desc-detail">您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待您的申请已被受理，请耐心等待。</span>
+					</li>
+					<li class="schedule-content-li">
+						<!--灰层-->
+						<div class="progress-bar">
+							<span class="round round-gray"></span>
+							<div class="strip strip-gray"></div>
+						</div>
+						<!--亮层-->
+						<div class="progress-bar">
+							<span class="round"></span>
+							<div class="strip"></div>
+						</div>
+						<p class="progress-desc">资料处理中</p>
+						<span class="progress-desc-detail">您的申请已被受理，请耐心等待。</span>
+					</li>
+					<li class="schedule-content-li">
+						<!--灰层-->
+						<div class="progress-bar">
+							<span class="round"></span>
+							<div class="strip strip-gray"></div>
+						</div>
+						<!--亮层-->
+						<div class="progress-bar">
+							<span class="round"></span>
+							<div class="strip strip-bright"></div>
+						</div>
+						<p class="progress-desc">电话催收中</p>
+						<span class="progress-desc-detail">您的申请已被受理，请耐心等待。</span>
+					</li>
+					<li class="schedule-content-li">
+						<!--灰层-->
+						<div class="progress-bar">
+							<span class="round round-gray round-complete"><img src="img/collection-success.png"/><!--<img src="img/collection-fail.png"/>--></span>
+						</div>
+						<p class="progress-desc">催收完成</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

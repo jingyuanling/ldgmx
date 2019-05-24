@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+	 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>个人中心</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/nav-top.css"/>
+		<link rel="stylesheet" type="text/css" href="css/person-center.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="person_wrap">
+			<iframe src="nav-top.html" width="100%" height= "136px" name="leftFrame" scrolling="No"  noresize="noresize" style="border: none;"></iframe>
+			<div class="person_content_wrap">
+					<ul class="list_nav">
+						<li class="iconfont"><a href="home.html">首页</a></li>
+						<li class="iconfont"><a href="list.html">个人中心</a></li>
+						<li class="iconfont"><a href="list.html">我的订单</a></li>
+					</ul>
+				<div class="person_content">
+					<div class="person_left_box">
+						<div class="person_user">
+							<span class="photo"></span>
+							<p class="name">userName</p>
+						</div>
+						<ul class="person_item">
+							<li class="item_active">我的订单</li>
+							<li>我的账户</li>
+							<li>我的代理</li>
+							<li>团队管理</li>
+							<li>地址管理</li>
+							<li>我的服务</li>
+							<li>个人资料</li>
+						</ul>
+					</div>
+					<ul class="person_right_box">
+						<!--我的订单-->
+						<li class="item_order" style="display: none;">
+							<div class="item_order_head">
+								<span class="order-head-active">待收货（0）</span>
+								<span>待付款（2）</span>
+								<span>已收货</span>
+								<span>退款订单</span>
+								<span>全部订单</span>
+								<a href="###" class="iconfont item_dustbin">回收站</a>
+							</div>
+							<ol class="payment_list">
+								<li>
+									<div class="payment_head">
+										订单日期：<span class="order_date">2019/02/15&nbsp;13:23:33</span><span>18</span>分钟后订单关闭
+										<span class="pay_state">待付款</span>
+									</div>
+									<div class="payment_wrap">
+										<!--商品1-->
+										<div class="payment_cont">
+											<div class="payment_goodImg">
+												<img src="img/home-goodImg.jpg"/>
+											</div>
+											<div class="desc_table">
+												<div class="desc_cell">
+													<p class="desc">
+														<span class="name">皇凤贡酒16 浓香型白酒52°500ml*6瓶整箱装 运费到付</span>
+														<span class="num">1</span>
+													</p>
+													<p class="iconfont price">369</p>
+												</div>
+											</div>
+										</div>
+										<!--商品2-->
+										<div class="payment_cont">
+											<div class="payment_goodImg">
+												<img src="img/home-goodImg.jpg"/>
+											</div>
+											<div class="desc_table">
+												<div class="desc_cell">
+													<p class="desc">
+														<span class="name">皇凤贡酒16 浓香型白酒52°500ml*6瓶整箱装 运费到付</span>
+														<span class="num">1</span>
+													</p>
+													<p class="iconfont price">369</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="order_total">
+										<p class="total">共<span>2</span>件商品，订单总金额：<span class="total_sum">5000元</span></p>
+										<a href="javaScript:void(0)" class="order_pay">去支付</a>
+										<a href="javaScript:void(0)" class="order_cancel">取消订单</a>
+									</div>
+								</li>
+								<li>
+									<div class="payment_head">
+										订单日期：<span class="order_date">2019/02/15&nbsp;13:23:33</span><span>18</span>分钟后订单关闭
+										<span class="pay_state">待付款</span>
+									</div>
+									<div class="payment_wrap">
+										<div class="payment_cont">
+											<div class="payment_goodImg">
+												<img src="img/home-goodImg.jpg"/>
+											</div>
+											<div class="desc_table">
+												<div class="desc_cell">
+													<p class="desc">
+														<span class="name">皇凤贡酒16 浓香型白酒52°500ml*6瓶整箱装 运费到付</span>
+														<span class="num">1</span>
+													</p>
+													<p class="iconfont price">369</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="order_total">
+										<p class="total">共<span>2</span>件商品，订单总金额：<span class="total_sum">5000元</span></p>
+										<a href="javaScript:void(0)" class="order_pay">去支付</a>
+										<a href="javaScript:void(0)" class="order_cancel">取消订单</a>
+									</div>
+								</li>
+							</ol>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.person_item li').click(function() {
+				$('.person_item li').removeClass('item_active');
+				$(this).addClass('item_active');
+			});
+			$('.item_order_head span').click(function() {
+				$('.item_order_head span').removeClass('order-head-active');
+				$(this).addClass('order-head-active');
+			});
+		</script>
+	</body>
+</html>

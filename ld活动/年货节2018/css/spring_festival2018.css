@@ -1,0 +1,310 @@
+.spring2018_wrap{
+	width: 100%;
+	min-width: 1200px;
+}
+.spring2018_banner{
+	width: 100%;
+	height: auto;
+	background-color: #c20006;
+}
+.spring2018_banner img{
+	width: 100%;
+	height: auto;
+}
+.spring2018_content{
+	width: 100%;
+	min-height: 1860px;
+	background-color: #ffeccc;
+	position: relative;
+}
+.spring2018_content_bg{
+	width: 100%;
+	height: 1860px;
+	background-color: #c20006;
+	position: absolute;
+	z-index: 1;
+}
+.spring-figure2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(../img/spring-figure2.png) 0 0 repeat-y;
+	background-size: 100% auto;
+}
+.spring-figure1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(../img/spring-figure1.png) 0 0 repeat-y;
+	background-size: 100% auto;
+}
+.spring2018_content_bg img{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+.spring2018_center{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	top: -180px;
+	z-index: 3;
+}
+.spring2018_center .center_rules{
+	width: 902px;
+    height: 529px;
+	margin: 0 auto;
+	background: url(../img/spring-rules.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	font-size: 25px;
+	color: #ec192c;
+	padding-top: 125px;
+	box-sizing: border-box;
+}
+.spring2018_center .rules_text{
+	margin: 0 0 auto 300px;
+	width: 540px;
+}
+.spring2018_center .rules_tit{
+	font-weight: bold;
+}
+.spring2018_center .rules_detail{
+	position: relative;
+	line-height: 40px;
+	padding-left: 30px;
+}
+.spring2018_center .rules_detail span{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.spring2018_zone1{
+	width: 878px;
+	height: auto;
+	margin: 50px auto;
+}
+.spring2018_zone1_ul li{
+	width: 100%;
+	height: 373px;
+	margin-bottom: 30px;
+	padding: 0 30px;
+	overflow: hidden;
+	background: url(../img/spring-zone-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.spring2018_zone1_ul li:nth-child(2n+1) .float1,
+.spring2018_zone1_ul li:nth-child(2n) .float2{
+	float: left;
+}
+.spring2018_zone1_ul li:nth-child(2n) .float1,
+.spring2018_zone1_ul li:nth-child(2n+1) .float2{
+	float: right;
+}
+.spring2018_zone1_ul li .float1{
+	width: 374px;
+	padding: 36px 40px 0 40px;
+	box-sizing: content-box;
+}
+.spring2018_zone1_ul .zone1_tit{
+	width: 100%;
+	height: 60px;
+	display: block;
+}
+.spring2018_zone1_ul .zone1_tit img{
+	width: 100%;
+	height: 100%;
+}
+.spring2018_zone1_ul .goodsName{
+	color: #666666;
+	height: 72px;
+	line-height: 36px;
+	font-size: 26px;
+	margin: 15px auto;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.spring2018_zone1_ul s{
+	display: block;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	font-size: 26px;
+	color: #da0709;
+	border-top: 2px dashed #71512c;
+}
+.spring2018_zone1_ul .buy-wrap{
+	width: 100%;
+	height: 70px;
+	background: url(../img/spring-buy-btn-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	left: -10px;
+	overflow: hidden;
+	box-sizing: border-box;
+    padding-bottom: 21px;
+    padding-left: 10px;
+}
+.spring2018_zone1_ul .left-price{
+    height: 100%;
+    width: 215px;
+    float: left;
+    color: #ffd800;
+    line-height: normal;
+}
+.spring2018_zone1_ul .left-price .their_price{
+	font-size: 19.7px;
+}
+.spring2018_zone1_ul .left-price .character{
+	font-size: 32px;
+	letter-spacing: -4px;
+    text-indent: -4px;
+    line-height: normal;
+}
+.spring2018_zone1_ul .left-price .priceNum{
+	display: inline-block;
+    width: 125px;
+	font-size: 48.73px;
+	letter-spacing: -4px;
+    text-indent: -4px;
+    line-height: normal;
+}
+.spring2018_zone1_ul .left-price .priceNum small{
+	font-size: 60%;
+}
+.spring2018_zone1_ul .but-btn{
+	width: 104px;
+	height: 33px;
+	float: right;
+	margin: 16px 32px 0 auto;
+}
+.spring2018_zone1_ul .but-btn img,.spring2018_zone_sift li .goodsImg img{
+	width: 100%;
+	height: 100%;
+}
+.spring2018_zone1_ul li .float2{
+	height: 100%;
+	padding: 27px 22px 0 22px;
+}
+.spring2018_zone1_ul li .float2 img{
+	width: 314px;
+	height: 314px;
+}
+.spring2018_zone_sift{
+	width: 100%;
+}
+.spring2018_zone_header{
+	width: 452px;
+	height: 94px;
+	margin: 60px auto;
+}
+.spring2018_zone_header img{
+	width: 100%;
+	height: 100%;
+}
+.spring2018_zone_sift ul{
+	overflow: hidden;
+}
+.spring2018_zone_sift li{
+	width: 278px;
+	padding: 5px 5px 0 5px;
+	box-sizing: border-box;
+	background: url(../img/spring_sift-goodsbg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	border-radius: 5px;
+	overflow: hidden;
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 29.3px;
+}
+.spring2018_zone_sift li:nth-child(4n){
+	margin-right: 0;
+}
+.spring2018_zone_sift li .goodsImg{
+	width: 266px;
+	height: 266px;
+	margin: 0 auto 18px;
+}
+.spring2018_zone_sift li .sift_goodsName{
+	width: 100%;
+	height: 95px;
+	font-size: 19px;
+	color: #e3251d;
+	padding: 0 5px;
+	background-color: #ffedcd;
+}
+.spring2018_zone_sift li .sift_goodsName .goodsName{
+	font-size: 19px;
+	height: 55px;
+	line-height: 25px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.spring2018_zone_sift li .sift_goodsName s{
+	height: 35px;
+	line-height: 35px;
+}
+.spring2018_zone_sift .sift_price_wrap{
+	height: 65px;
+	position: relative;
+	line-height: 75px;
+	background: url(../img/spring-buy-btn2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.spring2018_zone_sift .sift_price_wrap .price{
+	font-size: 48px;
+	color: #ffedcd;
+	display: block;
+	width: 123px;
+	text-align: center;
+}
+.spring2018_zone_sift .sift_price_wrap .price small{
+	font-size: 40%;
+}
+.sift_buy_btn{
+	display: block;
+	width: 127px;
+	height: 32px;
+	position: absolute;
+	top: 18px;
+    left: 134px;
+}
+.spring2018_zone_welfare{
+	width: 903px;
+	height: 841px;
+	margin: 0 auto;
+	position: relative;
+}
+.spring2018_zone_welfare img{
+	width: 100%;
+	height: 100%;
+}
+.spring_goods_detail{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 373px;
+}
+.snow {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: 9999;
+}
+.snow canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+}

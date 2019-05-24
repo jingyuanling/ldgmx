@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.spring2018_alert_gray{
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				top: 0;
+				max-width: 750px;
+				background-color: rgba(0,0,0,0.5);
+			}
+			.spring2018_alert_table{
+				width: 100%;
+				height: 100%;
+				display: table;
+			}
+			.spring2018_alert_cell{
+				display: table-cell;
+				vertical-align: middle;
+			}
+			.spring2018_alert{
+				width: 76%;
+				height: auto;
+				margin: 0 auto;
+				position: relative;
+			}
+			.spring2018_alert img{
+				width: 100%;
+				height: 100%;
+			}
+			.spring2018_alert_delete{
+				position: absolute;
+				width: 6%;
+				height: 4.3%;
+				top: 2.8%;
+				right: 3.53%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="spring2018_alert_gray">
+			<div class="spring2018_alert_table">
+				<div class="spring2018_alert_cell">
+					<div class="spring2018_alert">
+						<a href="###"><img src="img/spring-alertImg.png"/></a>
+						<div class="spring2018_alert_delete"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.spring2018_alert_delete').click(function() {
+				$('.spring2018_alert_gray').fadeOut();
+			})
+		</script>
+	</body>
+</html>

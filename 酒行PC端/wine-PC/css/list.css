@@ -1,0 +1,130 @@
+.list_content_wrap{
+	width: 100%;
+	background-color: #f2f2f2;
+	padding-bottom: 100px;
+	border-bottom: 1px solid #e3e4e5;
+}
+.list_content{
+	width: 1200px;
+	margin: 0 auto;
+	min-height: 500px;
+}
+.list_nav{
+	overflow: hidden;
+	padding: 15px 0;
+}
+.list_nav li{
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	font-size: 14px;
+	margin-right: 18px;
+	position: relative;
+}
+.list_nav li a{
+	color: #333333;
+}
+.list_nav li:nth-last-child(1) a{
+	color: #666666;
+}
+.list_nav li:after{
+	content: '\e604';
+    font-size: 20px;
+    width: 18px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: -18px;
+}
+.list_nav li:nth-last-child(1):after{
+	display: none;
+}
+.list_module{
+	position: relative;
+    top: 25px;
+}
+.list_module_head{
+	height: 60px;
+	line-height: 85px;
+	text-align: left;
+	font-size: 28px;
+	color: #333333;
+	position: relative;
+	top: -25px;
+}
+.home_goods_list li{
+	margin-bottom: 15px;
+	border: none;
+	background-color: #fff;
+}
+.home_goods_text{
+	background-color: transparent;
+}
+/*成功加入购物车提醒页面*/
+.add_prompt_top{
+	height: 141px;
+	border-bottom: 1px solid #e3e4e5;
+	padding: 38px 0 0 42px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.add_prompt_top .prompt_text{
+    font-size: 22px;
+    color: #333333;
+    height: 52px;
+    line-height: 52px;
+    display: inline-block;
+    position: relative;
+    padding-left: 60px;
+}
+.add_prompt_top .prompt_text:before{
+	content: '\e601';
+    color: #83c44e;
+    font-size: 48px;
+    position: absolute;
+    left: 0;
+}
+.prompt_recom_head{
+	font-size: 30px;
+	color: #666666;
+	margin-bottom: 25px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 5px;
+	text-align: center;
+}
+.prompt_two_btn{
+	float: right;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.prompt_two_btn .btn{
+	width: 150px;
+	height: 40px;
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.prompt_two_btn .return_btn{
+	border: 1px solid #cccccc;
+	color: #666666;
+}
+.prompt_two_btn .go_cart_btn{
+	background-color: #865c30;
+	color: #fff;
+	margin-left: 60px;
+}
+.prompt_two_btn .return_btn:hover{
+	color: #FFF;
+	background-color: #865c30;
+}
+.prompt_two_btn .go_cart_btn:hover{
+	opacity: 0.6;
+}

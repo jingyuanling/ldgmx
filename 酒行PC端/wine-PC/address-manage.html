@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+	 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>个人中心-地址管理</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/nav-top.css"/>
+		<link rel="stylesheet" type="text/css" href="css/person-center.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="person_center_wrap">
+			<iframe src="nav-top.html" width="100%" height= "136px" name="leftFrame" scrolling="No"  noresize="noresize" style="border: none;"></iframe>
+			<div class="person_content_wrap">
+				<ul class="list_nav">
+					<li class="iconfont"><a href="home.html">首页</a></li>
+					<li class="iconfont"><a href="list.html">个人中心</a></li>
+					<li class="iconfont"><a href="list.html">我的代理</a></li>
+				</ul>
+				<div class="person_content">
+					<!--公共部分*****-->
+					<div class="person_left_box">
+						<div class="person_user">
+							<span class="photo"></span>
+							<p class="name">userName</p>
+						</div>
+						<ul class="person_item">
+							<li><a href="my-order.html">我的订单</a></li>
+							<li><a href="my-account.html">我的账户</a></li>
+							<li><a href="my-agent.html">我的代理</a></li>
+							<li><a href="team-manage.html">团队管理</a></li>
+							<li class="item_active"><a href="address-manage.html">地址管理</a></li>
+							<li><a href="my-service-collect.html">我的服务</a></li>
+							<li><a href="personal-data.html">个人资料</a></li>
+						</ul>
+					</div>
+					<!--*****-->
+					<div class="person_right_box">
+						<div class="agent_wrap">
+							<p class="account_head">地址管理</p>
+							<ul class="address_list">
+								<li>
+									<span class="checked_icon">默认</span>
+									<p class="consignee consignee_name">张三</p>
+									<p class="consignee consignee_tel">155****3419</p>
+									<p class="consignee consignee_address">河南省郑州市金水区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区</p>
+									<p class="consignee consignee_postcode">450000</p>
+									<p class="consignee consignee_btn"><span class="consignee_change">修改</span><span class="consignee_del">删除</span></p>
+								</li>
+								<li>
+									<span class="checked_icon">默认</span>
+									<p class="consignee consignee_name">张三</p>
+									<p class="consignee consignee_tel">155****3419</p>
+									<p class="consignee consignee_address">河南省郑州市金水区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区区</p>
+									<p class="consignee consignee_postcode">450000</p>
+									<p class="consignee consignee_btn"><span class="set_checked_btn">设为默认地址</span><span class="consignee_change">修改</span><span class="consignee_del">删除</span></p>
+								</li>
+								<li class="address_add_btn">
+									<div class="iconfont add_icon">&#xe608;</div>
+									<p>添加新地址</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--添加/修改地址弹框-->
+				<div class="adderss_alert_gray">
+					<div class="adderss_alert_wrap">
+						<div class="adderss_alert_content">
+							<!--<div class="adderss_alert">
+								<div class="adderss_alert_detail">
+									
+								</div>
+								<button class="">保存</button>
+								<button>取消</button>
+							</div>-->
+							<div class="m-modal m-modal-opened modal-content" tabindex="-1" aria-label="">
+								<div class="modal-data ">
+									<div class="title">
+										<div class="mark">添加收货地址</div>
+										<div class="closeIcon adderss_alert_del">
+											<a class="m-icons m-icons-close-hover" data-src="" href="javascript:;"></a>
+										</div>
+									</div>
+									<div class="lines"></div>
+									<div class="input-box">
+										<div class="input-u">
+											<input type="text" placeholder="姓名" class="m-input default" value="">
+											<div class="hint default"> </div>
+										</div>
+										<div class="input-u">
+											<input type="text" placeholder="手机号" class="m-input default" value="">
+											<div class="hint default"> </div>
+										</div>
+									</div>
+									<div class="input-box2">
+										<div class="input-u">
+											<input type="text" placeholder="选择省／市／区／街道" id="select_area" class="m-input default" value="" readonly="">
+											<div class="hint default"> </div>
+										</div>
+									</div>
+									<div class="input-box2">
+										<div class="input-u">
+											<textarea type="text" placeholder="详细地址" class="default"></textarea>
+											<div class="hint default"> </div>
+										</div>
+									</div>
+									<div class="input-box3">
+										<div class="input-u">
+											<input type="text" placeholder="邮政编号" class="m-input i-text default" value="" readonly="">
+											<div class="hint default"> </div>
+										</div>
+										<div class="m-checkbox">
+											<a class="m-icons m-icons-check " data-src="" href="javascript:;"></a>&nbsp;&nbsp;设为默认
+										</div>
+									</div>
+									<div class="submit-box">
+										<a class="submit-center m-btns m-btn-lg m-btn-brown" href="javascript:;">保存</a>
+										<a class="submit-margin submit-center m-btns m-btn-lg m-btn-brown" href="javascript:;">取消</a>
+									</div>
+									<!--调取地址数据内容*****-->
+									<div class="selectAddress notHidden">
+										<div class="closeIcon selectAddress_del">
+											<a class="m-icons m-icons-close-hover " data-src="" href="javascript:;"></a>
+										</div>
+										<div class="selectTitle">
+											<span class="ts-span">选择省/自治区</span>
+											<span class="sd-span"></span>
+											<span class="sd-span"></span>
+											<span class="sd-span"></span>
+											<!--<span class="ts-span">河南省</span>
+											<span class="sd-span">郑州市</span>
+											<span class="sd-span">金水路</span>
+											<span class="sd-span">未来路街道</span>-->
+										</div>
+										<div class="line"></div>
+										<div class="address-content">
+											<span>北京</span><span>天津</span><span>河北</span><span>山西</span><span>内蒙古</span><span>辽宁</span><span>吉林</span><span>黑龙江</span><span>上海</span><span>江苏</span><span>浙江</span><span>安徽</span><span>福建</span><span>江西</span><span>山东</span><span>河南</span><span>湖北</span><span>湖南</span><span>广东</span><span>广西</span><span>海南</span><span>重庆</span><span>四川</span><span>贵州</span><span>云南</span><span>西藏</span><span>陕西</span><span>甘肃</span><span>青海</span><span>宁夏</span><span>新疆</span>
+										</div>
+									</div>
+									<!--*****-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.adderss_alert_del').click(function() {
+				$('.adderss_alert_gray').fadeOut();
+			});
+			$('#select_area').click(function() {
+				$('.selectAddress').show();
+			})
+			$('.selectAddress_del').click(function() {
+				$('.selectAddress').hide();
+			});
+			//选择地址的事件
+			var num = 1;
+			var val = $('.selectTitle span');
+			$('.address-content span').click(function() {
+				var _this = $(this).html();
+				var _thatActive = $('.selectTitle .ts-span');
+				if (num == 1) {
+					_thatActive.html(_this);
+					_thatActive.next().addClass('ts-span');
+					_thatActive.next().html('选择城市/地区');
+					_thatActive.addClass('sd-span');
+					_thatActive.removeClass('ts-span');
+					num++;
+				}else if(num == 2) {
+					_thatActive.html(_this);
+					_thatActive.next().addClass('ts-span');
+					_thatActive.next().html('选择区县');
+					_thatActive.addClass('sd-span');
+					_thatActive.removeClass('ts-span');
+					num++;
+				}else if(num == 3){
+					_thatActive.html(_this);
+					_thatActive.next().addClass('ts-span');
+					_thatActive.next().html('选择配送区域');
+					_thatActive.addClass('sd-span');
+					_thatActive.removeClass('ts-span');
+					num++;
+				}else {
+					_thatActive.html(_this);
+					_thatActive.addClass('sd-span');
+					_thatActive.removeClass('ts-span');
+					num = 1;
+					$('.selectAddress').hide();
+					$('.selectTitle').text()
+					$('#select_area').attr('value',val.eq(0).html()+'/'+val.eq(1).html()+'/'+val.eq(2).html()+'/'+val.eq(3).html())
+				}
+			});
+		</script>
+	</body>
+</html>

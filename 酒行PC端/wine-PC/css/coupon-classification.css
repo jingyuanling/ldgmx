@@ -1,0 +1,226 @@
+.list_content_wrap{
+	background-color: #fbfbfb;
+	border-top: 1px solid #e3e4e5;
+}
+.apply_coupon{
+	padding-top: 14px;
+}
+.current_coupon{
+	width: 1192px;
+	height: 80px;
+	margin: 0 auto;
+	background: url(../img/coupon-bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.current_coupon .amount{
+	font-size: 60px;
+	font-weight: bold;
+	color: #ff6600;
+	display: block;
+	float: left;
+	width: 154px;
+	text-align: center;
+}
+.current_coupon .amount:before{
+	content: '\e60b';
+	font-size: 30%;
+}
+.apply_coupon .text{
+	font-size: 14px;
+	color: #fff;
+    padding-left: 220px;
+    box-sizing: border-box;	
+    height: 25px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-indent: 2px;
+}
+.apply_coupon .text1{
+	height: 40px;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+.jagged {
+    border: 2px solid #fbfbfb;
+    border-bottom: none;
+    position: relative;
+}
+.jagged:after {
+    content: " ";
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 27px;
+    background: -webkit-linear-gradient(#fbfbfb 0%, transparent 0%),
+            -webkit-linear-gradient(135deg, #fff 33.33%, transparent 33.33%) 0 0%,
+            transparent -webkit-linear-gradient(45deg, #fff 33.33%, #fbfbfb 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 9px 27px, 9px 27px;
+}
+.coupon_class_wrap{
+	width: 100%;
+	background-color: #fff;
+}
+.coupon_class_center{
+	width: 1200px;
+	margin: 0 auto;
+}
+.coupon_class_center .list_nav li a{
+	font-size: 14px;
+	color: #333333;
+}
+.coupon_class{
+	border-top: 1px solid #e3e4e5;
+	border-bottom: 1px solid #e3e4e5;
+}
+.coupon_class .coupon_class_line{
+	padding-left: 115px;
+	position: relative;
+	border-bottom: 1px dashed #e3e4e5;
+}
+.coupon_class .coupon_class_line:nth-last-child(1){
+	border-bottom: none;
+}
+.coupon_class .coupon_class_line .taxon{
+	max-width: 115px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #666;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.coupon_class_line .taxon_detail{
+	overflow: hidden;
+}
+.coupon_class_line .taxon_detail a{
+	height: 40px;
+	line-height: 40px;
+	margin-right: 28px;
+	display: block;
+	float: left;
+	color: #666;
+}
+.coupon_class_line .taxon_detail a:hover{
+	color: #865c30;
+}
+.coupon_sort{
+	overflow: hidden;
+	height: 42px;
+	line-height: 42px;
+	margin-top: 10px;
+	background-color: #f1f1f1;
+}
+.coupon_sort span{
+	display: block;
+	padding: 0 15px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+	height: 100%;
+}
+.coupon_sort .sortX,
+.coupon_sort .sortP,
+.coupon_sort .sortJ{
+	border-bottom: none!important;
+}
+.coupon_sort span img{
+	margin-left: 4px;
+}
+.coupon_sort .sort:hover{
+	color: #865c30;
+}
+.coupon_sort .sort-active{
+	color: #865c30;
+	border-bottom: 2px solid #865c30;
+}
+.coupon_class_search{
+	float: left;
+	width: 192px;
+	height: 26px;
+	border: 1px solid #cccccc;
+	border-radius: 1px;
+	box-sizing: border-box;
+	position: relative;
+	padding-right: 57px;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 8px;
+}
+.coupon_class_search input{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: #fff;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.coupon_class_search .sure{
+	width: 57px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 24px;
+	border-left: 1px solid #cccccc;
+}
+.coupon_class_page{
+	float: right;
+	overflow: hidden;
+	color: #666666;
+	font-size: 14px;
+	margin-right: 25px;
+}
+.coupon_class_page span{
+	padding: 0;
+}
+.coupon_class_page .current_page{
+	color: #865c30;
+	font-weight: bold;
+}
+.coupon_class_page .last,.coupon_class_page .next{
+	font-size: 20px;
+}
+.coupon_class_page .last{
+	color: #999999;
+}
+.list_content{
+	padding-top: 38px;
+}
+.coupon_sort .sortJ{
+	padding-right: 30px;
+	position: relative;	
+}
+.coupon_sort em.up,.coupon_sort em.down{
+	position: absolute;
+	height: 21px;
+	width: 15px;
+	display: block;
+	right: 15px;
+}
+.coupon_sort em.up{
+	top: 0;
+}
+.coupon_sort em.down{
+	bottom: 0;
+}
+.coupon_sort em.up:before,.coupon_sort em.down:before{
+	position: absolute;	
+	top: 0;
+	font-size: 22px;
+	display: block;
+	width: 15px;
+	height: 21px;
+}
+.coupon_sort em.up:before{
+	content: '\e603';
+	line-height: 38px;
+}
+.coupon_sort em.down:before{
+	content: '\e602';
+	line-height: 10px;
+}

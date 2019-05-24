@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+	 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>认证成功/失败</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/nav-top.css"/>
+		<link rel="stylesheet" type="text/css" href="css/person-center.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="person_center_wrap">
+			<iframe src="nav-top.html" width="100%" height= "136px" name="leftFrame" scrolling="No"  noresize="noresize" style="border: none;"></iframe>
+			<div class="person_content_wrap">
+				<ul class="list_nav">
+					<li class="iconfont"><a href="home.html">首页</a></li>
+					<li class="iconfont"><a href="list.html">个人中心</a></li>
+					<li class="iconfont"><a href="list.html">我的订单</a></li>
+				</ul>
+				<div class="person_content">
+					<!--公共部分*****-->
+					<div class="person_left_box">
+						<div class="person_user">
+							<span class="photo"></span>
+							<p class="name">userName</p>
+						</div>
+						<ul class="person_item">
+							<li><a href="my-order.html">我的订单</a></li>
+							<li><a href="my-account.html">我的账户</a></li>
+							<li><a href="my-agent.html">我的代理</a></li>
+							<li><a href="team-manage.html">团队管理</a></li>
+							<li><a href="address-manage.html">地址管理</a></li>
+							<li><a href="my-service.html">我的服务</a></li>
+							<li class="item_active"><a href="personal-data.html">个人资料</a></li>
+						</ul>
+					</div>
+					<!--*****-->
+					<div class="person_right_box" style="padding-top: 0;">
+						<div class="person_data_wrap">
+							<p class="real_head">身份认证</p>
+							<div class="real_content">
+								<div class="real_content_detail">
+									<div class="real_state">
+										<!--<p class="iconfont state">已通过实名认证</p>
+										<p class="text">很高兴认识你，现在您可以享受更多的服务和保障</p>-->
+										<!--认证失败-->
+										<p class="iconfont state fail">实名认证失败<span class="real_again">重新认证</span></p>
+										<p class="text">非常遗憾，您的实名认证未通过，赶快来重新认证吧！</p>
+									</div>
+									<div class="ident_infor">
+										<p class="ident_infor_head"><span class="tit">您的身份信息</span>：</p>
+										<p><span class="tit">认证渠道</span>：<span class="detail">灵动酒行实名认证（身份证件已上传）</span></p>
+										<p><span class="tit">认证通过时间</span>：<span class="detail">2018年2月20日</span></p>
+										<p><span class="tit">姓名</span>：<span class="detail">李**</span></p>
+										<p><span class="tit">身份证号</span>：<span class="detail">410***********0642</span></p>
+										<!--<p><span class="tit">认证证件照</span class="detail">：</p>
+										<div class="cardImg"><img src="img/home-banner.jpg"/></div>
+										<div class="cardImg"><img src="img/home-banner.jpg"/></div>-->
+										<!--失败状态-->
+										<p><span class="tit">认证失败原因</span>：<span class="detail">不不不不不不不不不不不不不不不不不不不不</span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

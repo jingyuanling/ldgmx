@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+	 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>个人资料</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/nav-top.css"/>
+		<link rel="stylesheet" type="text/css" href="css/person-center.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="person_center_wrap">
+			<iframe src="nav-top.html" width="100%" height= "136px" name="leftFrame" scrolling="No"  noresize="noresize" style="border: none;"></iframe>
+			<div class="person_content_wrap">
+				<ul class="list_nav">
+					<li class="iconfont"><a href="home.html">首页</a></li>
+					<li class="iconfont"><a href="list.html">个人中心</a></li>
+					<li class="iconfont"><a href="list.html">我的订单</a></li>
+				</ul>
+				<div class="person_content">
+					<!--公共部分*****-->
+					<div class="person_left_box">
+						<div class="person_user">
+							<span class="photo"></span>
+							<p class="name">userName</p>
+						</div>
+						<ul class="person_item">
+							<li><a href="my-order.html">我的订单</a></li>
+							<li><a href="my-account.html">我的账户</a></li>
+							<li><a href="my-agent.html">我的代理</a></li>
+							<li><a href="team-manage.html">团队管理</a></li>
+							<li><a href="address-manage.html">地址管理</a></li>
+							<li><a href="my-service.html">我的服务</a></li>
+							<li class="item_active"><a href="personal-data.html">个人资料</a></li>
+						</ul>
+					</div>
+					<!--*****-->
+					<div class="person_right_box">
+						<div class="person_data_wrap">
+							<p class="person_data_head">您的基础信息</p>
+							<div class="basic_inform">
+								<p>会&emsp;员&nbsp;&nbsp;&nbsp;名 ：<span>1234586as</span></p>
+								<p>性&emsp;&emsp;&nbsp;&nbsp;&nbsp;别 ：<span>男</span></p>
+								<p>真 实 姓 名 ：<span>张三</span></p>
+								<p>绑 定 微 信 ：<span>rty1358964</span><a href="###" class="unbind">解绑微信</a></p>
+								<p>绑 定 手 机 ：<span>135****6297</span><a href="###" class="unbind">修改手机</a></p>
+								<p>我的推荐人：<span>李四</span></p>
+							</div>
+							<p class="person_data_head">您的安全服务</p>
+							<div class="basic_content">
+								<div class="safety_level">
+									<div class="left">安全等级 ：</div>
+									<div class="level">
+										中<div class="level_bar_bg"><div class="level_bar"></div></div>
+										<img src="img/level-icon.png"/>
+										<p class="level_p">完成 以下设置 ，提升账户安全。</p>
+									</div>
+								</div>
+								<div class="security_service">
+									<div class="security security1"><span class="stateImg"><img src="img/fail-icon.png"/></span><p>已完成</p></div>
+									<div class="security security2">身份认证</div>
+									<div class="security security3">用于提升账号的安全性和信任级别。认证后的有卖家记录的账号不 能修改认证信息。</div>
+									<a href="javaScript:void(0);" class="security security4">去认证<!--查看--></a>
+								</div>
+								<div class="security_service">
+									<div class="security security1"><span class="stateImg"><img src="img/success-icon.png"/></span><p>已完成</p></div>
+									<div class="security security2">登陆密码</div>
+									<div class="security security3">安全性高的密码可以使账号更安全。建议您定期更换密码，且设置 一个包含数字和字母，并长度超过6位以上的密码。</div>
+									<a href="javaScript:void(0);" class="security security4">修改</a>
+								</div>
+								<div class="security_service">
+									<div class="security security1"><span class="stateImg"><img src="img/fail-icon.png"/></span><p>已完成</p></div>
+									<div class="security security2">绑定手机</div>
+									<div class="security security3">绑定手机后，您即可享受灵动酒行丰富的手机服务，如手机找回密码等。</div>
+									<a href="javaScript:void(0);" class="security security4">去绑定<!--修改--></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="real_name_gray">
+				<div class="real_name_alert">
+					<p class="person_data_head">实名认证</p>
+					<div class="real_name_content">
+						<div class="real_name_line">
+							<input type="text" name="" id="" value="" placeholder="您的姓名" />
+							<input type="text" name="" id="" value="" disabled="disabled" placeholder="上传实名认证时间" />
+						</div>
+						<div class="real_name_line">
+							<input type="text" name="" id="" value="" placeholder="您的身份证号" />
+						</div>
+						<div class="real_name_line2">
+							<div class="card_front">
+								<span class="iconfont addImg"></span>
+								<p>请上传您的身份证正面</p>
+							</div>
+							<div class="card_reverse">
+								<span class="iconfont addImg"></span>
+								<p>请上传您的身份证反面</p>
+							</div>
+						</div>
+					</div>
+					<div class="real_name_btn">
+						<button class="real_save_btn">保存</button>
+						<button class="real_cancel_btn">取消</button>
+					</div>
+				</div>
+			</div>
+			<!--解绑微信弹框-->
+			<div class="unbund_WX_gray">
+				<div class="unbund_WX_code">
+					<img src="img/home-banner.jpg"/>
+				</div>
+				<div class="unbund_WX_text">请使用微信扫描二维码登录 </br>“在手机端解绑微信”</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.real_cancel_btn').click(function() {
+				$('.real_name_gray').fadeOut();
+			});
+			//解绑微信弹框
+			$('.unbund_WX_gray').click(function() {
+				$(this).fadeOut();
+			});
+		</script>
+	</body>
+</html>
