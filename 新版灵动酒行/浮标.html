@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.quick_nav_gray {
+				width: 100%;
+				height: 100%;
+				max-width: 750px;
+				position: fixed;
+				top: 0;
+				background-color: rgba(0, 0, 0, 0.5);
+				display: none;
+				z-index: 1;
+			}
+			
+			.quick_nav_wrap {
+				padding-left: 0.8rem;
+				position: fixed;
+				top: 70%;
+				right: -3.6rem;
+				overflow: hidden;
+				z-index: 2;
+			}
+			.quick_nav_btn {
+				width: 0.8rem;
+				height: 0.7rem;
+				padding: 0.08rem;
+				background-color: rgba(0, 0, 0, 0.6);
+				position: relative;
+				padding-left: 0.2rem;
+				box-sizing: border-box;
+				text-align: center;
+				line-height: 0.27rem;
+				color: white;
+				float: left;
+				position: absolute;
+				top: 50%;
+				left: 0;
+				margin-top: -0.35rem;
+				border-radius: 0.1rem 0 0 0.1rem;
+			}
+			.quick_nav_btn p{
+				float: left;
+				width: 100%;
+				font-size: 0.18rem;
+			}
+			.quick_nav_btn .arrow {
+				display: block;
+				height: 0.15rem;
+				width: auto;
+				position: absolute;
+				left: 0.05rem;
+				top: 0.25rem;
+			}
+			.quick_nav_wrap .trans .arrow {
+				transform: rotateZ(180deg);
+				-ms-transform: rotateZ(180deg);
+				-moz-transform: rotateZ(180deg);
+				-webkit-transform: rotateZ(180deg);
+				-o-transform: rotateZ(180deg);
+			}
+			.quick_nav_cont {
+				width: 3.6rem;
+				background-color: #fff;
+				border-radius: 0.08rem;
+				float: left;
+			}
+			.quick_nav_cont ul {
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+			.quick_nav_cont ul li {
+				width: 33.3%;
+				float: left;
+				padding-top: 0.15rem;
+			}
+			.quick_nav_cont ul li img {
+				width: 0.4rem;
+				height: 0.4rem;
+				display: block;
+				margin: 0 auto;
+			}
+			.quick_nav_cont ul li .text {
+				width: 100%;
+				float: left;
+				height: 0.4rem;
+				text-align: center;
+				line-height: 0.4rem;
+				font-size: 0.24rem;
+				color: #666;
+			}
+			@media only screen and (min-width: 750px) {
+				.quick_nav_btn {
+					font-size: 0.16rem;
+				}
+			}
+			@media only screen and (max-width: 321px) {
+				.quick_nav_btn{
+					width: 1rem;
+				}
+				.quick_nav_wrap{
+					padding-left: 1rem;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="quick_nav_gray"></div>
+		<div class="quick_nav_wrap" id="barrage">
+			<div class="quick_nav_btn trans">
+				<img class="arrow" src="imgs/right-arrow.png" />
+				<p>快速</p>
+				<p>导航</p>
+			</div>
+			<div class="quick_nav_cont">
+				<ul>
+					<li>
+						<a href="###">
+							<img src="imgs/home-icon.png" alt="" />
+							<p class="text">首页</p>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<img src="imgs/nav-cart-logo.png" alt="" />
+							<p class="text">购物车</p>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<img src="imgs/message-icon.png" alt="" />
+							<p class="text">消息</p>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<img src="imgs/share-icon.png" alt="" />
+							<p class="text">分享</p>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<img src="imgs/share-icon.png" alt="" />
+							<p class="text">分享</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var bool = 1;
+			$('.quick_nav_btn').click(function() {
+				if(bool) {
+					$(this).removeClass('trans');
+					$(this).parent('.quick_nav_wrap').animate({
+						'right': '0'
+					});
+					$('.quick_nav_gray').fadeIn();
+					bool = 0;
+				} else {
+					$(this).addClass('trans');
+					$(this).parent('.quick_nav_wrap').animate({
+						'right': '-3.6rem'
+					});
+					$('.quick_nav_gray').fadeOut();
+					bool = 1;
+				}
+			});
+			$('.quick_nav_gray').click(function() {
+				$('.quick_nav_btn').addClass('trans');
+				$('.quick_nav_btn').parent('.quick_nav_wrap').animate({
+					'right': '-3.6rem'
+				});
+				$('.quick_nav_gray').fadeOut();
+				bool = 1;
+			});
+			var isdrag=false;   
+			var ty,y;    
+			$(function(){  
+			    document.getElementById("barrage").addEventListener('touchend',function(){  
+			        sdrag = false;  
+			    });  
+			    document.getElementById("barrage").addEventListener('touchstart',selectmouse);  
+			    document.getElementById("barrage").addEventListener('touchmove',movemouse);  
+			});  
+			function movemouse(e){   
+			    if (isdrag){   
+			    	var n = ty + e.touches[0].pageY - y;  
+			    	if (n<=0) {
+			    		n = 0;
+			    	}else if(n>=document.body.offsetHeight-$('.quick_nav_wrap').height()) {
+				    	n = document.body.offsetHeight-$('.quick_nav_wrap').height();
+				    }
+			    	$("#barrage").css("top",n);  
+			    	return false;   
+			    }   
+			}   
+			function selectmouse(e){   
+			    isdrag = true;   
+			    ty = parseInt(document.getElementById("barrage").style.top+document.getElementById("barrage").offsetTop);   
+			    y = e.touches[0].pageY;    
+			   return false;   
+			}   
+		</script>
+	</body>
+
+</html>

@@ -153,8 +153,30 @@
 	line-height: 1.05rem;
 }
 .level-bottom-content{
-	height: 7.1rem;
-	width: 100%;
+	height: 7.48rem;
+	width: 6.76rem;
 	border-radius: 0.1rem;
-	background-color: #999999;
+}
+.level-bottom-content .swiper-slide{
+	height: 7.48rem;
+	width: 6.76rem;
+}
+.level-bottom-content .swiper-slide img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px 10px 0 0;
+}
+.swiper-wrapper{
+	transform: translate3d(-221.714px, 0px, 0px);
+}
+.level-bottom-content .swiper-pagination{
+	bottom: 0.15rem;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	width: 0.15rem;
+	height: 0.15rem;
+}
+.swiper-pagination-bullet-active{
+	background-color: #f3dba4;
 }

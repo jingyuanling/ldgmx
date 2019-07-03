@@ -4,8 +4,8 @@
 	overflow-y: scroll;
 }
 .person-gmx-logo{
-	width: 6.94rem;
-	height: 1.22rem;
+	width: 5.13rem;
+    height: 1.48rem;
 	top: 0.24rem;
 }
 .person-upper{
@@ -208,8 +208,8 @@
 	position: relative;
 }
 .person-gmx-logo{
-	width: 6.94rem;
-	height: 1.24rem;
+    width: 5.13rem;
+    height: 1.48rem;
 	position: absolute;
 	top: 0.16rem;
 	right: 0;

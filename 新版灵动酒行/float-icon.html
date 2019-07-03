@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>浮标</title>
+		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.float-icon{
+				width: 0.98rem;
+				position: fixed;
+				bottom: 1.5rem;
+				right: 0;
+				z-index: 3;
+			}
+			.wine_must_read{
+				width: 100%;
+				display: block;
+				height: 1.98rem;
+			}
+			.wine_must_del{
+				display: block;
+				width: 0.27rem;
+				height: 0.39rem;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="float-icon">
+			<a href="###"><img class="wine_must_read" src="imgs/wine_must_read.png"/></a>
+			<img class="wine_must_del" src="imgs/wine_must_del.png"/>
+		</div>
+		<script type="text/javascript">
+			$('.wine_must_del').click(function() {
+				$('.float-icon').fadeOut();
+			});
+		</script>
+	</body>
+</html>

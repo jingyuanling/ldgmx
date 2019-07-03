@@ -1,5 +1,5 @@
 /*提醒成功弹框*/
-.identity-alert {
+.identity-alert{
     width: 3.22rem;
     height: 2.25rem;
     padding-top: 0.49rem;
@@ -12,11 +12,6 @@
     background-color: rgba(0,0,0,0.5);
     text-align: center;
     border-radius: 0.12rem;
-    /*opacity: 1; */
-    /*-webkit-animation-name: identity-fade-toggle; *//*动画名称*/
-	/*-webkit-animation-duration: 3s;*/ /*动画持续时间*/
-	/*-webkit-animation-iteration-count: 1;*/ /*动画次数*/
-	/*-webkit-animation-delay: 0s;*/ /*延迟时间*/
 }
 .identity-alert .right-logo {
     width: 0.69rem;
@@ -95,4 +90,91 @@
 .confirm-bounced-alert .think-again{
 	color: #d10000;
 	border-left: 0.01rem solid #eaeaea;
+}
+/*修改手机号*/
+.bound-tel-gray{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    max-width: 750px;
+    min-width: 320px;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9;
+}
+.bound-tel-alert{
+    width: 6.76rem;
+    background-color: #FFFFFF;
+    border-radius: 0.15rem;
+    color: #666666;
+    padding: 0 0.4rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.38rem;
+    margin-top: -1.86rem;
+}
+.bound-tel-close{
+    width: 0.9rem;
+    height: 0.9rem;
+    position: absolute;
+    top: -1.2rem;
+    left: 50%;
+    margin-left: -0.45rem;
+}
+.bound-tel-close img{
+    width: 100%;
+    height: 100%;
+}
+.add-address-tit{
+    height: 1.13rem;
+    line-height: 1.13rem;
+    font-size: 0.3333rem;
+}
+.bound-tel-alert ul{
+	padding-bottom: 0.5rem;
+}
+.bound-tel-alert li{
+    height: 1.05rem;
+    border-bottom: 0.02rem solid #e1e1e1;
+    position: relative;
+}
+.bound-tel-alert li span{
+    font-size: 0.2916rem;
+    height: 1.05rem;
+    line-height: 1.05rem;
+    position: absolute;
+}
+.bound-tel-alert li input{
+    height: 100%;
+    width: 100%;
+    font-size: 0.2916rem;
+    padding-left: 1.20rem;
+}
+.bound-tel-alert .bound_code_btn{
+	height: 0.58rem;
+    width: 2rem;
+    display: block;
+    font-size: 0.26rem;
+    color: #d10000;
+    border-radius: 0.05rem;
+    border: 0.03rem solid #d10000;
+    position: absolute;
+    padding: 0;
+    top: 0.235rem;
+    right: 0;
+    background-color: #fff;
+}
+.bound-tel-alert .bound-tel-sure{
+    width: 100%;
+    height: 0.95rem;
+    line-height: 0.95rem;
+    font-size: 0.3124rem;
+    color: #FFFFFF;
+    line-height: 0.95rem;
+    margin-bottom: 0.28rem;
+    background-color: #d10000;
+    border-radius: 0.08rem;
+    letter-spacing: 0.2rem;
+    text-indent: 0.2rem;
 }

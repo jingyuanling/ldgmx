@@ -35,6 +35,11 @@
 			$('.agree-deal').click(function(){
 				$(this).toggleClass('agree_deal_active');
 			});
+			$('input').on('blur',function(){
+                setTimeout(function(){
+                    window.scrollTo(0, 0)
+                },100)            
+			})
 		</script>
 	</body>
 </html>

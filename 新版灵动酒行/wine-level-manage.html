@@ -7,10 +7,12 @@
 		<meta name="Description" content=""/>
 		<title>等级管理</title>
 		<link rel="stylesheet" type="text/css" href="css/wine-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
 		<link rel="stylesheet" type="text/css" href="wine-css/headAndfooter.css"/>
 		<link rel="stylesheet" type="text/css" href="wine-css/wine-level-manage.css"/>
 		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div class="wine-head-wrap">
@@ -51,9 +53,28 @@
 			<div class="level-bottom">
 				<p class="level-bottom-tit">等级明细及权益</p>
 				<div class="level-bottom-content">
-					
+					<div class="swiper-container swiper-container-level">
+					  <div class="swiper-wrapper">
+					    <div class="swiper-slide"><img alt="" src="imgs/level1.png"/></div>
+					    <div class="swiper-slide"><img alt="" src="imgs/level2.png"/></div>
+					    <div class="swiper-slide"><img alt="" src="imgs/level3.png"/></div>
+					    <div class="swiper-slide"><img alt="" src="imgs/level4.png"/></div>
+					  	<div class="swiper-slide"><img alt="" src="imgs/level5.png"/></div>
+					  </div>
+					  <div class="swiper-pagination"></div>
+					</div>
 				</div>
 			</div>
 		</div>
+		<script type="text/javascript">
+			var mySwiper = new Swiper('.swiper-container-level', {
+				slidesPerView: 1.3,
+				centeredSlides: true,
+				spaceBetween : 15,
+				autoplay: 2000,//可选选项，自动滑动
+				loop : true,
+				pagination : '.swiper-pagination'
+			})
+		</script>
 	</body>
 </html>
