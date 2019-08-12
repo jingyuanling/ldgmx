@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/home/Home'
 import Login from '@/pages/login/Login'
-import Register from '@/pages/register/Register'
+// import Register from '@/pages/register/Register'
 import Detail from '@/pages/detail/Detail'
 import List from '@/pages/list/List'
 import Search from '@/pages/search/Search'
@@ -28,18 +28,25 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: Home,
+      meta: {keepAlive: true}
     }, {
       path: '/login',
       name: 'Login',
       component: Login,
-      meta: {keepAlive: true}
+      meta: {
+        keepAlive: true,
+        isLogin: false
+      }
     }, {
-      path: '/register',
-      name: 'Register',
-      component: Register,
-      meta: {keepAlive: true}
-    }, {
+    //   path: '/register',
+    //   name: 'Register',
+    //   component: Register,
+    //   meta: {
+    //     keepAlive: true,
+    //     isLogin: false
+    //   }
+    // }, {
       path: '/detail/:goodId',
       name: 'Detail',
       component: Detail,
@@ -63,7 +70,10 @@ export default new Router({
       path: '/cart',
       name: 'Cart',
       component: Cart,
-      meta: {keepAlive: true}
+      meta: {
+        keepAlive: true,
+        isLogin: true
+      }
     }, {
       path: '/cart/success',
       name: 'Succ',

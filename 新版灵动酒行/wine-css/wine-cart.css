@@ -4,7 +4,7 @@
 }
 .cart-list{
 	height: 100%;
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 	overflow-y: scroll;
 }
 .cart-list-li{
@@ -102,14 +102,32 @@
 	bottom: 1.05rem;
 	background-color: #FFFFFF;
 }
-.btm-settlement .sel-all-div,.btm-settlement-move .sel-all-div{
+.btm-settlement .sel-all-div,.btm-settlement-move .sel-all-div,
+.cart-store-tit .sel-all-div{
 	width: 1.2rem;
 	font-size: 0.2708rem;
 	line-height: 1.03rem;
 	position: absolute;
 	left: 0.37rem;
 }
-.btm-settlement .sel-all,.cart-list .sel-one,.btm-settlement-move .sel-all{
+.cart-store-tit{
+	position: relative;
+	background-color: #FFFFFF; 
+}
+.cart-store-tit .sel-all-div{
+	width: auto;
+	font-size: 0.28rem;
+	font-weight: bold;
+}
+.cart-store-tit .freight{
+	color: #666666;
+	font-size: 0.27rem;
+	float: right;
+	line-height: 1.03rem;
+	margin-right: 0.37rem;
+}
+.btm-settlement .sel-all,.cart-list .sel-one,.btm-settlement-move .sel-all,
+.cart-store-tit .sel-all-div .sel-all{
 	width: 0.34rem;
 	height: 0.34rem;
 	float: left;
@@ -119,7 +137,8 @@
 	margin-top: 0.345rem;
 	position: relative;
 }
-.btm-settlement .sel-all img,.cart-list .sel-one img,.btm-settlement-move .sel-all img{
+.btm-settlement .sel-all img,.cart-list .sel-one img,.btm-settlement-move .sel-all img,
+.cart-store-tit .sel-all-div .sel-all img{
 	width: 0.24rem;
 	height: 0.16rem;
 	position: absolute;
@@ -127,11 +146,13 @@
 	left: 0;
 }
 /*select选中状态*/
-.btm-settlement .sel_active,.btm-settlement-move .sel_active{
+.btm-settlement .sel_active,.btm-settlement-move .sel_active,
+.cart-store-tit .sel-all-div .sel_active{
 	border: none;
 	background-color: #d10000;
 }
-.btm-settlement .sel_active img,.btm-settlement-move .sel_active img{
+.btm-settlement .sel_active img,.btm-settlement-move .sel_active img,
+.cart-store-tit .sel-all-div  .sel_active img{
 	left: 0.05rem;
 }
 .btm-settlement .account-btn,.btm-settlement-move .account-btn{

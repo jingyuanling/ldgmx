@@ -10,6 +10,7 @@
 <script>
 import LoginHead from './components/Head'
 import LoginCont from './components/Cont'
+import axios from 'axios'
 export default {
   name: 'Login',
   components: {

@@ -18,6 +18,7 @@
             <button class="navSearchBtn" @click="searchBtn(keywords)"></button>
           <input type="text" name="" id="searchNavInp" v-model="name" value="this.keywords" @keyup.enter="searchBtn()" placeholder="年货节喝好酒 满299减50" />
         </div>
+        <!-- <div class="iconfont home-cart" @click="handleCart()">&#xe61b;<span class="num">10</span></div> -->
         <router-link to="/cart" class="iconfont home-cart">&#xe61b;<span class="num">10</span></router-link>
       </div>
     </div>
@@ -41,6 +42,9 @@ export default {
       classList: []
     }
   },
+  mounted () {
+    // this.$store.commit('userStatus', 'true')
+  },
   methods: {
     handleScroll () {
       const top = document.documentElement.scrollTop
@@ -61,6 +65,19 @@ export default {
     searchBtn () {
       this.keywords = this.name.toUpperCase()
       this.$router.push({path: '/Search/' + this.keywords})
+    },
+    handleCart () {
+      alert(this.$store.state.isLogin)
+      const isLogin = this.$store.state.isLogin
+      if (isLogin == '0') {
+        this.$router.push ({
+          'path': '/Login'
+        })
+      } else {
+        this.$router.push ({
+          'path': '/cart'
+        })
+      }
     }
   },
   async created () {

@@ -290,6 +290,9 @@
 .header_span_active{
 	border-bottom: 4px solid #865c30;
 }
+.login_inp_wrap{
+	display: none;
+}
 .login_inp_wrap,.login_veri_wrap{
 	width: 343px;
 	padding-top: 44px;
@@ -358,6 +361,7 @@
 	line-height: 20px;
 	position: relative;
 	margin-bottom: 10px;
+	margin-top: 30px;
 }
 .login_divider span{
 	display: block;
@@ -398,9 +402,6 @@
 	content: "\e612";
 	color: #45bf23;
 	margin-right: 7px;
-}
-.login_veri_wrap{
-	display: none;
 }
 .login_veri_wrap .login_right_veri{
 	overflow: hidden;
